@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!-- kim_bai@asus.com 2014.12.26-->
+    <string name="duration">Duration</string>
+    <string name="remind_me_session">Remind me in the following session</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="steps">steps</string>
+    <string name="tomorrow_goal">Tomorrow\'s goal</string>
+    <!-- Inspire Asus -->
+    <string name="wm_about_inspire_asus">Inspire ASUS</string>
+    <string name="wm_inspire_asus_text1">To provide our customers with better services, enhance user experience, and continuously discover problems to improve performance, ASUS initiates Inspire ASUS (“Program”). This Program may collect your usage report anonymously.</string>
+    <string name="wm_inspire_asus_text2">The usage report will not in any way associate with your ASUS ZenWatch device identities or personal information. The usage data comprises standby status, crash events, preferred interface, language settings, current software version, frequently used software information, the software function usage behavior and location.</string>
+    <string name="wm_inspire_asus_text3">ASUS highly respects the privacy and rights of our customers. You can turn on/off the report function of the program from menu anytime. For more detailed information about how ASUS protects your privacy, you’re also recommended to visit</string>
+    <string name="wm_inspire_asus_yes_text">Yes, count me in!</string>
+    <!-- Encourage Us -->
+    <string name="encourage_title">Encourage us</string>
+    <string name="scroll_up_toast" description="rate now" maxwidth="">Please scroll up to rate</string>
+    <string name="toolbar_encourage_us_text">If you enjoy using ASUS Wellness, please rate us 5-star on Play Store. It would be a great encouragement for us to continue improving the product!\n\nFor suggestions, write to us via Feedback &amp; Help.</string>
+    <string name="toolbar_encourage_dialog_rate_now" maxwidth="35">Rate now</string>
+    <string name="toolbar_encourage_us_cancel">Cancel</string>
+
+    <!-- pushup & situp-->
+    <string name="pushup">"Push-up"</string>
+    <string name="situp">"Sit-up"</string>
+    <string name="detail_sleep_deepsleep">"Deep sleep"</string>
+    <string name="detail_sleep_lightsleep">"Light sleep"</string>
+    <string name="detail_sleep_sleeplatency">"Sleep latency"</string>
+    <string name="detail_sleep_wokeup">"Toss and turn"</string>
+    <string name="detail_sleep_light">"Light"</string>
+    <string name="detail_sleep_deep">"Deep"</string>
+    <string name="detail_sleep_shorthour">"h"</string>
+    <string name="detail_sleep_shortmin">"m"</string>
+    <!-- sleep mode, 2015.9.24-->
+    <string name="text_sleep" maxwidth="">"Sleep"</string>
+    <string name="weekly_info_sleep_title">"Total sleep analysis"</string>
+    <string name="weekly_info_workout_title">"Total push-ups/sit-ups"</string>
+    <string name="sleep_notification_title" maxwidth="">"Sleep tracking notice"</string>
+    <string name="sleep_notification_content" maxwidth="">"Recording..."</string>
+
+    <string name="detail_text_completion" maxwidth="">"achieved"</string>
+    <string name="text_completion" maxwidth="">"goal achieved"</string>
+    <string name="daily_detail_workout_title_accumulation" maxwidth="">"Accumulation"</string>
+    <string name="sleep_quality_score" maxwidth="">"quality score"</string>
+    <string name="text_sleep_quality_score">"Sleep quality"</string>
+    <string name="daily_detail_workout">"Workout"</string>
+
+    <string name="sleptfor">"Slept for"</string>
+
+    <!-- permission -->
+    <string name="permisson_turn_on">"Turn ON now!"</string>
+    <string name="permisson_body_sensor_title">"Can't detect your activity"</string>
+    <string name="permisson_body_sensor_subtitle">"Wellness can't detect your movement without the body-sensor permission"</string>
+    <string name="permisson_location_title">"Can't find your location"</string>
+    <string name="permisson_location_subtitle">"Wellness can't detect your location without the location permission"</string>
+    <string name="permisson_storage_title">"Can't access your photos"</string>
+    <string name="permisson_storage_subtitle">"Wellness can't access your pictures without the storage permission"</string>
+    <string name="permisson_notice_bodysensor_location">"Note: We suggest you NOT to turn off any permission from system setting while it's executing any functions regarding your activity."</string>
+    <string name="permisson_notice_storage">"Note: We suggest you NOT to turn off any permission from system setting while it's executing any functions regarding your personal profile."</string>
+
+    <string name="allow_access_photos_title">"Allow to access photos"</string>
+    <string name="allow_access_photos_content">"To change your photo, please go to settings to enable the storage permission for ZenWatch Wellness"</string>
+
+    <string name="allow_track_location_title">"Allow to track location"</string>
+    <string name="allow_track_location_content">"To track your activity location, please go to settings to enable the location permission for ZenWatch Wellness"</string>
+
+     <!-- sleep information -->
+    <string name="sleep_dictinary">"Sleep Dictionary"</string>
+    <string name="sleepinformation">"Sleep information"</string>
+    <string name="sleeplenght">"Sleep length"</string>
+    <string name="deepsleepandlightsleep">"Deep sleep and light sleep"</string>
+    <string name="awakenings">"Toss and turn (wake-ups)"</string>
+
+    <string name="suggestion">"Suggestion"</string>
+
+    <string name="sleepquality_info">"Sleep quality is the score (up to 100) to quantify the quality of your sleep. The higher the score is, the better quality of sleep you have. The sleep quality score is depended on how long you sleep, how much time you take to fall asleep, how much time you spend on bed, how much time you have deep sleep (sleep with less body movement), and how many times you awake during sleep."</string>
+    <string name="sleepquality_suggestion">"Quality score 60 stands for the baseline of normal sleep pattern. If your score more than 60, your sleep is better than average and vice versa."</string>
+
+   <string name="sleeplength_info">"ZenWatch detects the start of your first light sleep and end of your last light sleep to estimate the length of your sleep."</string>
+    <string name="sleeplength_suggestion">"Sleep needs vary for different age groups. Newborns need 16-18 hours per day, Preschool-aged children need 11-12 hours per day, school-aged children need at least 10 hours per day, Teens need 9-10 hours per day, and adults (including the elderly) need 7-8 hours a day."</string>
+
+    <string name="deepsleepandlightsleep_info">"ZenWatch measures your body movement while sleep tracking. Deep sleep stands for sleeping with less body movement and relatively to light sleep and awake. In general, the less body movement you have during sleep, the better sleep you have."</string>
+    <string name="deepsleepandlightsleep_suggestion" formatted="false">"For a normal sleep pattern, average people have deep and light sleeps around 20% and 60% of your total sleep length respectively."</string>
+    <string name="sleeplatency_info">"The time between you start sleep tracking and ZenWatch senses you falls asleep"</string>
+    <string name="sleeplatency_suggestion">"For a normal sleep pattern, people have 15-minute sleep latency in average."</string>
+    <string name="awakenings_info">"ZenWatch senses the number of wake-ups (with more body movement) during your sleep"</string>
+    <string name="awakenings_suggestion">"For a normal sleep pattern, people have 3 times of wake-ups during sleep in average."</string>
+    <!-- sleep info end -->
+
+    <string name="distance_unit_miles" description="Distance unit: miles" maxwidth="">"miles"</string>
+
+    <!-- sleep tips -->
+    <string name="sleep_tips_title">"Tips for better sleep"</string>
+    <string name="stick_to_a_sleep_schedule_title">"Stick to a sleep schedule"</string>
+    <string name="stick_to_a_sleep_schedule">"Go to bed and wake up at the same time each day. As creatures of habit, people have a hard time adjusting to changes in sleep patterns. Sleeping long hours on weekends won't fully make up for a lack of sleep during the week and will make it harder to wake up early on Monday morning."</string>
+    <string name="exercise_is_great_title">"Exercise is great, but not too late in the day"</string>
+    <string name="exercise_is_great">"Try to exercise at least 30 minutes on most days but not later than 2-3 hours before your bedtime."</string>
+    <string name="avoid_cafeine_and_nicotine_title">"Avoid caffeine and nicotine."</string>
+    <string name="avoid_cafeine_and_nicotine">"Coffee, colas, certain teas, and chocolate contain the stimulant caffeine, and their effects can take as long as 8 hours to wear off fully. Therefore, a cup of coffee in the late afternoon can make it hard for you to fall asleep at night. Nicotine is also a stimulant, often causing smokers to sleep only very lightly. In addition, smokers often wake up too early in the morning because of nicotine withdrawal."</string>
+    <string name="avoid_alcoholic_drinks_before_bed_title">"Avoid alcoholic drinks before bedtime"</string>
+    <string name="avoid_alcoholic_drinks_before_bed">"Having a \"nightcap\" or alcoholic beverage before sleep may help you relax, but heavy drinking robs you of deep sleep, keeping you in the lighter stages of sleep. Heavy alcohol ingestion also may contribute to impairment in breathing at night. You also tend to wake up in the middle of the night when the effects of the alcohol have worn off."</string>
+    <string name="avoid_large_meals_title">"Avoid large meals and beverages late at night."</string>
+    <string name="avoid_large_meals">"A light snack is okay, but a large meal can cause indigestion that interferes with sleep. Drinking too many fluids at night can cause frequent awakenings to urinate."</string>
+    <string name="if_possible_title">"If possible, avoid medicines that delay or disrupt your sleep"</string>
+    <string name="if_possible">"Some commonly-prescribed heart, blood pressure, or asthma medications, as well as some over-the-counter and herbal remedies for coughs, colds, or allergies, can disrupt sleep patterns. If you have trouble sleeping, talk to your healthcare provider or pharmacist to see whether any drugs you're taking might be contributing to your insomnia and ask whether they can be taken at other times during the day or early in the evening."</string>
+    <string name="dont_take_naps_title">"Don't take naps after 3 p.m."</string>
+    <string name="dont_take_naps">"Naps help make up for lost sleep, but late afternoon naps can make it harder to fall asleep at night."</string>
+    <string name="relax_before_bed_title">"Relax before bedtime"</string>
+    <string name="relax_before_bed">"Don't overschedule your day so that no time is left for unwinding.A relaxing activity, such as reading or listening to music, should be part of your bedtime ritual."</string>
+    <string name="take_a_lot_bath_title">"Take a hot bath before bed."</string>
+    <string name="take_a_lot_bath">"The drop-in body temperature after getting out of the bath may help you feel sleepy. The bath can help you relax and slow down so you're more ready to sleep."</string>
+    <string name="have_a_good_sleeping_title">"Have a good sleeping environment."</string>
+    <string name="have_a_good_sleeping">"Get rid of anything from your bedroom that might distract you from sleep, such as things that emit noise, bright lights, an uncomfortable bed, or warm temperatures. You sleep better if the temperature in the room is kept on the cool side. A TV, cell phone, or computer in the bedroom can be a distraction and deprive you of needed sleep. Having a comfortable mattress and pillow help promote a good night's sleep. Individuals who have insomnia often watch the clock. Turn the clock's face out of view so you don't worry about the time while trying to fall asleep."</string>
+    <string name="have_the_right_sunlight_title">"Have the right sunlight exposure."</string>
+    <string name="have_the_right_sunlight">"Daylight is the key to regulate daily sleep patterns. Try to get outside in natural sunlight for at least 30 minutes each day. If possible, wake up with the sun or use very bright lights in the morning. Sleep experts recommend that, if you have problems falling asleep, you should get an hour of exposure to morning sunlight and turn down the lights before bedtime."</string>
+    <string name="dont_lie_in_bed_title">"Don't lie in bed awake."</string>
+    <string name="dont_lie_in_bed">"If you find yourself still awake after staying in bed for more than 20 minutes, or if you are starting to feel anxious or worried, get up and do some relaxing activity until you feel sleepy. The anxiety of not being able to sleep will make it harder to fall asleep."</string>
+    <string name="see_a_health_title">"See a health professional if you continue to have trouble sleeping."</string>
+    <string name="see_a_health">"If you find it difficult to consistently fall or stay asleep and/or feel tired, or not well rested during the day despite spending enough time in bed at night, you may have a sleep disorder. Your family healthcare provider or a sleep specialist should be able to help you, and it is important to rule out other health or emotional problems that may be disturbing your sleep."</string>
+    <!-- sleep tips end -->
+
+    <string name="daily_info_run_type">"Run"</string> <!--workout_choose_run-->
+    <string name="sleep_detail_back">"Back"</string>
+    <string name="data_source">"Source:"</string>
+
+    <string name="articlehelpful">"Is it helpful?"</string>
+
+
+    <!-- Do not need translate.  start -->
+    <!-- sleep info detail -->
+    <string name="sleep_quality_source">"The Pittsburgh Sleep Quality Index: a new instrument for psychiatric practice and research. Psychiatry Res. 1989 May;28(2):193-213."</string>
+    <string name="sleep_quality_source1">"Normal sleep pattern analyzed statistically and studied by color \"dormograms.\" Sleep. 1980;2(4):437-51."</string>
+    <string name="sleep_length_source">"How Much Sleep is Enough, National Heart, Lung, and Blood Institute, NIH."</string>
+    <string name="sleep_deeplight_source">"Normal sleep pattern analyzed statistically and studied by color "dormograms." Sleep. 1980;2(4):437-51."</string>
+    <string name="awakenings_source">"Normal sleep pattern analyzed statistically and studied by color "dormograms." Sleep. 1980;2(4):437-51."</string>
+    <string name="tips_souce">"NIH Medline Plus - Tips for Getting a Good Night’s Sleep."</string>
+    <string name="exportdb">Report program error</string>
+    <string name="mailtitle">Wellness bug report</string>
+    <!-- Do not need translate.  end -->
+
+    <string name="bug_report_preference_title">"Report program error"</string>
+    <string name="bug_report_email_subject">"Wellness bug report"</string>
+    <string name="bug_report_email_body">"Wellness bug report"</string>
+    <string name="but_report_share">"Share"</string>
+
+    <string name="settings_disable_backup">"If you deselect \"Back up my data\", your backup files may be lost due to Google’s Android backup service mechanism. Are you sure to deselect it?"</string>
+
+</resources>

@@ -1,0 +1,76 @@
+﻿<resources>
+    <string name="text_step_goal" maxwidth="">/%s 걸음</string>
+    <string name="target" maxwidth="">오늘의 목표</string>
+    <string name="count_down_text_secs" maxwidth="">초</string>   
+    <string name="step_unit" maxwidth="">걸음</string> 
+    <string name="distance_unit" maxwidth="">KM</string> 
+    <string name="heart_rate_unit" maxwidth="">bpm</string> 
+    <string name="options_relax" maxwidth="">휴식</string> 
+    <string name="options_stress" maxwidth="">스트레스</string>
+    <string name="options_energy" maxwidth="">에너지</string>
+    <string name="text_measure_stress" maxwidth="">스트레스 수준</string>
+    <string name="text_measure_relax" maxwidth="">@string/options_relaxation</string>
+    <string name="measure_name" maxwidth="">측정</string>
+    <string name="waiting_text" maxwidth="">기다리십시오!</string>
+	<string-array name="stress_level_1_2" maxwidth="">
+	    <item>간단한 스낵과 과일은 에너지 충전에 도움이 됩니다.</item>
+	    <item>건강한 라이프스타일은 매일의 삶의 도전을 극복하는데 도움이 됩니다.</item>
+	    <item>평화로운 마음으로 Zen 구역에 있음</item>
+	</string-array>
+	<string-array name="stress_level_3" maxwidth="">
+	    <item>스트레스 수준이 증가하고 있습니다.</item>
+	    <item>느끼는 점을 적어 두십시오.</item>
+	</string-array>
+	<string-array name="stress_level_4_5" maxwidth="">
+	    <item>30분 걷는 것은 스트레스를 25% 감소시킵니다.</item>
+	    <item>양 팔, 등, 어깨를 스트레치 하십시오.</item>
+	    <item>근육을 편안하게 휴식을 취하도록 합니다.</item>
+	    <item>직접 하면 즐거움과 성취감을 가져다 줍니다.</item>
+	    <item>자신에게 손으로 쓴 메시지를 보내십시오.</item>
+	</string-array>
+	<string-array name="heart_rate_level" maxwidth="">
+	    <item>L1 매우 낮음</item>
+	    <item>L2 가벼운 운동</item>
+	    <item>L3 적당함</item>
+	    <item>L4 높음</item>
+	    <item>L5 최대</item>
+	</string-array>
+	<string name="keep_touch_sensor" maxwidth="">계속 터치\n센서</string>
+	<string name="options_relaxation" maxwidth="">휴식</string>
+	<string name="not_support_message" maxwidth="">하드웨어가 이 웨어러블 앱을 실행하기 위한 사양을 충족하지 못합니다. 앱이 종료되었습니다.</string>
+	<!--Translated by phone string -->
+	<string name="suggest_wellness_title" maxwidth="">추천 앱:Wellness</string>
+	<string name="suggest_wellness_message" maxwidth="">
+   	Get ASUS ZenWatch \nWellness 앱을 무료로 사용하십시오!
+	</string>
+	<string name="exercise_intensity" maxwidth="">운동 강도</string>
+	<string name="tutorial_touch_sensor" maxwidth="">부드럽게 터치하십시오.</string>
+	<string name="knockknock_start_relaxation" maxwidth="">휴식 측정</string>
+	<string name="knockknock_start_heartrate" maxwidth="">심장 박동 측정</string>
+	<string name="tap_to_start" maxwidth="">아이콘을 눌러 시작</string>
+	<string name="no_value_message" maxwidth="">측정 결과 없음</string>
+	<string name="tap_to_try_again" maxwidth="">이 아이콘을 눌러\n다시 시작</string>
+	<string name="heart_rate" maxwidth="">심장 박동</string>
+	 <string name="tap_message" maxwidth="">측정 중에는 움직이지 마십시오.</string>
+	 <string-array name="relax_level_1_2" maxwidth="">
+	    <item>물과 운동은 몸의 긴장 완화에 도움이 됩니다.</item>
+	    <item>휴가 계획짜기 시작</item>
+	    <item>편안한 음악을 듣는 것도 휴식에 도움이 됩니다.</item>
+	</string-array>
+	<string-array name="relax_level_3" maxwidth="">
+	    <item>휴식 수준이 줄고 있습니다.</item>
+	</string-array>
+	<string-array name="relax_level_4_5" maxwidth="">
+	    <item>에너지가 충만하고 오늘의 할일을 완료할 준비가 되었습니다.</item>
+	    <item>휴식을 잘 취했으며 집중을 잘 했습니다.</item>
+	    <item>평화로운 마음은 집중에 도움이 됩니다.</item>
+	</string-array>
+	<string name="download_on_phone_message" maxwidth="">전화에 다운로드</string>
+	<string name="wait_first_heart_rate_message" maxwidth="">측정이 시작됨. 가만히 편안한 상태를 유지하십시오.</string>
+	<string name="wait_enough_rr_message" maxwidth="">측정 중. 몇 초만 더 기다리십시오...</string>
+	<string name="keep_measuring" maxwidth="">측정 중...</string>
+	<string name="total_steps" maxwidth="">총 걸음 수</string>
+	<string name="step_indicator_10k" maxwidth="">10K</string>
+	<string name="step_indicator_5k" maxwidth="">5K</string>
+	<string name="calories_unit" description="Calories unit" maxwidth="">kcal</string>
+</resources>

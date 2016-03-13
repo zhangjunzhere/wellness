@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/background_gradient"
+    android:gravity="center_vertical">
+    
+	<include  layout="@layout/measure_options_layout"
+        android:id="@+id/measure_options_layout"
+        android:visibility="visible"/>
+
+    <include  layout="@layout/ecg_hr_measure_layout"
+        android:id="@+id/ecg_hr_measure_layout"
+        android:visibility="gone"/>
+
+    <include  layout="@layout/ecg_debug_layout"
+        android:id="@+id/ecg_debug_layout"
+        android:visibility="gone"/>
+
+    <include  layout="@layout/measure_tutorial_layout"
+        android:id="@+id/measure_tutorial_layout"
+        android:visibility="gone"/>
+
+    <include  layout="@layout/measure_result_relax_layout"
+        android:id="@+id/measure_result_relax_layout"
+        android:visibility="gone"/>
+
+    <include  layout="@layout/measure_result_stress_layout"
+        android:id="@+id/measure_result_stress_layout"
+        android:visibility="gone"/>
+
+    <include  layout="@layout/measure_result_heart_rate_layout"
+        android:id="@+id/measure_result_heart_rate_layout"
+        android:visibility="gone"/>
+
+</RelativeLayout>

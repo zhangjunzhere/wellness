@@ -1,0 +1,332 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dailyanim_layout_width"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:visibility="visible" >
+
+    <FrameLayout
+        android:id="@+id/R_group"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <FrameLayout
+            android:id="@+id/r_frame5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="right" >
+
+            <FrameLayout
+                android:id="@+id/R5_leave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="@dimen/dailyanim_R5_leave_marginRight"
+                android:layout_marginTop="@dimen/dailyanim_R5_leave_marginTop" >
+
+                <ImageView
+                    android:id="@+id/orangeleaves04"
+                    android:layout_width="@dimen/dailyanim_orangeleaves04_width"
+                    android:layout_height="@dimen/dailyanim_orangeleaves04_height"
+                    android:src="@drawable/asus_wellness_btn_sleep_leaves_4" />
+
+                <ImageView
+                    android:id="@+id/orangeleaves5"
+                    android:layout_width="@dimen/dailyanim_orangeleaves5_width"
+                    android:layout_height="@dimen/dailyanim_orangeleaves5_height"
+                    android:src="@drawable/asus_wellness_btn_sleep_leaves_5" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/R5_circle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="@dimen/dailyanim_R5_circle_marginRight"
+                android:layout_marginTop="@dimen/dailyanim_R5_circle_marginTop" >
+
+                <ImageView
+                    android:id="@+id/R5_slave_cirlce"
+                    android:layout_width="@dimen/dailyanim_R5_slave_cirlce_width"
+                    android:layout_height="@dimen/dailyanim_R5_slave_cirlce_height"
+                    android:src="@drawable/r_sleep_circle4" />
+
+                <ImageView
+                    android:id="@+id/R5_master_cirlce"
+                    android:layout_width="@dimen/dailyanim_R5_master_cirlce_width"
+                    android:layout_height="@dimen/dailyanim_R5_master_cirlce_height"
+                    android:src="@drawable/r_sleep_circle5" />
+            </FrameLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/r_frame4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="right" >
+
+            <FrameLayout
+                android:id="@+id/R4_leave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="@dimen/dailyanim_R4_leave_marginRight"
+                android:layout_marginTop="@dimen/dailyanim_R4_leave_marginTop" >
+
+                <ImageView
+                    android:id="@+id/orangeleaves03"
+                    android:layout_width="@dimen/dailyanim_orangeleaves03_width"
+                    android:layout_height="@dimen/dailyanim_orangeleaves03_height"
+                    android:layout_gravity="right"
+                    android:src="@drawable/asus_wellness_btn_sleep_leaves_3" />
+
+                <ImageView
+                    android:id="@+id/orangeleaves4"
+                    android:layout_width="@dimen/dailyanim_orangeleaves4_width"
+                    android:layout_height="@dimen/dailyanim_orangeleaves4_height"
+                    android:src="@drawable/asus_wellness_btn_sleep_leaves_4" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/R4_circle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="@dimen/dailyanim_R4_circle_marginRight"
+                android:layout_marginTop="@dimen/dailyanim_R4_circle_marginTop" >
+
+                <ImageView
+                    android:id="@+id/R4_slave_cirlce"
+                    android:layout_width="@dimen/dailyanim_R4_slave_cirlce_width"
+                    android:layout_height="@dimen/dailyanim_R4_slave_cirlce_height"
+                    android:src="@drawable/r_sleep_circle3" />
+
+                <ImageView
+                    android:id="@+id/R4_master_cirlce"
+                    android:layout_width="@dimen/dailyanim_R4_master_cirlce_width"
+                    android:layout_height="@dimen/dailyanim_R4_master_cirlce_height"
+                    android:src="@drawable/r_sleep_circle4" />
+            </FrameLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/r_frame3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="right" >
+
+            <FrameLayout
+                android:id="@+id/R3_leave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="@dimen/dailyanim_R3_leave_marginRight"
+                android:layout_marginTop="@dimen/dailyanim_R3_leave_marginTop" >
+
+                <ImageView
+                    android:id="@+id/orangeleaves02"
+                    android:layout_width="@dimen/dailyanim_orangeleaves02_width"
+                    android:layout_height="@dimen/dailyanim_orangeleaves02_height"
+                    android:layout_gravity="right"
+                    android:src="@drawable/asus_wellness_btn_sleep_leaves_2" />
+
+                <ImageView
+                    android:id="@+id/orangeleaves3"
+                    android:layout_width="@dimen/dailyanim_orangeleaves3_width"
+                    android:layout_height="@dimen/dailyanim_orangeleaves3_height"
+                    android:src="@drawable/asus_wellness_btn_sleep_leaves_3" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/R3_circle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="@dimen/dailyanim_R3_circle_marginRight"
+                android:layout_marginTop="@dimen/dailyanim_R3_circle_marginTop" >
+
+                <ImageView
+                    android:id="@+id/R3_slave_cirlce"
+                    android:layout_width="@dimen/dailyanim_R3_slave_cirlce_width"
+                    android:layout_height="@dimen/dailyanim_R3_slave_cirlce_height"
+                    android:src="@drawable/r_sleep_circle2" />
+
+                <ImageView
+                    android:id="@+id/R3_master_cirlce"
+                    android:layout_width="@dimen/dailyanim_R3_master_cirlce_width"
+                    android:layout_height="@dimen/dailyanim_R3_master_cirlce_height"
+                    android:src="@drawable/r_sleep_circle3" />
+            </FrameLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/r_frame2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="right" >
+
+            <FrameLayout
+                android:id="@+id/R2_leave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="@dimen/dailyanim_R2_leave_marginRight"
+                android:layout_marginTop="@dimen/dailyanim_R2_leave_marginTop" >
+
+                <ImageView
+                    android:id="@+id/orangeleaves01"
+                    android:layout_width="@dimen/dailyanim_orangeleaves01_width"
+                    android:layout_height="@dimen/dailyanim_orangeleaves01_height"
+                    android:src="@drawable/asus_wellness_btn_sleep_leaves_1" />
+
+                <ImageView
+                    android:id="@+id/orangeleaves2"
+                    android:layout_width="@dimen/dailyanim_orangeleaves2_width"
+                    android:layout_height="@dimen/dailyanim_orangeleaves2_height"
+                    android:src="@drawable/asus_wellness_btn_sleep_leaves_2" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/R2_circle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="@dimen/dailyanim_R2_circle_marginRight"
+                android:layout_marginTop="@dimen/dailyanim_R2_circle_marginTop" >
+
+                <ImageView
+                    android:id="@+id/R2_slave_cirlce"
+                    android:layout_width="@dimen/dailyanim_R2_slave_cirlce_width"
+                    android:layout_height="@dimen/dailyanim_R2_slave_cirlce_height"
+                    android:src="@drawable/r_sleep_circle1" />
+
+                <ImageView
+                    android:id="@+id/R2_master_cirlce"
+                    android:layout_width="@dimen/dailyanim_R2_master_cirlce_width"
+                    android:layout_height="@dimen/dailyanim_R2_master_cirlce_height"
+                    android:src="@drawable/r_sleep_circle2" />
+
+                <TextView
+                    android:id="@+id/r2_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/dailyanim_r2_txt_marginTop"
+                    android:text=""
+                    android:textColor="@color/fontColor1"
+                    android:textSize="@dimen/dailyanim_r2_txt_textsize" />
+            </FrameLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/r_frame1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="right" >
+
+            <FrameLayout
+                android:id="@+id/R1_leave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="@dimen/dailyanim_R1_leave_marginRight"
+                android:layout_marginTop="@dimen/dailyanim_R1_leave_marginTop" >
+
+                <ImageView
+                    android:id="@+id/orangeleaves05"
+                    android:layout_width="@dimen/dailyanim_orangeleaves05_width"
+                    android:layout_height="@dimen/dailyanim_orangeleaves05_height"
+                    android:src="@drawable/asus_wellness_btn_sleep_leaves_2" />
+
+                <ImageView
+                    android:id="@+id/orangeleaves1"
+                    android:layout_width="@dimen/dailyanim_orangeleaves1_width"
+                    android:layout_height="@dimen/dailyanim_orangeleaves1_height"
+                    android:src="@drawable/asus_wellness_btn_sleep_leaves_1" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/R1_circle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="@dimen/dailyanim_R1_circle_marginRight"
+                android:layout_marginTop="@dimen/dailyanim_R1_circle_marginTop" >
+
+                <ImageView
+                    android:id="@+id/tips_R_circle_standard"
+                    android:layout_width="@dimen/dailyanim_R1_slave_cirlce_width"
+                    android:layout_height="@dimen/dailyanim_R1_slave_cirlce_height"
+                    android:src="@drawable/r_circle2"
+                    android:visibility="invisible"/>
+
+                <ImageView
+                    android:id="@+id/R1_slave_cirlce"
+                    android:layout_width="@dimen/dailyanim_R1_slave_cirlce_width"
+                    android:layout_height="@dimen/dailyanim_R1_slave_cirlce_height"
+                    android:src="@drawable/r_sleep_circle2" />
+
+                <ImageView
+                    android:id="@+id/R1_master_cirlce"
+                    android:layout_width="@dimen/dailyanim_R1_master_cirlce_width"
+                    android:layout_height="@dimen/dailyanim_R1_master_cirlce_height"
+                    android:src="@drawable/r_sleep_circle1" />
+
+                <TextView
+                    android:id="@+id/r1_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/dailyanim_r1_txt_marginTop"
+                    android:text="0"
+                    android:textColor="@color/fontColor1"
+                    android:textSize="@dimen/dailyanim_r1_txt_textsize" />
+
+                <TextView
+                    android:id="@+id/Average"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/dailyanim_average_marginTop"
+                    android:text="@string/sleep_quality_score"
+                    android:textColor="@color/fontColor1"
+                    android:textSize="@dimen/dailyanim_average_textsize" />
+            </FrameLayout>
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/r_large"
+            android:layout_width="@dimen/dailyanim_r_large_width"
+            android:layout_height="@dimen/dailyanim_r_large_height"
+            android:layout_gravity="right"
+            android:layout_marginRight="@dimen/dailyanim_r_large_marginRight"
+            android:layout_marginTop="@dimen/dailyanim_r_large_marginTop"
+            android:src="@drawable/r_sleep_circle1" />
+    </FrameLayout>
+
+
+    <TextView
+        android:id="@+id/Energy_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="@dimen/dailyanim_Energy_txt_marginRight"
+        android:layout_marginTop="@dimen/dailyanim_Energy_txt_marginTop"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="@string/text_sleep"
+        android:textColor="#014991"
+        android:textSize="@dimen/dailyanim_Energy_txt_textsize"
+        android:textStyle="bold"
+        android:width="@dimen/dailyanim_Energy_txt_width" />
+
+    <ImageView
+        android:id="@+id/energy_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="@dimen/dailyanim_energy_btn_marginRight"
+        android:layout_marginTop="@dimen/dailyanim_energy_btn_marginTop"
+        android:alpha="0"
+        android:src="@drawable/r_sleep_circle1" />
+
+</FrameLayout>

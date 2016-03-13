@@ -1,0 +1,3 @@
+<resources>
+	<string name="time_template">hh:mm\na</string>
+</resources>

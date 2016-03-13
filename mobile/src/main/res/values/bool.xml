@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="default_idle_alarm_switch">false</bool>
+    <bool name="default_backup_restore">true</bool>
+    <bool name="default_location">false</bool>
+    <bool name="default_inspire_asus">true</bool>
+    <bool name="default_include_bike">false</bool>
+</resources>

@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<string name="app_name" description="App name" maxwidth="-1">"華碩健康管理"</string>
+	<string name="alertdialog_find_user_data_message_title" description="Restore profile title" maxwidth="">找到使用者檔案</string>
+	<string name="alertdialog_find_user_data_message_content" description="Restore profile message" maxwidth="">裝置中已有使用者檔案。用現有檔案繼續設定嗎？</string>
+	<string name="daily_energy_detail_measurement" description="Message of Energy detail page" maxwidth="">已測量</string>
+	<string name="daily_energy_detail_today" description="Message of Energy detail page" maxwidth="">今天</string>
+	<string name="setting_title" description="Action bar title of setting page." maxwidth="">設定</string>
+	<string name="setting_title_activity_goal" description="Title of setting page option." maxwidth="">活動目標</string>
+	<string name="setting_title_backup_restore" description="Title of setting page option." maxwidth="">備份我的資料</string>
+	<string name="setting_activity_tracking" description="Title of setting page option." maxwidth="">活動追蹤</string>
+	<string name="setting_dialog_backup_restore_title" description="Backup dialog title." maxwidth="">備份服務</string>
+	<string name="setting_dialog_backup_restore_message" description="Backup dialog message." maxwidth="">請開啟備份服務。</string>
+	<string name="setting_idle_alarm_option_15mins" description="Idle alarm option." maxwidth="">每 15 分鐘</string>
+	<string name="setting_idle_alarm_option_30mins" description="Idle alarm option." maxwidth="">每 30 分鐘</string>
+	<string name="setting_idle_alarm_option_1hour" description="Idle alarm option." maxwidth="">每 1 小時</string>
+	<string name="setting_idle_alarm_option_1_5hours" description="Idle alarm option." maxwidth="">每 1.5 小時</string>
+	<string name="setting_idle_alarm_option_2hours" description="Idle alarm option." maxwidth="">每 2 小時</string>
+	<string name="setting_step_goal_include_bike_title" description="Include bike option." maxwidth="">包含騎車活動</string>
+	<string name="setting_step_goal_hint" description="Hint to remind user to input goal number." maxwidth="">輸入活動目標數</string>
+	<string name="step_counts_message_setting_goal" description="Step unit message of activity goal page." maxwidth="">步/天</string>
+	<string name="step_counts_message_preference" description="Option message of activity goal." maxwidth="">%s 步/天</string>
+	<string name="step_counts_intensity_explain" description="Explanation message of step goal in activity goal page." maxwidth="">（%s 步/天）</string>
+	<string name="set_new_profile_alarm_title" description="Alarm Dialog title of adding new profile." maxwidth="">要重置使用者檔案嗎？</string>
+	<string name="set_new_profile_btn_text" description="Button text of adding new profile." maxwidth="">重置使用者檔案</string>
+	<string name="set_new_profile_alarm_message" description="Alarm Dialog message of adding new profile." maxwidth="">您確定要替換現有的使用者檔案嗎？</string>
+	<string name="tutorial_measure_title" description="Tutorial title." maxwidth="">如何測量</string>
+
+	<string name="set_profile_title" description="Title of setting profile page." maxwidth="">建立個人檔案</string>
+	<string name="profile_edittext_name_hint" description="Hint to request user to enter name." maxwidth="">輸入您的姓名</string>
+	<string name="profile_edittext_name_hint_alarm" description="Hint to request user to enter name." maxwidth="">請輸入您的姓名</string>
+	<string name="profile_gender_title" description="Profile title" maxwidth="">性別</string>
+	<string name="profile_age_title" description="Profile title" maxwidth="">年齡</string>
+	<string name="profile_gender_age_title" description="Profile title" maxwidth="">性別/年齡</string>
+	<string name="profile_height_title" description="Profile title" maxwidth="">身高</string>
+	<string name="profile_weight_title" description="Profile title" maxwidth="">體重</string>
+	<string name="drawer_title_about" description="Drawer Profile title" maxwidth="">關於</string>
+	<string name="drawer_title_status" description="Drawer Profile title" maxwidth="">狀態</string>
+	<string name="str_edit_profile" description="Button text of edit profile" maxwidth="">編輯檔案</string>
+	<string name="profile_start_measure_date" description="Drawer Profile title" maxwidth="">開始測量</string>
+	<string name="profile_total_steps" description="Drawer Profile title" maxwidth="">總步數</string>
+	<string name="none_data_inside" description="No data description" maxwidth="">無可用資料</string>
+	<string name="detail_activity_time" description="Activity title of activity detail page" maxwidth="">"共活動了"</string>
+	<string name="detail_total_steps" description="Total step title of activity detail page" maxwidth="">"共移動了"</string>
+	<string name="detail_calories_burned" description="Calories burned title of activity detail page" maxwidth="">"共消耗了"</string>
+	<string name="heart_and_exercise_intensity" description="Heart rate title of activity detail page" maxwidth="">心率與運動強度</string>
+	<string name="time_unit" description="Time unit" maxwidth="">分</string>
+	<string name="distance_unit" description="Distance unit" maxwidth="">公里</string>
+	<string name="detail_energy_best_info_energy_level" description="Best energy text." maxwidth="">最高：</string>
+	<string name="detail_energy_worst_info_stress_level" description="Worst energy text." maxwidth="">最低：</string>
+	<string name="count_time" description="The number of measurment" maxwidth="">次</string>
+	<string name="not_connected_to_wellness" description="No connected device." maxwidth="">您的手錶沒有連接到 Wellness</string>
+	<string-array name="profile_gender_option" description="Gender options" maxwidth="">
+		<item>男</item>
+		<item>女</item>
+	</string-array>
+	<string-array name="profile_weight_option" description="Weight options" maxwidth="">
+		<item>公斤</item>
+		<item>磅</item>
+	</string-array>
+
+	<string name="dialog_number_picker_done" description="Button text of number picker." maxwidth="">完成</string>
+	<string name="dialog_number_picker_height_title" description="Title of setting height picker." maxwidth="">設定身高</string>
+	<string name="dialog_number_picker_weight_title" description="Title of setting weight picker." maxwidth="">設定體重</string>
+	<string name="dialog_number_picker_age_title" description="Title of setting age picker." maxwidth="">設定年齡</string>
+	<string name="terms_services_title" description="Title of term service." maxwidth="">使用條款</string>
+	<string name="terms_services_subtitle" description="subtitle of term service." maxwidth="">重要提醒</string>
+	<string name="terms_services_message" description="Message of term service." maxwidth="">此應用程式不用於診斷或醫療用途。您不能使用此程式來治療、治愈或預防任何疾病，也不能用於監測或處理身體、心理或生理問題。\n\n您的健康資料（使用者檔案、心率、壓力、放鬆、身體活動和位置資料）儲存在您的手機上安裝的Wellness程式中。若您在“設定”中開啟了行動裝置的備份與還原功能，並設定了備份帳戶，您的 Wellness 資料會自動備份到 Google 伺服器</string>
+	<!--<string name="terms_services_end_user_subtitle" description="subtitle of End user license agreement subtitle." maxwidth="">最終使用者許可協定</string>
+	<string name="terms_services_end_user_message" description="Message of End user license agreement." maxwidth="">This End User License Agreement (“EULA”) constitutes a valid and binding agreement between ASUSTeK Computer Inc. (“ASUS“) and You, as a user, for the use of the ASUS Software (“Software”) defined as set forth below. By installing and continuing to use the software YOU EXPRESSLY ACKNOWLEDGE THAT YOU HAVE READ AND UNDERSTAND AND AGREE TO BE BOUND BY THE TERMS OF THIS EULA AND ANY NEW VERSIONS HEREOF.
+	\n\n1.	SOFTWARE means the ASUS Software provided in or with the applicable ASUS product including but not limited to any future programming fixes, updates, upgrades and modified versions.\n\nThe Software may be accompanied by other ASUS- or third party created software that is licensed under one or more of the Free Open Source Software licenses as listed under www.opensource.org/licenses. Such Free Open Source Software is provided to you solely under the terms of the respective license agreement or copyright notice accompanying it or in the FOSS licenses file accompanying the Software. The terms of this EULA do NOT apply to such Free Open Source Software.
+	\n\n2.	LICENSE Subject to the terms of this EULA, ASUS hereby grants You a limited, personal, non-commercial, non-exclusive license to use the Software solely as embedded in the ASUS products. You may make one copy of the Software in machine-readable form for backup purposes only; provided that the backup copy must include all copyright or other proprietary notices contained on the original. This license shall not be sublicensed, and is not transferable except to a person or entity to whom you transfer ownership of the complete ASUS products containing the Software, provided you permanently transfer all rights under this EULA and do not retain any full or partial copies of the Software, and the recipient agrees to the terms of this EULA.
+	\n\n3.	REVERSE RESTRICTION You shall not reverse engineer, decompile decrypt or disassemble the Software or permit or induce the foregoing except to the extent directly applicable law prohibits enforcement of the foregoing.
+	\n\n4.	CONFIDENTIALITY You shall have a duty to protect and not to disclose or cause to be disclosed in whole or in part of confidential information of the Software including but not limited to trade secrets, copyrighted material in any form to any third party.
+	\n\n5.	Intellectual Property RIGHTS (“IP Rights”) You acknowledge and agree that all IP Rights, title, and interest to or arising from the Software are and shall remain the exclusive property of ASUS or its licensor. Nothing in this EULA intends to transfer any such IP Rights to You. Any unauthorized use of the IP Rights is a violation of this EULA as well as a violation of intellectual property laws, including but not limited to copyright laws and trademark laws.\nBy sending any information, material, ideas, concepts or techniques except for personal information to ASUS through the Software (“Feedbacks”), You acknowledge and agree that: (i) Your Feedbacks shall not contain confidential or proprietary information; (ii) ASUS is under no obligation of any kind of confidentiality, express or implied, regarding the Feedbacks; (iii)ASUS shall be entitled to use or disclose, at ASUS’s sole discretion, the Feedbacks for any purpose, in any way, worldwide; (iv) Your Feedbacks shall become the property of ASUS without any obligation of ASUS to You; and (v) You are not entitled to any compensation or reimbursement of any kind from.
+	\n\n6.	TERM AND TERMINATION This EULA will be effective as of the date You install the Software. You may terminate this License at any time by ceasing all use of the Software and removing the Software from ASUS product. Your right will terminate without prior notice from ASUS if we think You fail to comply with any provision of this EULA.
+	\n\n7.	Warranty Disclaimer and Limitation of Liability YOU ACKNOWLEDGE THAT THE SOFTWARE IS PROVIDED “AS IS.” THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THIS SOFTWARE IS WITH YOU, INCLUDING BUT NOT LIMITED TO RELATED COST OF ALL NECESSARY SERVICING AND REPAIR. TO THE EXTENT PERMITTED BY LAW, ASUS MAKES NO WARRANTIES, EXPRESS OR IMPLIED, WITH RESPECT TO THIS SOFTWARE OR ANY OTHER INFORMATION OR DOCUMENTATION PROVIDED UNDER THIS EULA OR FOR THIS SOFTWARE, INCLUDING BUT NOT LIMITED TO ANY WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR AGAINST INFRINGEMENT, OR ANY WARRANTY ARISING OUT OF USAGE OR OUT OF COURSE OF PERFORMANCE. ASUS ALSO MAKES NO WARRANTY AS TO THE RESULTS THAT MAY BE OBTAINED FROM THE USE OF THIS SOFTWARE OR AS TO THE ACCURACY OR RELIABILITY OF ANY INFORMATION OBTAINED THROUGH THIS SOFTWARE. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF CERTAIN WARRANTIES OR THE LIMITATION OR EXCLUSION OF LIABILITY FOR CERTAIN DAMAGES. ACCORDINGLY, SOME OF THE ABOVE DISCLAIMERS AND LIMITATIONS OF LIABILITY MAY NOT APPLY TO YOU.
+	\n\nTHE ENTIRE RISK ARISING OUT OF THE USE AND/OR PERFORMANCE OF THIS SOFTWARE REMAINS WITH YOU. IN NO EVENT SHALL ASUS, ITS LICENSORS OR ANY OF THEIR RESPECTIVE OFFICERS, DIRECTORS, EMPLOYEES, AGENTS OR AFFILIATES BE LIABLE FOR ANY CONSEQUENTIAL, INCIDENTAL, DIRECT, INDIRECT, SPECIAL, PUNITIVE, OR OTHER DAMAGES WHATSOEVER (INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF PROFITS, INTERRUPTION, LOSS OF INFORMATION, OR OTHER PECUNIARY LOSS) ARISING OUT OF OR RELATING TO THIS EULA OR THE USE OF OR INABILITY TO USE THE SOFTWARE OR ANY PART THEREOF, EVEN IF ASUS HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF CERTAIN WARRANTIES OR THE LIMITATION OR EXCLUSION OF LIABILITY FOR CERTAIN DAMAGES. ACCORDINGLY, SOME OF THE ABOVE DISCLAIMERS AND LIMITATIONS OF LIABILITY MAY NOT APPLY TO YOU.
+	\n\n8.	Indemnity YOU agree to defend, indemnify and hold harmless ASUS and its affiliates, service providers, syndicators, distributors, licensors, officers, directors and employees, from and against any and all losses, damages, liabilities, and expenses arising out of any claim or demand (including reasonable attorneys\' fees and court costs), due to or in connection with YOUR violation of this EULA or any applicable law or regulation, or third-party right.
+	</string>-->
+	<string name="terms_services_agree_text" maxwidth="">我同意使用條款</string>
+
+	<string name="daily_info_walk_type" maxwidth="">步行</string>
+	<string name="daily_info_bike_type" maxwidth="">騎車</string>
+	<string name="daily_info_car_type" maxwidth="">開車</string>
+	<string name="daily_info_transport_type" maxwidth="">公共交通</string>
+	<string name="daily_info_time_hour" maxwidth="">小時</string>
+	<string name="daily_info_time_hours" maxwidth="">小時</string>
+	<string name="daily_info_time_minute" maxwidth="">分</string>
+	<string name="daily_info_heart_title" maxwidth="">運動強度</string>
+	<string name="daily_info_heart_rate_unit" maxwidth="">bpm</string>
+	<string name="daily_info_stress_title" maxwidth="">壓力程度</string>
+
+	<string name="weekly_info_calories_title" maxwidth="">累積燃燒卡路里</string>
+	<string name="weekly_info_activity_title" maxwidth="">運動數據</string>
+
+	<string name="weekly_info_exercise_intensity_title" maxwidth="">運動強度</string>
+	<string name="weekly_info_energy_title" maxwidth="">能量</string>
+	<string name="weekly_info_relaxation_title" maxwidth="">放鬆指數</string>
+	<string name="weekly_info_stress_title" maxwidth="">壓力</string>
+	<string name="daily_actionbar_title" maxwidth="">嗨, %s</string>
+	<string name="detail_energy_actionbar_title" maxwidth="">精力指數</string>
+
+	<string-array name="exercise_intensity" maxwidth="">
+		<item>L1</item>
+		<item>L2</item>
+		<item>L3</item>
+		<item>L4</item>
+		<item>L5</item>
+	</string-array>
+
+    <string-array name="relax_level_1_2" maxwidth="">
+		<item>水和運動可以幫助放鬆身體</item>
+		<item>計劃一次假期</item>
+		<item>聽一些舒緩的音樂可以幫助你放鬆</item>
+	</string-array>
+    <string-array name="relax_level_3" maxwidth="">
+        <item>"您的放鬆水平下降"</item>
+    </string-array>
+    <string-array name="relax_level_4_5" maxwidth="">
+        <item>"充滿能量，準備完成今天的任務"</item>
+        <item>"您休息充分，精力集中"</item>
+        <item>"心態平和有助於集中精力"</item>
+    </string-array>
+    <string-array name="stress_level_1_2" maxwidth="">
+        <item>"零食和水果有助於補充能量"</item>
+        <item>"健康的生活方式有助於應對每日的生活挑戰"</item>
+        <item>"平和心態健康療法"</item>
+    </string-array>
+    <string-array name="stress_level_3" maxwidth="">
+        <item>"您的壓力水平上升"</item>
+        <item>"記錄您的感受"</item>
+    </string-array>
+    <string-array name="stress_level_4_5" maxwidth="">
+        <item>"30 分鐘的談話可降低 25% 的壓力"</item>
+        <item>"伸展胳膊、背部及肩部"</item>
+        <item>"放鬆心情，舒展肌肉"</item>
+        <item>"DIY 可帶來愉悅和滿足感"</item>
+        <item>"自我手部按摩"</item>
+    </string-array>
+
+	<!-- Daily animation -->
+	<string name="default_anim_activity_data" maxwidth="">0%</string>
+	<string name="default_anim_energy_data" maxwidth="">0</string>
+	<string name="text_activity" maxwidth="">運動</string>
+	<string name="text_energy" maxwidth="">精力指數</string>
+
+	<string name="JAN" maxwidth="">一月</string>
+	<string name="FEB" maxwidth="">二月</string>
+	<string name="MAR" maxwidth="">三月</string>
+	<string name="APR" maxwidth="">四月</string>
+	<string name="MAY" maxwidth="">五月</string>
+	<string name="JUN" maxwidth="">六月</string>
+	<string name="JUL" maxwidth="">七月</string>
+	<string name="AUG" maxwidth="">八月</string>
+	<string name="SEP" maxwidth="">九月</string>
+	<string name="OCT" maxwidth="">十月</string>
+	<string name="NOV" maxwidth="">十一月</string>
+	<string name="DEC" maxwidth="">十二月</string>
+
+    <string name="SUN" maxwidth="">週日</string>
+    <string name="MON" maxwidth="">週一</string>
+    <string name="TUE" maxwidth="">週二</string>
+    <string name="WED" maxwidth="">週三</string>
+    <string name="THU" maxwidth="">週四</string>
+    <string name="FRI" maxwidth="">週五</string>
+    <string name="SAT" maxwidth="">週六</string>
+
+	<string name="text_location" maxwidth="">在%s</string>
+	<string name="text_measurement" maxwidth="">測量</string>
+	<string name="text_today2" maxwidth="">今天</string>
+	<string name="not_pair_asus_watch_title" maxwidth="">尚未與 ASUS 手錶配對</string>
+	<string name="not_pair_asus_watch_message" maxwidth="">Wellness 程式是搭配 ASUS 手錶使用的應用程式。將此裝置與 ASUS 手錶配對以繼續完成設定。</string>
+	<string name="not_pair_asus_watch_button" maxwidth="">我知道了！</string>
+    <string name="suggest_wellness_message" maxwidth="">
+    推薦應用程式：
+	\nWellness
+	\n免費獲得 ASUS ZenWatch
+	\nWellness 應用程式！
+	</string>
+    <string name="tutorial_paired_descrition" description="Tutorial description." maxwidth="">"ASUS Wellness 應用程式是 ASUS ZenWatch 的完美搭擋。 它搭載個人健康管理器，可追蹤各種健康統計資料，幫助您平衡生活並實現個人健身目標。"</string>
+    <string name="default_average_energy_level_message_break" description="Default string of energy detail page." maxwidth="">"測量\n第一次"</string>
+    <string-array name="step_intensity_term_range" maxwidth="">
+        <item>"1~4999"</item>
+        <item>"5000~7499"</item>
+        <item>"7500~9999"</item>
+        <item>"10000~12499"</item>
+        <item>"12500+"</item>
+    </string-array>
+	<string name="save" description="save button." maxwidth="">儲存</string>
+	<string name="setting_idle_alarm_description" maxwidth="">設定鬧鐘，當指定時間內沒有活動，手錶會發出震動</string>
+	<string name="exercise_intensity_info_exercise_message" maxwidth="">通常情況下，運動中心率越高，運動強度越大。</string>
+	<string-array name="profile_height_option" description="Height options" maxwidth="">
+		<item>公分</item>
+		<item>英呎/英吋</item>
+	</string-array>
+	<string name="height_unit_feet" maxwidth="">"英呎"</string>
+	<string name="height_unit_inch" maxwidth="">"英吋"</string>
+	<string name="setting_title_set_idle_alarm" description="Title of setting page option." maxwidth="">提醒我運動</string>
+	<string name="setting_backup_description" description="Backup message in setting page." maxwidth="">"將您所有的Wellness應用程式資料備份到Google 的Android備份服務。"</string>
+	<string name="knockknock_start_heartrate" maxwidth="">測量心率</string>
+	<string name="knockknock_start_relaxation" maxwidth="">測量放鬆程度</string>
+	<string name="last_updated" maxwidth="">上次更新</string>
+	<string-array name="profile_error_message" description="Height options" maxwidth="">
+		<item>範圍：20~300 cm</item>
+		<item>範圍：0\' 8"~9\' 10"</item>
+		<item>範圍：2~400 kg</item>
+		<item>範圍：4~880 lb</item>
+		<item>範圍：1~99</item>
+	</string-array>
+	<string name="range_msg">範圍：</string>
+	<string name="accepted_range_title" maxwidth="">允許範圍</string>
+	<string name="text_average" maxwidth="">平均</string>
+	<string name="calories_unit" description="Calories unit" maxwidth="-1">大卡</string>
+	<string-array name="step_intensity_term" description="Term of step intensity." maxwidth="-1">
+		<item>久坐</item>
+		<item>不大活躍</item>
+		<item>一般活躍</item>
+		<item>比較活躍</item>
+		<item>非常活躍</item>
+	</string-array>
+	<string name="daily_info_walk_unit" maxwidth="">步</string>
+	<string name="daily_info_energy_title" maxwidth="">放鬆指數</string>
+	<string name="exercise_intensity_info_heart_rate_title" maxwidth="">運動心率</string>
+	<string name="exercise_intensity_info_heart_rate_message" maxwidth="">運動後一分鐘測得的心率可計算出運動強度等級</string>
+	<string name="exercise_intensity_info_exercise_title" maxwidth="">運動強度</string>
+	<string name="exercise_intensity_info_l5_desc" maxwidth="">最大強度</string>
+	<string name="exercise_intensity_info_l4_desc" maxwidth="">高強度</string>
+	<string name="exercise_intensity_info_l3_desc" maxwidth="">適度（提高健康水平）</string>
+	<string name="exercise_intensity_info_l2_desc" maxwidth="">少量（瘦身）</string>
+	<string name="exercise_intensity_info_l1_desc" maxwidth="">極少量</string>
+
+	<string name="daily_detail_activity_title_type" maxwidth="">類型</string>
+	<string name="daily_detail_activity_title_calories" maxwidth="">卡路里</string>
+
+	<string name="daily_button_text" maxwidth="">每天</string>
+	<string name="weekly_button_text" maxwidth="">每週</string>
+	<string name="text_today" maxwidth="">今天</string>
+	<string name="text_completion" maxwidth="">完成</string>
+	<string name="setting_activity_tracking_description" description="Allow GPS message." maxwidth="">允許 Wellness 應用程式使用 GPS 或訊號塔及 Wi-Fi 來確定您的位置，以顯示在活動軌跡中。活動追蹤會消耗額外的電量</string>
+	<string name="tutorial_measure_descrition" description="Tutorial description." maxwidth="">在手錶上啟動 ASUS Wellness 應用程式。往左滑動以進入測量畫面。點選您想要測量的項目。您可以隨時測量放鬆程度和心率。</string>
+	<string name="text_next" maxwidth="">下一步</string>
+	<string name="text_ok" maxwidth="">確定</string>
+	<string name="tips_p1_text_title" maxwidth="">點這裡</string>
+	<string name="tips_p1_text_content" maxwidth="">以瀏覽詳細資訊</string>
+	<string name="tips_p2_lefttext_title" maxwidth="">點這裡</string>
+	<string name="tips_p2_lefttext_content" maxwidth="">以快速返回今天畫面</string>
+	<string name="tips_p2_righttext_title" maxwidth="">往上或往下滑動</string>
+	<string name="tips_p2_righttext_content" maxwidth="">以更改日期</string>
+	<string name="tips_p3_text_title" maxwidth="">往上滑動</string>
+	<string name="tips_p3_text_content" maxwidth="">以查看您的活動軌跡</string>
+	<string name="app_version" maxwidth="">版本</string>
+	<string name="weekly_info_energy_avg">"平均值"</string>
+
+	<!-- emily add, 2014.12.05 -->
+	<string name="about_title">關於</string>
+	<string name="about_app_version">版本</string>
+	<string name="about_dialog_legal_information">法律資訊</string>
+	<string name="about_dialog_legal_information_des">使用本軟體需遵守華碩的條款和條件。</string>
+	<string name="about_dialog_website">網站</string>
+	<string name="about_dialog_allrights">華碩電腦股份有限公司。保留所有權利。</string>
+	<!-- emily end, 2014.12.05 -->
+	<string name="profile_birthday_title" description="Profile title" maxwidth="">生日</string>
+    <string name="tips_p2_righttext_title_pad" maxwidth="">"從左向右滑動"</string>
+</resources>

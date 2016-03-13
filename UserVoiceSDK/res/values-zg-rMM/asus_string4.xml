@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="uf_sdk_suggestion_status_answered" maxWidth="">"ေျဖၿပီး"</string>
+    <string name="uf_sdk_suggestion_status_under_review" maxWidth="">"စစ္ေဆးဆဲ"</string>
+    <string name="uf_sdk_suggestion_status_planned" maxWidth="">"စီစဥ္ထား"</string>
+    <string name="uf_sdk_suggestion_status_implemented" maxWidth="">"တည္ေဆာက္ၿပီး"</string>
+    <string name="uf_sdk_suggestion_status_completed" maxWidth="">"ၿပီးစီး"</string>
+    <string name="uf_sdk_suggestion_status_declined" maxWidth="">"မေအာင္ျမင္"</string>
+    <string name="uf_sdk_translation_10117605">"ဘာသာျပန္ ထုတ္ျပန္မႈ"</string>
+</resources>

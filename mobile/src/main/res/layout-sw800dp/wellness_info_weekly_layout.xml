@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.asus.wellness.cm.MyScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/weekly_scroller"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true" >
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/has_loading_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ProgressBar
+                android:id="@+id/weekly_loading_data"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/has_data_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" 
+            android:visibility="gone"
+            android:paddingBottom="90dp">
+
+            <!-- Frist Row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="14dp"
+                android:layout_marginTop="35dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <!-- activity -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/weekly_page_margin_middle"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/asus_wellness_ic_activity" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="8dp"
+                            android:fontFamily="sans-serif-light"
+                            android:text="@string/weekly_info_activity_title"
+                            android:textColor="#ff000000"
+                            android:textSize="@dimen/weekly_page_font_size" />
+
+                        <TextView
+                            android:id="@+id/tv_total_steps"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:fontFamily="sans-serif-light"
+                            android:gravity="center"
+                            android:includeFontPadding="false"
+                            android:text="0"
+                            android:textColor="@color/weekly_total_steps_tv_color"
+                            android:textSize="@dimen/weekly_page_font_size_unit_large" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:layout_marginLeft="10dp"
+                            android:fontFamily="sans-serif-light"
+                            android:paddingBottom="1dp"
+                            android:text="@string/daily_info_walk_unit"
+                            android:textColor="@color/weekly_total_steps_tv_color"
+                            android:textSize="@dimen/weekly_page_font_size_unit_very_small" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="@dimen/weekly_activity_view_width"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="26dp"
+                        android:orientation="vertical" >
+
+                        <com.asus.wellness.ui.week.TimeLineWeeklyRelativeLayout
+                            android:id="@+id/activity_chart_container"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal" >
+                        </com.asus.wellness.ui.week.TimeLineWeeklyRelativeLayout>
+
+                        <LinearLayout
+                            android:id="@+id/activity_chart_layout"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="vertical" />
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="38dp"
+                            android:layout_marginTop="4dp" >
+                            <TextView
+                                android:id="@+id/weekly_activity_month_text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_centerVertical="true"
+                                android:fontFamily="sans-serif-light"
+                                android:textColor="#ff000000"
+                                android:textSize="@dimen/weekly_activity_text_size" />
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <!-- Calories -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/LinearLayout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:id="@+id/ic_calorie"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/asus_wellness_ic_calories" />
+
+                        <TextView
+                            android:id="@+id/title_caloire"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="8dp"
+                            android:fontFamily="sans-serif-light"
+                            android:text="@string/weekly_info_calories_title"
+                            android:textColor="#ff000000"
+                            android:textSize="@dimen/weekly_page_font_size" />
+
+                        <TextView
+                            android:id="@+id/tv_calories"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="10dp"
+                            android:fontFamily="sans-serif-light"
+                            android:gravity="top"
+                            android:includeFontPadding="false"
+                            android:text="123456"
+                            android:textColor="#ffac2873"
+                            android:textSize="@dimen/weekly_page_font_size_unit_large" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:layout_marginLeft="10dp"
+                            android:fontFamily="sans-serif-light"
+                            android:paddingBottom="1dp"
+                            android:text="@string/calories_unit"
+                            android:textColor="#ffac2873"
+                            android:textSize="@dimen/weekly_page_font_size_unit_very_small" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginTop="26dp"
+                        android:orientation="vertical" >
+						<!-- Data  -->
+                        <com.asus.wellness.chart.view.CalorieChartWeeklyView
+                            android:id="@+id/calorie_chart_weekly_view"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center" />
+                        <!-- No Data  -->
+                        <com.asus.wellness.chart.view.CalorieChartWeeklyView
+                			android:id="@+id/calorie_chart_weekly_view_no_data"
+                			android:layout_width="wrap_content"
+                			android:layout_height="wrap_content"
+                			android:layout_gravity="center" 
+                			android:visibility="gone"
+                		/>
+                    </LinearLayout>
+                    
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- Sencend Row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="35dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <!-- Exercise intensity -->
+
+                <LinearLayout
+                    android:id="@+id/intensityview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/weekly_page_margin_middle2"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/LinearLayout12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:id="@+id/ic_exercise_intensity"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="50dp"
+                            android:src="@drawable/asus_wellness_ic_exercise_intensity" />
+
+                        <TextView
+                            android:layout_width="440dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+
+                            android:fontFamily="sans-serif-light"
+                            android:text="@string/weekly_info_exercise_intensity_title"
+                            android:textColor="#ff000000"
+                            android:textSize="@dimen/weekly_page_font_size" />
+
+                        <ImageButton
+                            android:id="@+id/ic_exercise_intensity_i"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            
+                            android:background="@null"
+                            android:padding="0dp"
+                            android:src="@drawable/asus_wellness_ic_info" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+						
+                        android:layout_marginTop="26dp"
+                        android:orientation="vertical" >
+                        <!-- Data  -->
+                    	<com.asus.wellness.chart.view.ExerciseIntensityChartWeeklyPadView
+                        android:id="@+id/exercise_intensity_chart_weekly_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                         />
+                    	<!-- No Data  -->
+                    	<com.asus.wellness.chart.view.ExerciseIntensityChartWeeklyPadView
+                        android:id="@+id/exercise_intensity_chart_weekly_no_data_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"
+                         />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- Relaxation and Stress -->
+
+                <LinearLayout
+                    android:id="@+id/relaxationview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/asus_wellness_ic_energy" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="8dp"
+                            android:fontFamily="sans-serif-light"
+                            android:text="@string/weekly_info_energy_title"
+                            android:textColor="#ff000000"
+                            android:textSize="@dimen/weekly_page_font_size" />
+                    </LinearLayout>
+					<LinearLayout 
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_horizontal"
+	                android:visibility="gone">
+	                <TextView
+	                    android:id="@+id/weekly_info_relaxation_text"
+	                    android:layout_gravity="center_vertical"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:text="@string/weekly_info_relaxation_title"
+	                    android:fontFamily="sans-serif-light"
+	                    android:textSize="@dimen/weekly_page_font_size_unit_very_small"
+	                    android:textColor="@color/text_relaxation_stress_color"/>
+	                <TextView
+	                    android:layout_gravity="center_vertical"
+	                    android:layout_marginLeft="10dp"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:text="|"
+	                    android:fontFamily="sans-serif-light"
+	                    android:textSize="@dimen/weekly_page_font_size_unit_very_small"
+	                    android:textColor="#ff000000"/>
+	                <TextView
+	                    android:id="@+id/weekly_info_stress_text"
+	                    android:layout_gravity="center_vertical"
+	                    android:layout_marginLeft="10dp"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:text="@string/weekly_info_stress_title"
+	                    android:fontFamily="sans-serif-light"
+	                    android:textSize="@dimen/weekly_page_font_size_unit_very_small"
+	                    android:textColor="@color/text_relaxation_stress_color"/>
+	            	</LinearLayout>
+                    
+					<!-- Data  -->
+                    <com.asus.wellness.chart.view.RelaxationChartWeeklyPadView
+                        android:id="@+id/relaxation_chart_weekly_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp" />
+                    <!-- No Data  -->
+                    <com.asus.wellness.chart.view.RelaxationChartWeeklyPadView
+                        android:id="@+id/relaxation_chart_weekly_no_data_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp" 
+                        android:visibility="gone"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Third Row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:layout_marginTop="0dp">
+
+                <!-- Workout -->
+                <LinearLayout
+                    android:id="@+id/workoutview"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal">
+
+                    <!-- Workout title -->
+                    <LinearLayout
+                        android:layout_width="@dimen/weekly_activity_view_width"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">"
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/asus_wellness_ic_exercise_intensity"/>
+                        <TextView
+                            android:layout_marginLeft="8dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:textSize="@dimen/weekly_page_font_size"
+                            android:textColor="#ff000000"
+                            android:fontFamily="sans-serif-light"
+                            android:text="@string/weekly_info_workout_title"/>
+                    </LinearLayout>
+
+                    <!-- Workout detail -->
+                    <LinearLayout
+                        android:layout_width="@dimen/weekly_activity_view_width"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical">
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/asus_wellness_ic_color_d" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="4dp"
+                                style="@style/weekly_summary_title"
+                                android:text="@string/pushup"/>
+                            <TextView
+                                android:id="@+id/weekly_pushup_count"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="6dp"
+                                style="@style/weekly_summary_title"
+                                android:textColor="@color/workout_pushup_char_color_from"
+                                android:text="6 times"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical">
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/asus_wellness_ic_color_b"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="4dp"
+                                style="@style/weekly_summary_title"
+                                android:text="@string/situp"/>
+                            <TextView
+                                android:id="@+id/weekly_situp_counts"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="6dp"
+                                style="@style/weekly_summary_title"
+                                android:textColor="@color/workout_situp_char_color_from"
+                                android:text="2 times"/>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="@dimen/weekly_activity_view_width"
+                        android:layout_height="@integer/sleep_top_line"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="@dimen/sleep_barchart_title_margin_bottom"
+                        android:background="@color/sleep_line_color"/>
+                    <com.asus.wellness.chart.view.ChartWeeklyView
+                        android:id="@+id/workout_chart_weekly_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="0dp"/>
+
+                </LinearLayout>
+
+                <!-- Sleep -->
+                <LinearLayout
+                    android:id="@+id/sleepview"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal">
+                    <LinearLayout
+                        android:layout_width="@dimen/weekly_activity_view_width"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">"
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/asus_wellness_ic_sleep_title"/>
+                        <TextView
+                            android:layout_marginLeft="8dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:textSize="@dimen/weekly_page_font_size"
+                            android:textColor="#ff000000"
+                            android:fontFamily="sans-serif-light"
+                            android:text="@string/weekly_info_sleep_title"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="@dimen/weekly_activity_view_width"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1">
+                            <ImageView
+                                android:id="@+id/sleep_wake_cirlce"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:src="@drawable/asus_wellness_ic_color_g" />
+                            <TextView
+                                android:id="@+id/weekly_sleep_wake_text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="4dp"
+                                style="@style/weekly_summary_title"
+                                android:text="@string/detail_sleep_wokeup"/>
+                            <TextView
+                                android:id="@+id/weekly_sleep_wake_hours"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="6dp"
+                                style="@style/weekly_summary_title"
+                                android:text="6hr12min"
+                                android:textColor="@color/sleep_wake_title_color"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1">
+                            <ImageView
+                                android:id="@+id/sleep_light_cirlce"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:src="@drawable/asus_wellness_ic_color_b"/>
+                            <TextView
+                                android:id="@+id/weekly_light_deep_text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="4dp"
+                                style="@style/weekly_summary_title"
+                                android:text="@string/detail_sleep_light"/>
+                            <TextView
+                                android:id="@+id/weekly_sleep_light_hours"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="6dp"
+                                style="@style/weekly_summary_title"
+                                android:textColor="@color/sleep_light_title_color"
+                                android:text="2hr32min"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1">
+                            <ImageView
+                                android:id="@+id/sleep_deep_cirlce"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:src="@drawable/asus_wellness_ic_color_d" />
+                            <TextView
+                                android:id="@+id/weekly_sleep_deep_text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="4dp"
+                                style="@style/weekly_summary_title"
+                                android:text="@string/detail_sleep_deep"/>
+                            <TextView
+                                android:id="@+id/weekly_sleep_deep_hours"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="6dp"
+                                style="@style/weekly_summary_title"
+                                android:text="6hr12min"
+                                android:textColor="@color/sleep_deep_title_color"/>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="@dimen/weekly_activity_view_width"
+                        android:layout_height="@integer/sleep_top_line"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="@dimen/sleep_barchart_title_margin_bottom"
+                        android:background="@color/sleep_line_color"/>
+
+                    <com.asus.wellness.chart.view.ChartWeeklyView
+                        android:id="@+id/sleep_chart_weekly_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="0dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</com.asus.wellness.cm.MyScrollView>

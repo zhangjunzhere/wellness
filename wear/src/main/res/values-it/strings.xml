@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Wellness</string>
+    <string name="text_step_goal">/%s PASSI</string>
+    <string name="target">OBIETTIVO DEL GIORNO</string>
+    <string name="count_down_text_secs">SECONDI</string>   
+    <string name="step_unit">PASSI</string> 
+    <string name="distance_unit" maxwidth="">"KM"</string> 
+    <string name="heart_rate_unit" maxwidth="">"bpm"</string> 
+    <string name="options_relax" maxwidth="">"RELAX"</string> 
+    <string name="options_stress" maxwidth="">"STRESS"</string>
+    <string name="options_energy">ENERGIA</string>
+    <string name="text_measure_stress">LIVELLO DI STRESS</string>
+    <string name="text_measure_relax">LIVELLO DI ENERGIA</string>
+    <string name="measure_name">Misura</string>
+    <string name="waiting_text">Attendi!</string>
+	<string-array name="stress_level_1_2">
+	    <item>Spuntini leggeri e frutta aiutano a ripristinare l\'energia</item>
+	    <item>Uno stile di vita salutare aiuta ad affrontare i cambiamenti giornalieri</item>
+	    <item>In un ambiente Zen e in pace con il mondo</item>
+	</string-array>
+	<string-array name="stress_level_3">
+	    <item>Il tuo livello di stress \u00e8 in aumento</item>
+	    <item>Prendi nota di come ti senti</item>
+	</string-array>
+	<string-array name="stress_level_4_5">
+	    <item>Una passeggiata di 30 minuti pu\u00f2 ridurre lo stress del 25%</item>
+	    <item>Fai stretching per braccia, schiena e spalle</item>
+	    <item>Mettiti comodo e rilassa i muscoli</item>
+	    <item>Il fai da te pu\u00f2 portare gioia e senso appagamento</item>
+	    <item>Fatti un massaggio da solo</item>
+	</string-array>
+	<string-array name="heart_rate_level">
+	    <item>L1 MOLTO LEGGERO</item>
+	    <item>L2 LEGGERO</item>
+	    <item>L3 MODERATO</item>
+	    <item>L4 DURO</item>
+	    <item>L5 MASSIMO</item>
+	</string-array>
+	<string name="knockknock_start_stress">Avvia misurazione livello di stress</string>
+	
+	<string name="keep_touch_sensor" maxwidth="">Tocca\nil sensore</string>
+	<string name="options_relaxation" maxwidth="">RILASSAMENTO</string>
+	<string name="not_support_message" maxwidth="">Il tuo hardware non ha i requisiti necessari per eseguire quest\'app. L\'app verr\u00e0 chiusa.</string>
+
+	<string name="exercise_intensity" maxwidth="">INTENSIT\u00c0 ESERCIZIO</string>
+	<string name="tutorial_touch_sensor" maxwidth="">Tocca piano</string>
+	<string name="knockknock_start_relaxation" maxwidth="">Misura rilassamento</string>
+	<string name="knockknock_start_heartrate" maxwidth="">Misura battito</string>
+	<string name="tap_to_start" maxwidth="">Tocca l\'icona</string>
+	<string name="no_value_message" maxwidth="">Nessuna misurazione</string>
+	<string name="tap_to_try_again" maxwidth="">Tocca l\'icona\nper rifare</string>
+	<string name="heart_rate" maxwidth="">BATTITO</string>
+	<string name="tap_message" maxwidth="">Stai calmo. Misurazione...</string>
+	<string-array name="relax_level_1_2" maxwidth="">
+	    <item>Acqua e esercizio aiutano a scioglierti</item>
+	    <item>Pianifica una vacanza</item>
+	    <item>La musica rilassante pu\u00f2 diminuire lo stress</item>
+	</string-array>
+	<string-array name="relax_level_3" maxwidth="">
+	    <item>Il tuo rilassamento \u00e8 in calo</item>
+	</string-array>
+	<string-array name="relax_level_4_5" maxwidth="">
+	    <item>Pieno di energia per completare gli impegni di oggi</item>
+	    <item>Sei ben riposato e concentrato</item>
+	    <item>Una mente in pace aiuta a migliorare la concentrazione</item>
+	</string-array>
+	<string name="suggest_wellness_title" maxwidth="">App suggerita:Wellness</string>
+	<string name="suggest_wellness_message" maxwidth="">Ottieni gratis Wellness \nper l\'ASUS ZenWatch!</string>
+	<string name="download_on_phone_message" maxwidth="">Scarica su telefono</string>
+	<string name="wait_first_heart_rate_message" maxwidth="">Avvio misurazione, rilassati.</string>
+	<string name="wait_enough_rr_message" maxwidth="">Sto misurando, solo alcuni secondi...</string>
+	<string name="keep_measuring" maxwidth="">Misurazione...</string>
+	<string name="total_steps" maxwidth="">PASSI TOTALI</string>
+	<string name="step_indicator_10k" maxwidth="">10K</string>
+	<string name="step_indicator_5k" maxwidth="">5K</string>
+	<string name="calories_unit" description="Calories unit" maxwidth="">kcal</string>
+    <string name="calories_string" maxwidth="">(%1$s %2$s)</string>
+</resources>

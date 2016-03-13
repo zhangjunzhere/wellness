@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!-- kim_bai@asus.com 2014.12.26-->
+    <string name="duration">"Duur"</string>
+    <string name="remind_me_session">"Herinner mij in de volgende sessie"</string>
+    <string name="from">"Van"</string>
+    <string name="to">"Naar"</string>
+    <string name="steps">"stappen"</string>
+    <string name="tomorrow_goal">"Doel van vandaag"</string>
+    <!-- Inspire Asus -->
+    <string name="wm_about_inspire_asus">"Inspire ASUS"</string>
+    <string name="wm_inspire_asus_text1">"Om onze klanten beter van dienst te kunnen zijn, de gebruikerservaring te verbeteren en voortdurend problemen ondervindt op te sporen om de prestaties te verbeteren, start ASUS met Inspire ASUS (“Programma”)." Dit Programma verzamelt mogelijk anoniem uw gebruiksrapport."</string>
+    <string name="wm_inspire_asus_text2">"Het gebruiksrapport zal op geen enkele manier geassocieerd zijn met de identiteiten van uw ASUS ZenWatch-apparaat of persoonlijke informatie. De gebruiksgegevens omvatten de stand-bystatus, crashgebeurtenissen, voorkeursinterface, taalinstellingen, huidige softwareversie, vaak gebruikte softwareinformatie, het gedrag van het gebruik van softwarefuncties en de locatie."</string>
+    <string name="wm_inspire_asus_text3">"ASUS respecteert ten volle de privacy en rechten van klanten. U kunt de rapportfunctie van het programma te allen tijde aan- en uitzetten vanuit het menu. Voor meer gedetailleerde informatie over de manier waarop ASUS uw privacy beschermt, raden wij u aan bezoek te brengen aan"</string>
+    <string name="wm_inspire_asus_yes_text">"Ja, ik doe mee!"</string>
+    <!-- Encourage Us -->
+    <string name="encourage_title">"Moedig ons aan"</string>
+    <string name="scroll_up_toast" description="rate now" maxwidth="">"Scroll omhoog om een beoordeling te geven"</string>
+    <string name="toolbar_encourage_us_text">"Als u geniet van het gebruik van ASUS Wellness, geef ons dan een beoordeling van 5 sterren in de Play Store. Het zou een enorme stimulans zijn voor ons om het product te blijven verbeteren!\n\nAls u suggesties hebt, kunt u ons schrijven via Feedback &amp; Help."</string>
+    <string name="toolbar_encourage_dialog_rate_now" maxwidth="35">"Nu beoordelen"</string>
+    <string name="toolbar_encourage_us_cancel">"Annuleren"</string>
+
+    <!-- 2015.11.5-->
+    <string name="pushup">"Push-up"</string>
+    <string name="situp">"Sit-up"</string>
+    <string name="detail_sleep_deepsleep">"Diepe slaapstand"</string>
+    <string name="detail_sleep_lightsleep">"Lichte slaapstand"</string>
+    <string name="detail_sleep_sleeplatency">"Latentie slaapstand"</string>
+    <string name="detail_sleep_light">"Licht"</string>
+    <string name="detail_sleep_deep">"Diep"</string>
+    <string name="daily_detail_workout_title_accumulation" maxwidth="">"Totaal"</string>
+    <string name="daily_info_run_type">"Rennen"</string>
+
+    <!--2015.12.31-->
+    <string name="detail_sleep_wokeup">"Gooien en draaien"</string>
+    <string name="detail_sleep_shorthour">"u"</string>
+    <string name="detail_sleep_shortmin">"m"</string>
+    <string name="text_sleep" maxwidth="">"Slapen"</string>
+    <string name="weekly_info_sleep_title">"Totale slaapanalyse"</string>
+    <string name="weekly_info_workout_title">"Totaal push-ups / sit-ups"</string>
+    <string name="sleep_notification_title" maxwidth="">"Volgbericht slaapstand"</string>
+    <string name="sleep_notification_content" maxwidth="">"Bezig met opnemen..."</string>
+    <string name="detail_text_completion" maxwidth="">"bereikt"</string>
+    <string name="text_completion" maxwidth="">"doel bereikt"</string>
+    <string name="sleep_quality_score" maxwidth="">"kwaliteitsscore"</string>
+    <string name="text_sleep_quality_score">"Slaapkwaliteit"</string>
+    <string name="daily_detail_workout">"Training"</string>
+    <string name="sleptfor">"Geslapen gedurende"</string>
+    <string name="permisson_turn_on">"Nu inschakelen"</string>
+    <string name="permisson_body_sensor_title">"Kan uw activiteit niet detecteren"</string>
+    <string name="permisson_body_sensor_subtitle">"Wellness kan uw beweging niet detecteren zonder de lichaamssensormachtiging"</string>
+    <string name="permisson_location_title">"Kan uw locatie niet vinden"</string>
+    <string name="permisson_location_subtitle">"Wellness kan uw locatie niet detecteren zonder de locatiemachtiging"</string>
+    <string name="permisson_storage_title">"Kan geen toegang krijgen tot foto's"</string>
+    <string name="permisson_storage_subtitle">"Wellness kan geen toegang krijgen tot uw afbeeldingen zonder de opslagmachtiging"</string>
+    <string name="permisson_notice_bodysensor_location">"Opmerking: Schakel GEEN machtigingen van de systeeminstelling uit tijdens het uitvoeren van functies betreffende uw activiteit."</string>
+    <string name="permisson_notice_storage">"Opmerking: Schakel GEEN machtigingen van de systeeminstelling uit tijdens het uitvoeren van functies betreffende uw persoonlijk profiel."</string>
+    <string name="distance_unit_miles" description="Distance unit: miles" maxwidth="">"mijl"</string>
+
+    <!-- 2016.1.11 -->
+    <string name="sleep_dictinary">"Slaapwoordenboek"</string>
+    <string name="sleepinformation">"Slaapgegevens"</string>
+    <string name="sleeplenght">"Slaaplengte"</string>
+    <string name="deepsleepandlightsleep">"Diepe slaap en lichte slaap"</string>
+    <string name="awakenings">"Draaien en keren (activeringen)"</string>
+    <string name="suggestion">"Suggestie"</string>
+    <string name="sleepquality_info">"Slaapkwaliteit is een score (tot 100) om de kwaliteit van uw slaap te kwantificeren. Hoe hoger de score, hoe beter de kwaliteit van uw slaap. De slaapkwaliteitscore is afhankelijk van hoe lang u slaapt, hoe lang het duurt om in slaap te vallen, hoeveel tijd u in bed doorbrengt, hoeveel tijd u in diepe slaap bent (slaap met minder lichaamsbeweging) en hoe vaak u wakker wordt tijdens het slapen."</string>
+    <string name="sleepquality_suggestion">"De kwaliteitsscore 60 staat voor de basislijn van een normaal slaappatroon. Als uw score hoger is dan 60, is uw slaap beter dan gemiddeld en omgekeerd."</string>
+   <string name="sleeplength_info">"ZenWatch detecteert het begin van uw eerste lichte slaap en einde van uw laatste lichte slaap om de duur van uw slaap te schatten."</string>
+    <string name="sleeplength_suggestion">"Slaapbehoeften variëren tussen de verschillende leeftijdsgroepen. Pasgeborenen hebben 16-18 uur per dag nog, peuters 11-12 uur per dag, schoolgaande kinderen minstens 10 uur per dag, tieners 9-10 uur per dag en volwassenen (met inbegrip van bejaarden) 7-8 uur per dag."</string>
+    <string name="deepsleepandlightsleep_info">"ZenWatch meet uw lichaamsbeweging tijdens het volgen van uw slaap. Diepe slaap staat voor slapen met minder lichaamsbeweging in vergelijking met lichte slaap en wakker. Hoe minder lichaamsbeweging er is tijdens de slaap, hoe beter u slaapt."</string>
+    <string name="deepsleepandlightsleep_suggestion" formatted="false">"Gemiddeld hebben mensen met een normaal slaappatroon ongeveer 20% tot 60% van de totale slaaptijd perioden van diepe en van lichte slaap."</string>
+    <string name="sleeplatency_info">"De tijd tussen het begin van slaaptracking en het moment dat ZenWatch detecteert dat u in slaap bent gevallen"</string>
+    <string name="sleeplatency_suggestion">"Bij een normaal slaappatroon hebben mensen een gemiddelde slaaplatentie van 12 minuten."</string>
+    <string name="awakenings_info">"ZenWatch detecteert het aantal keer dat u ontwaakt (met meer lichaamsbeweging) tijdens uw slaap"</string>
+    <string name="awakenings_suggestion">"Mensen met een normaal slaappatroon hebben ontwaken gemiddeld 3 keer tijdens hun slaap."</string>
+    <string name="sleep_tips_title">"Tips voor een betere slaap"</string>
+    <string name="stick_to_a_sleep_schedule_title">"Houd u aan een slaapplanning"</string>
+    <string name="stick_to_a_sleep_schedule">"Probeer elke dag op hetzelfde uur naar bed te gaan en op te staan. Omdat we gewoontewezens zijn, hebben we moeite om ons aan te passen aan veranderingen in de slaappatronen. Als u langer slaapt in het weekend, zult u het gebrek aan slaap tijdens de week niet volledig kunnen ophalen en wordt het moeilijker om vroeg op te staan op maandagochtend."</string>
+    <string name="exercise_is_great_title">"Trainen is goed, maar niet te laat op de dag"</string>
+    <string name="exercise_is_great">"Probeer de meeste dagen minstens 30 minuten te trainen, maar niet later dan 2-3 uur vóór bedtijd."</string>
+    <string name="avoid_cafeine_and_nicotine_title">"Vermijd cafeïne en nicotine"</string>
+    <string name="avoid_cafeine_and_nicotine">"Koffie, cola, bepaalde theesoorten en chocolade bevatten de stimulerende cafeïne en de effecten hiervan kunnen tot 8 uur blijven werken tot deze volledig is uitgewerkt. Daarom kan een kop koffie in de late namiddag het moeilijk maken om de slaap te vatten 's avonds. Nicotine is ook een stimuleren middel waardoor rokers vaak slechts zeer licht slapen. Daarnaast ontwaken rokers te vroeg 's ochtends door de nicotineontwenning."</string>
+    <string name="avoid_alcoholic_drinks_before_bed_title">"Vermijd alcoholische drank vóór bedtijd"</string>
+    <string name="avoid_alcoholic_drinks_before_bed">"Een \"slaapmutsje\" of een alcoholische drank voor het slapengaan, kan u helpen ontspannen, maar bij zwaar alcoholgebruik gaat u niet in diepe slaap en blijft u in de lichtere fasen van de slaap. Hierdoor kan alcohol ook bijdragen tot ademhalingsproblemen tijdens de nacht. U hebt ook de neiging midden in de nacht te ontwaken wanneer de effecten van de alcohol afnemen."</string>
+    <string name="avoid_large_meals_title">"Vermijd grote maaltijden en veel drinken 's avonds laat."</string>
+    <string name="avoid_large_meals">"Een lichte snack is ok, maar een uitgebreide maaltijd kan indigestie veroorzaken waardoor de slaap wordt verstoord. Als u 's nachts teveel vloeistoffen drinkt, is het mogelijk dat u vaak moet opstaan om te urineren."</string>
+    <string name="if_possible_title">"Vermijd, indien mogelijk, geneesmiddelen die uw slaap uitstellen of verstoren"</string>
+    <string name="if_possible">"Sommige vaak voorgeschreven medicatie voor het hart, een hoge/lage bloeddruk en astma, evenals vrij verkrijgbare geneesmiddelen en kruidenmiddelen tegen de hoest, verkoudheid of allergie, kunnen de slaappatronen verstoren. Als u niet goed kunt slapen, praat dan met uw gezondheidszorgverlener of een ingeschreven apotheek om te bepalen of de geneesmiddelen die u inneemt, kunnen bijdragen tot uw slapeloosheid. Vraag hen of u die geneesmiddelen niet op een ander tijdstip tijdens de dag of vroeg in de avond kunt innemen."</string>
+    <string name="dont_take_naps_title">"Doe gaan dutjes na 15 uur."</string>
+    <string name="dont_take_naps">"Dutjes kunnen helpen bij het inhalen van verloren slaap, maar als u een dutje doet in de late namiddag, is het mogelijk dat u 's avonds moeilijker de slaap vat."</string>
+    <string name="relax_before_bed_title">"Ontspan u vóór bedtijd"</string>
+    <string name="relax_before_bed">"Zet niet te veel op uw dagplanning zodat er nog tijd overblijft om wat te ontspannen. Een ontspannende activiteit, zoals lezen of muziek beluisteren, zou deel moeten uitmaken van uw ritueel voor bedtijd."</string>
+    <string name="take_a_lot_bath_title">"Neem een warm bad voordat u naar bed gaat."</string>
+    <string name="take_a_lot_bath">"De lichaamstemperatuur nadat u uit bad komt, kan u helpen slaperig te worden en het bad kan u helpen ontspannen en de druk wegnemen zodat u meer gereed bent om te slapen."</string>
+    <string name="have_a_good_sleeping_title">"Zorg voor een goede slaapomgeving."</string>
+    <string name="have_a_good_sleeping">"Voor een goede nachtrust moet u een goede slaapomgeving hebben. Verwijder alles uit uw slaapkamer waardoor uw slaap kan worden verstoord, zoals geluiden en heldere lampen.  Schakel uw mobiele apparaten, TV, computer en andere elektronische apparaten uit. Een goede nachtrust kan worden bevorderd door een comfortabel bed, een comfortabele kamertemperatuur en een goed kussen. Mensen die leiden aan slapeloosheid, kijken vaak naar de klok. Als u slapeloos bent, draait u de wijzerplaats van de klok weg van uw gezichtsveld zodat u zich geen zorgen te maken over de tijd terwijl u probeert de slaap te vatten."</string>
+    <string name="have_the_right_sunlight_title">"Zorg voor de juiste blootstelling aan zonlicht."</string>
+    <string name="have_the_right_sunlight">"Daglicht is belangrijk voor het regelen van uw dagelijkse slaappatronen. Ga minstens 30 minuten per dag buiten in een natuurlijk licht. Probeer, indien mogelijk, op te staan met de zon of gebruik zeer heldere lampen 's ochtends. Slaapexperts bevelen aan dat mensen die problemen ondervinden om in te slapen, een uur in het ochtendlicht gaan staan en de lichten doven vóór bedtijd."</string>
+    <string name="dont_lie_in_bed_title">"Lig niet wakker in bed"</string>
+    <string name="dont_lie_in_bed">"Als u 20 minuten nadat u in bed ligt, nog steeds wakker bent, of als u zich angstig of bezorgd voelt, sta dan op en doe wat ontspannende activiteiten tot u zich slaperig voelt. De angst om niet te kunnen slapen kan het moeilijker maken om de slaap te vatten."</string>
+    <string name="see_a_health_title">"Raadpleeg een professionele gezondheidszorgverlener als u slaapproblemen blijft ondervinden."</string>
+    <string name="see_a_health">"Als u voortdurend problemen ondervindt om de slaap te vatten of door te slapen en u zich tijdens de dag moe of niet goed voelt, ondanks het feit dat u voldoende tijd in bed doorbrengt 's nachts, kunt u een slaapstoornis hebben. Uw huisarts of een slaapspecialist zou u moeten kunnen helpen. Het is ook belangrijk andere gezondheids- of emotionele problemen die uw slaap kunnen verstoren, op te lossen."</string>
+    <string name="sleep_detail_back">"Vorige"</string>
+    <string name="data_source">"Bron:"</string>
+    <string name="articlehelpful">"Is dit nuttig?"</string>
+
+    <!-- 2016.1.15 -->
+    <string name="allow_access_photos_title">"Fototoegang toestaan"</string>
+    <string name="allow_access_photos_content">"Om uw foto te wijzigen, gaat u naar instellingen om de opslagmachtiging voor ZenWatch Wellness in te schakelen."</string>
+    <string name="allow_track_location_title">"Locatie volgen toestaan"</string>
+    <string name="allow_track_location_content">"Om uw activiteitenlocatie te volgen, gaat u naar Instellingen om de locatiemachtiging voor ZenWatch Wellness in te schakelen."</string>
+    <string name="bug_report_preference_title">"Programmafout melden"</string>
+    <string name="bug_report_email_subject">"Wellness-foutrapport"</string>
+    <string name="bug_report_email_body">"Wellness-foutrapport"</string>
+    <string name="but_report_share">"Delen"</string>
+    <string name="settings_disable_backup">"Schakelt u \"Back-up maken van mijn gegevens\" uit, dan kunnen uw back-upbestanden door het Android-back-upservicemechanisme van Google verloren gaan. Weet u zeker dat u deze optie wilt uitschakelen?"</string>
+</resources>

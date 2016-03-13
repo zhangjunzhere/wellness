@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+   <dimen name="default_start_position_x">250dp</dimen>
+   <dimen name="default_start_position_y">60dp</dimen>
+   <dimen name="icon_offset">6dp</dimen>
+   <dimen name="time_line_circle_radius">4dp</dimen>
+   <dimen name="timeline_item_left_margin">13dp</dimen>
+   <dimen name="timeline_line_width">1dp</dimen>
+   <dimen name="timeline_heartrate_minwidth">186dp</dimen>
+   <dimen name="timeline_relax_minwidth">118dp</dimen>
+   <dimen name="timeline_activity_minwidth">220dp</dimen>
+   <dimen name="timeline_preview_dot_margin">10dp</dimen>
+   <dimen name="time_line_preview_circle_radius">1dp</dimen>
+   <dimen name="timeline_time_text_maxwidth">100dp</dimen>
+   
+   <dimen name="profile_about_item_height">35dp</dimen>
+   <dimen name="profile_about_item_right_margin">30dp</dimen>
+   
+   <dimen name="daily_detail_main_content_width">320dp</dimen>
+   <dimen name="daily_detail_item_height">40dp</dimen>
+   
+   <dimen name="measure_timeline_left_margin">90dp</dimen>
+   <dimen name="measure_timeline_top_margin">40dp</dimen>
+   <dimen name="measure_timeline_line_length">107dp</dimen>
+   <dimen name="daily_view_timeline_line_length">100dp</dimen>
+   <dimen name="daily_detail_heart_rate_timeline_length">55dp</dimen>
+   <dimen name="daily_detail_heart_rate_timeline_left_margin">90dp</dimen>
+   <dimen name="daily_detail_heart_rate_timeline_top_margin">40dp</dimen>
+
+    <dimen name="daily_info_change_date_view_height">365dp</dimen>
+
+    <dimen name="main_page_daily_weekly_button_width">81dp</dimen>
+    <dimen name="main_page_daily_weekly_button_height">26dp</dimen>
+    <dimen name="main_page_daily_weekly_button_marginTop">9dp</dimen>
+    <dimen name="main_page_weekly_button_marginLeft">13dp</dimen>
+    <dimen name="main_page_weekly_button_marginRight">9dp</dimen>
+    <dimen name="main_page_daily_weekly_button_textSize">14dp</dimen>
+    
+    <dimen name="main_page_weelky_pagertabstrip_curr_up_textSize">21sp</dimen>
+	<dimen name="main_page_weelky_pagertabstrip_curr_down_textSize">19sp</dimen>
+	<dimen name="main_page_weelky_pagertabstrip_line_Height">1dp</dimen>
+	<dimen name="main_page_weelky_pagertabstrip_up_textSize">19sp</dimen>
+	<dimen name="main_page_weelky_pagertabstrip_down_textSize">17sp</dimen>
+
+    <dimen name="weekly_activity_step_chart_length">155dp</dimen>
+    <dimen name="weekly_activity_step_chart_height">22dp</dimen>
+    <dimen name="weekly_activity_timeline_offset">9dp</dimen>
+    <dimen name="weekly_activity_text_size">15dp</dimen>
+    <dimen name="weekly_activity_step_text_size">18dp</dimen>
+   	<dimen name="weekly_activity_timeline_length">40dp</dimen>
+   	<dimen name="weekly_activity_timeline_left_margin">40dp</dimen>
+   	<dimen name="weekly_activity_timeline_top_margin">20dp</dimen>
+   	<dimen name="weekly_activity_crown_margin_left">11dp</dimen>
+   	<dimen name="weekly_activity_view_width">300dp</dimen>
+   	
+   	<dimen name="weekly_page_margin_left">10dp</dimen>
+    <dimen name="weekly_page_margin_right">10dp</dimen>
+   	<dimen name="weekly_page_font_size">19sp</dimen>
+   	<dimen name="weekly_page_font_size_unit_large">23sp</dimen>
+   	<dimen name="weekly_page_font_size_unit_small">18sp</dimen>
+   	<dimen name="weekly_page_font_size_unit_very_small">16sp</dimen>
+
+    <!-- Tips -->
+    <dimen name="tips_daily_button_width">95dp</dimen>
+    <dimen name="tips_daily_button_height">36dp</dimen>
+    <dimen name="tips_daily_button_marginTop">58dp</dimen>
+    <dimen name="tips_daily_button_marginLeft">210dp</dimen>
+    <dimen name="tips_daily_button_textsize">14dp</dimen>
+    <dimen name="tips_daily_title_textsize">16dp</dimen>
+    <dimen name="tips_daily_content_textsize">13dp</dimen>
+    <dimen name="tips_daily_p1_text_width">130dp</dimen>
+    <dimen name="tips_daily_p1_text_marginLeft">78dp</dimen>
+    <dimen name="tips_daily_p1_text_marginTop">-5dp</dimen>
+    <dimen name="tips_daily_p1_content_marginTop">5dp</dimen>
+    <dimen name="tips_daily_p2_lefttext_width">130dp</dimen>
+    <dimen name="tips_daily_p2_lefttext_marginLeft">-80dp</dimen>
+    <dimen name="tips_daily_p2_lefttext_marginLeft_2">-20dp</dimen><!-- add by emily-->
+    <dimen name="tips_daily_p2_lefttext_marginTop">85dp</dimen>
+    <dimen name="tips_daily_p2_righttext_width">120dp</dimen>
+    <dimen name="tips_daily_p2_righttext_marginLeft">98dp</dimen>
+    <dimen name="tips_daily_p2_righttext_marginTop">100dp</dimen>
+    <dimen name="tips_daily_p2_content_marginTop">5dp</dimen>
+    <dimen name="tips_daily_p3_text_width">170dp</dimen>
+    <dimen name="tips_daily_p3_text_marginLeft">66dp</dimen>
+    <!-- <dimen name="tips_daily_p3_text_marginTop">80dp</dimen> -->
+    <dimen name="tips_daily_p3_text_marginBottom">160dp</dimen>
+    <dimen name="tips_daily_p3_text_marginBottom_2">150dp</dimen> <!-- add by emily-->
+    <dimen name="tips_daily_p3_content_marginTop">2dp</dimen>
+
+   	<!-- Tutorial -->
+   	<dimen name="tutorial_margin_left_right">35dp</dimen>
+	<dimen name="tutorial_paired_image_margin_top">32dp</dimen>
+	<dimen name="tutorial_paired_title_font_size">25sp</dimen>
+	<dimen name="tutorial_paired_desc_font_size">17sp</dimen>
+	<dimen name="tutorial_terms_title_font_size">18sp</dimen>
+	<dimen name="tutorial_terms_desc_font_size">18sp</dimen>
+	
+	<!-- Setup Profile -->
+	<dimen name="setup_profile_edittext_font_size">18dp</dimen>
+	<dimen name="setup_profile_text_font_size">20dp</dimen>
+	<dimen name="setup_profile_height_weight_margin_right">110dp</dimen>
+	<dimen name="setup_profile_head_margin_top">12dp</dimen>
+	<dimen name="setup_profile_item_margin_top">12dp</dimen>
+	
+	<!-- Settings Activity Goal -->
+	<dimen name="setting_step_goal_unit_text_size">24sp</dimen>
+	<dimen name="setting_step_goal_activity_level_text_size">18sp</dimen>
+	<dimen name="setting_step_goal_seekbar_margin_left_right">20dp</dimen>
+    <dimen name="setting_step_goal_explain_unit_textsize">20dp</dimen>
+    <dimen name="setting_step_goal_explain_intensity_textsize">18dp</dimen>
+    <dimen name="setting_step_goal_unit_textsize">13dp</dimen>
+	
+	<!-- Level description -->
+	<dimen name="level_desc_margin_top">20dp</dimen>
+	<dimen name="level_desc_margin_left">32dp</dimen>
+	<dimen name="level_desc_margin_right">12dp</dimen>
+	<dimen name="level_desc_message_margin_left">31dp</dimen>
+	<dimen name="level_desc_message_margin_right">16dp</dimen>
+	<dimen name="level_desc_div_margin_top">25dp</dimen>
+	<dimen name="level_desc_div_margin_bottom">20dp</dimen>
+	<dimen name="level_desc_level_margin_top">25dp</dimen>
+	<dimen name="level_desc_title_font_size">18sp</dimen>
+	<dimen name="level_desc_font_size">15sp</dimen>
+	
+    <!-- Week bar -->
+    <dimen name="weektitleview_height">45dp</dimen>
+    <dimen name="weektitle_container_marginTop">18dp</dimen>
+    <dimen name="weektitle_textsize">14dp</dimen>
+
+    <dimen name="weekpagertitle_paddingTop">16dp</dimen>
+    <dimen name="weekpagertitle_paddingBottom">0dp</dimen>
+    <dimen name="weekpagertitle_textsize">14dp</dimen>
+
+    <!-- Daily animation -->
+    <dimen name="l_top_offset">0dp</dimen>
+    <dimen name="r_top_offset">0dp</dimen>
+    <dimen name="calendar_top_offset">0dp</dimen>
+    <dimen name="l_left_offset">0dp</dimen>
+    <dimen name="r_right_offset">0dp</dimen>
+
+    <dimen name="dailyanim_layout_width">320dp</dimen>
+    <dimen name="dailyanim_bg_marginTop">176dp</dimen>
+
+    <dimen name="dailyanim_L5_leave_marginLeft">166dp</dimen>
+    <dimen name="dailyanim_L5_leave_marginTop">212dp</dimen>
+    <dimen name="dailyanim_greenLeaves04_width">8dp</dimen>
+    <dimen name="dailyanim_greenLeaves04_height">18dp</dimen>
+    <dimen name="dailyanim_greenLeaves5_width">8dp</dimen>
+    <dimen name="dailyanim_greenLeaves5_height">18dp</dimen>
+    <dimen name="dailyanim_L5_circle_marginLeft">167dp</dimen>
+    <dimen name="dailyanim_L5_circle_marginTop">228dp</dimen>
+    <dimen name="dailyanim_L5_slave_circle_width">10dp</dimen>
+    <dimen name="dailyanim_L5_slave_circle_height">10dp</dimen>
+    <dimen name="dailyanim_L5_master_circle_width">10dp</dimen>
+    <dimen name="dailyanim_L5_master_circle_height">10dp</dimen>
+
+    <dimen name="dailyanim_L4_leave_marginLeft">154dp</dimen>
+    <dimen name="dailyanim_L4_leave_marginTop">200dp</dimen>
+    <dimen name="dailyanim_greenLeaves03_width">13dp</dimen>
+    <dimen name="dailyanim_greenLeaves03_height">29dp</dimen>
+    <dimen name="dailyanim_greenLeaves4_width">13dp</dimen>
+    <dimen name="dailyanim_greenLeaves4_height">29dp</dimen>
+    <dimen name="dailyanim_L4_circle_marginLeft">151dp</dimen>
+    <dimen name="dailyanim_L4_circle_marginTop">228dp</dimen>
+    <dimen name="dailyanim_L4_slave_circle_width">20dp</dimen>
+    <dimen name="dailyanim_L4_slave_circle_height">20dp</dimen>
+    <dimen name="dailyanim_L4_master_circle_width">20dp</dimen>
+    <dimen name="dailyanim_L4_master_circle_height">20dp</dimen>
+
+    <dimen name="dailyanim_L3_leave_marginLeft">131dp</dimen>
+    <dimen name="dailyanim_L3_leave_marginTop">184dp</dimen>
+    <dimen name="dailyanim_greenLeaves02_width">21dp</dimen>
+    <dimen name="dailyanim_greenLeaves02_height">45dp</dimen>
+    <dimen name="dailyanim_greenLeaves3_width">21dp</dimen>
+    <dimen name="dailyanim_greenLeaves3_height">45dp</dimen>
+    <dimen name="dailyanim_L3_circle_marginLeft">126dp</dimen>
+    <dimen name="dailyanim_L3_circle_marginTop">228dp</dimen>
+    <dimen name="dailyanim_L3_slave_circle_width">31dp</dimen>
+    <dimen name="dailyanim_L3_slave_circle_height">31dp</dimen>
+    <dimen name="dailyanim_L3_master_circle_width">31dp</dimen>
+    <dimen name="dailyanim_L3_master_circle_height">31dp</dimen>
+
+    <dimen name="dailyanim_L2_leave_marginLeft">93dp</dimen>
+    <dimen name="dailyanim_L2_leave_marginTop">145dp</dimen>
+    <dimen name="dailyanim_greenLeaves01_width">39dp</dimen>
+    <dimen name="dailyanim_greenLeaves01_height">83dp</dimen>
+    <dimen name="dailyanim_greenLeaves2_width">39dp</dimen>
+    <dimen name="dailyanim_greenLeaves2_height">83dp</dimen>
+    <dimen name="dailyanim_L2_circle_marginLeft">85dp</dimen>
+    <dimen name="dailyanim_L2_circle_marginTop">228dp</dimen>
+    <dimen name="dailyanim_L2_slave_circle_width">52dp</dimen>
+    <dimen name="dailyanim_L2_slave_circle_height">52dp</dimen>
+    <dimen name="dailyanim_L2_master_circle_width">52dp</dimen>
+    <dimen name="dailyanim_L2_master_circle_height">52dp</dimen>
+    <dimen name="dailyanim_l2_txt_marginTop">-4dp</dimen>
+    <dimen name="dailyanim_l2_txt_textsize">20dp</dimen>
+
+    <dimen name="dailyanim_L1_leave_marginLeft">13dp</dimen>
+    <dimen name="dailyanim_L1_leave_marginTop">13dp</dimen>
+    <dimen name="dailyanim_greenLeaves05_width">100dp</dimen>
+    <dimen name="dailyanim_greenLeaves05_height">217dp</dimen>
+    <dimen name="dailyanim_greenLeaves1_width">100dp</dimen>
+    <dimen name="dailyanim_greenLeaves1_height">217dp</dimen>
+    <dimen name="dailyanim_L1_circle_marginLeft">13dp</dimen>
+    <dimen name="dailyanim_L1_circle_marginTop">228dp</dimen>
+    <dimen name="dailyanim_L1_slave_circle_width">94dp</dimen>
+    <dimen name="dailyanim_L1_slave_circle_height">94dp</dimen>
+    <dimen name="dailyanim_L1_master_circle_width">94dp</dimen>
+    <dimen name="dailyanim_L1_master_circle_height">94dp</dimen>
+    <dimen name="dailyanim_L1_master_circle_width_large">104dp</dimen>
+    <dimen name="dailyanim_L1_master_circle_height_large">104dp</dimen>
+    <dimen name="dailyanim_l1_txt_marginTop">-7dp</dimen>
+    <dimen name="dailyanim_l1_txt_textsize">36dp</dimen>
+    <dimen name="dailyanim_completion_marginTop">55dp</dimen>
+    <dimen name="dailyanim_completion_marginTop_tip">57dp</dimen>
+    <dimen name="dailyanim_completion_textsize">12dp</dimen>
+
+    <dimen name="dailyanim_l_large_width">180dp</dimen>
+    <dimen name="dailyanim_l_large_height">180dp</dimen>
+    <dimen name="dailyanim_l_large_marginLeft">-135dp</dimen>
+    <dimen name="dailyanim_l_large_marginTop">228dp</dimen>
+
+    <dimen name="dailyanim_R5_leave_marginRight">121dp</dimen>
+    <dimen name="dailyanim_R5_leave_marginTop">215dp</dimen>
+    <dimen name="dailyanim_orangeleaves04_width">8dp</dimen>
+    <dimen name="dailyanim_orangeleaves04_height">14dp</dimen>
+    <dimen name="dailyanim_orangeleaves5_width">8dp</dimen>
+    <dimen name="dailyanim_orangeleaves5_height">14dp</dimen>
+    <dimen name="dailyanim_R5_circle_marginRight">123dp</dimen>
+    <dimen name="dailyanim_R5_circle_marginTop">228dp</dimen>
+    <dimen name="dailyanim_R5_slave_cirlce_width">9dp</dimen>
+    <dimen name="dailyanim_R5_slave_cirlce_height">9dp</dimen>
+    <dimen name="dailyanim_R5_master_cirlce_width">9dp</dimen>
+    <dimen name="dailyanim_R5_master_cirlce_height">9dp</dimen>
+
+    <dimen name="dailyanim_R4_leave_marginRight">112dp</dimen>
+    <dimen name="dailyanim_R4_leave_marginTop">208dp</dimen>
+    <dimen name="dailyanim_orangeleaves03_width">12dp</dimen>
+    <dimen name="dailyanim_orangeleaves03_height">21dp</dimen>
+    <dimen name="dailyanim_orangeleaves4_width">12dp</dimen>
+    <dimen name="dailyanim_orangeleaves4_height">21dp</dimen>
+    <dimen name="dailyanim_R4_circle_marginRight">112dp</dimen>
+    <dimen name="dailyanim_R4_circle_marginTop">228dp</dimen>
+    <dimen name="dailyanim_R4_slave_cirlce_width">15dp</dimen>
+    <dimen name="dailyanim_R4_slave_cirlce_height">15dp</dimen>
+    <dimen name="dailyanim_R4_master_cirlce_width">15dp</dimen>
+    <dimen name="dailyanim_R4_master_cirlce_height">15dp</dimen>
+
+    <dimen name="dailyanim_R3_leave_marginRight">99dp</dimen>
+    <dimen name="dailyanim_R3_leave_marginTop">196dp</dimen>
+    <dimen name="dailyanim_orangeleaves02_width">19dp</dimen>
+    <dimen name="dailyanim_orangeleaves02_height">33dp</dimen>
+    <dimen name="dailyanim_orangeleaves3_width">19dp</dimen>
+    <dimen name="dailyanim_orangeleaves3_height">33dp</dimen>
+    <dimen name="dailyanim_R3_circle_marginRight">94dp</dimen>
+    <dimen name="dailyanim_R3_circle_marginTop">228dp</dimen>
+    <dimen name="dailyanim_R3_slave_cirlce_width">28dp</dimen>
+    <dimen name="dailyanim_R3_slave_cirlce_height">28dp</dimen>
+    <dimen name="dailyanim_R3_master_cirlce_width">28dp</dimen>
+    <dimen name="dailyanim_R3_master_cirlce_height">28dp</dimen>
+
+    <dimen name="dailyanim_R2_leave_marginRight">68dp</dimen>
+    <dimen name="dailyanim_R2_leave_marginTop">160dp</dimen>
+    <dimen name="dailyanim_orangeleaves01_width">40dp</dimen>
+    <dimen name="dailyanim_orangeleaves01_height">69dp</dimen>
+    <dimen name="dailyanim_orangeleaves2_width">40dp</dimen>
+    <dimen name="dailyanim_orangeleaves2_height">69dp</dimen>
+    <dimen name="dailyanim_R2_circle_marginRight">58dp</dimen>
+    <dimen name="dailyanim_R2_circle_marginTop">228dp</dimen>
+    <dimen name="dailyanim_R2_slave_cirlce_width">52dp</dimen>
+    <dimen name="dailyanim_R2_slave_cirlce_height">52dp</dimen>
+    <dimen name="dailyanim_R2_master_cirlce_width">52dp</dimen>
+    <dimen name="dailyanim_R2_master_cirlce_height">52dp</dimen>
+    <dimen name="dailyanim_r2_txt_marginTop">-4dp</dimen>
+    <dimen name="dailyanim_r2_txt_textsize">20dp</dimen>
+
+    <dimen name="dailyanim_R1_leave_marginRight">4dp</dimen>
+    <dimen name="dailyanim_R1_leave_marginTop">13dp</dimen>
+    <dimen name="dailyanim_orangeleaves05_width">123dp</dimen>
+    <dimen name="dailyanim_orangeleaves05_height">217dp</dimen>
+    <dimen name="dailyanim_orangeleaves1_width">123dp</dimen>
+    <dimen name="dailyanim_orangeleaves1_height">217dp</dimen>
+    <dimen name="dailyanim_R1_circle_marginRight">9dp</dimen>
+    <dimen name="dailyanim_R1_circle_marginTop">228dp</dimen>
+    <dimen name="dailyanim_R1_slave_cirlce_width">94dp</dimen>
+    <dimen name="dailyanim_R1_slave_cirlce_height">94dp</dimen>
+    <dimen name="dailyanim_R1_master_cirlce_width">94dp</dimen>
+    <dimen name="dailyanim_R1_master_cirlce_height">94dp</dimen>
+    <dimen name="dailyanim_R1_master_cirlce_width_large">104dp</dimen>
+    <dimen name="dailyanim_R1_master_cirlce_height_large">104dp</dimen>
+    <dimen name="dailyanim_r1_txt_marginTop">-7dp</dimen>
+    <dimen name="dailyanim_r1_txt_textsize">36dp</dimen>
+    <dimen name="dailyanim_average_marginTop">55dp</dimen>
+    <dimen name="dailyanim_average_marginTop_tip">57dp</dimen>
+    <dimen name="dailyanim_average_textsize">12dp</dimen>
+
+    <dimen name="dailyanim_r_large_width">180dp</dimen>
+    <dimen name="dailyanim_r_large_height">180dp</dimen>
+    <dimen name="dailyanim_r_large_marginRight">-135dp</dimen>
+    <dimen name="dailyanim_r_large_marginTop">228dp</dimen>
+
+    <dimen name="dailyanim_calendar_marginTop">15dp</dimen>
+    <dimen name="dailyanim_c_txt_width">54dp</dimen>
+    <dimen name="dailyanim_c_txt_small_textsize">9dp</dimen>
+    <dimen name="dailyanim_c_txt_large_textsize">14dp</dimen>
+    <dimen name="dailyanim_c_txt_marginLeft">154dp</dimen>
+    <dimen name="dailyanim_c0_txt_marginTop">207dp</dimen>
+    <dimen name="dailyanim_c1_txt_marginTop">230dp</dimen>
+    <dimen name="dailyanim_c2_txt_marginTop">253dp</dimen>
+    <dimen name="dailyanim_c3_txt_marginTop">276dp</dimen>
+    <dimen name="dailyanim_c4_txt_marginTop">299dp</dimen>
+    <dimen name="dailyanim_c5_txt_marginTop">322dp</dimen>
+    <dimen name="dailyanim_c_txt_today_width">108dp</dimen>
+    <dimen name="dailyanim_c_txt_today_marginLeft">127dp</dimen>
+
+    <dimen name="dailyanim_white_mask_width">52dp</dimen>
+    <dimen name="dailyanim_white_mask_height">225dp</dimen>
+    <dimen name="dailyanim_white_mask_marginLeft">154dp</dimen>
+    <dimen name="dailyanim_white_mask_marginTop">193dp</dimen>
+
+    <!-- <dimen name="dailyanim_Energy_txt_marginLeft">245dp</dimen> -->
+    <dimen name="dailyanim_Energy_txt_marginRight">12dp</dimen>
+    <dimen name="dailyanim_Energy_txt_marginTop">337dp</dimen>
+    <dimen name="dailyanim_Energy_txt_textsize">14dp</dimen>
+    <dimen name="dailyanim_Energy_txt_width">90dp</dimen>
+    <dimen name="dailyanim_Activity_txt_marginLeft">15dp</dimen>
+    <dimen name="dailyanim_Activity_txt_marginTop">337dp</dimen>
+    <dimen name="dailyanim_Activity_txt_textsize">14dp</dimen>
+    <dimen name="dailyanim_Activity_txt_width">90dp</dimen>
+    <dimen name="dailyanim_month_txt_marginLeft">149dp</dimen>
+    <dimen name="dailyanim_month_txt_marginTop">337dp</dimen>
+    <dimen name="dailyanim_month_txt_textsize">14dp</dimen>
+    <dimen name="dailyanim_week_txt_marginLeft">198dp</dimen>
+    <dimen name="dailyanim_week_txt_marginTop">337dp</dimen>
+    <dimen name="dailyanim_week_txt_textsize">14dp</dimen>
+    <dimen name="dailyanim_divide_txt_marginLeft">166dp</dimen>
+    <dimen name="dailyanim_divide_txt_marginTop">337dp</dimen>
+    <dimen name="dailyanim_divide_txt_textsize">14dp</dimen>
+
+    <dimen name="dailyanim_today_btn_marginLeft">105dp</dimen>
+    <dimen name="dailyanim_today_btn_marginTop">333dp</dimen>
+    <dimen name="dailyanim_activity_btn_marginLeft">13dp</dimen>
+    <dimen name="dailyanim_activity_btn_marginTop">228dp</dimen>
+    <dimen name="dailyanim_energy_btn_marginRight">9dp</dimen>
+    <dimen name="dailyanim_energy_btn_marginTop">228dp</dimen>
+
+    <dimen name="chart_date_text_font_size">16dp</dimen>
+    <dimen name="chart_date_text_font_size_large">17dp</dimen>
+    <dimen name="chart_exercise_date_text_font_size">14dp</dimen>
+    <dimen name="chart_margin_between_bottom_text">5dp</dimen>
+    <dimen name="chart_margin_between_bottom_text_large">12dp</dimen>
+    <dimen name="chart_calorie_no_data_img_margin_top">61dp</dimen>
+    <dimen name="chart_calorie_no_data_txt_margin_top">82dp</dimen>
+    <dimen name="chart_calorie_no_data_txt_font_size">16dp</dimen>
+    <dimen name="chart_calorie_circle_radius">4dp</dimen>
+    <dimen name="chart_calorie_circle_radius_larger">6dp</dimen>
+    <dimen name="chart_calorie_circle_width">1dp</dimen>
+    <dimen name="chart_calorie_curve_width">4dp</dimen>
+    <bool name="chart_calorie_is_full_background">false</bool>
+    <dimen name="chart_calorie_background_offsetX">0.8dp</dimen>
+    <dimen name="chart_calorie_background_height">186dp</dimen>
+    <dimen name="chart_calorie_background_padding_top">32dp</dimen>
+    <dimen name="chart_calorie_background_padding_bottom">45dp</dimen>
+    <dimen name="chart_calorie_crown_margin_bottom">9dp</dimen>
+    <dimen name="chart_calorie_digital_text_font_size">35dp</dimen>
+    <dimen name="chart_calorie_digital_text_margin_left">8dp</dimen>
+    <dimen name="chart_calorie_digital_text_margin_bottom">8dp</dimen>
+    <dimen name="chart_calorie_unit_text_font_size">18dp</dimen>
+    <dimen name="chart_calorie_unit_text_margin_left">12dp</dimen>
+    <dimen name="chart_calorie_date_selector_bottom_height">45dp</dimen>
+    <dimen name="chart_energy_AvgLineExtraWidth">5dp</dimen>
+    <dimen name="chart_energy_Avg_font_size">16dp</dimen>
+    <!--smile avg string padding  -->
+    <dimen name="chart_energy_AvgStringPading">10dp</dimen>
+
+    <!-- Inspire Asus -->
+    <dimen name="dw_fogot_phone_warning_textview_content_marginleft">25dp</dimen>
+    <dimen name="wm_recommended_apps_maintextview_marginrbotton">15dp</dimen>
+    <dimen name="wm_recommended_apps_layout_marginleft">13dp</dimen>
+    <dimen name="wm_recommended_apps_maintextview_fontsize">25dp</dimen>
+    <dimen name="dw_fogot_phone_warning_textview_content_textsize">17dp</dimen>
+    <dimen name="dw_fogot_phone_warning_textview_content_margintop">12dp</dimen>
+    <!--
+    <dimen name="common_button_text_size">17sp</dimen>
+    <dimen name="wu_setup_btn_margin_bottom">29dp</dimen>
+    <dimen name="common_button_height">48dp</dimen>
+    <dimen name="wu_setup_btn_min_width">219dp</dimen>
+    <dimen name="common_button_left">60dp</dimen>
+    <dimen name="common_button_right">60dp</dimen>-->
+
+    <!--emily,add -->
+    <dimen name="spinner_marginLeft">8dp</dimen>
+    <dimen name="device_name_textSize">13dp</dimen>
+    <dimen name="device_name_height">20dp</dimen>
+    <dimen name="actionbar_title_textSize">16dp</dimen>
+    <dimen name="actionbar_title_marginleft">8dp</dimen>
+    <dimen name="actionbar_title_marginBottom">-2dp</dimen>
+
+    <dimen name="spinner_item_paddingright">7dp</dimen><!-- device name(actionbar)-->
+    <dimen name="profile_spinner_item_padding">4dp</dimen>
+    <dimen name="tips_daily_p1_text_marginLeft_sparrow">0dp</dimen>
+    <dimen name="remind_me_move_pref_paddingLeft">0dp</dimen>
+    <dimen name="remind_me_move_pref_paddingRight">0dp</dimen>
+    <dimen name="reset_profile_btn_textsize">18dp</dimen>
+    <dimen name="reset_btn_padding">6dp</dimen>
+    <dimen name="tips_daily_p2_lefttext_tips_img_marginLeft">6dp</dimen>
+    <dimen name="tips_daily_p2_lefttext_tips_img_marginTop">180dp</dimen>
+    <dimen name="tips_line_2_height">180dp</dimen>
+    <dimen name="tips_line_3_width">20dp</dimen>
+    <dimen name="tips_page3_img_margin_left">80dp</dimen>
+    <dimen name="tips_daily_p3_textview_margin_left">6dp</dimen>
+    <dimen name="tips_page3_margin_bottom">20dp</dimen>
+    <dimen name="tips_page3_img_margin_top">0dp</dimen>
+    <!--emily,end -->
+    <dimen name="actionbar_title_max_width">180dp</dimen>
+    <dimen name="sleep_barchart_title_margin_top">10dp</dimen>
+    <dimen name="sleep_barchart_title_margin_bottom">8dp</dimen>
+    <dimen name="sleep_barchart_deep_light_title_text_size">16dp</dimen>
+    <dimen name="sleep_barchart_height">192dp</dimen>
+    <dimen name="sleep_barchart_week_text_space">10dp</dimen>
+    <dimen name="sleep_barchar_indicator_text_size">16dp</dimen>
+    <dimen name="sleep_barchart_bottom_offset">14dp</dimen>
+    <dimen name="sleep_barchart_bottom_circle_radius">2dp</dimen>
+    <dimen name="sleep_chart_margin_between_bottom_text">5dp</dimen>
+    <dimen name="sleep_chart_margin_between_bottom_text_large">12dp</dimen>
+
+    <dimen name="activity_detail_tv_margin_top">7dp</dimen>
+    <dimen name="activity_detail_tv_margin_left">20dp</dimen>
+    <dimen name="workout_detail_title_margin_left">8dp</dimen>
+    <dimen name="workout_detail_title_margin_right">8dp</dimen>
+    <dimen name="activity_detail_tv_title_size">20dp</dimen>
+    <dimen name="activity_detail_margin_left">0dp</dimen>
+    <dimen name="workout_detail_title_textsize">15dp</dimen>
+    <dimen name="workout_detail_type_tv_width">54dp</dimen>
+    <dimen name="daily_detail_item_img_width">40dp</dimen>
+    <dimen name="daily_detail_item_time_width">60dp</dimen>
+    <dimen name="daily_detail_item_calo_width">60dp</dimen>
+    <dimen name="daily_detail_item_accu_width">60dp</dimen>
+    <dimen name="sleepbarchart_height">200dp</dimen>
+
+ <!--smile for sleep detail -->
+ <dimen name="sleep_title_size">25dp</dimen>
+ <dimen name="sleep_content_size">30dp</dimen>
+ <dimen name="sleep_leaf_width">300dp</dimen>
+ <dimen name="sleep_leaf_height">402dp</dimen>
+ <dimen name="sleep_detail_margintop">7dp</dimen>
+
+ <dimen name="sleep_state_icon_size">25dp</dimen>
+
+ <dimen name="workout_completed_img_margin_right">2dp</dimen>
+ <dimen name="activity_detail_pad_height">250dp</dimen>
+ <dimen name="char_bar_indicator_textview_margin_right">2dp</dimen>
+
+ <dimen name="sleep_big_title_total">25dp</dimen>
+ <dimen name="sleep_big_content">22dp</dimen>
+ <dimen name="sleep_big_title">20dp</dimen>
+ <dimen name="sleep_small_title">14dp</dimen>
+ <!-- permission -->
+ <dimen name="permissoin_title_size">30dp</dimen>
+ <dimen name="permission_subtitle_size">25dp</dimen>
+ <dimen name="permission_turnon_size">30dp</dimen>
+ <dimen name="permission_note_size">18dp</dimen>
+ <dimen name="subtitle_padding_left">20dp</dimen>
+ <dimen name="note_margin_bottom">20dp</dimen>
+
+ <dimen name="sleep_into_title_margin_left">15dp</dimen>
+ <dimen name="sleep_into_title_margin_top">10dp</dimen>
+
+ <dimen name="sleep_into_content_margin_left">15dp</dimen>
+ <dimen name="sleep_into_content_margin_top">5dp</dimen>
+ <dimen name="sleep_into_content_margin_bottom">10dp</dimen>
+
+ <dimen name="sleep_info_image_width">20dp</dimen>
+ <dimen name="sleep_info_image_marginright">5dp</dimen>
+
+ <dimen name="sleep_info_content_margin_left">20dp</dimen>
+</resources>

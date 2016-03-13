@@ -1,0 +1,260 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- ASUS Common UI -->
+    <style name="asus_radiobtn_preference">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?android:attr/listPreferredItemHeightSmall</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">?android:attr/textColorPrimaryDisableOnly</item>
+        <item name="android:gravity">center_vertical|start</item>
+        <item name="android:button">@null</item>
+        <item name="android:drawableRight">@drawable/asus_radiobutton</item>
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+    </style>
+    
+    <style name="asus_switch">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:track">@drawable/asus_switch_bg_light</item>
+        <item name="android:thumb">@drawable/asus_switch_thumb</item>>
+        <item name="android:focusable">false</item>
+    </style>
+    <style name="asus_edittext" parent="@android:style/Widget.EditText">
+        <item name="android:background">@drawable/asus_edittext</item>
+    </style>
+    <style name="asus_edittext_light" parent="@android:style/Widget.EditText">
+        <item name="android:background">@drawable/asus_edittext_light</item>
+    </style>
+    <style name="asus_edittext_wellness" parent="@android:style/Widget.EditText">
+        <item name="android:background">@drawable/asus_edittext_wellness</item>
+    </style>
+    
+    
+    <!-- Settings Activity Goal -->
+    <style name="setting_step_goal_number">
+        <item name="android:fontFamily">sans-serif-thin</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">75sp</item>
+        <item name="android:textColor">@color/setting_step_goal_number</item>
+    </style>
+    <style name="setting_step_goal_number_edittext" parent="@style/asus_edittext">
+        <item name="android:fontFamily">sans-serif-thin</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">75sp</item>
+        <item name="android:textColor">@color/setting_step_goal_number</item>
+    </style>
+    <style name="setting_step_goal_unit">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">@dimen/setting_step_goal_unit_text_size</item>
+        <item name="android:textColor">@color/setting_step_goal_unit</item>
+    </style>
+    <style name="setting_step_goal_activity_level">
+        <item name="android:textSize">@dimen/setting_step_goal_activity_level_text_size</item>
+        <item name="android:textColor">@color/setting_step_goal_activity_level</item>
+    </style>
+    <style name="setting_step_goal_normal">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/setting_step_goal_unit_light</item>
+    </style>
+    <style name="setting_step_goal_number_unit">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/setting_step_goal_unit_light</item>
+        <item name="android:gravity">center</item>
+    </style>
+    
+    
+    
+    <style name="boldText">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="normalText">
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <color name="bgColor">#FFFFFFFF</color>
+    <color name="fontColor1">#FFFFFFFF</color>
+
+    <!-- Setup your profile -->
+    <style name="profile_spinner">
+        <item name="android:gravity">right|center_vertical</item>
+        <item name="android:background">@drawable/asus_spinner_background</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="profile_spinner_edit" parent="profile_spinner">
+        <item name="android:background">@drawable/asus_spinner_background_light</item>
+    </style>
+
+    <style name="profile_relative_layout">
+        <item name="android:layout_marginTop">@dimen/setup_profile_item_margin_top</item>
+    </style>
+
+    <style name="profile_linear_layout" parent="profile_relative_layout">
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="actionbar_title_text">
+        <item name="android:textSize">@dimen/actionbar_title_textSize</item>
+        <item name="android:textColor">@color/actionbar_title_color</item>
+    </style>
+
+    <style name="actionbar_device_name_style">
+        <item name="android:textSize">@dimen/device_name_textSize</item>
+        <item name="android:textColor">@color/actionbar_title_color</item>
+    </style>
+
+    <style name="device_name_spinner" parent="profile_spinner">
+        <item name="android:background">@drawable/asus_device_name_spinner_background</item>
+    </style>
+
+    <style name="sleep_text_detail">
+        <item name="android:textSize">16dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="sleep_barchar_titles">
+        <item name="android:textSize">@dimen/sleep_barchart_deep_light_title_text_size</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="activity_detail_tv_title_style">
+        <item name="android:textSize">@dimen/activity_detail_tv_title_size</item>
+        <item name="android:textColor">@color/workout_detail_title_color</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:layout_marginLeft">@dimen/activity_detail_tv_margin_left</item>
+        <item name="android:layout_marginTop">@dimen/activity_detail_tv_margin_top</item>
+    </style>
+    <style name="activity_detail_tv_data_style" parent="activity_detail_tv_title_style">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="workout_detail_title_style">
+        <item name="android:textSize">@dimen/workout_detail_title_textsize</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="TextAppearance">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!-- Status Bar Styles -->
+    <style name="TextAppearance.StatusBar">
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+
+    <!-- Notification content styles -->
+    <style name="TextAppearance.StatusBar.EventContent">
+        <item name="android:textSize">14dp</item>
+        <!-- <item name="android:textColor">#999999</item> -->
+        <item name="android:textColor">#737373</item>
+    </style>
+
+    <style name="TextAppearance.StatusBar.EventContent.Title">
+        <item name="android:textColor">#202020</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="weekly_summary_title">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">@dimen/weekly_activity_text_size</item>
+    </style>
+
+    <style name="dialy_detail_workout_title">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">@dimen/weekly_activity_text_size</item>
+    </style>
+
+    <style name="permission_title_style">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <style name="timestring_big_total" parent="timestring_big">
+        <item name="android:textSize">@dimen/sleep_big_title_total</item>
+    </style>
+
+    <style name="timestring_big">
+        <item name="android:textSize">@dimen/sleep_big_content</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+
+
+    <style name="timestring_big_nobold">
+        <item name="android:textSize">@dimen/sleep_big_title</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="timestring_small">
+        <item name="android:textSize">@dimen/sleep_small_title</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="sleep_info_title_style">
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:layout_marginLeft">@dimen/sleep_into_title_margin_left</item>
+        <item name="android:layout_marginTop">@dimen/sleep_into_title_margin_top</item>
+        <item name="android:layout_marginRight">@dimen/sleep_into_title_margin_left</item>
+        <item name="android:layout_marginBottom">@dimen/sleep_into_title_margin_top</item>
+    </style>
+
+    <style name="sleep_info_content_style">
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:layout_marginLeft">@dimen/sleep_into_content_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/sleep_into_title_margin_left</item>
+        <item name="android:layout_marginBottom">@dimen/sleep_into_content_margin_bottom</item>
+        <item name="android:layout_marginTop">@dimen/sleep_into_content_margin_top</item>
+    </style>
+
+    <style name="sleep_info_source_style">
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:layout_marginLeft">@dimen/sleep_into_content_margin_top</item>
+        <item name="android:layout_marginRight">@dimen/sleep_into_title_margin_left</item>
+        <item name="android:layout_marginBottom">@dimen/sleep_into_content_margin_bottom</item>
+    </style>
+
+    <style name="sleep_info_source_img_style">
+        <item name="android:layout_marginTop">@dimen/sleep_into_content_margin_top</item>
+        <item name="android:layout_marginLeft">@dimen/sleep_into_content_margin_left</item>
+        <item name="android:layout_width">15dp</item>
+        <item name="android:layout_height">15dp</item>
+        <item name="android:src">@drawable/circle</item>
+    </style>
+
+    <style name="sleep_info_line">
+        <item name="android:layout_marginLeft">@dimen/sleep_into_content_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/sleep_into_title_margin_left</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@drawable/asus_wellness_line_line2</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="article_style">
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="article_style_button" parent="article_style">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@android:color/holo_blue_bright</item>
+    </style>
+</resources>

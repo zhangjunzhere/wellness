@@ -1,0 +1,13 @@
+<resources>
+    <color name="pink">#FF00CC</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="green">#60DE2A</color>
+    <color name="blue">#2B60DE</color>
+
+    <color name="sleep_deep_char_color_from">#0d3ca5</color>
+    <color name="sleep_deep_char_color_to">#2b9bda</color>
+    <color name="sleep_light_char_color_from">#0198cb</color>
+    <color name="sleep_light_char_color_to">#24d5e0</color>
+
+    <color name="sleep_wake_color">#c3c3c3</color>
+</resources>

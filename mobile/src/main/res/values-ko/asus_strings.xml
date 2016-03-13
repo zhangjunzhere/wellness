@@ -1,0 +1,116 @@
+﻿<resources>
+	<!-- kim_bai@asus.com 2014.12.26-->
+    <string name="duration">시간</string>
+    <string name="remind_me_session">다음 세션에서 알림</string>
+    <string name="from">시작</string>
+    <string name="to">종료</string>
+	
+	<string name="steps">걸음</string>
+    <string name="tomorrow_goal">내일의 목표</string>
+
+    <!-- Inspire Asus -->
+    <string name="wm_about_inspire_asus">Inspire ASUS</string>
+    <string name="wm_inspire_asus_text1">고객에게 보다 나은 서비스를 제공하고 사용자 경험을 개선하고 지속적으로 문제를 파악하여 성능을 개선하기 위해 ASUS에서는 Inspire ASUS(이하 “프로그램”)을 시작했습니다. 이 프로그램을 사용자의 사용 내역 보고서를 익명으로 수집할 수 있습니다.</string>
+    <string name="wm_inspire_asus_text2">사용 내역 보고서는 어떠한 방식으로든 사용자의 ASUS ZenWatch 장치 ID 또는 개인 정보와 연결되지 않습니다. 사용 내역 보고서에는 대기 상태, 손상 이벤트, 기본 인터페이스, 언어 설정, 현재 소프트웨어 버전, 자주 사용하는 소프트웨어 정보, 소프트웨어 기능 사용 방식 및 위치 등이 포함됩니다.</string>
+    <string name="wm_inspire_asus_text3">ASUS는 최선을 다해 고객의 개인 정보 및 권리를 존중합니다. 사용자는 언제라도 메뉴에서 프로그램의 보고서 기능을 켜고 끌 수 있습니다. ASUS의 개인정보 보호 방식에 대한 자세한 내용은 다음 웹 페이지를 참조하십시오.</string>
+    <string name="wm_inspire_asus_yes_text">예, 나도 참여하겠습니다!</string>
+
+    <!-- Encourage Us -->
+    <string name="encourage_title">격려하기</string>
+    <string name="scroll_up_toast" description="rate now" maxwidth="">위로 스크롤하여 평가하십시오.</string>
+    <string name="toolbar_encourage_us_text">ASUS Wellness를 즐겨 사용하는 경우 Play Store에서 당사를 별 5개로 평가해주세요. 이는 당사가 계속해서 제품을 개선해나가는 데 커다란 격려가 됩니다!\n\n제안 사항이 있으면 의견 &amp; 도움말을 통해 당사로 보내주십시오.</string>
+    <string name="toolbar_encourage_dialog_rate_now" maxwidth="35">지금 평가</string>
+    <string name="toolbar_encourage_us_cancel">취소</string>
+
+    <!-- 2015.12.31 -->
+    <string name="pushup">"팔굽혀 펴기"</string>
+    <string name="situp">"윗몸 일으키기"</string>
+    <string name="detail_sleep_deepsleep">"숙면"</string>
+    <string name="detail_sleep_lightsleep">"얕은 잠"</string>
+    <string name="detail_sleep_sleeplatency">"수면 잠복기"</string>
+    <string name="detail_sleep_wokeup">"뒤척임"</string>
+    <string name="detail_sleep_light">"얕은 잠"</string>
+    <string name="detail_sleep_deep">"숙면"</string>
+    <string name="detail_sleep_shorthour">"시간"</string>
+    <string name="detail_sleep_shortmin">"분"</string>
+    <string name="text_sleep" maxwidth="">"수면"</string>
+    <string name="weekly_info_sleep_title">"총 수면 분석"</string>
+    <string name="weekly_info_workout_title">"총 팔굽혀 펴기/윗몸 일으키기 수"</string>
+    <string name="sleep_notification_title" maxwidth="">"수면 추적 알림"</string>
+    <string name="detail_text_completion" maxwidth="">"달성함"</string>
+    <string name="text_completion" maxwidth="">"목표를 달성함"</string>
+    <string name="daily_detail_workout_title_accumulation" maxwidth="">"합계"</string>
+    <string name="sleep_quality_score" maxwidth="">"품질 점수"</string>
+    <string name="text_sleep_quality_score">"수면의 질"</string>
+    <string name="daily_detail_workout">"운동"</string>
+    <string name="sleptfor">"수면 시간"</string>
+    <string name="permisson_turn_on">"지금 켜기!"</string>
+    <string name="permisson_body_sensor_title">"활동을 감지할 수 없음"</string>
+    <string name="permisson_body_sensor_subtitle">"바디 센서 권한이 없어 Wellness가 동작을 감지할 수 없음"</string>
+    <string name="permisson_location_title">"위치를 찾을 수 없음"</string>
+    <string name="permisson_location_subtitle">"위치 권한이 없어 Wellness가 위치를 감지할 수 없음"</string>
+    <string name="permisson_storage_title">"사진에 액세스할 수 없음"</string>
+    <string name="permisson_storage_subtitle">"저장 권한이 없어 Wellness가 사진에 액세스할 수 없음"</string>
+    <string name="permisson_notice_bodysensor_location">"참고: 시스템이 사용자의 활동에 관해 어떠한 기능이든 실행하고 있는 동안에는 시스템 설정에서 해당 권한을 끄지 마십시오."</string>
+    <string name="permisson_notice_storage">"참고: 시스템이 사용자의 개인 프로필에 관해 어떠한 기능이든 실행하고 있는 동안에는 시스템 설정에서 해당 권한을 끄지 마십시오."</string>
+    <string name="distance_unit_miles" description="Distance unit: miles" maxwidth="">"마일"</string>
+
+    <!-- 2016.1.11 -->
+    <string name="sleep_dictinary">"수면 사전"</string>
+    <string name="sleepinformation">"수면 정보"</string>
+    <string name="sleeplenght">"수면 시간"</string>
+    <string name="deepsleepandlightsleep">"숙면과 얕은 수면"</string>
+    <string name="awakenings">"뒤척이기(잠에서 깸)"</string>
+    <string name="suggestion">"제안"</string>
+    <string name="sleepquality_info">"수면의 품질을 정량화한 점수(최대 100)입니다. 점수가 높을수록 수면의 질이 그만큼 좋은 것입니다. 수면의 질은 수면 시간, 잠들 때까지 걸리는 시간, 침대에 누워 있는 시간, 숙면(신체 움직임이 덜한 수면), 수면 중 깨어난 횟수에 따라 결정됩니다."</string>
+    <string name="sleepquality_suggestion">"품질 점수 60은 일반적인 수면 패턴의 기준선에 해당합니다. 점수가 60 이상이면 수면의 질이 평균보다 높은 것이고, 역으로 이보다 낮으면 수면의 질도 평균 이하가 됩니다."</string>
+   <string name="sleeplength_info">"ZenWatch는 처음 얕은 잠의 시작과 마지막 얕은 잠의 끝을 감지하여 수면 시간을 개략적으로 계산합니다."</string>
+    <string name="sleeplength_suggestion">"필요한 수면 시간은 연령 그룹마다 다릅니다. 신생아는 하루 16-18시간, 취학 전 아동은 하루 11-12시간, 취학 아동은 하루에 최소 10시간, 십대는 하루 9-10시간, 그리고 성인(노인 포함)은 하루 7-8시간 잠을 자야 합니다."</string>
+    <string name="deepsleepandlightsleep_info">"ZenWatch는 수면을 추적하는 동안 신체 움직임을 측정합니다. 숙면은 얕은 잠과 깨어 있을 때에 비해 상대적으로 신체의 움직임이 덜한 상태로 잠든 것을 의미합니다. 일반적으로 수면 중 신체 움직임이 덜할수록 그만큼 숙면을 취하게 됩니다."</string>
+    <string name="deepsleepandlightsleep_suggestion" formatted="false">"평균적으로, 수면 패턴이 정상적인 사람의 경우 전체 수면 시간 중 숙면과 얕은 잠의 비율은 약 20% 대 60% 정도입니다."</string>
+    <string name="sleeplatency_info">"수면 추적을 시작한 때와 ZenWatch가 잠든 것을 감지한 때 사이의 시간"</string>
+    <string name="sleeplatency_suggestion">"정상적인 수면 패턴의 경우, 평균적으로 15분의 수면 잠복기가 나타납니다."</string>
+    <string name="awakenings_info">"ZenWatch는 수면 중 (신체 움직임이 많아) 깨어나는 횟수를 감지합니다."</string>
+    <string name="awakenings_suggestion">"수면 패턴이 정상적인 사람은 수면 중 평균 3번 깨어납니다."</string>
+    <string name="sleep_tips_title">"양질의 수면을 위한 팁"</string>
+    <string name="stick_to_a_sleep_schedule_title">"수면 일정을 준수하십시오."</string>
+    <string name="stick_to_a_sleep_schedule">"매일 같은 시간에 잠자리에 들고 일어납니다. 습관의 동물로서 사람은 수면 패턴의 변화에 적응하는 게 쉽지 않습니다. 주말에 늦잠을 자는 것으로 주중의 부족한 잠을 완전히 보충할 수 없으며, 이는 오히려 월요일 아침에 일찍 일어나는 걸 힘들게 만듭니다."</string>
+    <string name="exercise_is_great_title">"운동은 좋지만 너무 늦은 시간에 운동하지 마십시오."</string>
+    <string name="exercise_is_great">"거의 매일 최소 30분 동안 운동하되 잠자리에 들기 2-3시간 전 이후에는 운동하지 마십시오."</string>
+    <string name="avoid_cafeine_and_nicotine_title">"카페인이나 니코틴을 삼가십시오."</string>
+    <string name="avoid_cafeine_and_nicotine">"커피, 콜라, 특정한 차, 초콜릿에는 자극적인 카페인이 함유되어 있고, 카페인 효과가 완전히 사라지려면 8시간 정도 걸릴 수 있습니다. 따라서 늦은 오후에 커피 한 잔을 마시면 밤에 잠드는 게 힘들 수 있습니다. 니코틴은 또한 자극제로서, 흡연자가 숙면을 취하기 어렵게 만드는 경우가 많습니다. 이 밖에 흡연자는 니코틴 금단 현상 때문에 아침 일찍 자주 깨어납니다."</string>
+    <string name="avoid_alcoholic_drinks_before_bed_title">"잠자리에 들기 전에 알코올 음료를 삼가십시오."</string>
+    <string name="avoid_alcoholic_drinks_before_bed">"잠자리에 들기 전에 \"밤 술 한 잔\" 또는 알코올 음료를 마시면 긴장을 푸는 데 도움이 될 수 있으나, 과음하면 숙면을 방해하여 얕은 잠을 자게 됩니다. 또한 과음할 경우 밤에 호흡 곤란을 일으킬 수 있습니다. 또한 알코올 효과가 사라지면 밤중에 깨어날 수 있습니다."</string>
+    <string name="avoid_large_meals_title">"밤늦게 과식이나 과음을 삼가십시오."</string>
+    <string name="avoid_large_meals">"가벼운 간식은 괜찮으나, 과식은 수면을 방해하는 소화 불량을 초래할 수 있습니다. 밤에 음료를 너무 많이 마시면 소변을 보기 위해 자주 깨게 될 수 있습니다."</string>
+    <string name="if_possible_title">"가능한 경우, 수면을 지연하거나 방해하는 약 복용을 삼가십시오."</string>
+    <string name="if_possible">"심장, 고혈압/저혈압, 기관지 천식에 대해 흔히 처방되는 일부 약품이나 기침, 감기 또는 알레르기에 대해 처방전 없이 판매되는 약품이나 한약이 수면 패턴을 방해할 수 있습니다. 수면에 문제가 있으면, 복용 중인 약품이 불면증과 관련이 있는지 건강관리 제공자 또는 면허가 있는 약사와 상담하십시오.  이러한 약품을 낮에 또는 이른 저녁에 복용해도 되는지 그들에게 문의하십시오."</string>
+    <string name="dont_take_naps_title">"오후 3시에는 낮잠을 자지 마십시오."</string>
+    <string name="dont_take_naps">"낮잠은 부족한 잠을 보충할 수 있으나, 늦은 오후의 낮잠은 밤에 잠들기 어렵게 만들 수 있습니다."</string>
+    <string name="relax_before_bed_title">"잠자리에 들기 전에 긴장을 완화하십시오."</string>
+    <string name="relax_before_bed">"긴장을 풀 시간이 없을 정도로 하루 일정을 너무 빠듯하게 세우지 마십시오. 잠자리에 들기 전에 반드시 독서나 음악 감상과 같이 긴장을 푸는 활동을 하십시오."</string>
+    <string name="take_a_lot_bath_title">"잠자리에 들기 전에 따뜻한 물로 목욕하십시오."</string>
+    <string name="take_a_lot_bath">"목욕 후의 체온 감소가 졸리게 만드는 데 도움이 되고, 목욕은 긴장을 풀고 느긋해지면서 잠이 잘 들게 하는 데 도움을 줄 수 있습니다."</string>
+    <string name="have_a_good_sleeping_title">"수면에 좋은 환경을 조성하십시오."</string>
+    <string name="have_a_good_sleeping">"밤에 숙면을 취하려면 수면에 좋은 환경을 조성하십시오. 침실에서 소음이나 밝은 조명 등 수면에 방해될 수 있는 것들을 치우십시오.  모바일 장치, TV, 컴퓨터, 기타 전자 기기를 끄십시오. 편안한 침대를 마련하고 편안한 실내 온도를 유지하며, 베개도 밤에 숙면을 취하도록 도와줄 수 있습니다.  불면증이 있는 사람들은 시계를 자주 봅니다. 불면증이 있는 경우, 시계 문자판을 돌려 놓으면 잠들려고 노력하는 동안 시간 때문에 안절부절하지 않아도 됩니다."</string>
+    <string name="have_the_right_sunlight_title">"적절하게 햇빛을 쐬십시오."</string>
+    <string name="have_the_right_sunlight">"일광은 매일 수면 패턴을 조절하는 데 있어 중요한 요소입니다. 하루에 최소 30분 동안 외출하여 햇빛을 쐬십시오. 가능한 경우, 해가 떴을 때 깨거나 아침에 밝을 햇살을 쐬십시오. 수면 전문가들은 잠드는 데 문제가 있는 사람들이 한 시간 동안 아침 햇살을 쐬고 잠자리에 들기 전에는 조명을 끌 것을 권장합니다."</string>
+    <string name="dont_lie_in_bed_title">"잠에서 깬 채로 침대에 누워 있지 마십시오."</string>
+    <string name="dont_lie_in_bed">"침대에 누워 20분 이상 동안 잠들지 못하거나, 불안하거나 초조해지기 시작하면 일어나서 졸음을 느끼기 전까지 무엇이든 긴장을 푸는 활동을 하십시오. 잠들 수 없다는 불안이 잠드는 것을 더 어렵게 만들 수 있습니다."</string>
+    <string name="see_a_health_title">"잠드는 데 계속 어려움을 겪고 있으면 건강 전문가와 상담하십시오."</string>
+    <string name="see_a_health">"계속해서 잠들기 어렵거나, 밤에 충분한 시간 동안 잠을 자는 데도 낮에 피로 또는 잘 쉬지 못했다고 느낄 경우, 수면 장애가 앓고 있을 수 있습니다. 가족 건강관리 제공자 또는 수면 전문가가 도움을 줄 수 있으며, 수면을 방해할 수 있는 기타 건강상 또는 정서적 문제를 해결하는 게 중요합니다."</string>
+    <string name="sleep_detail_back">"뒤로"</string>
+    <string name="data_source">"소스:"</string>
+    <string name="articlehelpful">"도움이 되었습니까?"</string>
+
+    <!-- 2016.1.15 -->
+    <string name="allow_access_photos_title">"사진 액세스 허용"</string>
+    <string name="allow_access_photos_content">"사진을 변경하려면, 설정으로 이동하여 ZenWatch Wellness에 대한 저장 권한을 사용하도록 설정하십시오."</string>
+    <string name="allow_track_location_title">"위치 추적 허용"</string>
+    <string name="allow_track_location_content">"활동 위치를 추적하려면, 설정으로 이동하여 ZenWatch Wellness에 대한 위치 추적 권한을 사용하도록 설정하십시오."</string>
+    <string name="bug_report_preference_title">"보고서 프로그램 오류"</string>
+    <string name="bug_report_email_subject">"Wellness 버그 보고서"</string>
+    <string name="bug_report_email_body">"Wellness 버그 보고서"</string>
+    <string name="but_report_share">"공유"</string>
+    <string name="settings_disable_backup">"\"내 데이터 백업\"의 선택을 취소한 경우, Google의 Android 백업 서비스 매커니점으로 인해 백업 파일을 잃을 수 있습니다. 선택을 취소하시겠습니까?"</string>
+</resources>

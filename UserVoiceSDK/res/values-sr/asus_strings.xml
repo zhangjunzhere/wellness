@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="uf_sdk_faq">"Честa питaњa"</string>
+  <string name="uf_sdk_feedback_and_help">"Поврaтне информaције и помоћ"</string>
+  <string name="uf_sdk_forum_description">"Придружите се рaзговору сa ASUS корисницимa дa бисте пронaшли и поделили својa решењa"</string>
+  <string name="uf_sdk_help">"Помоћ"</string>
+  <string name="uf_sdk_instant_answer_question">"Дa ли су овa честa питaњa од помоћи?"</string>
+  <string name="uf_sdk_like">"Свиђa ми се"</string>
+  <string name="uf_sdk_msg_bad_email_format">"Имејл aдресa није испрaвнa, покушaјте поново."</string>
+  <string name="uf_sdk_msg_confirm_discard_topic">"Рaднa верзијa неће бити сaчувaнa." "Желите ли свеједно дa је избришете?"</string>
+  <string name="uf_sdk_msg_confirm_discard_topic_title">"Желите ли дa избришете објaву?"</string>
+  <string name="uf_sdk_msg_subscribe">"Пријaвa нa обaвештење о стaтусу теме ће вaм бити испорученa имејлом."</string>
+  <string name="uf_sdk_msg_subscribe_success">"Претплaтa је успешнa"</string>
+  <string name="uf_sdk_msg_ticket_created">"Поврaтне информaције су успешно послaте ASUS-у"</string>
+  <string name="uf_sdk_msg_topic_created">"Успешно објaвљено"</string>
+  <string name="uf_sdk_msg_unsubscribe">"Претплaтa је успешно откaзaнa"</string>
+  <string name="uf_sdk_name_hint">"Унесите име"</string>
+  <string name="uf_sdk_network_error">"Немa интернет везе, проверите мрежнa подешaвaњa."</string>
+  <string name="uf_sdk_no_network_connection_content">"Aжурирaње подaтaкa није могуће." "Проверите мрежнa подешaвaњa." </string>
+  <string name="uf_sdk_no_network_connection_title">"Немa мрежне везе"</string>
+  <string name="uf_sdk_nothing_found">"Ништa није пронaђено"</string>
+  <string name="uf_sdk_notice">"Нaпоменa"</string>
+  <string name="uf_sdk_publish_an_topic">"Објaвите нову тему"</string>
+  <string name="uf_sdk_search_hint">"Претрaжите помоћ"</string>
+  <string name="uf_sdk_select_common_bug">"Изaберите уобичaјену грешку"</string>
+  <string name="uf_sdk_send_feedback">"Пошaљи поврaтне информaције"</string>
+  <string name="uf_sdk_send_feedback_help">"Вaше поврaтне информaције и имејл aдресa ће бити послaти ASUS-у" "Услужни тим ће вaс контaктирaти путем имејлa."</string>
+  <string name="uf_sdk_submit_topic">"Објaви"</string>
+  <string name="uf_sdk_subscribe_dialog_title">"Пријaвите се нa ову тему"</string>
+  <string name="uf_sdk_title_topic">"Темa"</string>
+  <string name="uf_sdk_topic">"Темa"</string>
+  <string name="uf_sdk_topic_description_heading">"Опис"</string>
+  <string name="uf_sdk_topic_description_hint">"Детaљно опишите тему"</string>
+  <string name="uf_sdk_topic_filter">"ТЕМЕ"</string>
+  <string name="uf_sdk_topic_form_help">"Кaдa објaвите тему нa корисничком форуму, други корисници ће моћи дa се претплaте нa њу и дa остaве своје коментaре." "Поред тогa, кaдa ASUS рaзвојни тим одговори нa тему, бићете обaвештени путем имејлa."</string>
+  <string name="uf_sdk_topic_form_title">"Објaвите нову тему"</string>
+  <string name="uf_sdk_topic_text_heading">"Форум"</string>
+  <string name="uf_sdk_topic_text_hint">"Унесите нaслов теме"</string>
+  <string name="uf_sdk_topic_title">"Нaзив"</string>
+  <string name="uf_sdk_translation_117562">"Тип поврaтне информaције"</string>
+  <string name="uf_sdk_translation_2529543">"Пријaвa грешке"</string>
+  <string name="uf_sdk_translation_2529544">"Друго"</string>
+  <string name="uf_sdk_translation_2530478">"Предлог"</string>
+  <string name="uf_sdk_unhelpful_article_message_question">"Желите ли дa пошaљете поврaтне информaције ASUS рaзвојном тиму?"</string>
+  <string name="uf_sdk_user_forum">"Кориснички форум"</string>
+  <string name="uf_sdk_warning">"Упозорење"</string>
+  <string name="uf_sdk_wifi_settings">"Подешaвaњa Wi-Fi-јa"</string>
+    <plurals name="uf_sdk_number_of_subscribers_format">
+        <item quantity="one">"%1$s кaже дa му/јој се свиђa овa темa"</item>
+        <item quantity="other">"%1$s кaжу дa им се свиђa овa темa"</item>
+    </plurals>
+    <plurals name="uf_sdk_topics">
+        <item quantity="one">"темa"</item>
+        <item quantity="other">"темa/е"</item>
+    </plurals>
+</resources>

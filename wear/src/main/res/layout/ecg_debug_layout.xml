@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ecg_debug_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_gradient"
+        android:orientation="vertical" >
+        <TextView
+            android:id="@+id/debug_rrhr_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="#ffffffff"
+            android:visibility="gone"
+            android:text="R-R HR : ---" />
+        <TextView
+            android:id="@+id/debug_hr_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff00"
+            android:visibility="gone"
+            android:text="NS SDK HR : ---" />
+        <TextView
+            android:id="@+id/debug_asus_hr_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="#ffaa0000"
+            android:visibility="gone"
+            android:text="ASUS HR : ---" />
+        <TextView
+            android:id="@+id/debug_asus_mean_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="#ff000f0f"
+            android:visibility="gone"
+            android:text="Mean : ......" />
+        <TextView
+            android:id="@+id/debug_asus_median_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="#ff000f0f"
+            android:visibility="gone"
+            android:text="Median : ......" />
+        <TextView
+            android:id="@+id/debug_asus_mode_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="#ff000f0f"
+            android:visibility="gone"
+            android:text="Mode : ......" />
+        <TextView
+            android:id="@+id/debug_mood_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff00"
+            android:visibility="gone" />
+</LinearLayout>

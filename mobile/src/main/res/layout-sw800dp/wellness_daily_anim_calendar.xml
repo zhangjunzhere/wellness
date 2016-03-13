@@ -1,0 +1,164 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/daily_anim_main"
+    android:layout_width="@dimen/dailyanim_layout_width"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal" >
+
+    <FrameLayout
+        android:id="@id/calendar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="@dimen/dailyanim_calendar_marginBottom" >
+
+        <TextView
+            android:id="@id/c1_txt"
+            android:layout_width="@dimen/dailyanim_c_txt_width"
+            android:layout_height="@dimen/dailyanim_c_txt_height"
+            android:layout_marginLeft="@dimen/dailyanim_c1_txt_marginLeft"
+            android:layout_marginBottom="@dimen/dailyanim_c_txt_marginBottom"
+            android:gravity="center"
+            android:layout_gravity="bottom"
+            android:text="99"
+            android:textColor="#FFCFCFCF"
+            android:textSize="@dimen/dailyanim_c1_txt_textsize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@id/c2_txt"
+            android:layout_width="@dimen/dailyanim_c_txt_width"
+            android:layout_height="@dimen/dailyanim_c_txt_height"
+            android:layout_marginLeft="@dimen/dailyanim_c2_txt_marginLeft"
+            android:layout_marginBottom="@dimen/dailyanim_c_txt_marginBottom"
+            android:gravity="center"
+            android:layout_gravity="bottom"
+            android:text="99"
+            android:textColor="#FFB5B5B5"
+            android:textSize="@dimen/dailyanim_c2_txt_textsize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@id/c3_txt"
+            android:layout_width="@dimen/dailyanim_c_txt_width"
+            android:layout_height="@dimen/dailyanim_c_txt_height"
+            android:layout_marginLeft="@dimen/dailyanim_c3_txt_marginLeft"
+            android:layout_marginBottom="@dimen/dailyanim_c_txt_marginBottom"
+            android:gravity="center"
+            android:layout_gravity="bottom"
+            android:text="99"
+            android:textColor="#FF818181"
+            android:textSize="@dimen/dailyanim_c3_txt_textsize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@id/c4_txt"
+            android:layout_width="@dimen/dailyanim_c_txt_width"
+            android:layout_height="@dimen/dailyanim_c_txt_height"
+            android:layout_marginLeft="@dimen/dailyanim_c4_txt_marginLeft"
+            android:layout_marginBottom="@dimen/dailyanim_c_txt_marginBottom"
+            android:gravity="center"
+            android:layout_gravity="bottom"
+            android:text="99"
+            android:textColor="#FF4D4D4D"
+            android:textSize="@dimen/dailyanim_c4_txt_textsize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@id/c5_txt"
+            android:layout_width="@dimen/dailyanim_c_txt_width"
+            android:layout_height="@dimen/dailyanim_c_txt_height"
+            android:layout_marginLeft="@dimen/dailyanim_c5_txt_marginLeft"
+            android:layout_marginBottom="@dimen/dailyanim_c_txt_marginBottom"
+            android:gravity="center"
+            android:layout_gravity="bottom"
+            android:text="99"
+            android:textColor="#FF404040"
+            android:textSize="@dimen/dailyanim_c_txt_large_textsize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/c6_txt"
+            android:layout_width="@dimen/dailyanim_c_txt_width"
+            android:layout_height="@dimen/dailyanim_c_txt_height"
+            android:layout_marginLeft="@dimen/dailyanim_c6_txt_marginLeft"
+            android:layout_marginBottom="@dimen/dailyanim_c_txt_marginBottom"
+            android:gravity="center"
+            android:layout_gravity="bottom"
+            android:text="99"
+            android:textColor="#FF404040"
+            android:textSize="@dimen/dailyanim_c_txt_large_textsize"
+            android:textStyle="bold" />
+
+       <!-- <TextView
+            android:id="@+id/today_for_tips"
+            android:layout_width="@dimen/dailyanim_c_txt_width"
+            android:layout_height="@dimen/dailyanim_c_txt_height"
+            android:layout_marginLeft="@dimen/dailyanim_c6_txt_marginLeft"
+            android:layout_marginBottom="@dimen/dailyanim_c_txt_marginBottom"
+            android:gravity="center"
+            android:layout_gravity="bottom"
+            android:text="@string/text_today"
+            android:textColor="#FF404040"
+            android:textSize="@dimen/dailyanim_c_txt_large_textsize"
+            android:textStyle="bold"
+            android:visibility="invisible"/>-->
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@id/white_mask"
+        android:layout_width="@dimen/dailyanim_white_mask_width"
+        android:layout_height="@dimen/dailyanim_white_mask_height"
+        android:layout_marginLeft="@dimen/dailyanim_white_mask_marginLeft"
+        android:layout_marginTop="@dimen/dailyanim_white_mask_marginTop"
+        android:src="@drawable/asus_mask_date"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@id/month_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dailyanim_month_txt_marginLeft"
+        android:layout_marginBottom="@dimen/dailyanim_month_txt_marginBottom"
+        android:gravity="right"
+        android:layout_gravity="bottom"
+        android:text="12"
+        android:textColor="#FF404040"
+        android:textSize="@dimen/dailyanim_month_txt_textsize"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@id/week_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dailyanim_week_txt_marginLeft"
+        android:layout_marginBottom="@dimen/dailyanim_week_txt_marginBottom"
+        android:gravity="left"
+        android:layout_gravity="bottom"
+        android:text="TUE"
+        android:textColor="#FF404040"
+        android:textSize="@dimen/dailyanim_week_txt_textsize"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@id/divide_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dailyanim_divide_txt_marginLeft"
+        android:layout_marginBottom="@dimen/dailyanim_divide_txt_marginBottom"
+        android:layout_gravity="bottom"
+        android:text="/"
+        android:textColor="#FF404040"
+        android:textSize="@dimen/dailyanim_divide_txt_textsize" />
+
+    <ImageButton
+        android:id="@id/today_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dailyanim_today_btn_marginLeft"
+        android:layout_marginBottom="@dimen/dailyanim_today_btn_marginBottom"
+        android:layout_gravity="bottom"
+        android:background="#00000000"
+        android:src="@drawable/today_button" />
+
+</FrameLayout>

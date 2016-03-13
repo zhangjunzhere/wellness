@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_gradient"
+    android:gravity="center_vertical">
+
+    <LinearLayout
+        android:id="@+id/ecg_hr_startup_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:visibility="invisible">
+        <!--
+        <ImageView
+            android:id="@+id/ecg_hr_startup_circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/activity_circle_dark" />
+        -->
+        <ImageView
+            android:id="@+id/ecg_hr_startup_heart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/asus_wellness_an_heart_rate" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="@string/keep_touch_sensor"
+            android:textColor="#ffffffff"
+            android:textSize="@dimen/keep_touching_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ecg_hr_data_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="invisible" >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal" >
+            <TextView
+                android:id="@+id/asus_heart_rate_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:textColor="#ffeeeeee"
+                android:textSize="@dimen/heart_rate_number"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/heart_rate_unit"
+                android:textColor="#ffeeeeee"
+                android:textSize="17dp" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/keep_measuring"
+            android:textColor="#ffffffff"
+            android:textSize="@dimen/keep_measuring_text_size" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/ecg_relax_startup_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:visibility="invisible">
+        <com.asus.wellness.view.CircleProgressBar
+            android:id="@+id/ecg_relax_startup_circle"
+            android:layout_width="86dp"
+            android:layout_height="86dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="@string/keep_touch_sensor"
+            android:textColor="#ffffffff"
+            android:textSize="@dimen/keep_measuring_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ecg_relax_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="invisible" >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal" >
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:background="@drawable/temp_ecg_icon" />
+            <TextView
+                android:id="@+id/rr_heart_rate_info2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="---"
+                android:textColor="#ffffffff"
+                android:textSize="36dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/asus_relax_percentage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="10dp"
+            android:text="0%"
+            android:textColor="#ffffff00"
+            android:textSize="80dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

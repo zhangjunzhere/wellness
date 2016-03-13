@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/my_ll"
+    android:orientation="vertical"
+   >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="6dip"
+        android:layout_marginTop="10dip"
+        android:layout_marginBottom="6dip"
+        android:singleLine="true"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:ellipsize="marquee"
+        android:fadingEdge="horizontal"
+        android:text="@string/remind_me_session"
+        android:layout_marginLeft="@dimen/remind_me_move_pref_paddingLeft"/>
+
+    <!-- TimePicker - From -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/from"
+        android:layout_marginLeft="@dimen/remind_me_move_pref_paddingLeft"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="startTimePickerFrom"
+        android:layout_marginLeft="@dimen/remind_me_move_pref_paddingLeft"
+        android:layout_marginRight="@dimen/remind_me_move_pref_paddingRight">
+
+        <TextView
+            android:id="@+id/from_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_centerVertical="true" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            style="@style/profile_spinner_edit"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ffb4b4b4"
+        android:alpha="0.5"/>
+
+    <!-- TimePicker - To -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/to"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="@dimen/remind_me_move_pref_paddingLeft"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="startTimePickerTo"
+        android:layout_marginLeft="@dimen/remind_me_move_pref_paddingLeft"
+        android:layout_marginRight="@dimen/remind_me_move_pref_paddingRight">
+
+        <TextView
+            android:id="@+id/to_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_centerVertical="true"
+            android:background="@android:color/transparent" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            style="@style/profile_spinner_edit" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ffb4b4b4"
+        android:alpha="0.5"/>
+
+</LinearLayout>

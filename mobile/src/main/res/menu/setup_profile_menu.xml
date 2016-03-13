@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+	<item 
+		android:id="@+id/cancel"
+		android:showAsAction="always"
+		android:title="@android:string/cancel"
+        android:icon="@drawable/asus_ic_cancel"/>
+	<item 
+		android:id="@+id/save"
+		android:showAsAction="always"
+		android:title="@string/save"
+        android:icon="@drawable/asus_ic_done"/>
+</menu>

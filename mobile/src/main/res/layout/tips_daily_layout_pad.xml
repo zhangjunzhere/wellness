@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- tips_page1-->
+    <FrameLayout
+        android:id="@+id/tips_page1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" >
+        <ImageView
+            android:id="@+id/tips_p1_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ff252525" />
+        <Button
+            android:id="@+id/tips_p1_next"
+            android:layout_width="@dimen/tips_daily_button_width"
+            android:layout_height="@dimen/tips_daily_button_height"
+            android:layout_marginTop="@dimen/tips_daily_button_marginTop"
+            android:layout_marginLeft="@dimen/tips_daily_button_marginLeft"
+            android:text="@string/text_next"
+            android:textSize="@dimen/tips_daily_button_textsize"
+            android:textColor="#ffffffff"
+            android:fontFamily="sans-serif"
+            android:background="@drawable/asus_wellness_daily_tips_btn"/>
+        <LinearLayout
+            android:id="@+id/tips_p1_l_tvs"
+            android:layout_width="@dimen/tips_daily_p1_text_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/tips_daily_p1_text_marginLeft"
+            android:layout_marginTop="@dimen/tips_daily_p1_text_marginTop"
+            android:orientation="vertical" >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="viewStart"
+                android:textSize="@dimen/tips_daily_title_textsize"
+                android:textColor="#ff00c0fe"
+                android:fontFamily="sans-serif"
+                android:text="@string/tips_p1_text_title" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-4dp"
+                android:textAlignment="viewStart"
+                android:textSize="@dimen/tips_daily_content_textsize"
+                android:textColor="#ffffffff"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/tips_p1_text_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tips_p1_r_tvs"
+            android:layout_width="@dimen/tips_daily_p2_righttext_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/tips_daily_p2_righttext_marginLeft"
+            android:layout_marginTop="@dimen/tips_daily_p2_righttext_marginTop"
+            android:orientation="vertical" >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="viewStart"
+                android:textSize="@dimen/tips_daily_title_textsize"
+                android:textColor="#ff00c0fe"
+                android:fontFamily="sans-serif"
+                android:text="@string/tips_p2_righttext_title_pad" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-4dp"
+                android:textAlignment="viewStart"
+                android:textSize="@dimen/tips_daily_content_textsize"
+                android:textColor="#ffffffff"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/tips_p2_righttext_content" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <!-- tips_page2-->
+    <FrameLayout
+        android:id="@+id/tips_page2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" >
+        <ImageView
+            android:id="@+id/tips_p2_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ff252525" />
+        <Button
+            android:id="@+id/tips_p2_next"
+            android:layout_width="@dimen/tips_daily_button_width"
+            android:layout_height="@dimen/tips_daily_button_height"
+            android:layout_marginTop="@dimen/tips_daily_button_marginTop"
+            android:layout_marginLeft="@dimen/tips_daily_button_marginLeft"
+            android:text="@string/text_ok"
+            android:textSize="@dimen/tips_daily_button_textsize"
+            android:textColor="#ffffffff"
+            android:fontFamily="sans-serif"
+            android:background="@drawable/asus_wellness_daily_tips_btn"/>
+        <LinearLayout
+            android:id="@+id/tips_p2_l_tvs"
+            android:layout_width="@dimen/tips_daily_p2_lefttext_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/tips_daily_p2_lefttext_marginLeft"
+            android:layout_marginTop="@dimen/tips_daily_p2_lefttext_marginTop"
+            android:orientation="vertical" >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="viewStart"
+                android:textSize="@dimen/tips_daily_title_textsize"
+                android:textColor="#ff00c0fe"
+                android:fontFamily="sans-serif"
+                android:text="@string/tips_p2_lefttext_title" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-4dp"
+                android:textAlignment="viewStart"
+                android:textSize="@dimen/tips_daily_content_textsize"
+                android:textColor="#ffffffff"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/tips_p2_lefttext_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/tips_p3_tvs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginLeft="@dimen/tips_daily_p3_text_marginLeft"
+            android:layout_marginBottom="@dimen/tips_daily_p3_text_marginBottom"
+            android:orientation="vertical" >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="viewStart"
+                android:textSize="@dimen/tips_daily_title_textsize"
+                android:textColor="#ff00c0fe"
+                android:fontFamily="sans-serif"
+                android:text="@string/tips_p3_text_title" />
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-4dp"
+                android:textAlignment="viewStart"
+                android:textSize="@dimen/tips_daily_content_textsize"
+                android:textColor="#ffffffff"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/tips_p3_text_content" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <!--tips_page3-->
+    <FrameLayout
+        android:id="@+id/tips_page3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" >
+        </FrameLayout>
+
+</FrameLayout>

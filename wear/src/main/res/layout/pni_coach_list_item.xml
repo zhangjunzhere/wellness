@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.asus.wellness.coach.setup.WearableListItem
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <TextView
+        android:id="@+id/tv_main"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="@dimen/coach_lvi_height"
+        style="@style/coach_list_view_text"
+        android:text="00:00:00"
+        android:fontFamily="roboto"
+        android:singleLine="true"
+        />
+</com.asus.wellness.coach.setup.WearableListItem>

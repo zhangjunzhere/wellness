@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Switch -->
+    <com.asus.wellness.ui.setting.WellnessSwitchPreference
+        android:title="@string/setting_title_set_idle_alarm"
+        android:key="@string/pref_key_idle_alarm_switch"
+        android:defaultValue="@bool/default_idle_alarm_switch"
+        android:summary="@string/setting_idle_alarm_description"
+        android:widgetLayout="@layout/asus_switch"></com.asus.wellness.ui.setting.WellnessSwitchPreference>
+
+    <!-- Duration Dialog -->
+    <ListPreference
+        android:title="@string/duration"
+        android:key="pref_remind_duration"
+        android:entries="@array/remind_duration_option"
+        android:entryValues="@array/remind_duration_option_values"
+        android:defaultValue="@string/duration_1hour"
+        android:summary="@string/setting_idle_alarm_option_1hour"
+        android:dependency="@string/pref_key_idle_alarm_switch"></ListPreference>
+
+    <!-- TimePicker -->
+    <com.asus.wellness.ui.setting.RemindMeMoveSpanPreference
+        android:key="remind_me_move_span_preference"
+        android:title="my_title"
+        android:summary="my_summary"
+        android:dependency="@string/pref_key_idle_alarm_switch">
+    </com.asus.wellness.ui.setting.RemindMeMoveSpanPreference>
+
+</PreferenceScreen>

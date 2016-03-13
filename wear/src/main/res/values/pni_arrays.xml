@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string-array name="workout_types">
+　    <item>@string/workout_choose_run</item>
+<!--　     <item>@string/workout_choose_bike</item>-->
+　     <item>@string/pushup</item>
+　     <item>@string/situp</item>　
+　</string-array>
+
+    <string-array name="workout_goal_distance">　
+　     <item>@string/workout_goal_distance</item>
+　     <item>@string/workout_goal_time</item>
+　     <item>@string/workout_goal_calories</item>　
+        <item>@string/workout_goal_none</item>
+    </string-array>
+
+    <string-array name="workout_goal_quantity">        　
+    　     <item>@string/workout_goal_quantity</item>
+    　     <item>@string/workout_goal_time</item>
+    　     <item>@string/workout_goal_calories</item>　
+            <item>@string/workout_goal_none</item>
+    </string-array>
+
+    <string-array name="distance_unit">
+    　    <item>@string/km</item>
+    　     <item>@string/miles</item>        　
+    </string-array>
+</resources>

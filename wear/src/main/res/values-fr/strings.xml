@@ -1,0 +1,79 @@
+<resources>
+
+    <string name="app_name" maxwidth="">Wellness</string>
+    <string name="text_step_goal" maxwidth="">/%s  pas</string>
+    <string name="target" maxwidth="">"CIBLE D'AUJOURD'HUI"</string>
+    <string name="count_down_text_secs">SECONDES</string> 
+    <string name="step_unit">PAS</string> 
+    <string name="distance_unit">KM</string> 
+    <string name="heart_rate_unit">bpm</string> 
+    <string name="options_relax">RELAXATION</string> 
+    <string name="options_stress">STRESS</string>
+    <string name="options_energy">"ÉNERGIE"</string>
+    <string name="text_measure_stress">NIVEAU DE STRESS</string>
+    <string name="text_measure_relax">"@string/options_relaxation"</string>
+    <string name="measure_name">"Mesurer"</string>
+    <string name="waiting_text">Veuillez patienter !</string>
+	<string-array name="stress_level_1_2">
+	    <item>La consommation de collations l\u00e9g\u00e8res et de fruits peut aider \u00e0 restaurer votre \u00e9nergie</item>
+	    <item>Un mode de vie sain aide \u00e0 surmonter les d\u00e9fis journaliers</item>
+	    <item>Dans un \u00e9tat d\'esprit paisible et Zen</item>
+	</string-array>
+	<string-array name="stress_level_3">
+	    <item>Votre niveau de stress s\'intensifie </item>
+        <item>"Notez comment vous vous sentez"</item>
+	</string-array>
+	<string-array name="stress_level_4_5">
+	    <item>Une promenade de 30 minutes quotidienne peut aider \u00e0 r\u00e9duire le stress de 25%</item>
+	    <item>D\u00e9gourdissez-vous les muscles des bars, du dos et des \u00e9paules</item>
+	    <item>Mettez-vous \u00e0 l\'aise et relaxez vos muscles</item>
+	    <item>La pratique d\'activit\u00e9s manuelles peut apporter un sentiment de joie et d\'accomplissement </item>
+	    <item>Massez-vous les mains</item>
+	</string-array>
+	<string-array name="heart_rate_level">
+	    <item>L1 TR\u00c8S L\u00c9G\u00c8RE</item>
+	    <item>L2 L\u00c9G\u00c8RE</item>
+	    <item>L3 MOD\u00c9R\u00c9E</item>
+	    <item>L4 INTENSE</item>
+	    <item>L5 MAXIMUM</item>
+	</string-array>
+	<string name="knockknock_start_stress">Mesurer le niveau de stress</string>
+	
+	<string name="keep_touch_sensor" maxwidth="">Continuez \u00e0 toucher\nle capteur</string>
+	<string name="options_relaxation" maxwidth="">RELAXATION</string>
+	<string name="not_support_message" maxwidth="">Votre mat\u00e9riel ne r\u00e9pond pas aux crit\u00e8res requis pour l\'ex\u00e9cution de cette application. Celle-ci va \u00eatre ferm\u00e9e.</string>
+
+	<string name="exercise_intensity" maxwidth="">INTENSIT\u00c9 DE L\'EXERCICE</string>
+	<string name="tutorial_touch_sensor" maxwidth="">Appuyez l\u00e9g\u00e8rement</string>
+	<string name="knockknock_start_relaxation" maxwidth="">Mesurer le niveau de relaxation</string>
+	<string name="knockknock_start_heartrate" maxwidth="">Mesurer le rythme cardiaque</string>
+	<string name="tap_to_start" maxwidth="">Appuyez sur l\'ic\u00f4ne pour d\u00e9marrer</string>
+	<string name="no_value_message" maxwidth="">Aucuns r\u00e9sultats</string>
+	<string name="tap_to_try_again" maxwidth="">Appuyez sur cette ic\u00f4ne\npour r\u00e9essayer</string>
+	<string name="heart_rate" maxwidth="">RYTHME CARDIAQUE</string>
+	<string name="tap_message" maxwidth="">Restez calme lors des mesures</string>
+	<string-array name="relax_level_1_2" maxwidth="">
+	    <item>L\'exercice et la consommation de grandes quantit\u00e9s d\'eau aident \u00e0 la d\u00e9tente du corps</item>
+	    <item>Planifiez vos prochaines vacances</item>
+	    <item>\u00c9coutez de la musique relaxante peut aider \u00e0 vous d\u00e9tendre</item>
+	</string-array>
+	<string-array name="relax_level_3" maxwidth="">
+	    <item>Votre niveau de relaxation est en d\u00e9clin</item>
+	</string-array>
+	<string-array name="relax_level_4_5" maxwidth="">
+	    <item>Plein d\'\u00e9nergie et pr\u00eat \u00e0 accomplir les t\u00e2ches de la journ\u00e9e</item>
+	    <item>Vous \u00eates bien repos\u00e9 et concentr\u00e9</item>
+	    <item>Un \u00e9tat d\'esprit paisible aide \u00e0 am\u00e9liorer la concentration</item>
+	</string-array>
+	<string name="suggest_wellness_title" maxwidth="">Application recommand\u00e9e :ASUS Wellness</string>
+	<string name="suggest_wellness_message" maxwidth="">Acheter une montre ASUS ZenWatch 	\nApplication ASUS Wellness gratuite !</string>
+	<string name="download_on_phone_message" maxwidth="">T\u00e9l\u00e9charger sur le t\u00e9l\u00e9phone</string>
+	<string name="wait_first_heart_rate_message" maxwidth="">D\u00e9marrage. Veuillez rester immobile et relax\u00e9</string>
+	<string name="wait_enough_rr_message" maxwidth="">Mesure en cours. Veuillez patienter quelques instants...</string>
+	<string name="keep_measuring" maxwidth="">Mesure en cours...</string>
+	<string name="total_steps" maxwidth="">PAS TOTAUX</string>
+	<string name="step_indicator_10k" maxwidth="">10 K</string>
+	<string name="step_indicator_5k" maxwidth="">5 K</string>
+	<string name="calories_unit" description="Calories unit" maxwidth="">kcal</string>
+    <string name="calories_string" maxwidth="">"(%1$s %2$s)"</string>
+</resources>

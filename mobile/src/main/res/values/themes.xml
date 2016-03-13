@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+	<!--
+        Base application theme for API 19+. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v18/styles.xml on API 19+ devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.DeviceDefault.Light.DarkActionBar">
+        <!-- API 19 theme customizations can go here. -->
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:actionBarStyle">@style/ActionBarStyle</item>
+        <item name="android:actionModeBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="ActionBarStyle" parent="@android:style/Widget.DeviceDefault.Light.ActionBar.Solid.Inverse">
+         <item name="android:background">@android:color/transparent</item>
+    </style>
+    
+    
+    
+    <!-- Wellness Normal Activity ActionBar styles -->
+    <style name="WellnessActionBarTheme"
+           parent="android:Theme.DeviceDefault.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/AsusActionBar</item>
+        <item name="android:homeAsUpIndicator">@drawable/asus_wellness_btn_back2</item>
+        <item name="android:windowBackground">@color/activity_background</item>
+        <item name="android:actionMenuTextColor">@android:color/black</item>
+    </style>
+
+    <style name="AsusActionBar"
+           parent="@android:style/Widget.DeviceDefault.Light.ActionBar.Solid.Inverse">
+        <item name="android:icon">@android:color/transparent</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:titleTextStyle">@style/ActionBarTitleTextStyle</item>
+    </style>
+    <style name="ActionBarTitleTextStyle"
+           parent="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title.Inverse">
+        <item name="android:textColor">@color/actionbar_text</item>
+    </style>
+    
+    <!-- Wellness Main Activity ActionBar styles -->
+    <style name="WellnessActionBarTheme.Main"/>
+</resources>

@@ -1,0 +1,81 @@
+<resources>
+
+    <string name="app_name">Wellness</string>
+    <string name="text_step_goal">/%s SCHRITTE</string>
+    <string name="target">"Heutiges Ziel"</string>
+    <string name="count_down_text_secs">SEKUNDEN</string>   
+    <string name="step_unit">SCHRITTE</string> 
+    <string name="distance_unit">KM</string> 
+    <string name="heart_rate_unit">SpM</string> 
+    <string name="options_relax">ENTSPANNUNG</string> 
+    <string name="options_stress">STRESS</string>
+    <string name="options_energy">ENERGIE</string>
+    <string name="text_measure_stress">STRESSNIVEAU</string>
+    <string name="text_measure_relax">ENERGIENIVEAU</string>
+    <string name="measure_name">Messung</string>
+    <string name="waiting_text">Bitte warten!</string>
+	<string-array name="stress_level_1_2">
+        <item>Leichte Snacks und Früchte können dabei helfen, Energie zu tanken</item>
+        <item>Ein gesunder Lebensstil hilft bei der Überwindung alltäglicher Herausforderungen</item>
+        <item>In einem Zen-Bereich mit Gemütsruhe</item>
+	</string-array>
+	<string-array name="stress_level_3">
+        <item>Ihr Stresspegel steigt</item>
+        <item>Eine Notiz zu Ihrem Befinden machen</item>
+	</string-array>
+	<string-array name="stress_level_4_5">
+        <item>Ein 30-minütiger Spaziergang kann den Stresspegel um 25 % verringern</item>
+        <item>Arme, Rücken und Schultern dehnen</item>
+        <item>Machen Sie es sich bequem, entspannen Sie Ihre Muskeln</item>
+        <item>DIY kann Spaß und ein Erfolgsgefühl bringen</item>
+        <item>Gönnen Sie sich eine Handmassage</item>
+	</string-array>
+	<string-array name="heart_rate_level">
+	    <item>N1 – SEHR LEICHT</item>
+	    <item>N2 – LEICHT</item>
+	    <item>N3 – MITTEL</item>
+	    <item>N4 – INTENSIV</item>
+	    <item>N5 – MAXIMUM</item>
+	</string-array>
+	<string name="knockknock_start_stress">Stressniveaumessung starten</string>
+	
+	<string name="keep_touch_sensor" maxwidth="">Sensor weiter\nberühren</string>
+	<string name="options_relaxation" maxwidth="">ENTSPANNUNG</string>
+	<string name="not_support_message" maxwidth="">Ihre Hardware erfüllt nicht die zur Ausführung dieser tragbaren App erforderlichen technischen Daten. Die App wird geschlossen</string>
+
+	<string name="exercise_intensity" maxwidth="">TRAININGSINTENSITÄT</string>
+    <string name="tutorial_touch_sensor" maxwidth="">"Sanft berühren"</string>
+    <string name="knockknock_start_relaxation" maxwidth="">"Entspannung messen"</string>
+    <string name="knockknock_start_heartrate" maxwidth="">"Herzfrequenz messen"</string>
+    <string name="tap_to_start" maxwidth="">"Symbol zum Starten antippen"</string>
+    <string name="no_value_message" maxwidth="">"Keine Messergebnisse"</string>
+    <string name="tap_to_try_again" maxwidth="">"Dieses Symbol zum\nwiederholen antippen"</string>
+    <string name="heart_rate" maxwidth="">"Herzfrequenz"</string>
+    <string name="tap_message" maxwidth="">"Während der Messung ruhig bleiben"</string>
+	<string-array name="relax_level_1_2">
+	    <item>Wasser und Training helfen beim Auflockern</item>
+	    <item>Planen Sie einen Urlaub</item>
+	    <item>Etwas Entspannungsmusik könnte Ihnen beim Entspannen helfen</item>
+	</string-array>
+	<string-array name="relax_level_3">
+	    <item>Ihr Entspannungsniveau sinkt</item>
+	</string-array>
+	<string-array name="relax_level_4_5">
+	    <item>Voller Energie und bereit, die heutigen Aufgaben abzuschließen</item>
+	    <item>Sie sind gut ausgeruht und konzentriert</item>
+	    <item>Ein entspannter Geist konzentriert sich fast wie von selbst</item>
+	</string-array>
+	<string name="suggest_wellness_title" maxwidth="">Empfohlene App:Wellness</string>
+	<string name="suggest_wellness_message" maxwidth="">
+    Holen Sie sich die Wellness-App \nfür ASUS ZenWatch – gratis!
+	</string>
+	<string name="download_on_phone_message" maxwidth="">Auf Telefon herunterladen</string>
+	<string name="wait_first_heart_rate_message" maxwidth="">Messung starten, bitte stillhalten und entspannen.</string>
+    <string name="wait_enough_rr_message" maxwidth="">"Messung fortsetzen, nur noch ein paar Sekunden..."</string>
+    <string name="keep_measuring" maxwidth="">"Messung beibehalten..."</string>
+	<string name="total_steps" maxwidth="">Schritte gesamt</string>
+	<string name="step_indicator_10k" maxwidth="">10K</string>
+	<string name="step_indicator_5k" maxwidth="">5K</string>
+	<string name="calories_unit" description="Calories unit" maxwidth="">kcal</string>
+    <string name="calories_string" maxwidth="">"(%1$s %2$s)"</string>
+</resources>

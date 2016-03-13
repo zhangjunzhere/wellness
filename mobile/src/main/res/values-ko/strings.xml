@@ -1,0 +1,263 @@
+<resources>
+	<string name="alertdialog_find_user_data_message_title" description="Restore profile title" maxwidth="">사용자 프로필이 있습니다.</string>
+	<string name="alertdialog_find_user_data_message_content" description="Restore profile message" maxwidth="">이 장치에 Wellness 앱 사용자 프로필이 존재합니다. 기존 프로필을 사용하여 설정을 계속하시겠습니까?</string>
+	<string name="daily_energy_detail_measurement" description="Message of Energy detail page" maxwidth="">측정됨</string>
+	<string name="daily_energy_detail_today" description="Message of Energy detail page" maxwidth="">오늘</string>
+	<string name="setting_title" description="Action bar title of setting page." maxwidth="">설정</string>
+	<string name="setting_title_activity_goal" description="Title of setting page option." maxwidth="">운동 목표</string>
+	<string name="setting_title_backup_restore" description="Title of setting page option." maxwidth="">내 데이터 백업</string>
+	<string name="setting_activity_tracking" description="Title of setting page option." maxwidth="">운동 추적</string>
+	<string name="setting_dialog_backup_restore_title" description="Backup dialog title." maxwidth="">백업 서비스</string>
+	<string name="setting_dialog_backup_restore_message" description="Backup dialog message." maxwidth="">백업 서비스를 활성화하십시오.</string>
+	<string name="setting_idle_alarm_option_15mins" description="Idle alarm option." maxwidth="">매 15분</string>
+	<string name="setting_idle_alarm_option_30mins" description="Idle alarm option." maxwidth="">매 30분</string>
+	<string name="setting_idle_alarm_option_1hour" description="Idle alarm option." maxwidth="">매 1시간</string>
+	<string name="setting_idle_alarm_option_1_5hours" description="Idle alarm option." maxwidth="">매 1.5</string>
+	<string name="setting_idle_alarm_option_2hours" description="Idle alarm option." maxwidth="">매 2시간</string>
+	<string name="setting_step_goal_include_bike_title" description="Include bike option." maxwidth="">자전거 운동 포함</string>
+	<string name="setting_step_goal_hint" description="Hint to remind user to input goal number." maxwidth="">운동 목표 수치 입력</string>
+	<string name="step_counts_message_setting_goal" description="Step unit message of activity goal page." maxwidth="">걸음/일</string>
+	<string name="step_counts_message_preference" description="Option message of activity goal." maxwidth="">%s 걸음/일</string>
+	<string name="step_counts_intensity_explain" description="Explanation message of step goal in activity goal page." maxwidth="">(%s 걸음/일)</string>
+	<string name="set_new_profile_alarm_title" description="Alarm Dialog title of adding new profile." maxwidth="">프로필을 초기화하시겠습니까?</string>
+	<string name="set_new_profile_btn_text" description="Button text of adding new profile." maxwidth="">프로필 초기화</string>
+	<string name="set_new_profile_alarm_message" description="Alarm Dialog message of adding new profile." maxwidth="">기존 프로필을 교체하시겠습니까?</string>
+	<string name="tutorial_measure_title" description="Tutorial title." maxwidth="">측정 방법</string>
+	
+	<string name="set_profile_title" description="Title of setting profile page." maxwidth="">프로필 설정</string>
+	<string name="profile_edittext_name_hint" description="Hint to request user to enter name." maxwidth="">이름 입력</string>
+	<string name="profile_edittext_name_hint_alarm" description="Hint to request user to enter name." maxwidth="">이름을 입력하십시오.</string>
+	<string name="profile_gender_title" description="Profile title" maxwidth="">성별</string>
+	<string name="profile_age_title" description="Profile title" maxwidth="">나이</string>
+	<string name="profile_gender_age_title" description="Profile title" maxwidth="">성별/나이</string>
+	<string name="profile_height_title" description="Profile title" maxwidth="">높이</string>
+	<string name="profile_weight_title" description="Profile title" maxwidth="">무게</string>
+	<string name="drawer_title_about" description="Drawer Profile title" maxwidth="">정보</string>
+	<string name="drawer_title_status" description="Drawer Profile title" maxwidth="">상태</string>
+	<string name="str_edit_profile" description="Button text of edit profile" maxwidth="">프로필 편집</string>
+	<string name="profile_start_measure_date" description="Drawer Profile title" maxwidth="">측정 날짜 시작</string>
+	<string name="profile_total_steps" description="Drawer Profile title" maxwidth="">총 걸음 수</string>
+	<string name="none_data_inside" description="No data description" maxwidth="">데이터가 없음</string>
+	<string name="heart_and_exercise_intensity" description="Heart rate title of activity detail page" maxwidth="">심장 박동 및 운동 강도</string>
+	<string name="time_unit" description="Time unit" maxwidth="">분</string>
+	<string name="distance_unit" description="Distance unit" maxwidth="">km</string>
+	<string name="detail_energy_best_info_energy_level" description="Best energy text." maxwidth="">최대:</string>
+	<string name="detail_energy_worst_info_stress_level" description="Worst energy text." maxwidth="">최저:</string>
+	<string name="count_time" description="The number of measurment" maxwidth="">회</string>
+	<string name="not_connected_to_wellness" description="No connected device." maxwidth="">워치가 Wellness에 연결되지 않았습니다.</string>
+	<string-array name="profile_gender_option" description="Gender options" maxwidth="">
+	    <item>남</item>
+	    <item>여</item>
+	</string-array>
+	<string-array name="profile_weight_option" description="Weight options" maxwidth="">
+	    <item>kg</item>
+	    <item>lb</item>
+	</string-array>
+	
+	<string name="dialog_number_picker_done" description="Button text of number picker." maxwidth="">완료</string>
+	<string name="dialog_number_picker_height_title" description="Title of setting height picker." maxwidth="">키 설정</string>
+	<string name="dialog_number_picker_weight_title" description="Title of setting weight picker." maxwidth="">몸무게 설정</string>
+	<string name="dialog_number_picker_age_title" description="Title of setting age picker." maxwidth="">나이 설정</string>
+	<string name="terms_services_title" description="Title of term service." maxwidth="">사용 약관</string>
+    <string name="terms_services_subtitle" description="subtitle of term service." maxwidth="-1">중요 알림 사항</string>
+    <string name="terms_services_message" description="Message of term service." maxwidth="-1">이 앱은 진단 또는 의료용이 아닙니다. 이 앱은 처치, 치료 또는 질병 예방이나 육체적, 정신적 또는  생리학 적인 조건을 예방하는데 사용할 수 없습니다.\n\n건강 데이터(사용자 프로필, 심장 박동, 스트레스, 휴식, 신체 활동, 위치 정보)는 모바일 장치에 설치된 Wellness 앱에 저장됩니다. 모바일 장치에 설정된 백업 계정으로 장치의 \"설정\"에서 \"백업 &amp; 초기화\"를 활성화한 경우 사용자의 건강 데이터가 Google 서버에 자동으로 백업됩니다.</string>
+    <string name="terms_services_end_user_subtitle" description="subtitle of End user license agreement subtitle." maxwidth="-1">사용자 사용권 계약</string>
+    <!--<string name="terms_services_end_user_message" description="Message of End user license agreement." maxwidth="">This End User License Agreement (“EULA”) constitutes a valid and binding agreement between ASUSTeK Computer Inc. (“ASUS“) and You, as a user, for the use of the ASUS Software (“Software”) defined as set forth below. By installing and continuing to use the software YOU EXPRESSLY ACKNOWLEDGE THAT YOU HAVE READ AND UNDERSTAND AND AGREE TO BE BOUND BY THE TERMS OF THIS EULA AND ANY NEW VERSIONS HEREOF.
+    \n\n1.	SOFTWARE means the ASUS Software provided in or with the applicable ASUS product including but not limited to any future programming fixes, updates, upgrades and modified versions.\n\nThe Software may be accompanied by other ASUS- or third party created software that is licensed under one or more of the Free Open Source Software licenses as listed under www.opensource.org/licenses. Such Free Open Source Software is provided to you solely under the terms of the respective license agreement or copyright notice accompanying it or in the FOSS licenses file accompanying the Software. The terms of this EULA do NOT apply to such Free Open Source Software.
+    \n\n2.	LICENSE Subject to the terms of this EULA, ASUS hereby grants You a limited, personal, non-commercial, non-exclusive license to use the Software solely as embedded in the ASUS products. You may make one copy of the Software in machine-readable form for backup purposes only; provided that the backup copy must include all copyright or other proprietary notices contained on the original. This license shall not be sublicensed, and is not transferable except to a person or entity to whom you transfer ownership of the complete ASUS products containing the Software, provided you permanently transfer all rights under this EULA and do not retain any full or partial copies of the Software, and the recipient agrees to the terms of this EULA.
+    \n\n3.	REVERSE RESTRICTION You shall not reverse engineer, decompile decrypt or disassemble the Software or permit or induce the foregoing except to the extent directly applicable law prohibits enforcement of the foregoing.
+    \n\n4.	CONFIDENTIALITY You shall have a duty to protect and not to disclose or cause to be disclosed in whole or in part of confidential information of the Software including but not limited to trade secrets, copyrighted material in any form to any third party.
+    \n\n5.	Intellectual Property RIGHTS (“IP Rights”) You acknowledge and agree that all IP Rights, title, and interest to or arising from the Software are and shall remain the exclusive property of ASUS or its licensor. Nothing in this EULA intends to transfer any such IP Rights to You. Any unauthorized use of the IP Rights is a violation of this EULA as well as a violation of intellectual property laws, including but not limited to copyright laws and trademark laws.\nBy sending any information, material, ideas, concepts or techniques except for personal information to ASUS through the Software (“Feedbacks”), You acknowledge and agree that: (i) Your Feedbacks shall not contain confidential or proprietary information; (ii) ASUS is under no obligation of any kind of confidentiality, express or implied, regarding the Feedbacks; (iii)ASUS shall be entitled to use or disclose, at ASUS’s sole discretion, the Feedbacks for any purpose, in any way, worldwide; (iv) Your Feedbacks shall become the property of ASUS without any obligation of ASUS to You; and (v) You are not entitled to any compensation or reimbursement of any kind from.
+    \n\n6.	TERM AND TERMINATION This EULA will be effective as of the date You install the Software. You may terminate this License at any time by ceasing all use of the Software and removing the Software from ASUS product. Your right will terminate without prior notice from ASUS if we think You fail to comply with any provision of this EULA.
+    \n\n7.	Warranty Disclaimer and Limitation of Liability YOU ACKNOWLEDGE THAT THE SOFTWARE IS PROVIDED “AS IS.” THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THIS SOFTWARE IS WITH YOU, INCLUDING BUT NOT LIMITED TO RELATED COST OF ALL NECESSARY SERVICING AND REPAIR. TO THE EXTENT PERMITTED BY LAW, ASUS MAKES NO WARRANTIES, EXPRESS OR IMPLIED, WITH RESPECT TO THIS SOFTWARE OR ANY OTHER INFORMATION OR DOCUMENTATION PROVIDED UNDER THIS EULA OR FOR THIS SOFTWARE, INCLUDING BUT NOT LIMITED TO ANY WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR AGAINST INFRINGEMENT, OR ANY WARRANTY ARISING OUT OF USAGE OR OUT OF COURSE OF PERFORMANCE. ASUS ALSO MAKES NO WARRANTY AS TO THE RESULTS THAT MAY BE OBTAINED FROM THE USE OF THIS SOFTWARE OR AS TO THE ACCURACY OR RELIABILITY OF ANY INFORMATION OBTAINED THROUGH THIS SOFTWARE. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF CERTAIN WARRANTIES OR THE LIMITATION OR EXCLUSION OF LIABILITY FOR CERTAIN DAMAGES. ACCORDINGLY, SOME OF THE ABOVE DISCLAIMERS AND LIMITATIONS OF LIABILITY MAY NOT APPLY TO YOU.
+    \n\nTHE ENTIRE RISK ARISING OUT OF THE USE AND/OR PERFORMANCE OF THIS SOFTWARE REMAINS WITH YOU. IN NO EVENT SHALL ASUS, ITS LICENSORS OR ANY OF THEIR RESPECTIVE OFFICERS, DIRECTORS, EMPLOYEES, AGENTS OR AFFILIATES BE LIABLE FOR ANY CONSEQUENTIAL, INCIDENTAL, DIRECT, INDIRECT, SPECIAL, PUNITIVE, OR OTHER DAMAGES WHATSOEVER (INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF PROFITS, INTERRUPTION, LOSS OF INFORMATION, OR OTHER PECUNIARY LOSS) ARISING OUT OF OR RELATING TO THIS EULA OR THE USE OF OR INABILITY TO USE THE SOFTWARE OR ANY PART THEREOF, EVEN IF ASUS HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF CERTAIN WARRANTIES OR THE LIMITATION OR EXCLUSION OF LIABILITY FOR CERTAIN DAMAGES. ACCORDINGLY, SOME OF THE ABOVE DISCLAIMERS AND LIMITATIONS OF LIABILITY MAY NOT APPLY TO YOU.
+    \n\n8.	Indemnity YOU agree to defend, indemnify and hold harmless ASUS and its affiliates, service providers, syndicators, distributors, licensors, officers, directors and employees, from and against any and all losses, damages, liabilities, and expenses arising out of any claim or demand (including reasonable attorneys\&apos; fees and court costs), due to or in connection with YOUR violation of this EULA or any applicable law or regulation, or third-party right.
+    </string>-->
+	<string name="terms_services_agree_text" maxwidth="">사용 약관에 동의합니다</string>
+	
+	<string name="daily_info_walk_type" maxwidth="">걷기</string>
+	<string name="daily_info_bike_type" maxwidth="">자전거</string>
+	<string name="daily_info_car_type" maxwidth="">자동차</string>
+	<string name="daily_info_transport_type" maxwidth="">이동</string>
+	<string name="daily_info_time_hour" maxwidth="">시간</string>
+	<string name="daily_info_time_hours" maxwidth="">시간</string>
+	<string name="daily_info_time_minute" maxwidth="">분</string>
+	<string name="daily_info_heart_title" maxwidth="">운동 강도</string>
+	<string name="daily_info_heart_rate_unit" maxwidth="">bpm</string>
+	<string name="daily_info_stress_title" maxwidth="">스트레스 수준</string>
+	
+	<string name="weekly_info_calories_title" maxwidth="">사용한 칼로리</string>
+	<string name="weekly_info_activity_title" maxwidth="">운동</string>
+	
+<string name="weekly_info_exercise_intensity_title" maxwidth="">운동 강도</string>
+	<string name="weekly_info_energy_title" maxwidth="">에너지</string>
+	<string name="weekly_info_relaxation_title" maxwidth="">휴식</string>
+	<string name="weekly_info_stress_title" maxwidth="">스트레스</string>
+	<string name="daily_actionbar_title" maxwidth="">%s씨 안녕하십니까.</string>
+	<string name="detail_energy_actionbar_title" maxwidth="">마음</string>
+	
+	<string-array name="exercise_intensity" maxwidth="">
+	    <item>L1</item>
+	    <item>L2</item>
+	    <item>L3</item>
+	    <item>L4</item>
+	    <item>L5</item>
+	</string-array>
+	
+	<string-array name="relax_level_1_2" maxwidth="">
+	    <item>물과 운동은 몸의 긴장 완화에 도움이 됩니다.</item>
+	    <item>휴가 계획짜기 시작</item>
+	    <item>편안한 음악을 듣는 것도 휴식에 도움이 됩니다.</item>
+	</string-array>
+	<string-array name="relax_level_3" maxwidth="">
+	    <item>휴식 수준이 줄고 있습니다.</item>
+	</string-array>
+	<string-array name="relax_level_4_5" maxwidth="">
+	    <item>에너지가 충만하고 오늘의 할일을 완료할 준비가 되었습니다.</item>
+	    <item>휴식을 잘 취했으며 집중을 잘 했습니다.</item>
+	    <item>평화로운 마음은 집중에 도움이 됩니다.</item>
+	</string-array>
+	<string-array name="stress_level_1_2" maxwidth="">
+	    <item>간단한 스낵과 과일은 에너지 충전에 도움이 됩니다.</item>
+	    <item>건강한 라이프스타일은 매일의 삶의 도전을 극복하는데 도움이 됩니다.</item>
+	    <item>평화로운 마음으로 Zen 구역에 있음</item>
+	</string-array>
+	<string-array name="stress_level_3" maxwidth="">
+	    <item>스트레스 수준이 증가하고 있습니다.</item>
+	    <item>느끼는 점을 적어 두십시오.</item>
+	</string-array>
+	<string-array name="stress_level_4_5" maxwidth="">
+	    <item>30분 걷는 것은 스트레스를 25% 감소시킵니다.</item>
+	    <item>양 팔, 등, 어깨를 스트레치 하십시오.</item>
+	    <item>근육을 편안하게 휴식을 취하도록 합니다.</item>
+	    <item>직접 하면 즐거움과 성취감을 가져다 줍니다.</item>
+	    <item>자신에게 손으로 쓴 메시지를 보내십시오.</item>
+	</string-array>
+	
+    <!-- Daily animation -->
+    <string name="default_anim_activity_data" maxwidth="">0%</string>
+    <string name="default_anim_energy_data" maxwidth="">0</string>
+    <string name="text_activity" maxwidth="">신체</string>
+    <string name="text_energy" maxwidth="">마음</string>
+
+    <string name="JAN" maxwidth="">1월</string>
+    <string name="FEB" maxwidth="">2월</string>
+    <string name="MAR" maxwidth="">3월</string>
+    <string name="APR" maxwidth="">4월</string>
+    <string name="MAY" maxwidth="">5월</string>
+    <string name="JUN" maxwidth="">6월</string>
+    <string name="JUL" maxwidth="">7월</string>
+    <string name="AUG" maxwidth="">8월</string>
+    <string name="SEP" maxwidth="">9월</string>
+    <string name="OCT" maxwidth="">10월</string>
+    <string name="NOV" maxwidth="">11월</string>
+    <string name="DEC" maxwidth="">12월</string>
+
+    <string name="text_location" maxwidth="">%s에서</string>
+	<string name="text_measurement" maxwidth="">측정</string>
+    <string name="text_today2" maxwidth="">오늘</string>
+    <string name="not_pair_asus_watch_title" maxwidth="">ASUS 워치와 페어링 되지 않음</string>
+    <string name="not_pair_asus_watch_message" maxwidth="">Wellness 앱은 ASUS 워치에 수반됩니다. 장치를 ASUS 워치와 페어링하여 설정을 계속합니다.</string>
+    <string name="not_pair_asus_watch_button" maxwidth="">알겠습니다!</string>
+    <string name="suggest_wellness_message" maxwidth="">
+    추천 앱:
+	\nWellness \nGet ASUS ZenWatch \nWellness 앱을 무료로 사용하십시오!
+	</string>
+	<string name="tutorial_paired_descrition" description="Tutorial description." maxwidth="">그래픽 차트로 자신의 휴식 수준을 쉽게 이해할 수 있습니다. 운동 후 심장 박동과 운동 강도를 측정합니다. 총 걸은 거리와 사용한 칼로리를 확인합니다.</string>
+    <string name="default_average_energy_level_message_break" description="Default string of energy detail page." maxwidth="">먼저\n측정</string>
+    <string-array name="step_intensity_term_range" maxwidth="">
+        <item>1~4999</item>
+        <item>5000~7499</item>
+        <item>7500~9999</item>
+        <item>10000~12499</item>
+        <item>12500+</item>
+    </string-array>
+	<string name="save" description="save button." maxwidth="">저장</string>
+	<string name="setting_idle_alarm_description" maxwidth="">일정 시간 동안 활동량이 없으면 부저가 울리도록 워치에 알람을 설정합니다.</string>
+	<string name="exercise_intensity_info_exercise_message" maxwidth="">일반적으로 신체 운동 중 심장 박동이 높을 수록 운동 강도가 쎕니다.</string>
+	<string-array name="profile_height_option" description="Height options" maxwidth="">
+	    <item>cm</item>
+	    <item>ft/in.</item>
+	</string-array>
+	<string name="height_unit_feet" maxwidth="">ft</string>
+	<string name="height_unit_inch" maxwidth="">in.</string>
+	<string name="setting_title_set_idle_alarm" description="Title of setting page option." maxwidth="">움직이도록 알림</string>
+	<string name="setting_backup_description" description="Backup message in setting page." maxwidth="">Wellness 앱 데이터, 내 사용자 프로필, 심장 박동 및 운동량을 Google 클라우드 서비스에 백업합니다.</string>
+	<string name="knockknock_start_heartrate" maxwidth="">심장 박동 측정</string>
+	<string name="knockknock_start_relaxation" maxwidth="">휴식 측정</string>
+	<string name="last_updated" maxwidth="">마지막 업데이트</string>
+	<string-array name="profile_error_message" description="Height options" maxwidth="">
+	    <item>범위:20~300 cm</item>
+            <item>범위:0\' 8\"~9\' 10\"</item>
+	    <item>범위:2~400 kg</item>
+	    <item>범위:4~880 lb</item>
+	    <item>범위:1~99</item>
+	</string-array>
+    <string name="range_msg">범위:</string>
+	<string name="accepted_range_title" maxwidth="">허용 범위</string>
+	<string name="text_average" maxwidth="">평균</string>
+	<string name="calories_unit" description="Calories unit" maxwidth="-1">kcal</string>
+	<string-array name="step_intensity_term" description="Term of step intensity." maxwidth="-1">
+	    <item>앉아서 생활하는 라이프스타일</item>
+	    <item>활동량 낮음</item>
+	    <item>어느정도 움직임</item>
+	    <item>활동적임</item>
+	    <item>매우 활동적임</item>
+	</string-array>
+	<string name="daily_info_walk_unit" maxwidth="">걸음</string>
+	<string name="daily_info_energy_title" maxwidth="">휴식</string>
+	<string name="exercise_intensity_info_heart_rate_title" maxwidth="">운동 심장 박동</string>
+	<string name="exercise_intensity_info_heart_rate_message" maxwidth="">운동을 시작한 후 최초 1분 이내에 측정한 심장 박동이 운동 강도 수준에 연결됩니다.</string>
+	<string name="exercise_intensity_info_exercise_title" maxwidth="">운동 강도</string>
+	<string name="exercise_intensity_info_l5_desc" maxwidth="">최대</string>
+	<string name="exercise_intensity_info_l4_desc" maxwidth="">높음</string>
+	<string name="exercise_intensity_info_l3_desc" maxwidth="">적당함(몸매 향상)</string>
+	<string name="exercise_intensity_info_l2_desc" maxwidth="">가벼운 운동(몸무게 감소)</string>
+	<string name="exercise_intensity_info_l1_desc" maxwidth="">매우 낮음</string>
+	
+	<string name="daily_detail_activity_title_type" maxwidth="">종류</string>
+	<string name="daily_detail_activity_title_calories" maxwidth="">칼로리</string>
+	
+	<string name="daily_button_text" maxwidth="">매일</string>
+	<string name="weekly_button_text" maxwidth="">주간</string>
+	<string name="text_today" maxwidth="">오늘</string>
+	
+	<string name="setting_activity_tracking_description" description="Allow GPS message." maxwidth="">Wellness 앱으로 GPS 또는 셀 타워 및 Wi-Fi를 사용하여 현재 있는 위치를 시간대 별로 표시할 수 있습니다. 운동 추적 기능은 추가 장치 배터리를 소모할 수 있습니다.</string>
+	<string name="tutorial_measure_descrition" description="Tutorial description." maxwidth="">워치에서 ASUS Wellness를 시작합니다. 왼쪽을 스크롤하여 측정 UI를 봅니다. 측정할 것을 클릭하여 선택합니다. 언제든지 휴식과 심장 박동을 측정할 수 있습니다.</string>
+    <string name="text_next" maxwidth="">다음</string>
+    <string name="text_ok" maxwidth="">확인</string>
+    <string name="tips_p1_text_title" maxwidth="">여기를 누름</string>
+    <string name="tips_p1_text_content" maxwidth="">세부 정보 보기</string>
+    <string name="tips_p2_lefttext_title" maxwidth="">여기를 누름</string>
+    <string name="tips_p2_lefttext_content" maxwidth="">오늘로 신속하게 돌아갑니다.</string>
+    <string name="tips_p2_righttext_title" maxwidth="">위 아래로 밀기</string>
+    <string name="tips_p2_righttext_content" maxwidth="">날짜를 변경합니다.</string>
+    <string name="tips_p3_text_title" maxwidth="">위로 밀기</string>
+    <string name="tips_p3_text_content" maxwidth="">운동을 시간대 별로 보기</string>
+
+    <string name="app_version" maxwidth="">버전</string>
+    <string name="SUN" maxwidth="">일</string>
+    <string name="MON" maxwidth="">월</string>
+    <string name="TUE" maxwidth="">화</string>
+    <string name="WED" maxwidth="">수</string>
+    <string name="THU" maxwidth="">목</string>
+    <string name="FRI" maxwidth="">금</string>
+    <string name="SAT" maxwidth="">토</string>
+    <string name="weekly_info_energy_avg" maxwidth="">평균</string>
+    
+    <!-- emily add, 2014.12.05 -->
+    <string name="about_title">정보</string>
+    <string name="about_app_version">버전</string>
+    <string name="about_dialog_legal_information">법률 정보</string>
+    <string name="about_dialog_legal_information_des">본 소프트웨어 사용권은 ASUS에 있습니다.</string>
+    <string name="about_dialog_website">웹사이트</string>
+    <string name="about_dialog_allrights">ASUSTeK Computer Inc. All rights reserved.</string>
+    <!-- emily end, 2014.12.05 -->
+
+	<string name="detail_activity_time" description="Activity title of activity detail page" maxwidth="">"다음에 대해 활성화됨"</string>
+	<string name="detail_total_steps" description="Total step title of activity detail page" maxwidth="">"이동함"</string>
+	<string name="detail_calories_burned" description="Calories burned title of activity detail page" maxwidth="">"소모함"</string>
+	<string name="profile_birthday_title" description="Profile title" maxwidth="">"생년월일"</string>
+	<string name="tips_p2_righttext_title_pad" maxwidth="">"왼쪽에서 오른쪽으로 살짝 밀기"</string>
+
+</resources>

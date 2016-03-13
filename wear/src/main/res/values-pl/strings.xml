@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name" maxwidth="">"Wellness"</string>
+    <string name="text_step_goal" maxwidth="">"/%s kroki"</string>
+    <string name="target" maxwidth="">"DZISIEJSZY  CEL"</string>
+    <string name="count_down_text_secs" maxwidth="">"SEKUNDY"</string>   
+    <string name="step_unit" maxwidth="">"KROKI"</string> 
+    <string name="distance_unit" maxwidth="">"KM"</string> 
+    <string name="heart_rate_unit" maxwidth="">"bpm"</string> 
+    <string name="options_relax" maxwidth="">"RELAKS"</string> 
+    <string name="options_stress" maxwidth="">"STRES"</string>
+    <string name="options_energy" maxwidth="">"ENERGIA"</string>
+    <string name="text_measure_stress" maxwidth="">"POZIOM  STRESU"</string>
+    <string name="text_measure_relax" maxwidth="">"@string/options_relaxation"</string>
+    <string name="measure_name" maxwidth="">"Pomiar"</string>
+    <string name="waiting_text" maxwidth="">"Czekaj!"</string>
+    <string-array name="stress_level_1_2" maxwidth="">
+        <item>"Lekkie przekąski i owoce mogą pomóc  odzyskać  energię"</item>
+        <item>"Zdrowy styl życia pomaga w radzeniu sobie z wyzwaniami codziennego życia"</item>
+        <item>"Spokój w strefie Zen"</item>
+    </string-array>
+    <string-array name="stress_level_3" maxwidth="">
+        <item>"Poziom stresu podnosi się"</item>
+        <item>"Zapisz, jak się czujesz"</item>
+    </string-array>
+    <string-array name="stress_level_4_5" maxwidth="">
+        <item>"30-minutowy  spacer  może  zmniejszyć  stres  o  25%"</item>
+        <item>"Rozciągnij ramiona, plecy i barki"</item>
+        <item>"Przybierz wygodną pozycję i rozluźnij  mięśnie"</item>
+        <item>"Majsterkowanie może sprawić radość i dać poczucie spełnienia"</item>
+        <item>"Zrób sobie masaż dłoni"</item>
+    </string-array>
+    <string-array name="heart_rate_level" maxwidth="">
+        <item>"P1 BARDZO MAŁA"</item>
+        <item>"P2 MAŁA"</item>
+        <item>"P3 UMIARKOWANA"</item>
+        <item>"P4 DUŻA"</item>
+        <item>"P5 MAKSYMALNA"</item>
+    </string-array>
+    <string name="keep_touch_sensor" maxwidth="">"Dotykaj"</string>
+    <string name="options_relaxation" maxwidth="">"RELAKS"</string>
+    <string name="not_support_message" maxwidth="">"Urządzenie nie jest zgodne ze specyfikacjami wymaganymi do uruchomienia tej aplikacji. Aplikacja  została  zamknięta."</string>
+    <string name="exercise_intensity" maxwidth="">"INTENSYWNOŚĆ TRENINGU"</string>
+    <string name="tutorial_touch_sensor" maxwidth="">"Dotknij delikatnie"</string>
+    <string name="knockknock_start_relaxation" maxwidth="">"Zmierz poziom odprężenia"</string>
+    <string name="knockknock_start_heartrate" maxwidth="">"Zmierz tętno"</string>
+    <string name="tap_to_start" maxwidth="">"Stuknij ikonę, aby rozpocząć"</string>
+    <string name="no_value_message" maxwidth="">"Brak wyników pomiarów"</string>
+    <string name="tap_to_try_again" maxwidth="">"Stuknij tę ikonę, aby\nspróbować ponownie"</string>
+    <string name="heart_rate" maxwidth="">"TĘTNO"</string>
+    <string name="tap_message" maxwidth="">"Zachowaj spokój podczas pomiaru"</string>
+    <string-array name="relax_level_1_2" maxwidth="">
+        <item>"Woda i ćwiczenia pomagają rozluźnić ciało"</item>
+        <item>"Zacznij planować wakacje"</item>
+        <item>"Słuchanie muzyki relaksacyjnej może pomóc Ci się odprężyć"</item>
+    </string-array>
+    <string-array name="relax_level_3" maxwidth="">
+        <item>"Poziom odprężenia obniża się"</item>
+    </string-array>
+    <string-array name="relax_level_4_5" maxwidth="">
+        <item>"Energia i pełna gotowość na realizację dzisiejszych zadań"</item>
+        <item>"Osiągnięto odpowiedni stopień odprężenia i koncentracji"</item>
+        <item>"Spokojny stan umysłu pomoże w zwiększeniu koncentracji"</item>
+    </string-array>
+    <string name="suggest_wellness_title" maxwidth="">"Sugerowana aplikacja: Wellness"</string>
+    <string name="suggest_wellness_message" maxwidth="">"&#13;
+Pobierz bezpłatną aplikację Wellness&#13;
+\ndla zegarka ASUS ZenWatch!&#13;
+"</string>
+    <string name="download_on_phone_message" maxwidth="">"Pobierz na telefon"</string>
+    <string name="wait_first_heart_rate_message" maxwidth="">"Rozpocznij pomiar, nie ruszaj się i zachowaj spokój."</string>
+    <string name="wait_enough_rr_message" maxwidth="">"Kontynuuj pomiar, jeszcze tylko kilka sekund..."</string>
+    <string name="keep_measuring" maxwidth="">"Kontynuuj pomiar..."</string>
+    <string name="total_steps" maxwidth="">"ŁĄCZNIE KROKÓW"</string>
+    <string name="step_indicator_10k" maxwidth="">"10K"</string>
+    <string name="step_indicator_5k" maxwidth="">"5K"</string>
+    <string name="calories_unit" description="Calories unit" maxwidth="">"kcal"</string>
+    <string name="calories_string" maxwidth="">"(%1$s %2$s)"</string>
+</resources>

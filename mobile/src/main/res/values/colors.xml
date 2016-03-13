@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Wellness Activity -->
+    <color name="activity_background">#FFFFFFFF</color>
+    <color name="actionbar_text">#ff4c4c4c</color>
+    
+    <!-- Settings -->
+    <color name="setting_step_goal_number">#90B041</color>
+    <color name="setting_step_goal_unit">#575757</color>
+    <color name="setting_step_goal_unit_light">#777777</color>
+    <color name="setting_step_goal_activity_level">#000000</color>
+    
+    <color name="setting_step_goal_section_0">#b0e08a</color>
+    <color name="setting_step_goal_section_1">#8bd750</color>
+    <color name="setting_step_goal_section_2">#6fad3b</color>
+    <color name="setting_step_goal_section_3">#086d4d</color>
+    <color name="setting_step_goal_section_4">#044631</color>
+    <array name="setting_step_goal_section_colors">
+        <item>@color/setting_step_goal_section_0</item>
+        <item>@color/setting_step_goal_section_0</item>
+        <item>@color/setting_step_goal_section_1</item>
+        <item>@color/setting_step_goal_section_2</item>
+        <item>@color/setting_step_goal_section_3</item>
+        <item>@color/setting_step_goal_section_4</item>
+        <item>@color/setting_step_goal_section_4</item>
+        <item>@color/setting_step_goal_section_4</item>
+    </array>
+    
+    <!-- Tutorial/setup profile -->
+    <color name="tutorial_text_color">#FFFFFFFF</color>
+    <color name="setup_profile_bold_font_color_light">#FF505050</color>
+    <color name="setup_profile_item_font_color_light">#FF131313</color>
+    
+    <!-- chart -->
+    <color name="chart_date_text_color">#FF231815</color>
+    <color name="chart_label_text_color">#FF000000</color>
+    <color name="chart_relaxation_color_start">#FFF35428</color>
+    <color name="chart_relaxation_color_end">#FFE89D1C</color>
+    <color name="chart_calorie_curve_color_start">#FF993B83</color>
+    <color name="chart_calorie_curve_color_end">#FF3F92CF</color>
+    <color name="chart_calorie_digital_text_color">#FF537EBD</color>
+    <color name="chart_calorie_no_data_text_color">#FF919191</color>
+    <color name="chart_engery_avg_font_color">#FF942268</color>
+    <color name="text_actived">#FFF84A1B</color>
+    <color name="text_inactived">#FF777777</color>
+    
+    <!-- Level Description -->
+    <color name="level_des_l1">#FF8db0ba</color>
+    <color name="level_des_l2">#FF40beea</color>
+    <color name="level_des_l3">#FF0a95c6</color>
+    <color name="level_des_l4">#FF155e78</color>
+    <color name="level_des_l5">#FF0f4052</color>
+
+    <!-- Background Color-->
+    <!--<color name="bg_start">#ff7a9a19</color>-->
+
+    <color name="color_white">#ffffffff</color>
+    <color name="color_black">#ff000000</color>
+    <color name="actionbar_title_color">#4c4c4c</color>
+    <color name="weekly_total_steps_tv_color">#188556</color>
+    <color name="reset_btn_bg_normal">#0dafed</color>
+    <color name="reset_btn_bg_pressed">#0a7fc2</color>
+    <color name="reset_btn_bg_focused">#0a7fc2</color>
+    <color name="reset_btn_bg_disabled">#8b8b8b</color>
+
+    <!-- sleep -->
+    <color name="sleep_deep_char_color_from">#403bb5</color>
+    <color name="sleep_deep_char_color_to">#016cad</color>
+    <color name="sleep_light_char_color_from">#2bace9</color>
+    <color name="sleep_light_char_color_to">#6cdded</color>
+
+    <color name="sleep_wake_color">#c3c3c3</color>
+
+    <color name="sleep_deep_title_color">#3b35b5</color>
+    <color name="sleep_light_title_color">#33bfd2</color>
+    <color name="sleep_wake_title_color">#c3c3c3</color>
+    <color name="sleep_line_color">#ffc7c7c7</color>
+
+    <color name="workout_pushup_char_color_from">#1891a7</color>
+    <color name="workout_pushup_char_color_to">#1891a7</color>
+    <color name="workout_situp_char_color_from">#3ab597</color>
+    <color name="workout_situp_char_color_to">#3ab597</color>
+    <color name="workout_detail_title_bg">#40a737</color>
+    <color name="workout_detail_title_color">#ff4e4e4e</color>
+
+    <color name="sleep_detail_total_num">#078cab</color>
+
+    <!-- tips add by emily-->
+    <color name="tips_line_color">#00c0fd</color>
+    
+    <color name="tossturn_color">#989898</color>
+    <color name="lightsleep_color">#0cabd2</color>
+    <color name="deepsleep_color">#0168c1</color>
+</resources>

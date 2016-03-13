@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!-- kim_bai@asus.com 2014.12.26-->
+    <string name="duration">"Czas  trwania"</string>
+    <string name="remind_me_session">"Przypomnij mi podczas następnej sesji"</string>
+    <string name="from">"Od"</string>
+    <string name="to">"Do"</string>
+    <string name="steps">"kroki"</string>
+    <string name="tomorrow_goal">"Jutrzejszy cel"</string>
+    <!-- Inspire Asus -->
+    <string name="wm_about_inspire_asus">"Inspire ASUS"</string>
+    <string name="wm_inspire_asus_text1">"Aby móc zapewniać klientom lepsze usługi, poprawiać doświadczenie użytkowników oraz stale wykrywać problemy w celu zwiększania wydajności, firma ASUS wprowadza program Inspire ASUS („Program”). Program ten gromadzi anonimowe raporty dotyczące użytkowania."</string>
+    <string name="wm_inspire_asus_text2">"Raporty te nie są w żaden sposób powiązane z danymi identyfikującymi urządzenia ASUS ZenWatch ani informacjami osobistymi. Dane dotyczące użytkowania obejmują stan trybu gotowości, awarie, preferowany interfejs, ustawienia językowe, bieżącą wersję oprogramowania, informacje o często używanym oprogramowaniu, działanie funkcji oprogramowania oraz lokalizację."</string>
+    <string name="wm_inspire_asus_text3">"Firma ASUS szanuje prywatność i prawa klientów. Funkcję raportów programu można w dowolnym momencie włączyć/wyłączyć w menu. W celu uzyskania szczegółowych informacji  na temat sposobu ochrony prywatności użytkowników przez firmę ASUS zalecane jest zapoznanie się z dokumentem"</string>
+    <string name="wm_inspire_asus_yes_text">"Tak, chcę dołączyć!"</string>
+    <!-- Encourage Us -->
+    <string name="encourage_title">"Zachęć  nas"</string>
+    <string name="scroll_up_toast" description="rate now" maxwidth="">"Przewiń w górę i oceń"</string>
+    <string name="toolbar_encourage_us_text">"Jeśli aplikacja ASUS Wellness Ci odpowiada, daj nam 5 gwiazdek w  sklepie  Play. Będzie to dla nas wielką zachętą do dalszego ulepszania produktu!\n\nAby przekazać sugestie, napisz do nas za pomocą aplikacji Opinie i pomoc."</string>
+    <string name="toolbar_encourage_dialog_rate_now" maxwidth="35">"Oceń teraz"</string>
+    <string name="toolbar_encourage_us_cancel">"Anuluj"</string>
+
+    <!-- 2015.11.5 -->
+    <string name="pushup">"Pompki"</string>
+    <string name="situp">"Brzuszki"</string>
+    <string name="sleep_notification_title" maxwidth="">"Informacje o monitorowaniu snu"</string>
+    <string name="sleep_notification_content" maxwidth="">"Trwa rejestracja..."</string>
+    <string name="daily_info_run_type">"Bieg"</string>
+
+    <!--2015.12.31-->
+    <string name="detail_sleep_deepsleep">"Głęboki sen"</string>
+    <string name="detail_sleep_lightsleep">"Płytki sen"</string>
+    <string name="detail_sleep_sleeplatency">"Latencja snu"</string>
+    <string name="detail_sleep_wokeup">"Trudności z zaśnięciem"</string>
+    <string name="detail_sleep_light">"Płytki"</string>
+    <string name="detail_sleep_deep">"Głęboki"</string>
+    <string name="detail_sleep_shorthour">"godz."</string>
+    <string name="detail_sleep_shortmin">"min"</string>
+    <!-- sleep mode, 2015.9.24-->
+    <string name="text_sleep" maxwidth="">"Sen"</string>
+    <string name="weekly_info_sleep_title">"Pełna analiza snu"</string>
+    <string name="weekly_info_workout_title">"Całkowita liczba pompek/brzuszków"</string>
+    <string name="detail_text_completion" maxwidth="">"osiągnięto"</string>
+    <string name="text_completion" maxwidth="">"osiągnięto cel"</string>
+    <string name="daily_detail_workout_title_accumulation" maxwidth="">"Nagromadzenie"</string>
+    <string name="sleep_quality_score" maxwidth="">"punktacja jakości"</string>
+    <string name="text_sleep_quality_score">"Jakość snu"</string>
+    <string name="daily_detail_workout">"Trening"</string>
+    <string name="sleptfor">"Sen od"</string>
+    <string name="permisson_turn_on">"Włącz teraz!"</string>
+    <string name="permisson_body_sensor_title">"Nie można rozpoznać aktywności"</string>
+    <string name="permisson_body_sensor_subtitle">"Rozpoznawanie ruchu nie jest możliwe bez prawa dostępu do danych z czujnika"</string>
+    <string name="permisson_location_title">"Nie można rozpoznać lokalizacji"</string>
+    <string name="permisson_location_subtitle">"Rozpoznawanie lokalizacji nie jest możliwe bez prawa dostępu do danych lokalizacji"</string>
+    <string name="permisson_storage_title">"Brak dostępu do zdjęć"</string>
+    <string name="permisson_storage_subtitle">"Nie można odczytać zdjęć bez prawa dostępu do pamięci"</string>
+    <string name="permisson_notice_bodysensor_location">"Uwaga: NIE wyłączaj żadnych uprawnień w ustawieniach systemu w trakcie operowania na danych aktywności."</string>
+    <string name="permisson_notice_storage">"Uwaga: NIE wyłączaj żadnych uprawnień w ustawieniach systemu w trakcie operowania na profilu osobistym."</string>
+    <string name="distance_unit_miles" description="Distance unit: miles" maxwidth="">"mile"</string>
+
+    <!-- 2016.1.11 -->
+    <string name="sleep_dictinary">"Słownik terminów dot. snu"</string>
+    <string name="sleepinformation">"Informacje o śnie"</string>
+    <string name="sleeplenght">"Długość snu"</string>
+    <string name="deepsleepandlightsleep">"Głęboki i lekki sen"</string>
+    <string name="awakenings">"Przekręcenia (przebudzenia)"</string>
+    <string name="suggestion">"Sugestia"</string>
+    <string name="sleepquality_info">"Jakość snu to wskaźnik (o maks. wartości równej 100), określający ilościowo jakość snu. Wyższa wartość oznacza lepszą jakość. Wskaźnik jakości snu zależy od czasu trwania snu, czasu poprzedzającego zaśnięcie, czasu spędzonego w łóżku, czasu trwania głębokiego snu (sen o mniejszej liczbie ruchów ciała) oraz od liczby przebudzeń."</string>
+    <string name="sleepquality_suggestion">"Wskaźnik jakości równy 60 wyznacza granicę normalnego cyklu snu. Wartość przekraczająca 60 punktów oznacza wyższą jakość snu od przeciętnej i vice versa."</string>
+    <string name="sleeplength_info">"Zegarek ZenWatch wykrywa początek pierwszego lekkiego snu i koniec ostatniego lekkiego snu w celu określenia przybliżonego całkowitego czasu trwania snu."</string>
+    <string name="sleeplength_suggestion">"Potrzeby dotyczące snu zależą od wieku. Noworodki potrzebują 16–18 godz. snu dziennie, dzieci w wieku przedszkolnym 11–12 godz. dziennie, dzieci w wieku szkolnym co najmniej 10 godz. snu dziennie, nastolatki 9–10 godz. dziennie, a dorośli (łącznie z osobami starszymi) potrzebują 7–8 godz. snu dziennie."</string>
+    <string name="deepsleepandlightsleep_info">"Zegarek ZenWatch dokonuje pomiaru ruchów ciała podczas monitorowania snu. Głęboki sen oznacza sen z mniejszą liczbą ruchów ciała w odniesieniu do snu lekkiego i stanu czuwania. Ogólnie mówiąc, mniej ruchów ciała podczas snu przekłada się na jego lepszą jakość."</string>
+    <string name="deepsleepandlightsleep_suggestion" formatted="false">"Na ogół długość głębokiego i lekkiego snu u osób o normalnym cyklu snu trwa w przybliżeniu od 20% do 60% całkowitego czasu jego trwania."</string>
+    <string name="sleeplatency_info">"Czas od włączenia monitorowania snu do wykrycia przez ZenWatch zaśnięcia"</string>
+    <string name="sleeplatency_suggestion">"Dla typowego wzorca snu ludzie zasypiają po upływie średnio 15 minut."</string>
+    <string name="awakenings_info">"Zegarek ZenWatch wykrywa liczbę przebudzeń podczas snu (charakteryzujących się częstszymi ruchami ciała)."</string>
+    <string name="awakenings_suggestion">"Osoby o normalnym cyklu snu przebudzają się średnio 3 razy."</string>
+    <string name="sleep_tips_title">"Porady dotyczące poprawy jakości snu"</string>
+    <string name="stick_to_a_sleep_schedule_title">"Śpij zgodnie z wyznaczonym harmonogramem"</string>
+    <string name="stick_to_a_sleep_schedule">"Kładź się do łóżka i wstawaj o tej samej godzinie każdego dnia. Ponieważ żądzą nami przyzwyczajenia, ciężko przychodzi nam dostosowywanie się do zmian w cyklu snu. Spanie dłużej w weekendy nie wyrówna w pełni braków snu z tygodnia i utrudni wczesną pobudkę w poniedziałek."</string>
+    <string name="exercise_is_great_title">"Ćwiczenia fizyczne są wspaniałym rozwiązaniem, o ile nie ćwiczymy zbyt późno w ciągu dnia"</string>
+    <string name="exercise_is_great">"Staraj się ćwiczyć przez co najmniej 30 minut prawie każdego dnia, ale nie później niż 2-3 godz. przed pójściem spać."</string>
+    <string name="avoid_cafeine_and_nicotine_title">"Unikaj kofeiny i nikotyny"</string>
+    <string name="avoid_cafeine_and_nicotine">"Kawa, cola, niektóre herbaty i czekolada zawierają pobudzającą kofeinę, której działanie może trwać nawet do 8 godzin. Dlatego też filiżanka kawy wypita późnym popołudniem może utrudnić zaśnięcie w nocy. Nikotyna także pobudza i jest częstą przyczyną bardzo lekkiego snu u osób palących. Ponadto osoby te budzą się z reguły zbyt wcześnie rano z powodu braku nikotyny."</string>
+    <string name="avoid_alcoholic_drinks_before_bed_title">"Unikaj picia alkoholu przed snem"</string>
+    <string name="avoid_alcoholic_drinks_before_bed">"Wypicie napoju alkoholowego lub kieliszka czegoś mocniejszego przed snem może pomóc Ci się zrelaksować, ale wypicie dużych ilości ogranicza głęboki sen, wydłużając tym samym jego płytsze cykle. Nadmierne spożycie alkoholu może także przyczynić się do nocnych zaburzeń oddychania. Zazwyczaj dochodzi także do wybudzeń w środku nocy spowodowanych ustąpieniem działania alkoholu."</string>
+    <string name="avoid_large_meals_title">"Unikaj obfitych posiłków i dużych ilości płynów późnym wieczorem"</string>
+    <string name="avoid_large_meals">"Niewielka przekąska jest w porządku, ale obfity posiłek może być przyczyną niestrawności, która zakłóci sen. Wypicie zbyt dużych ilości płynów przed snem może prowadzić do częstych wybudzeń spowodowanych koniecznością oddania moczu."</string>
+    <string name="if_possible_title">"O ile to możliwe, unikaj lekarstw, które opóźniają lub zakłócają sen"</string>
+    <string name="if_possible">"Niektóre powszechnie przepisywane leki na serce, wysokie/niskie ciśnienie krwi czy astmę, a także leki wydawane bez recepty i preparaty ziołowe na kaszel, katar lub alergie mogą zakłócać cykl snu. Jeśli cierpisz na problemy ze snem, porozmawiaj z lekarzem lub farmaceutą, aby dowiedzieć się, czy przyjmowane przez Ciebie leki mogą przyczyniać się do bezsenności. Zapytaj, czy możesz brać te lekarstwa o innej porze dnia lub wczesnym wieczorem."</string>
+    <string name="dont_take_naps_title">"Nie rób drzemek po 15:00"</string>
+    <string name="dont_take_naps">"Drzemki mogą pomóc w wyrównaniu braków snu, ale te późnopopołudniowe mogą utrudnić zaśnięcie w nocy."</string>
+    <string name="relax_before_bed_title">"Zrelaksuj się przed pójściem spać"</string>
+    <string name="relax_before_bed">"Nie wypełniaj dnia nadmierną liczbą obowiązków, nie pozostawiając sobie czasu na odprężenie. Czynności relaksacyjne, takie jak czytanie czy słuchanie muzyki, powinny stać się częścią wieczornego rytuału."</string>
+    <string name="take_a_lot_bath_title">"Weź przed snem gorącą kąpiel"</string>
+    <string name="take_a_lot_bath">"Obniżenie temperatury ciała po kąpieli może wzmóc senność, a sama kąpiel może podziałać relaksująco i spowalniająco, przygotowując tym samym odpowiednio do snu."</string>
+    <string name="have_a_good_sleeping_title">"Przygotuj odpowiednie miejsce do spania"</string>
+    <string name="have_a_good_sleeping">"Aby dobrze się wyspać, należy przygotować odpowiednie miejsce do spania. Usuń z sypialni wszystko, co mogłoby zakłócać Twój sen, np. wszelkie źródła dźwięku czy jasnego światła.  Wyłącz urządzenia przenośne, telewizor, komputer i inne urządzenia elektroniczne. Wygodne łóżko, odpowiednia temperatura w pokoju i dostosowana poduszka mogą działać korzystnie na dobry sen. Ludzie cierpiący na bezsenność sprawdzają często godzinę. Jeśli Ty też się z tym borykasz, ustaw zegarek tak, aby jego tarcza nie była widoczna i aby uniknąć martwienia się o godzinę podczas zasypiania."</string>
+    <string name="have_the_right_sunlight_title">"Zadbaj o odpowiednią ekspozycję na słońce"</string>
+    <string name="have_the_right_sunlight">"Światło dzienne jest kluczowym czynnikiem regulacji codziennych cyklów snu. Spędzaj co najmniej 30 minut każdego dnia poza domem w naturalnym świetle. O ile to możliwe, budź się wraz ze wschodem słońca lub korzystaj rano z bardzo jasnego oświetlenia. Eksperci ds. snu zalecają osobom cierpiącym na problemy z zasypianiem godzinną ekspozycję na poranne światło słoneczne oraz wyłączanie oświetlenia przed pójściem spać."</string>
+    <string name="dont_lie_in_bed_title">"Nie leż w łóżku, gdy nie śpisz"</string>
+    <string name="dont_lie_in_bed">"Jeśli leżysz w łóżku już ponad 20 minut i nadal nie możesz zasnąć albo zaczynasz odczuwać lęk lub niepokój, wstań i zajmij się czymś relaksującym do momentu pojawienia się senności. Niepokój spowodowany brakiem snu może utrudniać zaśnięcie."</string>
+    <string name="see_a_health_title">"Jeśli problemy ze snem będą się utrzymywać, skonsultuj się z lekarzem"</string>
+    <string name="see_a_health">"Jeśli problemy z zasypianiem lub snem występują stale i/lub jeśli w ciągu dnia czujesz zmęczenie lub brak odprężenia pomimo wystarczającej liczby godzin spędzonych w nocy w łóżku, możesz cierpieć na zaburzenia snu. Pomoc możesz uzyskać u lekarza rodzinnego lub specjalisty w dziedzinie snu. Ważne jest także wykluczenie innych problemów zdrowotnych lub emocjonalnych, które mogą zakłócać spokojny sen."</string>
+    <string name="sleep_detail_back">"Wstecz"</string>
+    <string name="data_source">"Źródło:"</string>
+    <string name="articlehelpful">"Czy informacje okazały się przydatne?"</string>
+
+    <!-- 2016.1.15 -->
+    <string name="allow_access_photos_title">"Zezwól na dostęp do zdjęć"</string>
+    <string name="allow_access_photos_content">"Aby zmienić zdjęcie, przejdź do menu Ustawienia i włącz uprawnienie dostępu aplikacji ZenWatch Wellness do pamięci."</string>
+    <string name="allow_track_location_title">"Zezwól na śledzenie lokalizacji"</string>
+    <string name="allow_track_location_content">"W celu uaktywnienia śledzenia lokalizacji aktywności przejdź do menu Ustawienia i włącz uprawnienie dostępu aplikacji ZenWatch Wellness do informacji o lokalizacji."</string>
+    <string name="bug_report_preference_title">"Zgłoś błąd programu"</string>
+    <string name="bug_report_email_subject">"Raport o błędach aplikacji Wellness"</string>
+    <string name="bug_report_email_body">"Raport o błędach aplikacji Wellness"</string>
+    <string name="but_report_share">"Udostępnij"</string>
+    <string name="settings_disable_backup">"Jeśli wyłączysz opcję \"Utwórz kopię zapasową danych\", pliki kopii zapasowej mogą zostać utracone ze względu na mechanizm usługi kopii zapasowej systemu Android firmy Google. Czy na pewno chcesz wyłączyć?"</string>
+</resources>

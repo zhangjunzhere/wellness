@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name" description="App name" maxwidth="-1">"華碩健康管理"</string>
+    <string name="text_step_goal" maxwidth="">"/%s 步"</string>
+    <string name="target" maxwidth="">"今日目標"</string>
+    <string name="count_down_text_secs" maxwidth="">"秒"</string>   
+    <string name="step_unit" maxwidth="">"步數"</string> 
+    <string name="distance_unit" maxwidth="">"公里"</string> 
+    <string name="heart_rate_unit" maxwidth="">"bpm"</string> 
+    <string name="options_relax" maxwidth="">"放鬆"</string> 
+    <string name="options_stress" maxwidth="">"壓力"</string>
+    <string name="options_energy" maxwidth="">"能量"</string>
+    <string name="text_measure_stress" maxwidth="">"壓力水平"</string>
+    <string name="text_measure_relax" maxwidth="">"@string/options_relaxation"</string>
+    <string name="measure_name" maxwidth="">"測量"</string>
+    <string name="waiting_text" maxwidth="">"請稍候﹗"</string>
+    <string-array name="stress_level_1_2" maxwidth="">
+        <item>"零食和水果有助於補充能量"</item>
+        <item>"健康的生活方式有助於應對每日的生活挑戰"</item>
+        <item>"平和心態健康療法"</item>
+    </string-array>
+    <string-array name="stress_level_3" maxwidth="">
+        <item>"您的壓力水平下降"</item>
+        <item>"記錄您的感受"</item>
+    </string-array>
+    <string-array name="stress_level_4_5" maxwidth="">
+        <item>"30 分鐘的談話可降低 25% 的壓力"</item>
+        <item>"伸展胳膊、背部及肩部"</item>
+        <item>"放鬆心情，舒展肌肉"</item>
+        <item>"DIY 可帶來愉悅和滿足感"</item>
+        <item>"自我手部按摩"</item>
+    </string-array>
+    <string-array name="heart_rate_level" maxwidth="">
+        <item>"L1 極輕"</item>
+        <item>"L2 輕度"</item>
+        <item>"L3 適度"</item>
+        <item>"L4 激烈"</item>
+        <item>"L5 最大"</item>
+    </string-array>
+    <string name="keep_touch_sensor" maxwidth="">"不斷觸摸"</string>
+    <string name="options_relaxation" maxwidth="">"放鬆"</string>
+    <string name="not_support_message" maxwidth="">"您的硬件不滿足所需規格，無法執行此可穿戴應用程式。 應用程式已關閉"</string>
+    <string name="exercise_intensity" maxwidth="">"運動強度"</string>
+    <string name="tutorial_touch_sensor" maxwidth="">"輕輕觸摸"</string>
+    <string name="knockknock_start_relaxation" maxwidth="">"測量放鬆"</string>
+    <string name="knockknock_start_heartrate" maxwidth="">"測量心率"</string>
+    <string name="tap_to_start" maxwidth="">"輕觸圖示以啟動"</string>
+    <string name="no_value_message" maxwidth="">"沒有測量結果"</string>
+    <string name="tap_to_try_again" maxwidth="">"輕觸此圖示以重試"</string>
+    <string name="heart_rate" maxwidth="">"心率"</string>
+    <string name="tap_message" maxwidth="">"測量過程中保持平和"</string>
+    <string-array name="relax_level_1_2" maxwidth="">
+        <item>"水分和運動有助於放鬆身體"</item>
+        <item>"開始規劃假期"</item>
+        <item>"聆聽一些輕鬆的音樂有助於放鬆"</item>
+    </string-array>
+    <string-array name="relax_level_3" maxwidth="">
+        <item>"您的放鬆水平下降"</item>
+    </string-array>
+    <string-array name="relax_level_4_5" maxwidth="">
+        <item>"充滿能量，準備完成今天的任務"</item>
+        <item>"您休息充分，精力集中"</item>
+        <item>"心態平和有助於集中精力"</item>
+    </string-array>
+    <string name="suggest_wellness_title" maxwidth="">"推薦的應用程式︰Wellness"</string>
+    <string name="suggest_wellness_message" maxwidth="">"&#13;
+購買 ASUS ZenWatch&#13;
+\n即可免費享用 Wellness 應用程式﹗&#13;
+"</string>
+    <string name="download_on_phone_message" maxwidth="">"在手機上下載"</string>
+    <string name="wait_first_heart_rate_message" maxwidth="">"開始測量，請保持不動並放鬆。"</string>
+    <string name="wait_enough_rr_message" maxwidth="">"繼續測量，只需多花幾秒鐘..."</string>
+    <string name="keep_measuring" maxwidth="">"繼續測量..."</string>
+    <string name="total_steps" maxwidth="">"總步數"</string>
+    <string name="step_indicator_10k" maxwidth="">"10千卡"</string>
+    <string name="step_indicator_5k" maxwidth="">"5千卡"</string>
+    <string name="calories_unit" description="Calories unit" maxwidth="">"大卡"</string>
+    <string name="calories_string" maxwidth="">"(%1$s %2$s)"</string>
+</resources>

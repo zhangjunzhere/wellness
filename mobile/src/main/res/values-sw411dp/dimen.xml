@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- emily, add (Nexus 6) -->
+    <dimen name="tips_daily_p1_text_marginTop">-26dp</dimen>
+    <dimen name="tips_daily_p2_lefttext_marginTop">80dp</dimen>
+    <dimen name="tips_daily_p2_righttext_marginTop">150dp</dimen>
+    <dimen name="tips_daily_p3_text_marginBottom">203dp</dimen>
+    <dimen name="tips_daily_p3_text_marginBottom_2">203dp</dimen>
+
+    <dimen name="remind_me_move_pref_paddingLeft">16dp</dimen>
+    <dimen name="remind_me_move_pref_paddingRight">16dp</dimen>
+
+    <!--- emily, end -->
+</resources>

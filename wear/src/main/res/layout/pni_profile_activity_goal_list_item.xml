@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/normal_list_item_height"
+        android:gravity="center_vertical"
+        >
+        <TextView
+            android:id="@+id/goal"
+            android:layout_width="55dp"
+            android:layout_height="25dp"
+            android:text="12.5k"
+            style="@style/activity_goal"
+            />
+        <TextView
+            android:id="@+id/goalstep"
+            android:layout_toRightOf="@+id/goal"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="@string/steps"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="4dp"
+            android:layout_above="@+id/describe"
+            style="@style/activity_goal_step"
+            />
+        <TextView
+            android:id="@+id/describe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sedentaryliftstyle"
+            android:layout_below="@id/goal"
+            style="@style/activity_goal_describe"
+            />
+</RelativeLayout>

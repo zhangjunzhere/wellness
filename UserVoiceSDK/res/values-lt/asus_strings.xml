@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="uf_sdk_faq">DUK</string>
+  <string name="uf_sdk_feedback_and_help">Atsiliepimai &amp; Žinynas</string>
+  <string name="uf_sdk_forum_description">Prisijunkite prie pokalbio su ASUS vartotojais, kad surastumėte ir pasidalintumėte savo sprendimais</string>
+  <string name="uf_sdk_help">Žinynas</string>
+  <string name="uf_sdk_instant_answer_question">Ar šis DUK buvo naudingas?</string>
+  <string name="uf_sdk_like">Patinka</string>
+  <string name="uf_sdk_msg_bad_email_format">El. pašto adresas negalioja, bandykite dar kartą.</string>
+  <string name="uf_sdk_msg_confirm_discard_topic">Jūsų juodraštis įrašytas nebus. Ar vistiek norite jį pašalinti?</string>
+  <string name="uf_sdk_msg_confirm_discard_topic_title">Šalinti įrašą?</string>
+  <string name="uf_sdk_msg_subscribe">Temos būsenos pranešimo prenumerata jums bus išsiųsta el. paštu.</string>
+  <string name="uf_sdk_msg_subscribe_success">Užsiprenumeruota sėkmingai</string>
+  <string name="uf_sdk_msg_ticket_created">Jūsų atsiliepimas sėkmingai išsiųstas ASUS</string>
+  <string name="uf_sdk_msg_topic_created">Sėkmingai paskelbta</string>
+  <string name="uf_sdk_msg_unsubscribe">Prenumerata anuliuota sėkmingai</string>
+  <string name="uf_sdk_name_hint">Įvesti savo vardą</string>
+  <string name="uf_sdk_network_error">Interneto ryšio nėra, patikrinkite savo tinklo nuostatas.</string>
+  <string name="uf_sdk_no_network_connection_content">Duomenų atnaujinti nepavyko. Patikrinkite savo tinklo nuostatas. </string>
+  <string name="uf_sdk_no_network_connection_title">Nėra tinklo ryšio</string>
+  <string name="uf_sdk_nothing_found">Nieko rasti nepavyko</string>
+  <string name="uf_sdk_notice">Pranešimas</string>
+  <string name="uf_sdk_publish_an_topic">Nauja vieša tema</string>
+  <string name="uf_sdk_search_hint">Paieškos žinynas</string>
+  <string name="uf_sdk_select_common_bug">Pasirinkti bendrąją klaidą</string>
+  <string name="uf_sdk_send_feedback">Siųsti atsiliepimą</string>
+  <string name="uf_sdk_send_feedback_help">Jūsų atsiliepimas ir el. pašto adresas bus persiųsti ASUS. Aptarnavimo komanda su jumis susisieks el. paštu.</string>
+  <string name="uf_sdk_submit_topic">Skelbti</string>
+  <string name="uf_sdk_subscribe_dialog_title">Prenumeruokite šią temą</string>
+  <string name="uf_sdk_title_topic">Tema</string>
+  <string name="uf_sdk_topic">Tema</string>
+  <string name="uf_sdk_topic_description_heading">Aprašymas</string>
+  <string name="uf_sdk_topic_description_hint">Aprašykite savo temą detaliau</string>
+  <string name="uf_sdk_topic_filter">TEMOS</string>
+  <string name="uf_sdk_topic_form_help">Jums sukūrus temą vartotojų forume, kiti vartotojai galės ją prenumeruoti ir joje komentuoti. Be to, ASUS kūrybinei komandai reagavus į temą, apie tai būsite informuoti el. paštu.</string>
+  <string name="uf_sdk_topic_form_title">Nauja vieša tema</string>
+  <string name="uf_sdk_topic_text_heading">Forumas</string>
+  <string name="uf_sdk_topic_text_hint">Įveskite savo temos pavadinimą</string>
+  <string name="uf_sdk_topic_title">Pavadinimas</string>
+  <string name="uf_sdk_translation_117562">Atsiliepimo tipas</string>
+  <string name="uf_sdk_translation_2529543">Klaidų ataskaita</string>
+  <string name="uf_sdk_translation_2529544">Kiti</string>
+  <string name="uf_sdk_translation_2530478">Pasiūlymas</string>
+  <string name="uf_sdk_unhelpful_article_message_question">Ar norėtumėte ASUS kūrybinei komandai nusiųsti atsiliepimą?</string>
+  <string name="uf_sdk_user_forum">Naudotojų forumas</string>
+  <string name="uf_sdk_warning">Įspėjimas</string>
+  <string name="uf_sdk_wifi_settings">„Wi-Fi“ nuostatos</string>
+    <plurals name="uf_sdk_number_of_subscribers_format">
+        <item quantity="one">%1$s patinka ši tema</item>
+        <item quantity="other">%1$s patinka ši tema</item>
+    </plurals>
+    <plurals name="uf_sdk_topics">
+        <item quantity="one">tema</item>
+        <item quantity="other">temos</item>
+    </plurals>
+</resources>

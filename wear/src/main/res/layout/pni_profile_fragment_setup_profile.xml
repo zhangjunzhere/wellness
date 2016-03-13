@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        >
+    <com.asus.wellness.fragment.DrawerUserHeadImageView
+        android:id="@+id/setupbtn"
+        android:layout_width="@dimen/main_icon_width"
+        android:layout_height="@dimen/main_icon_width"
+        android:layout_marginTop="@dimen/tap_image_margin_top"/>
+    </LinearLayout>
+    <!-- Tap to start new workout -->
+    <com.asus.wellness.view.MyTextView
+        android:id="@+id/tvsetuptext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/fragment_marquee_tap_text"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/setup_profile"
+         />
+
+</LinearLayout>

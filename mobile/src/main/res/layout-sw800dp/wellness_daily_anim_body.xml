@@ -1,0 +1,353 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:autofit="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/daily_anim_main"
+    android:layout_width="@dimen/dailyanim_layout_width"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal" >
+
+    <FrameLayout
+        android:id="@id/L_group"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <FrameLayout
+            android:id="@id/l_frame5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom" >
+
+            <FrameLayout
+                android:id="@id/L5_leave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="@dimen/dailyanim_L5_leave_marginLeft"
+                android:layout_marginBottom="@dimen/dailyanim_L5_leave_marginBottom" >
+
+                <ImageView
+                    android:id="@id/greenLeaves04"
+                    android:layout_width="@dimen/dailyanim_greenLeaves04_width"
+                    android:layout_height="@dimen/dailyanim_greenLeaves04_height"
+                    android:src="@drawable/asus_wellness_btn_green_leaves_4" />
+
+                <ImageView
+                    android:id="@id/greenLeaves5"
+                    android:layout_width="@dimen/dailyanim_greenLeaves5_width"
+                    android:layout_height="@dimen/dailyanim_greenLeaves5_height"
+                    android:src="@drawable/asus_wellness_btn_green_leaves_5" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@id/L5_circle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="@dimen/dailyanim_L5_circle_marginLeft"
+                android:layout_marginBottom="@dimen/dailyanim_L5_circle_marginBottom" >
+
+                <ImageView
+                    android:id="@id/L5_slave_circle"
+                    android:layout_width="@dimen/dailyanim_L5_slave_circle_width"
+                    android:layout_height="@dimen/dailyanim_L5_slave_circle_height"
+                    android:src="@drawable/l_circle4" />
+
+                <ImageView
+                    android:id="@id/L5_master_circle"
+                    android:layout_width="@dimen/dailyanim_L5_master_circle_width"
+                    android:layout_height="@dimen/dailyanim_L5_master_circle_height"
+                    android:src="@drawable/l_circle5" />
+            </FrameLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@id/l_frame4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom" >
+
+            <FrameLayout
+                android:id="@id/L4_leave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="@dimen/dailyanim_L4_leave_marginLeft"
+                android:layout_marginBottom="@dimen/dailyanim_L4_leave_marginBottom" >
+
+                <ImageView
+                    android:id="@id/greenLeaves03"
+                    android:layout_width="@dimen/dailyanim_greenLeaves03_width"
+                    android:layout_height="@dimen/dailyanim_greenLeaves03_height"
+                    android:src="@drawable/asus_wellness_btn_green_leaves_3" />
+
+                <ImageView
+                    android:id="@id/greenLeaves4"
+                    android:layout_width="@dimen/dailyanim_greenLeaves4_width"
+                    android:layout_height="@dimen/dailyanim_greenLeaves4_height"
+                    android:src="@drawable/asus_wellness_btn_green_leaves_4"
+                    android:visibility="visible" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@id/L4_circle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="@dimen/dailyanim_L4_circle_marginLeft"
+                android:layout_marginBottom="@dimen/dailyanim_L4_circle_marginBottom" >
+
+                <ImageView
+                    android:id="@id/L4_slave_circle"
+                    android:layout_width="@dimen/dailyanim_L4_slave_circle_width"
+                    android:layout_height="@dimen/dailyanim_L4_slave_circle_height"
+                    android:src="@drawable/l_circle3" />
+
+                <ImageView
+                    android:id="@id/L4_master_circle"
+                    android:layout_width="@dimen/dailyanim_L4_master_circle_width"
+                    android:layout_height="@dimen/dailyanim_L4_master_circle_height"
+                    android:src="@drawable/l_circle4" />
+            </FrameLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@id/l_frame3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom" >
+
+            <FrameLayout
+                android:id="@id/L3_leave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="@dimen/dailyanim_L3_leave_marginLeft"
+                android:layout_marginBottom="@dimen/dailyanim_L3_leave_marginBottom" >
+
+                <ImageView
+                    android:id="@id/greenLeaves02"
+                    android:layout_width="@dimen/dailyanim_greenLeaves02_width"
+                    android:layout_height="@dimen/dailyanim_greenLeaves02_height"
+                    android:src="@drawable/asus_wellness_btn_green_leaves_2" />
+
+                <ImageView
+                    android:id="@id/greenLeaves3"
+                    android:layout_width="@dimen/dailyanim_greenLeaves3_width"
+                    android:layout_height="@dimen/dailyanim_greenLeaves3_height"
+                    android:src="@drawable/asus_wellness_btn_green_leaves_3" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@id/L3_circle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="@dimen/dailyanim_L3_circle_marginLeft"
+                android:layout_marginBottom="@dimen/dailyanim_L3_circle_marginBottom" >
+
+                <ImageView
+                    android:id="@id/L3_slave_circle"
+                    android:layout_width="@dimen/dailyanim_L3_slave_circle_width"
+                    android:layout_height="@dimen/dailyanim_L3_slave_circle_height"
+                    android:src="@drawable/l_circle2" />
+
+                <ImageView
+                    android:id="@id/L3_master_circle"
+                    android:layout_width="@dimen/dailyanim_L3_master_circle_width"
+                    android:layout_height="@dimen/dailyanim_L3_master_circle_height"
+                    android:src="@drawable/l_circle3" />
+            </FrameLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@id/l_frame2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom" >
+
+            <FrameLayout
+                android:id="@id/L2_leave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="@dimen/dailyanim_L2_leave_marginLeft"
+                android:layout_marginBottom="@dimen/dailyanim_L2_leave_marginBottom" >
+
+                <ImageView
+                    android:id="@id/greenLeaves01"
+                    android:layout_width="@dimen/dailyanim_greenLeaves01_width"
+                    android:layout_height="@dimen/dailyanim_greenLeaves01_height"
+                    android:src="@drawable/asus_wellness_btn_green_leaves_1" />
+
+                <ImageView
+                    android:id="@id/greenLeaves2"
+                    android:layout_width="@dimen/dailyanim_greenLeaves2_width"
+                    android:layout_height="@dimen/dailyanim_greenLeaves2_height"
+                    android:src="@drawable/asus_wellness_btn_green_leaves_2" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@id/L2_circle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="@dimen/dailyanim_L2_circle_marginLeft"
+                android:layout_marginBottom="@dimen/dailyanim_L2_circle_marginBottom" >
+
+                <ImageView
+                    android:id="@id/L2_slave_cirlce"
+                    android:layout_width="@dimen/dailyanim_L2_slave_circle_width"
+                    android:layout_height="@dimen/dailyanim_L2_slave_circle_height"
+                    android:src="@drawable/l_circle1" />
+
+                <ImageView
+                    android:id="@id/L2_master_circle"
+                    android:layout_width="@dimen/dailyanim_L2_master_circle_width"
+                    android:layout_height="@dimen/dailyanim_L2_master_circle_height"
+                    android:src="@drawable/l_circle2" />
+
+                <TextView
+                    android:id="@id/l2_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/dailyanim_l2_txt_marginTop"
+                    android:text=""
+                    android:textColor="@color/fontColor1"
+                    android:textSize="@dimen/dailyanim_l2_txt_textsize" />
+            </FrameLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@id/l_frame1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom" >
+
+            <FrameLayout
+                android:id="@id/L1_leave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="@dimen/dailyanim_L1_leave_marginLeft"
+                android:layout_marginBottom="@dimen/dailyanim_L1_leave_marginBottom" >
+
+                <ImageView
+                    android:id="@id/greenLeaves05"
+                    android:layout_width="@dimen/dailyanim_greenLeaves05_width"
+                    android:layout_height="@dimen/dailyanim_greenLeaves05_height"
+                    android:src="@drawable/asus_wellness_btn_green_leaves_2" />
+
+                <ImageView
+                    android:id="@id/greenLeaves1"
+                    android:layout_width="@dimen/dailyanim_greenLeaves1_width"
+                    android:layout_height="@dimen/dailyanim_greenLeaves1_height"
+                    android:src="@drawable/asus_wellness_btn_green_leaves_1" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@id/L1_circle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="@dimen/dailyanim_L1_circle_marginLeft"
+                android:layout_marginBottom="@dimen/dailyanim_L1_circle_marginBottom" >
+
+                <ImageView
+                    android:id="@id/L1_slave_circle"
+                    android:layout_width="@dimen/dailyanim_L1_slave_circle_width"
+                    android:layout_height="@dimen/dailyanim_L1_slave_circle_height"
+                    android:src="@drawable/l_circle2" />
+
+                <ImageView
+                    android:id="@id/L1_master_circle"
+                    android:layout_width="@dimen/dailyanim_L1_master_circle_width"
+                    android:layout_height="@dimen/dailyanim_L1_master_circle_height"
+                    android:src="@drawable/l_circle1" />
+
+                <ImageView
+                    android:id="@+id/tips_L_circle_standard"
+                    android:layout_width="@dimen/dailyanim_L1_slave_circle_width"
+                    android:layout_height="@dimen/dailyanim_L1_slave_circle_height"
+                    android:src="@drawable/l_circle2"
+                    android:visibility="invisible"/>
+
+                <TextView
+                    android:id="@+id/text_body"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/dailyanim_body_marginTop"
+                    android:text=""
+                    android:textColor="@color/fontColor1"
+                    android:textSize="@dimen/dailyanim_body_textsize" />
+
+              <!--  <TextView
+                    android:id="@id/l1_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/dailyanim_l1_txt_marginTop"
+                    android:text=""
+                    android:textColor="@color/fontColor1"
+                    android:textSize="@dimen/dailyanim_l1_txt_textsize" />-->
+
+                <me.grantland.widget.AutofitTextView
+                    android:id="@id/l1_txt"
+                    android:layout_width="@dimen/dailyanim_L1_slave_circle_width"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/dailyanim_l1_txt_marginTop"
+                    android:text="100%"
+                    android:textColor="@color/fontColor1"
+                    android:textSize="@dimen/dailyanim_l1_txt_textsize"
+                    android:singleLine="true"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@id/completion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/dailyanim_completion_marginTop"
+                    android:text=""
+                    android:textColor="@color/fontColor1"
+                    android:textSize="@dimen/dailyanim_completion_textsize" />
+            </FrameLayout>
+        </FrameLayout>
+
+        <ImageView
+            android:id="@id/l_large"
+            android:layout_width="@dimen/dailyanim_l_large_width"
+            android:layout_height="@dimen/dailyanim_l_large_height"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="@dimen/dailyanim_l_large_marginLeft"
+            android:layout_marginBottom="@dimen/dailyanim_l_large_marginBottom"
+            android:src="@drawable/l_circle2" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@id/Activity_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dailyanim_Activity_txt_marginLeft"
+        android:layout_marginTop="@dimen/dailyanim_Activity_txt_marginTop"
+        android:gravity="center"
+        android:text="@string/text_activity"
+        android:textAlignment="center"
+        android:textColor="#0f7453"
+        android:textSize="@dimen/dailyanim_Activity_txt_textsize"
+        android:textStyle="bold"
+        android:width="@dimen/dailyanim_Activity_txt_width"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@id/activity_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dailyanim_activity_btn_marginLeft"
+        android:layout_marginBottom="@dimen/dailyanim_activity_btn_marginBottom"
+        android:layout_gravity="bottom"
+        android:alpha="0"
+        android:src="@drawable/l_circle1" />
+
+</FrameLayout>

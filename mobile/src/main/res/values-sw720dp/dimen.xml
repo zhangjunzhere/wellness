@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <dimen name="tips_daily_button_marginLeft">440dp</dimen>
+ <dimen name="tips_daily_p2_lefttext_marginLeft">-180dp</dimen>
+ <dimen name="tips_daily_p2_righttext_marginTop">150dp</dimen>
+ <dimen name="tips_page3_margin_bottom">10dp</dimen>
+</resources>

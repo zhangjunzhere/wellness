@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="target_week_text_size">18dp</dimen>
+    <dimen name="indicator_text_size">16dp</dimen>
+    <dimen name="timeline_left_right_margin">10dp</dimen>
+    <dimen name="timeline_line_length">51dp</dimen>
+    <dimen name="touch_gently_text_size">22dp</dimen>
+    <dimen name="keep_touching_text_size">23dp</dimen>
+    <dimen name="keep_measuring_text_size">23dp</dimen>
+
+    <dimen name="tap_to_add_goal_normal">16dp</dimen>
+
+    <dimen name="reach_goal_large">14dp</dimen>
+    <dimen name="reach_goal_normal">12dp</dimen>
+    <dimen name="reach_goal_small">11dp</dimen>
+
+    <dimen name="congradulations_ts">20dp</dimen>
+
+    <dimen name="padding_lr">2dp</dimen>
+
+    <!-- LDY62 -->
+    <dimen name="ts_relaxtion">20dp</dimen>
+    <dimen name="heart_rate_number">87dp</dimen>
+    <dimen name="relax_number">87dp</dimen>
+
+    <dimen name="measure_result">17dp</dimen>
+    <dimen name="exercise_intensity">17dp</dimen>
+    <dimen name="measure_comment">15dp</dimen>
+
+    <dimen name="tap_to_start">23dp</dimen>
+    <dimen name="stay_clam_during_mearsurement">20dp</dimen>
+
+    <dimen name="today_target_top">52dp</dimen>
+    <dimen name="hundred_percent">32dp</dimen>
+    <dimen name="next_goal_top">20dp</dimen>
+    <dimen name="next_goal_size">23dp</dimen>
+
+    <dimen name="next_goal_step_count">31dp</dimen>
+    <dimen name="next_goal_steps">20dp</dimen>
+</resources>

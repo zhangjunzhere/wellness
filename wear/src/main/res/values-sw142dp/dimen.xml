@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- smile gao add-->
+    <dimen name="congradulations_ts">20dp</dimen>
+    <dimen name="hundred_percent">25dp</dimen>
+
+    <dimen name="reach_goal_large">13dp</dimen>
+    <dimen name="reach_goal_normal">11dp</dimen>
+    <dimen name="reach_goal_small">10dp</dimen>
+
+</resources>

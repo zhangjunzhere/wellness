@@ -1,0 +1,76 @@
+<resources>
+    <string name="text_step_goal" maxwidth="">/%s  PASSOS</string>
+    <string name="target" maxwidth="">META DE HOJE</string>
+    <string name="count_down_text_secs" maxwidth="">SEGUNDOS</string>   
+    <string name="step_unit" maxwidth="">PASSOS</string> 
+    <string name="distance_unit" maxwidth="">KM</string> 
+    <string name="heart_rate_unit" maxwidth="">bpm</string> 
+    <string name="options_relax" maxwidth="">RELAXAR</string> 
+    <string name="options_stress" maxwidth="">ESTRESSE</string>
+    <string name="options_energy" maxwidth="">ENERGIA</string>
+    <string name="text_measure_stress" maxwidth="">NÍVEL DE ESTRESSE</string>
+    <string name="text_measure_relax" maxwidth="">@string/options_relaxation</string>
+    <string name="measure_name" maxwidth="">Medida</string>
+    <string name="waiting_text" maxwidth="">Aguarde!</string>
+	<string-array name="stress_level_1_2" maxwidth="">
+	    <item>Lanches leves e frutas podem ajudar a repor a energia</item>
+	    <item>Estilo de vida saudável ajuda a superar os desafios da vida diária</item>
+	    <item>Em uma zona Zen com uma paz de espírito</item>
+	</string-array>
+	<string-array name="stress_level_3" maxwidth="">
+	    <item>Seu nível de estresse está aumentando</item>
+	    <item>Anote o que você sente</item>
+	</string-array>
+	<string-array name="stress_level_4_5" maxwidth="">
+	    <item>Uma caminhada de 30 minutos pode reduzir o estresse em 25%</item>
+	    <item>Alongue os braços, as costas e os ombros</item>
+	    <item>Fique à vontade e relaxe os músculos</item>
+	    <item>DIY pode trazer alegria e um sentimento de realização</item>
+	    <item>Fala em si mesmo uma massagem com a mão</item>
+	</string-array>
+	<string-array name="heart_rate_level" maxwidth="">
+	    <item>L1 MUITO LEVE</item>
+	    <item>L2 LEVE</item>
+	    <item>L3 MODERADO</item>
+	    <item>L4 DIFÍCIL</item>
+	    <item>L5 MÁXIMO</item>
+	</string-array>
+	<string name="keep_touch_sensor" maxwidth="">Continue a tocar no\ nSensor</string>
+	<string name="options_relaxation" maxwidth="">RELAXAMENTO</string>
+	<string name="not_support_message" maxwidth="">Seu hardware não atende às especificações necessárias para executar este aplicativo usável. O aplicativo está fechado</string>
+	<!--Translated by phone string -->
+	<string name="suggest_wellness_title" maxwidth="">Aplicativo Sugerido:Wellness</string>
+	<string name="suggest_wellness_message" maxwidth="">
+    Get ASUS ZenWatch \nAplicativo Wellness de graça!
+	</string>
+	<string name="exercise_intensity" maxwidth="">INTENSIDADE DE EXERCÍCIO</string>
+	<string name="tutorial_touch_sensor" maxwidth="">Toque suavemente</string>
+	<string name="knockknock_start_relaxation" maxwidth="">Meça o relaxamento</string>
+	<string name="knockknock_start_heartrate" maxwidth="">Medida da frequência cardíaca</string>
+	<string name="tap_to_start" maxwidth="">Toque no ícone para começar</string>
+	<string name="no_value_message" maxwidth="">Sem resultados de medida</string>
+	<string name="tap_to_try_again" maxwidth="">Toque neste ícone para \ntentar novamente</string>
+	<string name="heart_rate" maxwidth="">FREQUÊNCIA CARDÍACA</string>
+	 <string name="tap_message" maxwidth="">Mantenha-se calmo durante a medição</string>
+	 <string-array name="relax_level_1_2" maxwidth="">
+	    <item>Água e exercício ajudam a relaxar o corpo</item>
+	    <item>Comece a planejar as férias</item>
+	    <item>Ouvir uma música relaxante pode ajudá-lo a relaxar</item>
+	</string-array>
+	<string-array name="relax_level_3" maxwidth="">
+	    <item>Seu nível de estresse está caindo</item>
+	</string-array>
+	<string-array name="relax_level_4_5" maxwidth="">
+	    <item>Cheio de energia e pronto para executar as tarefas de hoje</item>
+	    <item>Você está bem descansado e concentrado</item>
+	    <item>Um estado de paz de espírito ajudará a aumentar a concentração</item>
+	</string-array>
+	<string name="download_on_phone_message" maxwidth="">Baixar no telefone</string>
+	<string name="wait_first_heart_rate_message" maxwidth="">Começar a medir, por favor, mantenha-se quieto e relaxado.</string>
+	<string name="wait_enough_rr_message" maxwidth="">Manter a medição, apenas mais alguns segundos...</string>
+	<string name="keep_measuring" maxwidth="">Manter Medição...</string>
+	<string name="total_steps" maxwidth="">TOTAL DE PASSOS</string>
+	<string name="step_indicator_10k" maxwidth="">10K</string>
+	<string name="step_indicator_5k" maxwidth="">5K</string>
+	<string name="calories_unit" description="Calories unit" maxwidth="">kcal</string>
+</resources>

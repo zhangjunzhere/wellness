@@ -1,0 +1,80 @@
+<resources>
+
+    <string name="app_name">Wellness</string>
+    <string name="text_step_goal">/%s PASOS</string>
+    <string name="target">OBJETIVO DE HOY</string>
+    <string name="count_down_text_secs">SEGUNDOS</string>   
+    <string name="step_unit">PASOS</string> 
+    <string name="distance_unit">KM</string> 
+    <string name="heart_rate_unit">lpm</string> 
+    <string name="options_relax">RELAJACIÓN</string> 
+    <string name="options_stress">FATIGA</string>
+    <string name="options_energy">ENERGÍA</string>
+    <string name="text_measure_stress">NIVEL DE FATIGA</string>
+    <string name="text_measure_relax">NIVEL DE ENERGÍA</string>
+    <string name="measure_name">Medida</string>
+    <string name="waiting_text">Espere.</string>
+	<string-array name="stress_level_1_2">
+	    <item>Tentempiés y frutas ligeros pueden ayudar a reponer la energía</item>
+	    <item>Un estilo de vida saludable ayuda a superar los retos de la vida diaria</item>
+	    <item>En una zona Zen con tranquilidad</item>
+	</string-array>
+	<string-array name="stress_level_3">
+	    <item>Su nivel de fatiga está aumentando</item>
+	    <item>Anote cómo se siente</item>
+	</string-array>
+	<string-array name="stress_level_4_5">
+	    <item>Un paseo de 30 minutos puede reducir la fatiga un 25 %</item>
+	    <item>Estire los brazos, la espalda y los hombros </item>
+	    <item>Póngase cómodo y relaje sus músculos</item>
+	    <item>DIY puede proporcionar alegría y un sentido de consecución de objetivos</item>
+	    <item>Aplíquese usted mismo un masaje manual</item>
+	</string-array>
+	<string-array name="heart_rate_level">
+	    <item>N1 MUY LIGERO</item>
+	    <item>N2 LIGERO</item>
+	    <item>N3 MODERADO</item>
+	    <item>N4 DURO</item>
+	    <item>N5 MÁXIMO</item>
+	</string-array>
+	<string name="knockknock_start_stress">Iniciar la medición del nivel de esfuerzo</string>
+	
+	<string name="keep_touch_sensor" maxwidth="">Continuar tocando\nel sensor</string>
+	<string name="options_relaxation" maxwidth="">RELAJACIÓN</string>
+	<string name="not_support_message" maxwidth="">El hardware no cumple las especificaciones necesarias para ejecutar esta aplicación transportable. La aplicación se ha cerrado.</string>
+
+	<string name="exercise_intensity" maxwidth="">INTENSIDAD DEL EJERCICIO</string>
+	<string name="tutorial_touch_sensor" maxwidth="">Tocar suavemente</string>
+	<string name="knockknock_start_relaxation" maxwidth="">Medir relajación</string>
+	<string name="knockknock_start_heartrate" maxwidth="">Medir pulsaciones</string>
+	<string name="tap_to_start" maxwidth="">Pulsar icono para comenzar</string>
+	<string name="no_value_message" maxwidth="">No hay resultados de medición</string>
+	<string name="tap_to_try_again" maxwidth="">Pulsar este icono para\nintentarlo de nuevo</string>
+	<string name="heart_rate" maxwidth="">PULSACIONES</string>
+	<string name="tap_message" maxwidth="">Permanezca en calma durante la medición</string>
+	<string-array name="relax_level_1_2" maxwidth="">
+	    <item>El agua y el ejercicio ayudan a soltar el cuerpo </item>
+	    <item>Comenzar a planificar un descanso</item>
+	    <item>Escuchar música relajante puede ayudar a relajarse</item>
+	</string-array>
+	<string-array name="relax_level_3" maxwidth="">
+	    <item>Su nivel de relajación está disminuyendo</item>
+	</string-array>
+	<string-array name="relax_level_4_5" maxwidth="">
+	    <item>Lleno de energía y preparado para completar las tareas del día  </item>
+	    <item>Está bien descansado y concentrado</item>
+	    <item>Un estado de mente tranquila le ayudará a aumentar la concentración</item>
+	</string-array>
+	<string name="suggest_wellness_title" maxwidth="">Aplicación recomendada:Wellness</string>
+	<string name="suggest_wellness_message" maxwidth="">
+    ¡Consiga la aplicación \nASUS ZenWatch Wellness gratis!
+	</string>
+	<string name="download_on_phone_message" maxwidth="">Descargar en el teléfono</string>
+	<string name="wait_first_heart_rate_message" maxwidth="">Inicie la medición. Permanezca en calma y relajado.</string>
+	<string name="wait_enough_rr_message" maxwidth="">Siga realizando la medición solamente unos segundos más...</string>
+	<string name="keep_measuring" maxwidth="">Siga midiendo...</string>
+	<string name="total_steps" maxwidth="">PASOS TOTALES</string>
+	<string name="step_indicator_10k" maxwidth="">10K</string>
+	<string name="step_indicator_5k" maxwidth="">5K</string>
+	<string name="calories_unit" description="Calories unit" maxwidth="">kcal</string>
+</resources>

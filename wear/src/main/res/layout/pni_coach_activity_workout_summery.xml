@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ll_rootView"
+    android:background="@drawable/pni_background_gradient">
+
+    <LinearLayout
+        android:id="@+id/coach_activity_workout_summery_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextClock
+            android:id="@+id/tv_clock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:text="05:30"
+            android:gravity="center"
+            android:visibility="gone"
+            />
+
+        <include
+            android:id="@+id/rl_target"
+            layout="@layout/pni_coach_workout_summery_item"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+
+        <include
+            android:id="@+id/rl_distance"
+            layout="@layout/pni_coach_workout_summery_item"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+
+        <include
+            android:id="@+id/rl_time"
+            layout="@layout/pni_coach_workout_summery_item"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+           />
+
+        <include
+            android:id="@+id/rl_calories"
+            layout="@layout/pni_coach_workout_summery_item"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:visibility="gone"
+            />
+    
+    </LinearLayout>
+</ScrollView>

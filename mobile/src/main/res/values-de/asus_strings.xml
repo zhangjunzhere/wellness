@@ -1,0 +1,120 @@
+<resources>
+	<!-- kim_bai@asus.com 2014.12.26-->
+    <string name="duration">Dauer</string>
+    <string name="remind_me_session">In der folgenden Sitzung speichern</string>
+    <string name="from">Von</string>
+    <string name="to">Bis</string>
+	
+	<string name="steps">Schritte</string>
+    <string name="tomorrow_goal">Morgiges Ziel</string>
+
+    <!-- Inspire Asus -->
+    <string name="wm_about_inspire_asus">Inspire ASUS</string>
+    <string name="wm_inspire_asus_text1">Damit wir unseren Kunden bessere Services bereitstellen, die Benutzererfahrung verbessern und zur Leistungsverbesserung kontinuierlich Probleme aufdecken können, ruft ASUS Inpire ASUS („Programm“) ins Leben. Dieses Programm kann Ihren Nutzungsbericht anonym sammeln.</string>
+    <string name="wm_inspire_asus_text2">Der Nutzungsbericht steht in keiner Weise mit Ihren ASUS ZenWatch-Geräteidentitäten oder persönlichen Daten in Zusammenhang. Die Nutzungsdaten beinhalten Bereitschaftsstatus, Absturzereignisse, bevorzugte Schnittstelle, Spracheinstellungen, aktuelle Softwareversion, Informationen zu häufig verwendeter Software, Nutzungsverhalten von Softwarefunktionen und Ort.</string>
+    <string name="wm_inspire_asus_text3">ASUS liegen die Privatsphäre und Rechte unserer Kunden sehr am Herzen. Sie können die Meldefunktion des Programms jederzeit über das Menü ein-/ausschalten. Weitere Einzelheiten darüber, wie ASUS Ihre Privatsphäre schützt, finden Sie hier:</string>
+    <string name="wm_inspire_asus_yes_text">Klar, da mach ich mit!</string>
+
+    <!-- Encourage Us -->
+    <string name="encourage_title">Ermutigen Sie uns</string>
+    <string name="scroll_up_toast" description="rate now" maxwidth="">Bitte blättern Sie zum Bewerten nach oben</string>
+    <string name="toolbar_encourage_us_text">Wenn Ihnen ASUS Wellness gefällt, geben Sie uns doch bitte 5 Sterne im Play Store. Das würde uns sehr ermutigen, das Produkt weiterhin zu verbessern!\n\nBei Empfehlungen schreiben Sie uns über Rückmeldung &amp; Hilfe.</string>
+    <string name="toolbar_encourage_dialog_rate_now" maxwidth="35">Jetzt bewerten</string>
+    <string name="toolbar_encourage_us_cancel">Abbrechen</string>
+
+    <!-- 2015.11.5-->
+    <string name="pushup">"Liegestütz"</string>
+    <string name="situp">"Sit-up"</string>
+    <string name="detail_sleep_deepsleep">"Tiefschlaf"</string>
+    <string name="detail_sleep_lightsleep">"Leichter Schlaf"</string>
+    <string name="detail_sleep_sleeplatency">"Schlaflatenz"</string>
+    <string name="detail_sleep_light">"Leicht"</string>
+    <string name="detail_sleep_deep">"Tief"</string>
+    <string name="detail_sleep_shorthour">"h"</string>
+    <string name="text_sleep" maxwidth="">"Schlaf"</string>
+    <string name="weekly_info_sleep_title">"Schlafanalyse gesamt"</string>
+    <string name="daily_detail_workout">"Training"</string>
+    <string name="weekly_info_workout_title">"Liegestütz/Situps gesamt"</string>
+    <string name="sleep_notification_title" maxwidth="">"Hinweis zur Schlafverfolgung"</string>
+    <string name="sleep_notification_content" maxwidth="">"Aufnahme..."</string>
+    <string name="daily_info_run_type">"Laufen"</string>
+
+    <!-- 2015.12.31 -->
+    <string name="detail_sleep_wokeup">"Drehungen"</string>
+    <string name="detail_sleep_shortmin">"m"</string>
+    <string name="detail_text_completion" maxwidth="">"erzielt"</string>
+    <string name="text_completion" maxwidth="">"Ziel erreicht"</string>
+    <string name="daily_detail_workout_title_accumulation" maxwidth="">"Ansammlung"</string>
+    <string name="sleep_quality_score" maxwidth="">"Qualitätspunktzahl"</string>
+    <string name="text_sleep_quality_score">"Schlafqualität"</string>
+    <string name="sleptfor">"Schlafdauer"</string>
+    <string name="permisson_turn_on">"Jetzt einschalten!"</string>
+    <string name="permisson_body_sensor_title">"Kann Ihre Aktivität nicht erkennen"</string>
+    <string name="permisson_body_sensor_subtitle">"Wellness kann Ihre Bewegung ohne Körpersensorberechtigung nicht erkennen"</string>
+    <string name="permisson_location_title">"Ihr Standort ist nicht auffindbar"</string>
+    <string name="permisson_location_subtitle">"Wellness kann Ihren Standort ohne Standortberechtigung nicht erkennen"</string>
+    <string name="permisson_storage_title">"Kann nicht auf Ihre Fotos zugreifen"</string>
+    <string name="permisson_storage_subtitle">"Wellness kann ohne Speicherberechtigung nicht auf Ihre Bilder zugreifen"</string>
+    <string name="permisson_notice_bodysensor_location">"Hinweis: Schalten Sie keine Berechtigungen von Systemeinstellungen aus, während jegliche Funktionen bezüglich Ihrer Aktivität ausgeführt werden."</string>
+    <string name="permisson_notice_storage">"Hinweis: Schalten Sie keine Berechtigungen von Systemeinstellungen aus, während jegliche Funktionen bezüglich Ihres persönlichen Profils ausgeführt werden."</string>
+    <string name="distance_unit_miles" description="Distance unit: miles" maxwidth="">"Meilen"</string>
+
+    <!-- 2016.1.11 -->
+    <string name="sleep_dictinary">"Schlaflexikon"</string>
+    <string name="sleepinformation">"Schlafinformationen"</string>
+    <string name="sleeplenght">"Schlafdauer"</string>
+    <string name="deepsleepandlightsleep">"Tiefschlaf und Leichtschlaf"</string>
+    <string name="awakenings">"Drehungen (Wachphasen)"</string>
+    <string name="suggestion">"Empfehlung"</string>
+    <string name="sleepquality_info">"Schlafqualität ist eine Punktzahl (bis 100) zur Quantifizierung der Qualität Ihres Schlafs. Je höher die Punktzahl, desto besser Ihre Schlafqualität. Die Punktzahl der Schlafqualität hängt davon ab, wie lange Sie schlafen, wie wie Zeit Sie zum Einschlafen benötigen, wie viel Zeit Sie im Bett verbringen, wie lange Ihr Tiefschlaf dauert (Schlaf mit weniger Körperbewegungen) und wie häufig Sie während des Schlafs aufwachen."</string>
+    <string name="sleepquality_suggestion">"Eine Punktzahl von 60 bildet die Grundlinie eines normalen Schlafverhaltens. Wenn Sie mehr als 60 erzielen, ist Ihr Schlaf besser als durchschnittlich und umgekehrt."</string>
+    <string name="sleeplength_info">"ZenWatch erkennt den Anfang Ihres ersten Leichtschlafs und das Ende Ihres letzten Leichtschlafs zur Ermittlung der Schlafdauer."</string>
+    <string name="sleeplength_suggestion">"Das Schlafbedürfnis variiert je nach Altersgruppe. Neugeborene benötigen 16 – 18 Stunden pro Tag, Vorschulkinder 11 – 12 Stunden pro Tag, Schulkinder mindestens 10 Stunden pro Tag, Jugendliche 9 – 10 Stunden pro Tag und Erwachsene (sowie ältere Menschen) 7 – 8 Stunden pro Tag."</string>
+    <string name="deepsleepandlightsleep_info">"ZenWatch misst Ihre Körperbewegungen während der Schlafüberwachung. Tiefschlaf meint Schlaf mit wenigen Körperbewegungen im Verhältnis zu Leichtschlaf und Wachzustand. Generell deuten weniger Körperbewegungen während des Schlafs auf einen besseren Schlaf hin."</string>
+    <string name="deepsleepandlightsleep_suggestion" formatted="false">"Bei Menschen mit einem normal Schlafverhalten machen Tief- und Leichtschlaf durchschnittlich etwa 20 bis 60 % der gesamten Schlafdauer aus."</string>
+    <string name="sleeplatency_info">"Die Zeit vom Starten der Schlafüberwachung bis zu dem Moment, wo die ZenWatch feststellt, dass Sie eingeschlafen sind"</string>
+    <string name="sleeplatency_suggestion">"Bei einem normalen Schlafmuster beträgt die durchschnittliche Latenzzeit etwa 15 Minuten."</string>
+    <string name="awakenings_info">"ZenWatch erkennt, wie häufig Sie während des Schlafs aufwachen (mit mehr Körperbewegungen)"</string>
+    <string name="awakenings_suggestion">"Menschen mit einem normalen Schlafverhalten wachen durchschnittlich 3-mal während des Schlafs auf."</string>
+    <string name="sleep_tips_title">"Tipps für einen besseren Schlaf"</string>
+    <string name="stick_to_a_sleep_schedule_title">"Einen Schlafplan einhalten"</string>
+    <string name="stick_to_a_sleep_schedule">"Versuchen Sie möglichst, jeden Tag zur gleichen Zeit ins Bett zu gehen und aufzustehen. Als Gewohnheitstiere haben Menschen Probleme mit Änderungen im Schlafrhythmus. Das Ausschlafen an Wochenenden gleicht einen Schlafmangel unter der Woche nicht aus und erschwert frühes Aufstehen am Montagmorgen."</string>
+    <string name="exercise_is_great_title">"Training ist gut, aber nicht zu spät am Tag"</string>
+    <string name="exercise_is_great">"Versuchen Sie, an den meisten Tagen mindestens 30 Minuten zu trainieren, aber nicht später als 2 - 3 Stunden vor dem Zubettgehen."</string>
+    <string name="avoid_cafeine_and_nicotine_title">"Auf Koffein und Nikotin verzichten"</string>
+    <string name="avoid_cafeine_and_nicotine">"Kaffee, Cola, bestimmte Teesorten und Schokolade enthalten das Aufputschmittel Koffein, dessen Wirkung erst nach bis zu 8 Stunden vollständig nachlässt. Daher kann eine Tasse Kaffee am späten Nachmittag das nächtliche Einschlafen erschweren. Nikotin ist ebenfalls ein Aufputschmittel, weshalb Raucher häufig einen sehr leichten Schlaf haben. Darüber hinaus wachen Raucher aufgrund des Nikotinentzugs häufig zu früh morgens auf."</string>
+    <string name="avoid_alcoholic_drinks_before_bed_title">"Keine alkoholischen Getränke vor dem Schlafengehen"</string>
+    <string name="avoid_alcoholic_drinks_before_bed">"Ein \"Absacker\", d. h. ein alkoholisches Getränk vor dem Schlafengehen, hilft Ihnen eventuell beim Entspannen; zu viel Alkohol raubt Ihnen jedoch den Tiefschlaf, wodurch Sie in leichteren Schlafphasen bleiben. Starker Alkoholkonsum kann zudem zur nächtlichen Atmungsstörungen beitragen. Zudem wachen Sie vermutlich mitten in der Nacht auf, wenn die Wirkung des Alkohols nachlässt."</string>
+    <string name="avoid_large_meals_title">"Zu später Stunde auf üppige Mahlzeiten und Getränke verzichten"</string>
+    <string name="avoid_large_meals">"Ein leichter Snack ist in Ordnung, doch eine große Mahlzeit kann Ihren Schlaf stören. Wenn Sie nachts zu viel trinken, wird Ihr Schlaf möglicherweise durch häufigen Harndrang unterbrochen."</string>
+    <string name="if_possible_title">"Möglichst auf Medikamente verzichten, die Ihren Schlaf verzögern oder unterbrechen."</string>
+    <string name="if_possible">"Einige häufig verschriebenen Medikamente bei Herzerkrankungen, hohem/niedrigem Blutdruck und Asthma sowie nicht rezeptpflichtige Medikamente und pflanzliche Heilmittel gegen Husten, Schnupfen oder Allergien können das Schlafverhalten stören. Falls Sie Schlafprobleme haben, sollten Sie sich an Ihren Arzt oder einen Apotheker wenden, um herauszufinden, ob Ihre Schlafstörungen mit Medikamenten in Verbindung stehen. Erkundigen Sie sich, ob entsprechende Medikamente zu anderen Tageszeiten oder früh am Abend eingenommen werden können."</string>
+    <string name="dont_take_naps_title">"Kein Mittagsschlaf nach 15:00 Uhr"</string>
+    <string name="dont_take_naps">"Ein Mittagsschlaf kann Ihnen helfen, verlorenen Schlaf nachzuholen; ein kurzer Schlaf am späten Nachmittag erschwert jedoch das nächtliche Einschlafen."</string>
+    <string name="relax_before_bed_title">"Vor dem Zubettgehen entspannen"</string>
+    <string name="relax_before_bed">"Planen Sie nicht zu viele Aufgaben für Ihren Tag, damit Sie abends genügend Zeit haben, zur Ruhe zu kommen. Eine entspannende Aktivität, wie Lesen oder Musikhören, sollte Bestandteil Ihres Einschlafrituals sein."</string>
+    <string name="take_a_lot_bath_title">"Ein heißes Bad vor dem Schlafengehen"</string>
+    <string name="take_a_lot_bath">"Das Absinken der Körpertemperatur nach Aussteigen aus der Badewanne kann Ihnen dabei helfen, sich schläfrig zu fühlen; durch ein gemütliches Bad können Sie entspannen, abschalten und sich so besser auf den Schlaf vorbereiten."</string>
+    <string name="have_a_good_sleeping_title">"Für eine gute Schlafumgebung sorgen"</string>
+    <string name="have_a_good_sleeping">"Eine ungestörte Nachtruhe erfordert eine gute Schlafumgebung. Entfernen Sie alles aus Ihrem Schlafzimmer, was Sie während des Schlafs stören könnte, wie bspw. Geräusche oder helles Licht.  Schalten Sie Ihre Mobilgeräte, Fernseher, Computer und andere Elektronikgeräte aus. Ein bequemes Bett, eine angenehme Raumtemperatur und ein Kissen können zu einer ungestörten Nachtruhe beitragen. Menschen mit Schlafstörungen sehen häufig auf die Uhr. Falls Sie unter Schlafstörungen leiden, entfernen Sie die Uhr aus Ihrem Blickfeld, damit Sie sich keine Sorgen darum machen müssen, wie lange es dauert, bis Sie einschlafen."</string>
+    <string name="have_the_right_sunlight_title">"Ausreichend Sonnenlicht aussetzen"</string>
+    <string name="have_the_right_sunlight">"Tageslicht ist der Schlüssel zur Regulierung Ihres täglichen Schlafrhythmus. Halten Sie sich mindestens 30 Minuten pro Tag bei Tageslicht im Freien auf. Stehen Sie nach Möglichkeit mit der Sonne auf oder nutzen Sie morgens sehr helle Beleuchtung. Schlafspezialisten empfehlen, dass sich Menschen mit Einschlafproblemen eine Stunde lang der Morgensonne aussetzen und das Licht vor dem Zubettgehen ausschalten sollten."</string>
+    <string name="dont_lie_in_bed_title">"Nicht wach im Bett liegen"</string>
+    <string name="dont_lie_in_bed">"Wenn Sie mehr als 20 Minuten nach dem Zubettgehen immer noch wach sind bzw. Angst oder Sorgen aufkommen, sollten Sie aufstehen und einer entspannenden Aktivität nachgehen, bis Sie sich schläfrig fühlen. Die Angst, nicht schlafen zu können, erschwert das Einschlafen zusätzlich."</string>
+    <string name="see_a_health_title">"Bei ständigen Schlafproblemen einen Arzt aufsuchen"</string>
+    <string name="see_a_health">"Falls Sie durchgängig Probleme beim Ein- oder Durchschlafen haben und/oder tagsüber müde sind oder sich nicht ausgeruht fühlen, obwohl Sie nachts genug Zeit im Bett verbracht haben, leiden Sie möglicherweise unter einer Schlafstörung. Ihr Hausarzt oder ein Schlafspezialist kann Ihnen sicherlich weiterhelfen; außerdem ist es wichtig, andere gesundheitliche oder emotionale Probleme auszuschließen, die Ihren Schlaf stören könnten."</string>
+    <string name="sleep_detail_back">"Zurück"</string>
+    <string name="data_source">"Quelle:"</string>
+    <string name="articlehelpful">"Waren diese Informationen hilfreich?"</string>
+
+    <!-- 2016.1.15 -->
+    <string name="allow_access_photos_title">"Fotozugriff erlauben"</string>
+    <string name="allow_access_photos_content">"Rufen Sie zum Ändern Ihres Fotos Einstellungen auf und aktivieren Sie die Speicherberechtigung für ZenWatch Wellness."</string>
+    <string name="allow_track_location_title">"Standortverfolgung erlauben"</string>
+    <string name="allow_track_location_content">"Rufen Sie zum Verfolgen Ihres Aktivitätstandortes Einstellungen auf und aktivieren Sie die Standortberechtigung für ZenWatch Wellness."</string>
+    <string name="bug_report_preference_title">"Programmfehler melden"</string>
+    <string name="bug_report_email_subject">"Wellness-Fehlermeldung"</string>
+    <string name="bug_report_email_body">"Wellness-Fehlermeldung"</string>
+    <string name="but_report_share">"Teilen"</string>
+    <string name="settings_disable_backup">"Wenn Sie die Option \"Meine Daten sichern\" nicht markieren, können Ihre bislang gesicherten Dateien durch den Mechanismus des Google Android Backup-Dienstes verloren gehen. Möchten Sie die Auswahl wirklich aufheben?"</string>
+</resources>

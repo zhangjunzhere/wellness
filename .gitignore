@@ -1,0 +1,12 @@
+.gradle
+/local.properties
+/.idea/
+/.idea/libraries
+.DS_Store
+/build
+*.iml
+/alloutput/
+/release/
+my_libs/autofit_textview/build
+commonUi/build
+/commonUiLib/build/

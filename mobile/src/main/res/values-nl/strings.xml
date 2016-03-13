@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name" description="App name" maxwidth="-1">"Wellness"</string>
+    <string name="alertdialog_find_user_data_message_title" description="Restore profile title" maxwidth="-1">"Gebruiksprofiel gevonden"</string>
+    <string name="alertdialog_find_user_data_message_content" description="Restore profile message" maxwidth="-1">"Een gebruiksprofiel van de Wellness app bestaat al op dit apparaat. Vervolg de setup met het bestaande profiel?"</string>
+    <string name="daily_energy_detail_measurement" description="Message of Energy detail page" maxwidth="-1">"Gemeten"</string>
+    <string name="daily_energy_detail_today" description="Message of Energy detail page" maxwidth="-1">"vandaag"</string>
+    <string name="setting_title" description="Action bar title of setting page." maxwidth="-1">"Instellingen"</string>
+    <string name="setting_title_activity_goal" description="Title of setting page option." maxwidth="">"Doel activiteit"</string>
+    <string name="setting_title_backup_restore" description="Title of setting page option." maxwidth="-1">"Back-up maken van mijn gegevens"</string>
+    <string name="setting_activity_tracking" description="Title of setting page option." maxwidth="-1">"Bijhouden activiteit"</string>
+    <string name="setting_dialog_backup_restore_title" description="Backup dialog title." maxwidth="-1">"Back-up Services"</string>
+    <string name="setting_dialog_backup_restore_message" description="Backup dialog message." maxwidth="-1">"Schakel back-up services in."</string>
+    <string name="setting_idle_alarm_option_15mins" description="Idle alarm option." maxwidth="-1">"Elke 15 min"</string>
+    <string name="setting_idle_alarm_option_30mins" description="Idle alarm option." maxwidth="-1">"Elke 30 min"</string>
+    <string name="setting_idle_alarm_option_1hour" description="Idle alarm option." maxwidth="-1">"Elk uur"</string>
+    <string name="setting_idle_alarm_option_1_5hours" description="Idle alarm option." maxwidth="-1">"Elke 1,5 uur"</string>
+    <string name="setting_idle_alarm_option_2hours" description="Idle alarm option." maxwidth="-1">"Elke 2 uur"</string>
+    <string name="setting_step_goal_include_bike_title" description="Include bike option." maxwidth="-1">"Inclusief fietsactiviteit"</string>
+    <string name="setting_step_goal_hint" description="Hint to remind user to input goal number." maxwidth="-1">"Invoer doelcijfers activiteit"</string>
+    <string name="step_counts_message_setting_goal" description="Step unit message of activity goal page." maxwidth="-1">"stappen / dag"</string>
+    <string name="step_counts_message_preference" description="Option message of activity goal." maxwidth="-1">"%s stappen/dag"</string>
+    <string name="step_counts_intensity_explain" description="Explanation message of step goal in activity goal page." maxwidth="-1">"(%s stappen/dag)"</string>
+    <string name="set_new_profile_alarm_title" description="Alarm Dialog title of adding new profile." maxwidth="-1">"Profiel resetten?"</string>
+    <string name="set_new_profile_btn_text" description="Button text of adding new profile." maxwidth="-1">"Profiel resetten"</string>
+    <string name="set_new_profile_alarm_message" description="Alarm Dialog message of adding new profile." maxwidth="-1">"Weet u zeker dat u uw bestaande profiel wilt vervangen?"</string>
+    <string name="tutorial_measure_title" description="Tutorial title." maxwidth="-1">"Hoe te meten"</string>
+    <string name="set_profile_title" description="Title of setting profile page." maxwidth="">"Stel uw profiel in"</string>
+    <string name="profile_edittext_name_hint" description="Hint to request user to enter name." maxwidth="">"Voer uw naam in"</string>
+    <string name="profile_edittext_name_hint_alarm" description="Hint to request user to enter name." maxwidth="">"Voer uw naam in"</string>
+    <string name="profile_gender_title" description="Profile title" maxwidth="">"Geslacht"</string>
+    <string name="profile_age_title" description="Profile title" maxwidth="">"Leeftijd"</string>
+    <string name="profile_gender_age_title" description="Profile title" maxwidth="">"Geslacht/Leeftijd"</string>
+    <string name="profile_height_title" description="Profile title" maxwidth="">"Lengte"</string>
+    <string name="profile_weight_title" description="Profile title" maxwidth="">"Gewicht"</string>
+    <string name="drawer_title_about" description="Drawer Profile title" maxwidth="">"Info"</string>
+    <string name="drawer_title_status" description="Drawer Profile title" maxwidth="">"Status"</string>
+    <string name="str_edit_profile" description="Button text of edit profile" maxwidth="">"Wijzig profiel"</string>
+    <string name="profile_start_measure_date" description="Drawer Profile title" maxwidth="">"Startdatum meting"</string>
+    <string name="profile_total_steps" description="Drawer Profile title" maxwidth="">"Totaal aantal stappen"</string>
+    <string name="none_data_inside" description="No data description" maxwidth="">"Geen gegevens beschikbaar"</string>
+    <string name="heart_and_exercise_intensity" description="Heart rate title of activity detail page" maxwidth="">"Hartslag en intensiteit oefening"</string>
+    <string name="time_unit" description="Time unit" maxwidth="">"min"</string>
+    <string name="distance_unit" description="Distance unit" maxwidth="">"km"</string>
+    <string name="detail_energy_best_info_energy_level" description="Best energy text." maxwidth="">"Hoogste:"</string>
+    <string name="detail_energy_worst_info_stress_level" description="Worst energy text." maxwidth="">"Laagste:"</string>
+    <string name="count_time" description="The number of measurment" maxwidth="">"keer"</string>
+    <string name="not_connected_to_wellness" description="No connected device." maxwidth="">"Uw horloge is niet gekoppeld aan Wellness"</string>
+    <string-array name="profile_gender_option" description="Gender options" maxwidth="">
+        <item>"Man"</item>
+        <item>"Vrouw"</item>
+    </string-array>
+    <string-array name="profile_weight_option" description="Weight options" maxwidth="">
+        <item>"kg"</item>
+        <item>"lb"</item>
+    </string-array>
+    <string name="dialog_number_picker_done" description="Button text of number picker." maxwidth="-1">"Gereed"</string>
+    <string name="dialog_number_picker_height_title" description="Title of setting height picker." maxwidth="-1">"Stel lengte in"</string>
+    <string name="dialog_number_picker_weight_title" description="Title of setting weight picker." maxwidth="-1">"Stel gewicht in"</string>
+    <string name="dialog_number_picker_age_title" description="Title of setting age picker." maxwidth="-1">"Stel leeftijd in"</string>
+    <string name="terms_services_title" description="Title of term service." maxwidth="-1">"Gebruiksvoorwaarden"</string>
+    <string name="terms_services_subtitle" description="subtitle of term service." maxwidth="-1">"Belangrijke mededeling"</string>
+    <string name="terms_services_message" description="Message of term service." maxwidth="-1">"Deze applicatie is niet bedoeld voor diagnose of medisch gebruik. U kunt deze app niet gebruiken om ziektes te behandelen, genezen of the voorkomen noch kan het worden gebruik voor monitoring or behandeling van fysieke, mentale of fysiologische aandoeningen.\n\n Uw wellness-gegevens (gebruiksprofiel, hartslag, stress, ontspanning, fysieke activiteit, locatie-informate.) worden opgeslagen in de Wellness-app geïnstalleerd op uw mobiele apparaat. Uw wellness-gegevens worden automatisch gebackupt op de Google servers als u \"Back-up &amp; reset\" in de \"Instellingen\" van uw mobiele apparaat inschakelt met de back-up account die u instelt."</string>
+    <string name="terms_services_end_user_subtitle" description="subtitle of End user license agreement subtitle." maxwidth="-1">"Licentieovereenkomst voor eindgebruikers"</string>
+    <string name="terms_services_end_user_message" description="Message of End user license agreement." maxwidth="-1">"Deze licentieovereenkomst voor eindgebruikers ("EULA") vormt een geldige en bindende overeenkomst tussen ASUSTeK Computer Inc. ("ASUS") en u, als gebruiker, voor het gebruik van de ASUS-software ("Software"), gedefinieerd zoals hieronder uiteengezet. Door de software te installeren en te blijven gebruiken BEVESTIGT U EXPLICIET DAT U DE VOORWAARDEN VAN DEZE EULA EN ALLE NIEUWE VERSIES ERVAN HEBT GELEZEN EN BEGREPEN EN DAT U ERMEE INSTEMT DAT U DOOR DEZE VOORWAARDEN BENT GEBONDEN.
+        \n\n1.SOFTWARE betekent de ASUS-software geleverd in of bij het toepasselijke ASUS-product, inclusief maar niet gelimiteerd tot eventuele toekomstige programmaverbeteringen, updates, opwaarderingen en gemodificeerde versies.\n\nDe Software kan mogelijk vergezeld gaan met andere ASUS-software of software van derden die onder licentie is van een of meerdere Free Open Source Software-licenties zoals genoemd op www.opensource.org/licenses. Dergelijke Free Open Source Software wordt slechts aan u geleverd onder de begeleidende voorwaarden van de respectievelijke licentievoorwaarden of copyrightvermelding of in het begeleidende FOSS-licentiebestand bij de Software. De voorwaarden van deze EULA zijn NIET toepasbaar op dergelijke Free Open Source Software.
+        \n\n2.LICENSE Volgens de voorwaarden van deze EULA, verleent ASUS u hierbij een beperkte, persoonlijke, niet-commerciële, niet-exclusieve licentie om de software uitsluitend te gebruiken als geïntegreerd in de ASUS-producten. Het is toegestaan om één kopie van de Software in voor machine leesbare vorm te maken, alleen voor back-up doeleinden; hierbij ervan uitgaand dat de back-up kopie inclusief alle auteursrecht en andere eigendomsrechten van het origineel. Deze licentie mag niet als sublicentie worden verleend en is niet overdraagbaar, behalve naar een persoon of entiteit aan wie u het eigendom van het volledige ASUS-product dat de software bevat, overdraagt, op voorwaarde dat u alle rechten onder deze EULA permanent overdraagt en geen volledige of gedeeltelijke kopieën van de software behoudt en op voorwaarde dat de ontvanger akkoord gaat met de voorwaarden van deze EULA.
+        \n\n3. OMGEKEERDE BEPERKING U mag geen reverse engineering toepassen op de Software of deze decompileren, decoderen of demonteren, en u mag het voorgaande niet toelaten of veroorzaken, behalve voor zover dit direct wordt opgelegd door de toepasselijke wetgeving.
+        \n\n4. VERTROUWELIJKHEID U hebt de plicht de vertrouwelijke informatie van de Software in enige vorm te beschermen, geheim te houden of de gedeeltelijke of volledige onthulling aan derden te voorkomen, inclusief maar niet beperkt tot bedrijfsgeheimen en auteursrechtelijk beschermd materiaal.
+        \n\n5. Intellectuele eigendomsrechten ("IP-rechten") U bevestigt en gaat akkoord dat alle IP-rechten, eigendom en belang in of voortvloeiend uit de Software, het exclusieve eigendom zijn en blijven van ASUS of haar licentieverlener. Niets in deze EULA is bedoeld om dergelijke IP-rechten aan u over te dragen. Elk ongeautoriseerd gebruik van de IP-rechten is een schending van deze EULA, evenals een schending van intellectuele eigendomsrechten, inclusief maar niet beperkt tot het auteursrecht en merkenrecht. \nMet het verzenden van enige informatie, materiaal, ideeën, concepten of technieken, behalve voor persoonlijk informatie aan ASUS via de Software ("Feedbacks"), erkent U en gaat U ermee akkoord dat: (i) Uw feedback geen vertrouwelijke of eigendomsinformatie zal bevatten; (ii) ASUS geen enkele verplichting heeft betreffende vertrouwelijkheid, expliciet of impliciet, betreffende de feedback; (iii) ASUS het recht zal hebben om, naar goeddunken van ASUS, de feedback te gebruiken of te onthullen, voor elk doel, op elke manier en wereldwijd; (iv) uw feedback eigendom wordt van ASUS zonder enige verplichting van ASUS tegenover u; en (v) dat u geen recht hebt op enige vergoeding of terugbetaling.
+        \n\n6.TERMIJN EN BEËINDIGING Deze EULA wordt van kracht vanaf de datum waarop u de Software installeert. U kunt deze Licentie op elk ogenblik beëindigen door elk gebruik van de Software te stoppen en de Software te verwijderen van het ASUS-product. Uw recht wordt beëindigd zonder voorafgaande kennisgeving van ASUS als wij vermoeden dat u een voorwaarde van deze EULA niet naleeft.
+        \n\n7.Garantie Disclaimer en beperking van aansprakelijkheid U ERKENT DAT DE SOFTWARE IS GELEVERD "ALS ZODANIG." U DRAAGT HET VOLLEDIGE RISICO MET BETREKKING TOT DE KWALITEIT EN DE PRESTATIES VAN DEZE SOFTWARE, INCLUSIEF MAAR NIET BEPERKT TOT DE VERWANTE KOSTEN VOOR ALLE BENODIGDE ONDERHOUDS- EN REPARATIEWERKZAAMHEDEN. VOOR ZOVER DIT DOOR DE WET IS TOEGESTAAN, BIEDT ASUS GEEN GARANTIES, EXPLICIET OF IMPLICIET, MET BETREKKING TOT DEZE SOFTWARE OF ELKE ANDERE INFORMATIE OF DOCUMENTATIE, GELEVERD ONDER DEZE EULA OF VOOR DEZE SOFTWARE, INCLUSIEF MAAR NIET BEPERKT TOT ENIGE GARANTIE VAN VERKOOPBAARHEID OF GESCHIKTHEID VOOR EEN BEPAALD DOEL OF TEGEN INBREUK, OF ELKE GARANTIE DIE VOORTVLOEIT UIT HET GEBRUIK OF DE PRESTATIES ERVAN. ASUS BIEDT OOK GEEN GARANTIE MET BETREKKING TOT DE RESULTATEN DIE KUNNEN WORDEN VERKREGEN DOOR HET GEBRUIK VAN DEZE SOFTWARE OF MET BETREKKING TOT DE NAUWKEURIGHEID OF BETROUWBAARHEID VAN ENIGE INFORMATIE DIE VIA DEZE SOFTWARE IS VERKREGEN. SOMMIGE RECHTSGEBIEDEN LATEN DE UITSLUITING VAN BEPAALDE GARANTIES OF DE BEPERKING OF UITSLUITING VAN DE AANSPRAKELIJKHEID VOOR BEPAALDE SCHADE NIET TOE. BIJGEVOLG ZULLEN SOMMIGE VAN DE BOVENSTAANDE AFWIJZINGEN EN BEPERKINGEN MOGELIJK NIET VAN TOEPASSING ZIJN OP U.
+        \n\nHET VOLLEDIGE RISICO DAT VOORTVLOEIT UIT HET GEBRUIK EN/OF DE PRESTATIES VAN DEZE SOFTWARE BLIJFT UW VERANTWOORDELIJKHEID. IN GEEN GEVAL ZULLEN ASUS, HAAR LICENTIEVERLENERS OF EEN VAN DE RESPECTIEVE FUNCTIONARISSEN, DIRECTEURS, WERKNEMERS, AGENTEN OF PARTNERS, AANSPRAKELIJK ZIJN VOOR ENIGE GEVOLGSCHADE, INCIDENTELE, DIRECTE, INDIRECTE, SPECIALE, PUNITIEVE OF ANDERE SCHADE (INCLUSIEF EN ZONDER BEPERKING, SCHADE DOOR WINSTDERVING, WERKONDERBREKING, VERLIES VAN INFORMATIE OF ANDER FINANCIEEL VERLIES) DIE VOORTVLOEIT UIT OF VERBAND HOUDT MET DEZE EULA OF HET GEBRUIK OF DE ONMOGELIJKHEID TOT HET GEBRUIK VAN DE SOFTWARE OF ELK ONDERDEEL DAARVAN, ZELFS ALS ASUS OP DE HOOGTE WERD GEBRACHT VAN DE MOGELIJKHEID VAN DERGELIJKE SCHADE. SOMMIGE RECHTSGEBIEDEN LATEN DE UITSLUITING VAN BEPAALDE GARANTIES OF DE BEPERKING OF UITSLUITING VAN DE AANSPRAKELIJKHEID VOOR BEPAALDE SCHADE NIET TOE. BIJGEVOLG ZULLEN SOMMIGE VAN DE BOVENSTAANDE AFWIJZINGEN EN BEPERKINGEN MOGELIJK NIET VAN TOEPASSING ZIJN OP U.
+        \n\n8. Schadeloosstelling U gaat akkoord om ASUS en haar moedermaatschappijen, leden, dochtermaatschappijen, partners, dienstverleners, uitgevers, distributeurs, licentieverleners, functionarissen, directeurs en werknemers schadeloos te stellen en te vrijwaren van elke verlies, schade, aansprakelijkheid en kosten, voortvloeiend uit enige claim of eis (inclusief redelijke advocaatkosten en gerechtskosten), veroorzaakt door of met betrekking tot UW inbreuk van deze EULA of elke toepasselijke wet of richtlijn, of elk recht van derden.
+        </string>
+    <string name="terms_services_agree_text" maxwidth="">"Ik ga akkoord met de gebruiksvoorwaarden"</string>
+    <string name="daily_info_walk_type" maxwidth="">"Lopen"</string>
+    <string name="daily_info_bike_type" maxwidth="">"Fietsen"</string>
+    <string name="daily_info_car_type" maxwidth="">"Auto"</string>
+    <string name="daily_info_transport_type" maxwidth="">"Transporteren"</string>
+    <string name="daily_info_time_hour" maxwidth="">"uur"</string>
+    <string name="daily_info_time_hours" maxwidth="">"uren"</string>
+    <string name="daily_info_time_minute" maxwidth="">"min"</string>
+    <string name="daily_info_heart_title" maxwidth="">"Intensiteit oefening"</string>
+    <string name="daily_info_heart_rate_unit" maxwidth="">"bpm"</string>
+    <string name="daily_info_stress_title" maxwidth="">"Stressniveau"</string>
+    <string name="weekly_info_calories_title">"Totaal verbrande calorieën"</string>
+    <string name="weekly_info_activity_title">"Totaal activiteit"</string>
+    <string name="weekly_info_exercise_intensity_title" maxwidth="">"Intensiteit oefening"</string>
+    <string name="weekly_info_energy_title" maxwidth="">"Energie"</string>
+    <string name="weekly_info_relaxation_title" maxwidth="">"ONTSPANNING"</string>
+    <string name="weekly_info_stress_title" maxwidth="">"STRESS"</string>
+    <string name="daily_actionbar_title" maxwidth="">"Hoi, %s"</string>
+    <string name="detail_energy_actionbar_title" maxwidth="">"GEEST"</string>
+    <string-array name="exercise_intensity" maxwidth="">
+        <item>"L1"</item>
+        <item>"L2"</item>
+        <item>"L3"</item>
+        <item>"L4"</item>
+        <item>"L5"</item>
+    </string-array>
+    <string-array name="relax_level_1_2" maxwidth="">
+        <item>"Water en oefening helpen om uw lichaam wat losser te maken"</item>
+        <item>"Begin met het plannen van een vakantie"</item>
+        <item>"Luister naar wat ontspannende muziek kan helpen om wat te ontspannen"</item>
+    </string-array>
+    <string-array name="relax_level_3" maxwidth="">
+        <item>"Uw ontspanningsniveau loopt terug"</item>
+    </string-array>
+    <string-array name="relax_level_4_5" maxwidth="">
+        <item>"Vol met energie en klaar om de bezigheden voor vandaag uit te voeren"</item>
+        <item>"U bent goed uitgerust en geconcentreerd"</item>
+        <item>"Een goede gemoedsrust helpt om uw concentratie te verhogen"</item>
+    </string-array>
+    <string-array name="stress_level_1_2" maxwidth="">
+        <item>"Lichte snacks en fruit can helpen om uw energie weer op peil te brengen"</item>
+        <item>"Een gezonde levensstijl helpt bij het overwinnen van de dagelijkse uitdagingen in het leven"</item>
+        <item>"In een Zen-zone met een goede gemoedsrust"</item>
+    </string-array>
+    <string-array name="stress_level_3" maxwidth="">
+        <item>"Uw stressniveau neemt toe"</item>
+        <item>"Maak een notitie over hoe u u voelt"</item>
+    </string-array>
+    <string-array name="stress_level_4_5" maxwidth="">
+        <item>"Een wandeling van 30 minuten kan stress reduceren met 25%"</item>
+        <item>"Stretch armen, rug en schouders"</item>
+        <item>"Ontspan uzelf en uw spieren"</item>
+        <item>"DIY kan u plezier en een gevoel van voldoening brengen"</item>
+        <item>"Geef uzelf een handmassage"</item>
+    </string-array>
+    <!-- Daily animation -->
+    <string name="default_anim_activity_data" maxwidth="">"0%"</string>
+    <string name="default_anim_energy_data" maxwidth="">"0"</string>
+    <string name="text_activity" maxwidth="">"LICHAAM"</string>
+    <string name="text_energy" maxwidth="">"GEEST"</string>
+    <string name="text_location" maxwidth="">"op %s"</string>
+    <string name="text_measurement" maxwidth="">"Metingen"</string>
+    <string name="text_today2" maxwidth="">"Vandaag"</string>
+    <string name="not_pair_asus_watch_title" maxwidth="">"Niet gekoppeld aan ASUS horloge"</string>
+    <string name="not_pair_asus_watch_message" maxwidth="">"Wellness app is de begeleidende app voor ASUS horloge". Koppel dit apparaat met ASUS horloge om verder te gaan met setup."</string>
+    <string name="not_pair_asus_watch_button" maxwidth="">"Begrepen!"</string>
+    <string name="tutorial_paired_descrition" description="Tutorial description." maxwidth="">"ASUS Wellness is een begeleidende app voor uw ASUS ZenWatch. Het doet dienst als een persoonlijke wellness manager die een variëteit aan wellness-statistieken bijhoudt om uw leven in balans te houden en persoonlijke fitnessdoelen te bereiken."</string>
+    <string name="default_average_energy_level_message_break" description="Default string of energy detail page." maxwidth="">"Meet\neerst"</string>
+    <string-array name="step_intensity_term_range" maxwidth="">
+        <item>"1~4999"</item>
+        <item>"5000~7499"</item>
+        <item>"7500~9999"</item>
+        <item>"10000~12499"</item>
+        <item>"12500+"</item>
+    </string-array>
+    <string name="save" description="save button." maxwidth="">"Opslaan"</string>
+    <string name="setting_idle_alarm_description" maxwidth="">"Stel het alarm in wanneer het horloge zal trillen na een bepaalde tijdsperiode van inactiviteit"</string>
+    <string name="exercise_intensity_info_exercise_message" maxwidth="">"Over het algemeen, hoe hoger uw hartslag tijdens fysieke activiteit, des te hoger de intensiteit van de oefening."</string>
+    <string-array name="profile_height_option" description="Height options" maxwidth="">
+        <item>"cm"</item>
+        <item>"ft/in."</item>
+    </string-array>
+    <string name="height_unit_feet" maxwidth="-1">"ft"</string>
+    <string name="height_unit_inch" maxwidth="-1">"in."</string>
+    <string name="setting_title_set_idle_alarm" description="Title of setting page option." maxwidth="-1">"Waarschuwing inactiviteit"</string>
+    <string name="setting_backup_description" description="Backup message in setting page." maxwidth="-1">"Back al uw Wellness-appgegevens up naar Android-back-upservice van Google."</string>
+    <string name="knockknock_start_heartrate">"Meet hartslag"</string>
+    <string name="knockknock_start_relaxation">"Meet ontspanning"</string>
+    <string name="last_updated" maxwidth="">"Laatst bijgewerkt"</string>
+    <string-array name="profile_error_message" description="Height options" maxwidth="">
+        <item>"Bereik:20~300 cm"</item>
+        <item>"Bereik:0\' 8\"~9\' 10\""</item>
+        <item>"Bereik:2~400 kg"</item>
+        <item>"Bereik:4~880 lb"</item>
+        <item>"Bereik:1~99"</item>
+    </string-array>
+    <string name="range_msg">"Bereik:" </string>
+    <string name="accepted_range_title" maxwidth="">"Geaccepteerd bereik"</string>
+    <string name="text_average" maxwidth="">"Gemiddeld"</string>
+    <string name="calories_unit" description="Calories unit" maxwidth="">"kcal"</string>
+    <string-array name="step_intensity_term" description="Term of step intensity." maxwidth="">
+        <item>"Sedentaire levensstijl"</item>
+        <item>"Laag-actief"</item>
+        <item>"Enigszins actief"</item>
+        <item>"Actief"</item>
+        <item>"Erg actief"</item>
+    </string-array>
+    <string name="daily_info_walk_unit" maxwidth="">"stappen"</string>
+    <string name="daily_info_energy_title" maxwidth="">"Ontspanning"</string>
+    <string name="exercise_intensity_info_heart_rate_title" maxwidth="">"Oefen hartslag"</string>
+    <string name="exercise_intensity_info_heart_rate_message" maxwidth="">"Uw gemeten hartslag in de eerste minuut na de oefening kan worden gekoppeld aan de intensiteit van de oefening."</string>
+    <string name="exercise_intensity_info_exercise_title" maxwidth="">"Intensiteit oefening"</string>
+    <string name="exercise_intensity_info_l5_desc" maxwidth="">"Maximum"</string>
+    <string name="exercise_intensity_info_l4_desc" maxwidth="">"Zwaar"</string>
+    <string name="exercise_intensity_info_l3_desc" maxwidth="">"Gemiddeld (fitness verbeteren)"</string>
+    <string name="exercise_intensity_info_l2_desc" maxwidth="">"Licht (afvallen)"</string>
+    <string name="exercise_intensity_info_l1_desc" maxwidth="">"Heel licht"</string>
+    <string name="daily_detail_activity_title_type" maxwidth="">"Type"</string>
+    <string name="daily_detail_activity_title_calories" maxwidth="">"Calorieën"</string>
+    <string name="daily_button_text" maxwidth="">"Dagelijks"</string>
+    <string name="weekly_button_text" maxwidth="">"Wekelijks"</string>
+    <string name="text_today" maxwidth="">"Vandaag"</string>
+    <string name="setting_activity_tracking_description" description="Allow GPS message." maxwidth="">"Geef toestemming aan Wellness app om gebruik te maken van Wi-Fi en telefoonnetwerk om te bepalen waar u zich bevindt voor het weergeven van de tijdlijn."</string>
+    <string name="tutorial_measure_descrition" description="Tutorial description." maxwidth="">"Start ASUS Wellness op uw horloge. Scroll naar links om de Meting-gebruikersinterface te bekijken. Klik en selecteer wat u wilt meten. U kunt ontspanning en hartslag op elk moment meten."</string>
+    <!-- Tips -->
+    <string name="text_next" maxwidth="">"Volgende"</string>
+    <string name="text_ok" maxwidth="">"OK"</string>
+    <string name="tips_p1_text_title" maxwidth="">"Tik hier"</string>
+    <string name="tips_p1_text_content" maxwidth="">"Voor het bekijken van detailinformatie"</string>
+    <string name="tips_p2_lefttext_title" maxwidth="">"Tik hier"</string>
+    <string name="tips_p2_lefttext_content" maxwidth="">"Om snel terug te gaan naar vandaag"</string>
+    <string name="tips_p2_righttext_title" maxwidth="">"Veeg omhoog en naar beneden"</string>
+    <string name="tips_p2_righttext_content" maxwidth="">"Om de datum te veranderen"</string>
+    <string name="tips_p3_text_title" maxwidth="">"Omhoog vegen"</string>
+    <string name="tips_p3_text_content" maxwidth="">"Om uw activiteitentijdlijn te bekijken"</string>
+   <string name="app_version" maxwidth="">"Versie"</string>
+    <string name="SUN" maxwidth="">"ZON"</string>
+    <string name="MON" maxwidth="">"MAA"</string>
+    <string name="TUE" maxwidth="">"DIN"</string>
+    <string name="WED" maxwidth="">"WOE"</string>
+    <string name="THU" maxwidth="">"DON"</string>
+    <string name="FRI" maxwidth="">"VRIJ"</string>
+    <string name="SAT" maxwidth="">"ZAT"</string>
+    <string name="weekly_info_energy_avg">"gem."</string>
+    <!-- ================need to translation================== -->
+    <!-- emily add, 2014.12.05 -->
+    <string name="about_title">"Info"</string>
+    <string name="about_app_version">"Versie"</string>
+    <string name="about_dialog_legal_information">"Wettelijke informatie"</string>
+    <string name="about_dialog_legal_information_des">"Het gebruik van deze software is onderhevig aan de voorwaarden en bepalingen van ASUS."</string>
+    <string name="about_dialog_website">"Website"</string>
+    <string name="about_dialog_allrights">"ASUSTeK Computer Inc. Alle rechten voorbehouden."</string>
+    <!-- emily end, 2014.12.05 -->
+    <string name="profile_birthday_title" description="Profile title" maxwidth="">"Verjaardag"</string>
+    <string name="tips_p2_righttext_title_pad" maxwidth="">"Veeg van links naar rechts"</string>
+
+    <string name="detail_activity_time" description="Activity title of activity detail page" maxwidth="">"actief voor"</string>
+    <string name="detail_total_steps" description="Total step title of activity detail page" maxwidth="">"zijn verplaatst"</string>
+    <string name="detail_calories_burned" description="Calories burned title of activity detail page" maxwidth="">"verbrand"</string>
+
+</resources>

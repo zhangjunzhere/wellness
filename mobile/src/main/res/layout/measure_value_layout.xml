@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+	<LinearLayout
+	    android:id="@+id/measure_info_container"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" 
+	    android:gravity="center">
+		<ImageView
+		    android:id="@+id/measure_icon"
+			android:layout_width="22dp"
+			android:layout_height="22dp"
+			android:src="@drawable/asus_wellness_ic_best_info"/>
+		<TextView
+		    android:layout_marginLeft="8dp"
+		    android:id="@+id/measure_value"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content" 
+		    android:text="test1"
+		   	android:textSize="23dp"
+		    android:textColor="#fff77148"
+			android:fontFamily="sans-serif-light"/>
+	</LinearLayout>
+	
+	<TextView
+	    android:id="@+id/measure_result_text"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" 
+	   	android:textSize="19dp"
+	   	android:text="test ewtwetwet twretwggg ewtewtweewt"
+	    android:textColor="#ff000000"
+		android:fontFamily="sans-serif-light"/>
+</LinearLayout>

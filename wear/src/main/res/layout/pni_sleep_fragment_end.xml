@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?><!--<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--android:paddingLeft="8dp"--><!--android:background="@color/white"--><!-->-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="4dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_nodata"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/no_sleep_data"
+            android:textColor="@color/sleep_text_highlight"
+            android:textSize="17dp"
+            android:visibility="gone"
+            />
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@id/ll_statistic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:id="@+id/tv_title"
+                android:text="@string/sleep_analysis"
+                android:textColor="@color/sleep_text_highlight"
+                android:textSize="17dp"
+                android:visibility="visible"/>
+
+            <originator.ailin.com.smartgraph.chart.barchart.SleepBarChart
+                android:id="@+id/my_sleep_chart"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+
+                android:visibility="visible"/>
+
+            <include
+                android:id="@+id/ll_sleep_awake"
+                layout="@layout/pni_sleep_status_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <include
+                android:id="@+id/ll_sleep_light"
+                layout="@layout/pni_sleep_status_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <include
+                android:id="@+id/ll_sleep_deep"
+                layout="@layout/pni_sleep_status_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                 />
+
+            <View
+                android:id="@+id/sleep_summery_line"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="4dp"
+                android:background="@color/sleep_summery_line_normal" />
+
+
+
+            <include
+                android:id="@+id/ll_inbed"
+                layout="@layout/pni_sleep_time_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                 />
+
+
+            <include
+                android:id="@+id/ll_wokeup"
+                layout="@layout/pni_sleep_time_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                 />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp">
+                <TextView
+                    android:id="@+id/tv_total"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="7dp"
+
+                    android:text="@string/total"
+                    android:textColor="@color/sleep_text_highlight"
+                    android:textSize="14dp"
+                    android:gravity="right"/>
+
+                <include
+                    android:id="@+id/ll_total_duration"
+                    layout="@layout/pni_sleep_duration_item"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/tv_total"
+                     />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

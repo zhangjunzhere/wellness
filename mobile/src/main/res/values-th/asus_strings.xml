@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!-- kim_bai@asus.com 2014.12.26-->
+    <string name="duration">"ระยะเวลา"</string>
+    <string name="remind_me_session">"แจ้งเตือนฉันในสถานการณ์ต่อไปนี้"</string>
+    <string name="from">"จาก"</string>
+    <string name="to">"ถึง"</string>
+    <string name="steps">"ก้าว"</string>
+    <string name="tomorrow_goal">"เป้าหมายวันพรุ่งนี้"</string>
+    <!-- Inspire Asus -->
+    <string name="wm_about_inspire_asus">"Inspire ASUS"</string>
+    <string name="wm_inspire_asus_text1">"เพื่อให้บริการลูกค้าของเราได้ดีขึ้น เพิ่มประสบการณ์ของผู้ใช้ และสำรวจปัญหาต่างๆ อย่างต่อเนื่องเพื่อปรับปรุงสมรรถนะการทำงานให้ดีขึ้น ASUS ได้สร้างโปรแกรม Inspire ASUS (“โปรแกรม”) ขึ้นมา โปรแกรมนี้อาจเก็บรวบรวมรายงานการใช้ของคุณแบบไม่เปิดเผยชื่อ"</string>
+    <string name="wm_inspire_asus_text2">"รายงานการใช้จะไม่มีการเชื่อมโยงกับอุปกรณ์ ASUS ZenWatch หรือข้อมูลส่วนตัวของคุณในลักษณะใด ๆ ข้อมูลการใช้ประกอบด้วยสถานะสแตนด์บาย เหตุการณ์ที่ระบบล้มเหลว อินเตอร์เฟซที่เลือกใช้ การตั้งค่าภาษา เวอร์ชั่นซอฟต์แวร์ปัจจุบัน ข้อมูลซอฟต์แวร์ที่ใช้บ่อยๆ พฤติกรรมและสถานที่การใช้ฟังก์ชั่นของซอฟต์แวร์"</string>
+    <string name="wm_inspire_asus_text3">"ASUS ให้ความเคารพความเป็นส่วนตัวและสิทธิ์ของลูกค้าของเราอย่างเต็มที่ คุณสามารถเปิด/ปิดฟังก์ชั่นรายงานของโปรแกรมจากเมนูได้ตลอดเวลา สำหรับข้อมูลเพิ่มเติมอย่างละเอียดว่า ASUS ปกป้องความเป็นส่วนตัวของคุณอย่างไร เราแนะนำให้คุณเข้ามาดูข้อมูล"</string>
+    <string name="wm_inspire_asus_yes_text">"ได้ รวมฉันเข้าไปด้วย!"</string>
+    <!-- Encourage Us -->
+    <string name="encourage_title">"ส่งเสริมเรา"</string>
+    <string name="scroll_up_toast" description="rate now" maxwidth="">"โปรดเลื่อนขึ้นเพื่อให้คะแนน"</string>
+    <string name="toolbar_encourage_us_text">"หากคุณเพลิดเพลินกับการใช้ ASUS Wellness โปรดให้คะแนนเรา 5 ดาวบน เพลย์สโตร์ ซึ่งจะเป็นการส่งเสริมให้เราปรับปรุงผลิตภัณฑ์อย่างต่อเนื่อง!\n\nหากมีคำแนะนำ ให้ส่งข้อมูลถึงเราผ่าน ข้อคิดเห็น &amp; วิธีใช้"</string>
+    <string name="toolbar_encourage_dialog_rate_now" maxwidth="35">"ให้คะแนนเดี๋ยวนี้"</string>
+    <string name="toolbar_encourage_us_cancel">"ยกเลิก"</string>
+
+    <!-- 2015.11.5 -->
+    <string name="pushup">"วิดพื้น"</string>
+    <string name="situp">"ซิตอัพ"</string>
+    <string name="detail_sleep_deepsleep">"หลับลึก"</string>
+    <string name="detail_sleep_lightsleep">"หลับตื้น"</string>
+    <string name="detail_sleep_sleeplatency">"หลับช้า"</string>
+    <string name="detail_sleep_wokeup">"ตื่นขึ้นมา"</string>
+    <string name="detail_sleep_light">"ตื้น"</string>
+    <string name="detail_sleep_deep">"ลึก"</string>
+    <string name="detail_sleep_shorthour">"ชม."</string>
+    <string name="detail_sleep_shortmin">"นท."</string>
+    <string name="text_sleep" maxwidth="">"นอนหลับ"</string>
+    <string name="weekly_info_sleep_title">"การวิเคราะห์การนอนหลับทั้งหมด"</string>
+    <string name="daily_detail_workout">"ออกกำลังกาย"</string>
+    <string name="weekly_info_workout_title">"วิดพื้น/ซิตอัพรวม"</string>
+    <string name="sleep_notification_title" maxwidth="">"ข้อสังเกตการติดตามการนอนหลับ"</string>
+    <string name="sleep_notification_content" maxwidth="">"กำลังบันทึก..."</string>
+    <string name="daily_detail_workout_title_accumulation" maxwidth="">"รวม"</string>
+    <string name="daily_info_run_type">"วิ่ง"</string>
+
+    <!-- 2015.12.31 -->
+    <string name="detail_text_completion" maxwidth="">"บรรลุเป้าหมาย"</string>
+    <string name="text_completion" maxwidth="">"บรรลุเป้าหมายกิจกรรม"</string>
+    <string name="sleep_quality_score" maxwidth="">"คะแนนคุณภาพ"</string>
+    <string name="text_sleep_quality_score">"คุณภาพการนอนหลับ"</string>
+    <string name="sleptfor">"นอนหลับเป็นเวลา"</string>
+    <string name="permisson_turn_on">"เปิดตอนนี้เลย"</string>
+    <string name="permisson_body_sensor_title">"ไม่สามารถตรวจพบกิจกรรมของคุณ"</string>
+    <string name="permisson_body_sensor_subtitle">"Wellness ไม่สามารถตรวจจับการเคลื่อนไหวของคุณได้หากไม่ได้รับอนุญาตให้ใช้เซ็นเซอร์ร่างกาย"</string>
+    <string name="permisson_location_title">"ไม่สามารถค้นหาตำแหน่งของคุณ"</string>
+    <string name="permisson_location_subtitle">"Wellness ไม่สามารถตรวจหาตำแหน่งของคุณได้หากไม่ได้รับอนุญาตให้ใช้บริการระบุตำแหน่ง"</string>
+    <string name="permisson_storage_title">"ไม่สามารถเข้าถึงภาพของคุณ"</string>
+    <string name="permisson_storage_subtitle">"Wellness ไม่สามารถเข้าถึงภาพของคุณได้หากไม่ได้รับอนุญาตให้เข้าถึงพื้นที่จัดเก็บข้อมูล"</string>
+    <string name="permisson_notice_bodysensor_location">"หมายเหตุ: อย่าปิดการอนุญาตใดๆ ในการตั้งค่าระบบในระหว่างที่ต้องใช้ค่าดังกล่าวเพื่อดำเนินกิจกรรมของคุณ"</string>
+    <string name="permisson_notice_storage">"หมายเหตุ: อย่าปิดการอนุญาตใดๆ ในการตั้งค่าระบบในระหว่างที่ต้องใช้ค่าดังกล่าวเพื่อจัดการโปรไฟล์ส่วนตัวของคุณ"</string>
+    <string name="distance_unit_miles" description="Distance unit: miles" maxwidth="">"ไมล์"</string>
+
+    <!-- 2016.1.11 -->
+    <string name="sleep_dictinary">"พจนานุกรมการหลับ"</string>
+    <string name="sleepinformation">"ข้อมูลการหลับ"</string>
+    <string name="sleeplenght">"ความยาวการหลับ"</string>
+    <string name="deepsleepandlightsleep">"หลับลึก และหลับตื้น"</string>
+    <string name="awakenings">"พลิกตัวไปมา (ตื่น)"</string>
+    <string name="suggestion">"คำแนะนำ"</string>
+    <string name="sleepquality_info">"คุณภาพการหลับ คือคะแนน (สูงสุด 100) ที่ระบุคุณภาพของการหลับของคุณ ยิ่งคะแนนสูง หมายถึงคุณยิ่งมีคุณภาพการหลับดีขึ้น คะแนนคุณภาพการหลับ ขึ้นอยู่กับระยะเวลาที่คุณนอนหลับ เวลาที่ใช้ก่อนที่จะนอนหลับ เวลาที่ใช้นอนบนเตียง ระยะเวลาหลับลึก (หลับโดยมีการเคลื่อนไหวของร่างกายเพียงเล็กน้อย) และจำนวนครั้งที่คุณตื่นขึ้นมาในระหว่างการหลับ"</string>
+    <string name="sleepquality_suggestion">"คะแนนคุณภาพ 60 ถือเป็นค่าฐานของรูปแบบการนอนปกติ ถ้าคะแนนของคุณมากกว่า 60 หมายถึงการนอนหลับของคุณดีกว่าค่าเฉลี่ย"</string>
+   <string name="sleeplength_info">"ZenWatch ตรวจจับช่วงเริ่มต้นของการหลับตื้นแรกของคุณ และสิ้นสุดการหลับตื้นของคุณ เพื่อประมาณความยาวในการหลับของคุณ"</string>
+    <string name="sleeplength_suggestion">"ความต้องการการนอนหลับ แตกต่างกันสำหรับกลุ่มอายุต่าง ๆ เด็กแรกเกินต้องการ 16-18 ชั่วโมงต่อวัน, เด็กวัยอนุบาลต้องการ 11-12 ชั่วโมงต่อวัน, เด็กวัยเรียนต้องการอย่างน้อย 10 ชั่วโมงต่อวัน, วันรุ่นต้องการ 9-10 ชั่วโมงต่อวัน และผู้ใหญ่ (รวมทั้งผู้สูงอายุ) ต้องการ 7-8 ชั่วโมงต่อวัน"</string>
+    <string name="deepsleepandlightsleep_info">"ZenWatch วัดการเคลื่อนไหวของร่างกายของคุณเพื่อติดตามการหลับของคุณ การหลับลึก หมายถึงการหลับที่มีการเคลื่อนไหวร่างกายเพียงเล็กน้อย เมื่อเทียบกับการหลับตื้น และการตื่น โดยทั่วไป ยิ่งมีการเคลื่อนไหวร่างกายน้อยระหว่างที่หลับ ก็ยิ่งเป็นการหลับที่ดีขึ้น"</string>
+    <string name="deepsleepandlightsleep_suggestion" formatted="false">"โดยเฉลี่ยแล้ว ผู้คนที่มีรูปแบบการหลับปกติ มีการหลับลึกและหลับตื้นประมาณ 20% ถึง 60% ของเวลานอนหลับทั้งหมด"</string>
+    <string name="sleeplatency_info">"เวลาตั้งแต่ที่คุณเริ่มต้นการติดตามการนอนหลับ จนถึงเวลาที่ ZenWatch รับรู้ว่าคุณกำลังจะหลับ"</string>
+    <string name="sleeplatency_suggestion">"สำหรับรูปแบบการนอนปกติ ระยะเวลาก่อนหลับโดยเฉลี่ยของคนทั่วไปคือ 15 นาที"</string>
+    <string name="awakenings_info">"ZenWatch รับรู้ถึงจำนวนครั้งของการตื่น (ที่มีการเคลื่อนไหวร่างกายมากกว่า) ระหว่างการหลับของคุณ"</string>
+    <string name="awakenings_suggestion">"ผู้คนที่มีรูปแบบการหลับปกติ มีจำนวนครั้งของการตื่นระหว่างการหลับเฉลี่ย 3 ครั้ง"</string>
+    <string name="sleep_tips_title">"เทคนิคในการหลับให้ดีขึ้น"</string>
+    <string name="stick_to_a_sleep_schedule_title">"เข้านอนตามเวลา"</string>
+    <string name="stick_to_a_sleep_schedule">"เข้านอน และตื่นเวลาเดียวกันในแต่ละวัน เนื่องจากลักษณะนิสัยของสิ่งมีชีวิต ผู้คนปรับการเปลี่ยนแปลงรูปแบบการหลับได้ยาก การตื่นสายกว่าปกติในช่วงสุดสัปดาห์ ไม่ได้ชดเชยการหลับไม่พอระหว่างวันทำงาน และจะทำให้ตื่นเช้าในวันจันทร์ได้ยากขึ้นด้วย"</string>
+    <string name="exercise_is_great_title">"การออกกำลังกายเป็นสิ่งที่ดีมาก แต่อย่าทำดึกเกินไป"</string>
+    <string name="exercise_is_great">"พยายามออกกำลังกายให้ได้อย่างน้อย 30 นาทีเกือบทุกวัน แต่อย่าให้เกินเวลา 2-3 น. ก่อนที่จะถึงเวลานอน"</string>
+    <string name="avoid_cafeine_and_nicotine_title">"หลีกเลี่ยงคาเฟอีน และนิโคติน"</string>
+    <string name="avoid_cafeine_and_nicotine">"กาแฟ โคล่า ชาบางชนิด และช็อกโกแลต ประกอบด้วยคาเฟอีนที่เป็นสารกระตุ้น และผลกระทบสามารถอยู่ได้นานถึง 8 ชั่วโมงก่อนที่จะสลายหมดอย่างสมบูรณ์ ดังนั้น การดื่มกาแฟหนึ่งถ้วยตอนบ่ายแก่ ๆ สามารถทำให้คุณนอนหลับในช่วงกลางคืนได้ยาก นิโคตินยังเป็นสารกระตุ้น ซึ่งบ่อยครั้งทำให้ผู้ติดบุหรี่นอนหลับในระดับที่ตื้นมากเท่านั้น นอกจากนี้ ผู้ติดบุหรี่ยังตื่นเร็วเกินไปในตอนเช้าอยู่บ่อย ๆ เนื่องจากการขาดนิโคติน"</string>
+    <string name="avoid_alcoholic_drinks_before_bed_title">"หลีกเลี่ยงการดื่มแอลกอฮอล์ก่อนเข้านอน"</string>
+    <string name="avoid_alcoholic_drinks_before_bed">"การ \"ดื่มแอลกอฮอล์กลางคืน\" หรือดื่มเครื่องดื่มแอลกอฮอล์ก่อนเข้านอนอาจช่วยให้คุณผ่อนคลาย แต่ถ้าดื่มมากเกินไปก็จะทำให้คุณไม่สามารถหลับลึกได้ จะหลับก็แต่เพียงหลับตื้นเท่านั้น นอกจากนี้ การดื่มแอลกอฮอล์จัดยังทำให้ประสิทธิภาพการหายใจช่วงกลางคืนด้อยลงด้วย คุณยังมีแนวโน้มที่จะตื่นช่วงกลางดึก เมื่อฤทธิ์แอลกอฮอล์หมดอีกด้วย"</string>
+    <string name="avoid_large_meals_title">"หลีกเลี่ยงอาหารมื้อหนัก และเครื่องดื่มตอนดึก ๆ"</string>
+    <string name="avoid_large_meals">"ของขบเคี้ยวเล็กน้อยไม่เป็นไร แต่อาหารมื้อหนักจะทำให้อาหารไม่ย่อย ซึ่งรบกวนการนอนหลับ การดื่มของเหลวมากเกินไป ก็เป็นสาเหตุให้ต้องตื่นมาเข้าห้องน้ำบ่อย ๆ"</string>
+    <string name="if_possible_title">"ถ้าเป็นไปได้ หลีกเลี่ยงยาที่หน่วง หรือทำให้นอนไม่หลับ"</string>
+    <string name="if_possible">"ยาที่แพทย์จ่ายให้บางชนิดสำหรับโรคหัวใจ ความดันโลหิตสูง/ต่ำ และโรคหอบ รวมทั้งยาที่ซื้อเองจากเคาน์เตอร์ เช่น ยาแก้ไอ แก้หวัด แก้แพ้ สามารถรบกวนรูปแบบการหลับได้ ถ้าคุณมีปัญหาในการนอนหลับ ให้คุยกับผู้ให้บริการดูแลสุขภาพของคุณ หรือเภสัชกร เพื่อประเมินว่ายาที่คุณใช้มีส่วนทำให้คุณนอนไม่หลับหรือไม่ ถามเขาว่า คุณสามารถทานยาเหล่านั้นในช่วงเวลาอื่นระหว่างวัน หรือช่วงเย็นได้หรือไม่"</string>
+    <string name="dont_take_naps_title">"อย่างีบหลังจากบ่าย 3 โมง"</string>
+    <string name="dont_take_naps">"การงีบสามารถช่วยเติมเต็มการนอนไม่พอ แต่การงีบช่วงบ่ายแก่ ๆ ก็ทำให้นอนหลับตอนกลางคืนได้ยากขึ้น"</string>
+    <string name="relax_before_bed_title">"ทำตัวให้ผ่อนคลายก่อนที่จะเข้านอน"</string>
+    <string name="relax_before_bed">"อย่าทำงานเกินเวลามากจนกระทั่งไม่มีเวลาเหลือสำหรับการผ่อนคลาย กิจกรรมการผ่อนคลาย เช่น การอ่านหนังสือ หรือการฟังเพลง ควรเป็นส่วนของพิธีการในช่วงเวลานอนของคุณ"</string>
+    <string name="take_a_lot_bath_title">"อาบน้ำอุ่นก่อนนอน"</string>
+    <string name="take_a_lot_bath">"อุณหภูมิของร่างกายที่ลดลงหลังจากที่อาบน้ำเสร็จ อาจช่วยให้คุณง่วงนอน และการอาบน้ำสามารถช่วยให้คุณผ่อนคลาย และพร้อมที่จะหลับมากขึ้น"</string>
+    <string name="have_a_good_sleeping_title">"มีสภาพแวดล้อมการนอนหลับที่ดี"</string>
+    <string name="have_a_good_sleeping">"เพื่อให้นอนหลับในช่วงกลางคืนได้ดี ให้จัดสภาพแวดล้อมการนอนที่ดี ตั้งแต่ห้องนอน ให้นำสิ่งต่าง ๆ ที่อาจรบกวนระหว่างการหลับออกไป เช่น เสียงรบกวน หรือแสงที่สว่าง  ปิดอุปกรณ์มือถือ โทรทัศน์ คอมพิวเตอร์ และอุปกรณ์อิเล็กทรอนิกส์อื่น ๆ การมีเตียงที่สบาย อุณหภูมิห้องที่สบาย และหมอนดี ๆ สามารถช่วยสนับสนุนการนอนหลับที่ดีได้ ผู้คนที่เป็นโรคนอนไม่หลับจะดูนาฬิกาบ่อย ๆ ถ้าคุณเป็นโรคนอนไม่หลับ ให้หันหน้านาฬิกาไม่ให้มองเห็น เพื่อที่คุณจะไม่ต้องกังวลกับเวลาในขณะที่กำลังพยายามนอนให้หลับ"</string>
+    <string name="have_the_right_sunlight_title">"ตากแดดในปริมาณที่เหมาะสม"</string>
+    <string name="have_the_right_sunlight">"แสงกลางวันเป็นกุญแจในการควบคุมรูปแบบการหลับประจำวันของคุณ ออกไปข้างนอกเพื่อรับแสงธรรมชาติวันละอย่างน้อย 30 นาที ถ้าเป็นไปได้ ให้ตื่นพร้อมกับพระอาทิตย์ขึ้น หรือใช้แสงที่สว่างมากในช่วงเช้า ผู้เชี่ยวชาญการนอนหลับแนะนำว่าผู้ที่มีปัญหาในการนอนหลับ ควรตากแดดในช่วงเช้าประมาณหนึ่งชั่วโมง และปิดไฟก่อนที่จะเข้านอน"</string>
+    <string name="dont_lie_in_bed_title">"อย่านอนบนเตียงขณะที่ตื่น"</string>
+    <string name="dont_lie_in_bed">"ถ้าคุณพบว่าตัวคุณเองยังคงตื่นอยู่หลังจากที่นอนบนเตียงเป็นเวลามากกว่า 20 นาที หรือถ้าคุณเริ่มรู้สึกกังวลหรือเครียดแล้ว ให้ลุกขึ้น และหากิจกรรมสบาย ๆ ทำจนกระทั่งคุณรู้สึกง่วง ความวิตกกังวลในการที่ไม่สามารถนอนหลับได้ จะยิ่งทำให้หลับยากขึ้นไปอีก"</string>
+    <string name="see_a_health_title">"หากยังคงมีปัญหาในการนอนไม่หลับอีก ให้ไปพบมืออาชีพด้านสุขภาพ"</string>
+    <string name="see_a_health">"ถ้าคุณพบว่านอนหลับยาก หรือหลับยาวยาก และ/หรือรู้สึกเหนื่อย หรือพักผ่อนไม่พอระหว่างวัน แม้จะว่าใช้เวลานอนหลับช่วงกลางคืนอย่างเพียงพอ บางทีคุณอาจมีความผิดปกติเกี่ยวกับการนอนหลับ ศูนย์บริการสุขภาพของครอบครัวคุณ หรือผู้เชี่ยวชาญด้านการนอนหลับควรจะสามารถช่วยคุณได้ และคุณควรจัดการปัญหาสุขภาพหรือปัญหาด้านอารมณ์อื่น ๆ ที่อาจรบกวนการนอนหลับของคุณ"</string>
+    <string name="sleep_detail_back">"กลับ"</string>
+    <string name="data_source">"ที่มา:"</string>
+    <string name="articlehelpful">"มีประโยชน์หรือไม่?"</string>
+
+    <!-- 2016.1.15 -->
+    <string name="allow_access_photos_title">"อนุญาตการเข้าถึงภาพ"</string>
+    <string name="allow_access_photos_content">"ในการเปลี่ยนภาพของคุณ ไปที่ การตั้งค่า เพื่อเปิดทำงานสิทธิ์ที่เก็บข้อมูลสำหรับ ZenWatch Wellness"</string>
+    <string name="allow_track_location_title">"อนุญาตการติดตามตำแหน่ง"</string>
+    <string name="allow_track_location_content">"ในการติดตามตำแหน่งกิจกรรมของคุณ ไปที่ การตั้งค่า เพื่อเปิดทำงานสิทธิ์การระบุตำแหน่งสำหรับ ZenWatch Wellness"</string>
+    <string name="bug_report_preference_title">"รายงานข้อผิดพลาดโปรแกรม"</string>
+    <string name="bug_report_email_subject">"รายงานข้อผิดพลาด Wellness"</string>
+    <string name="bug_report_email_body">"รายงานข้อผิดพลาด Wellness"</string>
+    <string name="but_report_share">"แชร์"</string>
+    <string name="settings_disable_backup">"ถ้าคุณยกเลิกการเลือก \"สำรองข้อมูลของฉัน" ไฟล์สำรองข้อมูลของคุณอาจสูญหายไป เนื่องจากกลไกของบริการสำรองข้อมูลของ Google Android คุณแน่ใจหรือไม่ว่าคุณต้องการยกเลือกการเลือกตัวเลือกนี้"</string>
+</resources>

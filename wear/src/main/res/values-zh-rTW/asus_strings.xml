@@ -1,0 +1,149 @@
+<resources>
+    <!-- kim_bai@asus.com -->
+    <string name="warm_up">動一動</string>
+    <string name="remind_me_to_move">您已經一陣子沒有活動了，該站起來動一動囉</string>
+
+    <!-- smile -->
+    <string name="met_goal">達成目標</string>
+    <string name="congratulations">恭喜</string>
+    <string name="hundred_percent">100%</string>
+    <string name="reach_goal">您已經達成今日的目標</string>
+    <string name="add_five_percent">+5%</string>
+    <string name="tap_to_add_goal">按下後增加目標</string>
+    <string name="next_goal">新目標</string>
+    <string name="steps">步</string>
+    <string name="tomorrow_goal">明天的目標</string>
+    <string name="coach">訓練</string>
+    <string name="running">跑步</string>
+    <string name="pushup">伏地挺身</string>
+    <string name="situp">仰臥起坐</string>
+    <string name="coach_done">訓練完成</string>
+    
+
+    <!-- Steps Activity -->
+    <string name="today_target">"今日目標"</string>
+    <!-- Start Workout -->
+    <string name="start_new_workout">"開始鍛鍊"</string>
+    <!-- Setup Profile -->
+    <string name="setup_profile">"輕觸以設定您的檔案"</string>
+    <!-- end kim -->
+    <!-- junzheng -->
+    <string name="title_workout_choose"> "選擇鍛鍊"</string>
+    <string name="title_workout_goal">"選擇目標"</string>
+    <string name="title_workout_target_value">"目標"</string>
+    <string name="title_workout_insert_data"> "輸入數據"</string>
+    <string name="workout_start_action">"輕觸以啟動"</string>
+    <string name="workout_choose_run">"跑步"</string>
+    <!--<string name="workout_choose_bike">"踩腳踏車"</string>-->
+    <string name="workout_goal_none">"無目標"</string>
+    <string name="workout_goal_distance">"距離"</string>
+    <string name="workout_goal_quantity">"次數"</string>
+    <string name="workout_goal_time">"時長"</string>
+    <string name="workout_goal_calories">"卡路里"</string>
+    <string name="total_distance">"總距離"</string>
+    <string name="total_quantity">"總次數"</string>
+    <string name="total_time">"總時長"</string>
+    <string name="calories_burned">"燃燒的卡路里"</string>
+    <string name="unit_mintes">"分"</string>
+    <string name="unit_quantity">次</string>
+    <string name="unit_quantity_plurals">次</string>
+    <string name="go">"開始"</string>
+    <string name="insert_distance">"選擇距離 (%s)"</string>
+    <string name="insert_calories">"選擇卡路里 (%s)"</string>
+    <string name="insert_time">"時長 (%s)"</string>
+    <string name="insert_quantity">"選擇次數"</string>
+    <string name="tap_to_pause">"輕觸以暫停"</string>
+    <string name="hold_to_end">"按住以結束"</string>
+    <string name="cancel_notification">"輕觸以完成"</string>
+    <string name="workout_target">"目標"</string>
+    <string name="workout_complete">"完成"</string>
+    <string name="yes_stop">"是"</string>
+    <string name="hr_mitute_sec">"分"</string>
+    <string name="no_sleep_data">"無睡眠資料"</string>
+    <!-- end junzheng -->
+    <!-- smile_gao -->
+    <string name="gender">"性別"</string>
+    <string name="male">"男性"</string>
+    <string name="female">"女性"</string>
+    <string name="skip">"略過"</string>
+    <string name="age">"年齡"</string>
+    <string name="yo">"y.o."</string>
+    <string name="heightunit">"偏好高度單位"</string>
+    <string name="cm">"公分"</string>
+    <string name="ft">"英呎/英吋"</string>
+    <string name="height">"高度"</string>
+    <string name="ftlowcast">"英呎"</string>
+    <string name="weightunit">"偏好重量單位"</string>
+    <string name="kg">"公斤"</string>
+    <string name="lbs">"磅"</string>
+    <string name="weight">"重量"</string>
+    <string name="activitygoal">"鍛鍊目標"</string>
+    <string name="sedentaryliftstyle">"久坐生活習慣"</string>
+    <string name="k05">"5k"</string>
+    <string name="k57">"7.5k"</string>
+    <string name="k710">"10k"</string>
+    <string name="k1012">"12.5k"</string>
+    <!--<string name="k12more">"&amp;gt;12.5k"</string>-->
+    <string name="lowactive">"不太活躍"</string>
+    <string name="somewhatactive">"有些活躍"</string>
+    <string name="active">"活躍"</string>
+    <string name="highlyactive">"非常活躍"</string>
+    <string name="predistanceunit">"偏好距離單位"</string>
+    <string name="km">"公里"</string>
+    <string name="miles">"英哩"</string>
+    <string name="profile">"檔案"</string>
+    <string name="yearsold">"歲"</string>
+    <string name="stepsgoal">"步數目標"</string>
+    <string name="distanceunit">"鍛鍊距離單位"</string>
+    <string name="saveprofile">"儲存"</string>
+    <string name="skipprofilesetup">"略過檔案設定"</string>
+    <string name="yesskip">"是"</string>
+    <string name="cancel">"取消"</string>
+    <string name="editprofile">"編輯"</string>
+    <string name="title_activity_profile">"檔案"</string>
+    <string name="action_settings">"設定"</string>
+    <string name="idle_alarm_text">"閒置提示"</string>
+    <string name="idle_alarm_on">"開啟"</string>
+    <string name="idle_alarm_off">"關閉"</string>
+    <!-- end smilegao -->
+
+    <!-- 2015.11.2-->
+    <string name="tap_to_start_sleep">"輕觸以啟動睡眠追蹤"</string>
+    <string name="sleep_analysis">"睡眠分析"</string>
+    <string name="sleep_tracking">"睡眠追踪"</string>
+    <string name="sleep_stop_tip">"您醒了嗎？"</string>
+    <string name="Hold_to_stop_sleep">"按住以停止追蹤"</string>
+    <string name="unit_hour">"小時"</string>
+    <string name="total">"總時間"</string>
+    <string name="inbed">"入睡時間"</string>
+    <string name="wokeup">"起床時間"</string>
+    <string name="awoke">"輾轉反側"</string>
+    <string name="light">"淺眠"</string>
+    <string name="deep">"深眠"</string>
+    <string name="am">"上午"</string>
+    <string name="pm">"下午"</string>
+    <string name="start_a_run">"開始跑步"</string>
+    <string name="stop_current_workout">"停止當前鍛煉?"</string>
+     <!--20151104 added-->
+    <string name="workout_coaching_tips">"鍛鍊進行中"</string>
+    <string name="sleep_tracking_tips">"睡眠追蹤中"</string>
+    <string name="sleep_save_power_tips">"連按兩下電源鍵進入劇院模式以省電。"</string>
+
+   <!-- <string name="coach_resume">"進行中"</string>
+    <string name="coach_pause">"訓練 暫停"</string>
+    <string name="running_pause">"跑步 暫停"</string>
+    <string name="pushup_pause">"伏地挺身 暫停"</string>
+    <string name="situp_pause">"仰臥起坐 暫停"</string>
+    <string name="coach_finished">"訓練 結束"</string>
+    <string name="running_finished">"跑步 結束"</string>
+    <string name="pushup_finished">"伏地挺身 結束"</string>
+    <string name="situp_finished">"仰臥起坐 結束"</string>-->
+
+    <string name="coach_resume">"進行中"</string>
+    <string name="coach_pause">"暫停"</string>
+    <string name="coach_finished">"結束"</string>
+
+    <string name="setupyourprofile">設定您的資料</string>
+    <string name="sleep_tracker">"睡眠追蹤"</string>
+
+</resources>

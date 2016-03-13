@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="target_week_text_size">15dp</dimen>
+    <dimen name="indicator_text_size">13dp</dimen>
+    <dimen name="timeline_left_right_margin">9dp</dimen>
+    <dimen name="timeline_line_length">44dp</dimen>
+    <dimen name="touch_gently_text_size">19dp</dimen>
+    <dimen name="keep_touching_text_size">20dp</dimen>
+
+    <dimen name="tap_to_add_goal_normal">11dp</dimen>
+
+    <dimen name="reach_goal_large">9dp</dimen>
+    <dimen name="reach_goal_normal">8dp</dimen>
+    <dimen name="reach_goal_small">7dp</dimen>
+
+    <dimen name="congradulations_ts">17dp</dimen>
+
+    <dimen name="padding_lr">2dp</dimen>
+
+    <!-- LDY62 -->
+    <dimen name="ts_relaxtion">17dp</dimen>
+    <dimen name="heart_rate_number">70dp</dimen>
+    <dimen name="relax_number">70dp</dimen>
+
+    <dimen name="measure_result">15dp</dimen>
+    <dimen name="exercise_intensity">15dp</dimen>
+    <dimen name="measure_comment">13dp</dimen>
+
+    <dimen name="keep_measuring_text_size">20dp</dimen>
+
+    <dimen name="tap_to_start">20dp</dimen>
+    <dimen name="stay_clam_during_mearsurement">17dp</dimen>
+
+    <dimen name="today_target_top">24dp</dimen>
+    <dimen name="hundred_percent">27dp</dimen>
+    <dimen name="next_goal_top">17dp</dimen>
+    <dimen name="next_goal_size">20dp</dimen>
+    <dimen name="next_goal_img_margin_top">20dp</dimen>
+    <dimen name="next_goal_step_count">27dp</dimen>
+    <dimen name="next_goal_steps">17dp</dimen>
+
+    <!-- emily, add -->
+    <dimen name="target_message_text_size">17dp</dimen>
+    <dimen name="target_status_text_size">60px</dimen>
+    <dimen name="barchart_width">12dp</dimen>
+    <dimen name="barchart_space">8dp</dimen>
+    <dimen name="barchart_left_offset">8dp</dimen>
+    <dimen name="barchart_week_text_space">6dp</dimen>
+
+    <dimen name="barchart_top_margin">10dp</dimen>
+    <dimen name="timeline_left_margin">28dp</dimen>
+    <dimen name="timeline_top_margin">8dp</dimen>
+    <dimen name="timeline_datatext_size">18dp</dimen>
+    <dimen name="timeline_steptext_size">18dp</dimen>
+    <dimen name="timeline_caloriestext_size">16dp</dimen>
+    <dimen name="status_tv_maxwidth">154dp</dimen>
+    <dimen name="status_tv_height">74dp</dimen>
+
+    <dimen name="coach_workout_action_target_value_size">24dp</dimen>
+    <dimen name="coach_workout_action_target_unit_size">20dp</dimen>
+    <dimen name="coach_tv_target_unit_top_margin">-10dp</dimen>
+    <!-- emily, end -->
+
+    <!-- smile for robin notification-->
+    <dimen name="notification_reach_goal_height">230px</dimen>
+    <!-- smile end-->
+
+    <dimen name="go_tv_width">90dp</dimen>
+    <dimen name="sleep_record_start_img_marginTop">16dp</dimen>
+    <dimen name="sleep_controller_bg_marginTop">14dp</dimen>
+    <dimen name="sleep_controller_marginTop">28dp</dimen>
+    <dimen name="sleep_record_text_size">20dp</dimen>
+    <dimen name="sleep_controller_layout_width">127dp</dimen>
+    <dimen name="sleep_controller_layout_height">127dp</dimen>
+
+</resources>

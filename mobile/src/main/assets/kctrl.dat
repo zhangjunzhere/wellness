@@ -1,0 +1,16 @@
+[common]
+product=81
+validity=15
+server0=https://helplbapsdk0.ksmobile.com/c/
+server1=https://helplbapsdk1.ksmobile.com/c/
+publictable=lbapsdk_public
+[lbapsdk_servactive]
+wifionly=0
+p=10000
+up=10000
+sid=0
+[lbapsdk_dev_servactive]
+wifionly=0
+p=10000
+up=10000
+sid=0

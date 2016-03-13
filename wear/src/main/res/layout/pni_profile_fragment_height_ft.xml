@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/profilebg"
+    >
+    <com.asus.wellness.view.MyTextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/profile_title_height"
+        android:text="@string/height"
+        style="@style/coach_title"
+        android:id="@+id/title"
+        />
+    <ImageView
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:id="@+id/profile_title_line"
+        android:layout_height="1dp" />
+    <LinearLayout
+
+        android:layout_marginLeft="@dimen/margin_left"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="match_parent">
+        <android.support.wearable.view.WearableListView
+            android:id="@+id/list_ft"
+            android:layout_width="match_parent"
+            android:dividerHeight="0dp"
+            android:layout_height="match_parent" />
+        </LinearLayout>
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:text="′"
+            android:layout_marginLeft="2dp"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="match_parent">
+        <android.support.wearable.view.WearableListView
+            android:id="@+id/list_in"
+            android:layout_marginLeft="2dp"
+            android:layout_width="match_parent"
+            android:dividerHeight="0dp"
+            android:layout_height="match_parent" />
+        </LinearLayout>
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:text="〃"
+            android:layout_marginLeft="2dp"
+            android:textSize="@dimen/to_right_of_listview_small"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

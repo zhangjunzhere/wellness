@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/text1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="10dp"
+    android:gravity="center"
+    android:padding="@dimen/profile_spinner_item_padding"
+    android:layout_margin="10dp"
+    android:textColor="#FF000000"
+    android:textSize="@dimen/setup_profile_text_font_size"
+    android:fontFamily="sans-serif">
+    
+
+</TextView>

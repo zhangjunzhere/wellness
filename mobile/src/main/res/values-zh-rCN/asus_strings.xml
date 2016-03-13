@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!-- kim_bai@asus.com 2014.12.26-->
+    <string name="duration">"活动时间"</string>
+    <string name="remind_me_session">"在以下时间段提醒我"</string>
+    <string name="from">"从"</string>
+    <string name="to">"到"</string>
+    <string name="steps">"步"</string>
+    <string name="tomorrow_goal">"明天目标"</string>
+    <!-- Inspire Asus -->
+    <string name="wm_about_inspire_asus">"激励ASUS"</string>
+    <string name="wm_inspire_asus_text1">"为了向我们的客户提供更好的服务，提升用户体验，并不断地发现问题和改进性能，ASUS启动了Inspire ASUS（以下简称“计划”）。 此计划可能匿名收集您的使用情况报告。"</string>
+    <string name="wm_inspire_asus_text2">"使用情况报告不会以任何方式涉及您的ASUS ZenWatch设备本身或个人信息。  使用情况数据包括待机状态、崩溃事件、首选界面、语言设置、当前软件版本、常用软件信息、软件功能使用行为和位置。"</string>
+    <string name="wm_inspire_asus_text3">"ASUS高度尊重我们客户的隐私和权利。 您可以随时在菜单中开启/关闭此计划的报告功能。 有关ASUS如何保护您隐私的详细信息，推荐您访问"</string>
+    <string name="wm_inspire_asus_yes_text">"是，我参加!"</string>
+    <!-- Encourage Us -->
+    <string name="encourage_title">"鼓励我们"</string>
+    <string name="scroll_up_toast" description="rate now" maxwidth="">"请向上滚动进行评价"</string>
+    <string name="toolbar_encourage_us_text">"如果您喜欢使用ASUS Wellness，请在Play Store中给出5星评价。 这将极大地激励我们不断地改进产品!\n\n如有任何建议，欢迎通过“反馈&amp;帮助”提交给我们。"</string>
+    <string name="toolbar_encourage_dialog_rate_now" maxwidth="35">"立即评价"</string>
+    <string name="toolbar_encourage_us_cancel">"取消"</string>
+
+    <!-- 2015.11.2-->
+    <string name="pushup">俯卧撑</string>
+    <string name="situp">仰卧起坐</string>
+    <string name="detail_sleep_deepsleep">"深眠时间"</string>
+    <string name="detail_sleep_lightsleep">"浅眠时间"</string>
+    <string name="detail_sleep_sleeplatency">"入睡所需时间"</string>
+    <string name="detail_sleep_wokeup">"辗转反侧"</string>
+    <string name="detail_sleep_light">"浅眠"</string>
+    <string name="detail_sleep_deep">"深眠"</string>
+    <string name="detail_sleep_shorthour">"小时"</string>
+    <string name="detail_sleep_shortmin">"分钟"</string>
+    <string name="text_sleep" maxwidth="">"睡眠"</string>
+    <string name="weekly_info_sleep_title">"睡眠分析"</string>
+    <string name="daily_detail_workout">"锻炼"</string>
+    <string name="weekly_info_workout_title">"俯卧撑和仰卧起坐"</string>
+    <string name="sleep_notification_title" maxwidth="">"睡眠追踪通知"</string>
+    <string name="sleep_notification_content" maxwidth="">"记录中"</string>
+    <string name="detail_text_completion" maxwidth="">"完成"</string>
+    <string name="daily_detail_workout_title_accumulation" maxwidth="">"累积"</string>
+    <string name="sleep_quality_score" maxwidth="">"分数"</string>
+    <!--<string name="text_sleep_timeline" maxwidth="">"睡眠:"</string>-->
+    <string name="text_sleep_quality_score">"睡眠品质 "</string>
+
+    <string name="sleptfor">"已睡了"</string>
+    <string name="distance_unit_miles" description="Distance unit: miles" maxwidth="">"英里"</string>
+
+
+    <!--​- sleep information -->
+    <string name="sleep_dictinary">"名词解释"</string>
+    <string name="sleepinformation">"睡眠信息"</string>
+    <string name="sleeplenght">"睡眠长度"</string>
+    <string name="deepsleepandlightsleep">"深眠与浅眠"</string>
+    <string name="awakenings">"辗转反侧 (醒来次数)"</string>
+
+    <string name="suggestion">"建议值"</string>
+    <string name="sleepquality_info">"睡眠品质是用于评估您睡眠质量的分数（最高 100 分）。分数越高，代表睡眠品质越好。睡眠品质分数取决于：睡眠的长度、入睡所需时间、躺在床上的时间、深眠（没什么肢体活动）的时间以及睡眠中醒来的次数。 "</string>
+    <string name="sleepquality_suggestion">"60 分是一般正常的睡眠型态的睡眠品质分数。如果你的分数高于60 分，则你的睡眠比平均要好，反之则比平均差。"</string>
+   <string name="sleeplength_info">"ZenWatch 侦测您第一个浅眠的开始，与最后一个浅眠的结束，来估计您的睡眠长度。"</string>
+    <string name="sleeplength_suggestion">"不同年龄的人所需的睡眠也不同。新生儿每天需要16-18 小时的睡眠、学龄前儿童每天需要11-12小时的睡眠、学龄儿童每天需要至少10小时的睡眠、青少年每天需要9-10小时的睡眠、成年人（包含老年人）则每天需要7-8小时的睡眠。"</string>
+    <string name="deepsleepandlightsleep_info">"进行睡眠追踪时，ZenWatch 会量测您的身体移动程度。深眠代表比浅眠与醒着有着更少的身体移动。在睡眠时，当身体移动较少的时候，一般而言会有比较好的睡眠。"</string>
+    <string name="deepsleepandlightsleep_suggestion" formatted="false">以一般的睡眠型态来说，深眠与浅眠各占总睡眠时间长度的20% 与60% 左右。"</string>
+    <string name="sleeplatency_info">"开始睡眠追踪后，到ZenWatch 感测到你入睡的时间。"</string>
+    <string name="sleeplatency_suggestion">"以一般的睡眠型态来说，平均入睡所需时间约15 分钟。"</string>
+    <string name="awakenings_info">"ZenWatch 会感测到你入睡后醒来（比较频繁的身体移动）的次数。"</string>
+    <string name="awakenings_suggestion">"以一般的睡眠型态来说，入睡后大约会醒来3 次。"</string>
+    <string name="sleep_tips_title">"小秘诀"</string>
+
+    <string name="stick_to_a_sleep_schedule_title">"保持固定的睡眠习惯"</string>
+    <string name="stick_to_a_sleep_schedule">"每天尽量保持在同一个时间点上床与起床。人是容易习以为常的，每当睡眠习惯被改变，总需要一段时间去适应。周末的睡晚一点也无法完全弥补在工作日所缺乏的睡眠，反而会让你星期一早上不容易准时起床。"</string>
+    <string name="exercise_is_great_title">"运动很好，但是不要太晚去运动"</string>
+    <string name="exercise_is_great">"每天尽量至少运动30 分钟，但是不要在睡前2-3小时左右运动。"</string>
+    <string name="avoid_cafeine_and_nicotine_title">"避免食用含咖啡因食品与抽烟"</string>
+    <string name="avoid_cafeine_and_nicotine">"咖啡、可乐、茶与巧克力都可能含有刺激性的咖啡因，而且效果最长可达 8 小时。因此，下午傍晚的一杯咖啡可能会让你当晚难以入眠。尼古丁也是一种刺激物质，通常会让吸烟的人不易深眠。此外，尼古丁的戒断现象，会让吸烟者会有过早起床的问题。"</string>
+    <string name="avoid_alcoholic_drinks_before_bed_title">"睡前尽量避免饮用酒精饮料"</string>
+    <string name="avoid_alcoholic_drinks_before_bed">"睡前小酌或啜饮酒精性饮料能帮助你放松，但饮用过度可能会使你难以进入深眠，而停留在浅眠阶段。摄取过量酒精也会让你睡觉时呼吸不顺。酒退了之后，也会使你半夜醒来。"</string>
+    <string name="avoid_large_meals_title">"晚上避免吃太饱，喝太多饮料"</string>
+    <string name="avoid_large_meals">"晚上可以吃些小点心，但是一顿大餐可能会消化不良而干扰睡眠。晚上饮用太多液体会使你频尿。"</string>
+    <string name="if_possible_title">"尽可能避免会延后或干扰你睡眠的药物"</string>
+    <string name="if_possible">"某些常见的心脏、血压或气喘处方药物，以及用来治疗咳嗽、感冒或过敏的成药与草本药方，会扰乱你的睡眠习惯。如果你有睡眠问题，请与医疗保健人员或药师讨论，了解目前你所服用的任何一种药剂是否会引起失眠，并询问是否可在当日其他时段或傍晚前服用药物。"</string>
+    <string name="dont_take_naps_title">"尽量别下午三点后小睡"</string>
+    <string name="dont_take_naps">"小睡能帮助补眠，但是接近傍晚时的小睡会使你晚上更难入睡。"</string>
+    <string name="relax_before_bed_title">"睡前好好放松"</string>
+    <string name="relax_before_bed">"别每天塞满行程而没有时间好好放松。使人轻松的活动，像阅读或听音乐，应该成为你每日就寝的一部分。"</string>
+    <string name="take_a_lot_bath_title">"睡前洗个热水澡"</string>
+    <string name="take_a_lot_bath">"沐浴后的体温降低，可能会让你感觉到睡意，而且沐浴可帮助你放松与放慢步调，让入眠准备更充分。"</string>
+    <string name="have_a_good_sleeping_title">"塑造良好的睡眠环境"</string>
+    <string name="have_a_good_sleeping">"消除任何在卧房会使你分心而无法好好睡觉的事物，比如：噪音、明亮的灯光、不舒适的床铺与房间过于暖和。保持室温凉爽，你能睡得更香甜。房间内的电视、手机或电脑都可能会是导致睡眠不足的干扰。舒适的床垫与枕头有助于一觉好眠。失眠的人经常会注意时钟。请将有指针的钟面转向，如此当你尝试入睡时，就不会忧心时间问题。"</string>
+    <string name="have_the_right_sunlight_title">"适量的日光浴时间"</string>
+    <string name="have_the_right_sunlight">"日光是调节每日睡眠习惯的关键因素。试着每天在外头晒至少30分钟的自然光。可能的话，试图早晨被用阳光或明亮光照唤醒。睡眠专家建议，如果你入睡困难，应该花一个小时沐浴晨光，并在就寝时间前关灯。"</string>
+    <string name="dont_lie_in_bed_title">"如果睡不着别赖在床上"</string>
+    <string name="dont_lie_in_bed">"如果你发觉躺在床上超过20分钟后依旧保持清醒，或开始感到焦虑、担忧时，请起身并做些放松活动，直到你想睡为止。因为无法睡着的焦虑感会使你更难入眠。"</string>
+    <string name="see_a_health_title">"如果持续有睡眠问题，请咨询睡眠医学与健康的专业人员"</string>
+    <string name="see_a_health">"如果你一再发现很难入睡、熟睡，或是尽管晚上有充足的卧床时间却经常感到疲倦、休息不足，那你可能有睡眠障碍。你的家庭医生或是睡眠专家应该能协助你诊断病因，并记得排除其他可能干扰睡眠的健康或情绪问题。"</string>
+    <!-- sleep tips end -->
+    <string name="daily_info_run_type">"跑步"</string> <!--workout_choose_run-->
+    <string name="sleep_detail_back">回上页</string>
+    <string name="data_source">资料来源：</string>
+    <string name="articlehelpful">这篇文章对您有帮助吗？</string>
+
+    <string name="bug_report_preference_title">"回报程序错误"</string>
+    <string name="bug_report_email_subject">"Wellness 错误报告"</string>
+    <string name="bug_report_email_body">"Wellness 错误报告"</string>
+    <string name="but_report_share">"分享"</string>
+
+    <!-- permission -->
+    <string name="allow_access_photos_title">"允许读取相片"</string>
+    <string name="allow_access_photos_content">"为了更换您的相片，请前往设定页面，替华硕健康管理开启储存授权。"</string>
+
+    <string name="allow_track_location_title">"允许追踪位置"</string>
+    <string name="allow_track_location_content">"为了追踪您的活动位置，请前往设定页面，替华硕健康管理开启位置授权"</string>
+
+    <string name="permisson_turn_on">"立即开启"</string>
+    <string name="permisson_body_sensor_title">"无法侦测您的活动"</string>
+    <string name="permisson_body_sensor_subtitle">"在未取得身体感应器授权的情况下，华硕健康管理无法侦测您的动作。"</string>
+    <string name="permisson_notice_bodysensor_location">"注意：当您使用活动相关功能时，建议不要关闭设定页面上的任一授权选项。"</string>
+    <string name="settings_disable_backup">"若您取消勾选「备份我的数据」，因Google的Android备份服务机制，有可能导致您的备份文件遗失。确定取消勾选？"</string>
+    <string name="permisson_location_title">"无法找到您的位置"</string>
+    <string name="permisson_location_subtitle">"Wellness 无法在没有位置授权的情况下检测您的位置"</string>
+    <string name="permisson_storage_title">"无法访问您的照片"</string>
+    <string name="permisson_storage_subtitle">"Wellness 无法在没有储存授权的情况下访问您的图片"</string>
+    <string name="permisson_notice_storage">"注意：我们建议，在执行与您的个人资料相关的任何功能时，不要关闭系统设置中的任何授权。"</string>
+
+</resources>

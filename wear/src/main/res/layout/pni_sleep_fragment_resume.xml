@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sleep_stop_tip"
+        android:textSize="@dimen/idle_alarm_text_size"
+        android:layout_marginLeft="4dp"/>
+
+    <com.asus.wellness.sleep.SleepControllerLayout
+        android:id="@+id/iv_controller"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Hold_to_stop_sleep"
+        android:textSize="@dimen/btn_normal_font_size"
+        android:gravity="center"
+        android:layout_marginBottom="4dp"/>
+
+</LinearLayout>
+

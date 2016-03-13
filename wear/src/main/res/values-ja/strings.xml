@@ -1,0 +1,84 @@
+<resources>
+
+    <string name="app_name">Wellness</string>
+	<string name="text_step_goal">/%s 歩</string>
+    <string name="target">今日の目標</string>
+    <string name="count_down_text_secs">秒</string>
+    <string name="step_unit">歩</string>
+    <string name="distance_unit">km</string>
+    <string name="heart_rate_unit">bpm</string>
+    <string name="options_relax">リラックス</string>
+    <string name="options_stress">ストレス</string>
+    <string name="options_energy">エネルギー</string>
+    <string name="text_measure_stress">ストレスのレベル</string>
+    <string name="text_measure_relax">エネルギーのレベル</string>
+    <string name="measure_name">計測</string>
+    <string name="waiting_text">お待ちください。</string>
+	<string-array name="stress_level_1_2">
+		<item>軽食や果物でエネルギーを補給できます</item>
+		<item>健康的な生活習慣は困難を克服するのに役立ちます</item>
+		<item>安定した精神状態で禅の境地にあります</item>
+	</string-array>
+	<string-array name="stress_level_3">
+		<item>ストレスのレベルが増加しています</item>
+		<item>どのように感じているかをメモしましょう</item>
+	</string-array>
+	<string-array name="stress_level_4_5">
+		<item>30分のウォーキングは25％ストレスを減らすことができます</item>
+		<item>腕、背中と肩をストレッチしましょう</item>
+		<item>姿勢を楽にし、筋肉をリラックスさせましょう</item>
+		<item>DIYは喜びと達成感を感じることができます</item>
+		<item>ハンドマッサージをしましょう</item>
+	</string-array>
+	<string-array name="heart_rate_level">
+		<item>L1 非常に軽い</item>
+		<item>L2 軽い</item>
+		<item>L3 普通</item>
+		<item>L4 激しい</item>
+		<item>L5 最大</item>
+	</string-array>
+
+	<string name="knockknock_start_stress">ストレスレベルの測定を開始します</string>
+	
+	<string name="exercise_intensity" maxwidth="">エクササイズの強さ</string>
+	<string name="tutorial_touch_sensor" maxwidth="">やさしく触れてください</string>
+	<string name="knockknock_start_heartrate" maxwidth="">心拍数を計測</string>
+	<string name="tap_to_start" maxwidth="">アイコンをタップし開始</string>
+	<string name="no_value_message" maxwidth="">測定結果はありません</string>
+	<string name="tap_to_try_again" maxwidth="">このアイコンをタップし\n再試行してください。</string>
+	<string name="heart_rate" maxwidth="">心拍数</string>
+	<string name="tap_message" maxwidth="">測定中は体を動かさないでください</string>
+	<string-array name="relax_level_1_2" maxwidth="">
+		<item>水分補給と適度な運動はリラックスするのに役立ちます</item>
+		<item>30分早く就寝すると、ストレスを37％軽減できます</item>
+		<item>休暇が必要かもしれません</item>
+		<item>音楽を聴くとリラックスできます</item>
+	</string-array>
+	<string-array name="relax_level_3" maxwidth="">
+		<item>リラックスのレベルが低下しています</item>
+	</string-array>
+	<string-array name="relax_level_4_5" maxwidth="">
+		<item>エネルギーが充分に補給され、今日のタスクを完了する準備ができています</item>
+		<item>充分休養し、集中力が維持できています</item>
+		<item>心の安定は集中力を高めます</item>
+	</string-array>
+	<string name="keep_touch_sensor">タッチしてください</string>
+	<string name="options_relaxation">リラックスレベル</string>
+	<string name="knockknock_start_relaxation">リラックスレベルを測定する</string>
+	<string name="not_support_message">ご使用のデバイスではこのウェアラブルアプリはご利用頂けません。アプリを閉じます。</string>
+
+	<string name="download_on_phone_message" maxwidth="">電話にダウンロード</string>
+	<string name="wait_first_heart_rate_message" maxwidth="">測定を開始します。動かないでリラックスしてください。</string>
+	<string name="wait_enough_rr_message" maxwidth="">計測中です。あと数秒で終了します。</string>
+	<string name="keep_measuring" maxwidth="">計測中....</string>
+	<string name="total_steps" maxwidth="">歩数合計</string>
+	<string name="step_indicator_10k" maxwidth="">10K</string>
+	<string name="step_indicator_5k" maxwidth="">5K</string>
+	<string name="calories_unit" description="Calories unit" maxwidth="">kcal</string>
+
+	<string name="suggest_wellness_title" maxwidth="">おすすめアプリ:Wellness</string>
+	<string name="suggest_wellness_message" maxwidth="">
+              無料でASUS ZenWatch
+              \nWellness アプリを入手しよう!
+              </string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:id="@+id/step_text"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+ 		android:textSize="@dimen/weekly_activity_step_text_size"
+    	android:textColor="@color/weekly_total_steps_tv_color"
+    	android:fontFamily="sans-serif-light">
+</TextView>

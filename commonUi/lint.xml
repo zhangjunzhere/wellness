@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <!-- TODO: Owner should add contentDescription to specify a textual description of the widget -->
+    <issue id="ContentDescription">
+        <ignore path="res/layout/asus_commonui_activity_chooser_view.xml" />
+        <ignore path="res/layout/asus_commonui_activity_chooser_view_list_item.xml" />
+        <ignore path="res/layout/asus_commonui_list_item.xml" />
+        <ignore path="res/layout/asus_commonui_resolve_list_item.xml" />
+        <ignore path="res/layout/list_item.xml" />
+    </issue>
+
+    <issue id="UnusedResources">
+        <ignore path="res/values/version.xml" />
+        <ignore path="res/layout/asus_commonui_list_item.xml" />
+        <ignore path="res/layout/list_item.xml" />
+    </issue>
+
+    <issue id="IconMissingDensityFolder" severity="ignore" />
+
+    <issue id="IconDuplicates">
+        <ignore path="res/drawable-mdpi/asus_icon_reorder.png" />
+        <ignore path="res/drawable-hdpi/asus_icon_reorder.png" />
+        <ignore path="res/drawable-xhdpi/asus_icon_reorder.png" />
+        <ignore path="res/drawable-xxhdpi/asus_icon_reorder.png" />
+    </issue>
+
+    <issue id="RtlEnabled" severity="ignore" />
+
+    <issue id="RtlSymmetry">
+        <ignore path="res/layout/asus_commonui_list_item.xml" />
+        <ignore path="res/layout/list_item.xml" />
+    </issue>
+
+    <issue id="RtlHardcoded">
+        <ignore path="src/com/asus/commonui/drawerlayout/DrawerLayout.java" />
+    </issue>
+
+    <issue id="Overdraw">
+        <ignore path="res/layout-sw600dp/asus_commonui_date_picker_dialog.xml" />
+        <ignore path="res/layout-w270dp-h560dp/asus_commonui_date_picker_dialog.xml" />
+        <ignore path="res/layout/asus_commonui_date_picker_dialog.xml" />
+        <ignore path="res/layout/asus_commonui_date_picker_header_view.xml" />
+        <ignore path="res/layout/asus_commonui_date_picker_selected_date.xml" />
+        <ignore path="res/layout/asus_commonui_date_picker_view_animator.xml" />
+        <ignore path="res/layout/asus_commonui_time_header_label.xml" />
+    </issue>
+
+    <issue id="InflateParams">
+        <ignore path="src/com/asus/commonui/shareactionwidget/ResolverActivity.java" />
+        <ignore path="src/com/asus/commonui/datetimepicker/date/DatePickerDialog.java" />
+        <ignore path="src/com/asus/commonui/datetimepicker/time/TimePickerDialog.java" />
+    </issue>
+
+    <issue id="RelativeOverlap">
+        <ignore path="res/layout/asus_commonui_list_item.xml" />
+        <ignore path="res/layout/list_item.xml" />
+    </issue>
+
+    <issue id="LongLogTag" severity="ignore" />
+
+</lint>

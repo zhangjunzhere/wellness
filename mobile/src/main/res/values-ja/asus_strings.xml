@@ -1,0 +1,118 @@
+<resources>
+    <!-- kim_bai@asus.com 2014.12.26-->
+    <string name="duration">時間</string>
+    <string name="remind_me_session">次のセッションでリマインドする</string>
+    <string name="from">開始</string>
+    <string name="to">終了</string>
+
+    <string name="steps">歩</string>
+    <string name="tomorrow_goal">明日の目標</string>
+
+    <!-- Inspire Asus -->
+    <string name="wm_about_inspire_asus">Inspire ASUS</string>
+    <string name="wm_inspire_asus_text1">お客様によりよいサービスを提供し、ユーザー体験を改善し、継続的に問題を発見してパフォーマンスを向上させるために、ASUS は Inspire ASUS (「プログラム」) を始めます。 この「プログラム」はお客様の使用状況レポートを匿名で集めることがあります。</string>
+    <string name="wm_inspire_asus_text2">使用状況レポートは、いかなる形式であっても、お客様の ASUS ZenWatch デバイスの ID や個人情報に関連付けられることはありません。 使用状況データは、待機ステータス、クラッシュイベント、優先インターフェイス、言語設定、現在のソフトウェアバージョン、よく使用するソフトウェア情報、ソフトウェア機能の使用行動、場所で構成されます。</string>
+    <string name="wm_inspire_asus_text3">ASUS はお客様のプライバシーと権利を重視しています。 プログラムのレポート機能のオン/オフはメニューからいつでも切り替えることができます。 ASUSがお客様のプライバシーを保護する方法の詳細については、次のサイトにアクセスしてください:</string>
+    <string name="wm_inspire_asus_yes_text">はい。参加します！</string>
+
+    <!-- Encourage Us -->
+    <string name="encourage_title">評価してください</string>
+    <string name="scroll_up_toast" description="rate now" maxwidth="">上にスクロールし評価してください</string>
+    <string name="toolbar_encourage_us_text">ASUS Wellnessを気に入っていただけましたら、Play Store で五つ星を付けてください。 ASUS にとって大きな励みとなり、製品改善に役立ちます。\n\nご提案がございましたら、「Feedback \u0026 Help」からお寄せください。</string>
+    <string name="toolbar_encourage_dialog_rate_now" maxwidth="35">今すぐ評価する</string>
+    <string name="toolbar_encourage_us_cancel">キャンセル</string>
+
+    <string name="pushup">腕立て</string>
+    <string name="situp">腹筋 </string>
+    <string name="daily_detail_workout_title_accumulation" maxwidth="">"合計"</string>
+    <string name="daily_info_run_type">"走る"</string>
+
+    <!-- 2015.12.31 -->
+    <string name="detail_sleep_deepsleep">"深い睡眠"</string>
+    <string name="detail_sleep_lightsleep">"浅い睡眠"</string>
+    <string name="detail_sleep_sleeplatency">"睡眠待ち時間"</string>
+    <string name="detail_sleep_wokeup">"寝返り"</string>
+    <string name="detail_sleep_light">"浅い"</string>
+    <string name="detail_sleep_deep">"深い"</string>
+    <string name="detail_sleep_shorthour">"時間"</string>
+    <string name="detail_sleep_shortmin">"分"</string>
+    <string name="text_sleep" maxwidth="">"睡眠"</string>
+    <string name="weekly_info_sleep_title">"合計睡眠分析"</string>
+    <string name="weekly_info_workout_title">"腕立て伏せ / 腹筋運動の合計"</string>
+    <string name="sleep_notification_title" maxwidth="">"睡眠追跡通知"</string>
+    <string name="detail_text_completion" maxwidth="">"達成"</string>
+    <string name="text_completion" maxwidth="">"完了"</string>
+    <string name="sleep_quality_score" maxwidth="">"品質スコア"</string>
+    <string name="text_sleep_quality_score">"眠りの質"</string>
+    <string name="daily_detail_workout">"運動"</string>
+    <string name="sleptfor">"睡眠時間"</string>
+    <string name="permisson_turn_on">"今すぐオンにする！"</string>
+    <string name="permisson_body_sensor_title">"活動を検出できません"</string>
+    <string name="permisson_body_sensor_subtitle">"ボディセンサーの許可がなければ、Wellness はあなたの動きを検出できません"</string>
+    <string name="permisson_location_title">"あなたの位置情報が見つかりません"</string>
+    <string name="permisson_location_subtitle">"位置情報の許可がなければ、Wellness はあなたの位置情報を検出できません"</string>
+    <string name="permisson_storage_title">"写真にアクセスできません"</string>
+    <string name="permisson_storage_subtitle">"ストレージの許可がなければ、Wellness はあなたの写真にアクセスできません"</string>
+    <string name="permisson_notice_bodysensor_location">"注: 活動に関する機能の実行中は、システム設定で許可をオフにしないでください。"</string>
+    <string name="permisson_notice_storage">"注: 個人プロフィールに関する機能の実行中は、システム設定で許可をオフにしないでください。"</string>
+    <string name="distance_unit_miles" description="Distance unit: miles" maxwidth="">"マイル"</string>
+
+    <!-- 2016.1.11 -->
+    <string name="sleep_dictinary">"睡眠ディクショナリ"</string>
+    <string name="sleepinformation">"睡眠情報"</string>
+    <string name="sleeplenght">"睡眠の長さ"</string>
+    <string name="deepsleepandlightsleep">"深い睡眠と浅い睡眠"</string>
+    <string name="awakenings">"寝返り (目覚め)"</string>
+    <string name="suggestion">"提案"</string>
+    <string name="sleepquality_info">"睡眠の質は、あなたの眠りの質を数値で表したものです (最大 100)。 この数値が高いほど、睡眠の質が高いことを示します。睡眠の質は、睡眠時間、眠りに落ちるまでの時間、ベッドにいる時間、深い睡眠 (身体の動きが少ない眠り) の時間、睡眠中に目覚めた回数で決まります。"</string>
+    <string name="sleepquality_suggestion">"60 点が普通の睡眠パターンの基準となります。 60 点以上であれば、あなたは平均より良く眠れており、60 点に満たなければ、良く眠れてないことになります。"</string>
+   <string name="sleeplength_info">"ZenWatch は最初の浅い睡眠の始まりと最後の浅い睡眠の終わりを検出し、睡眠の長さを見積もります。"</string>
+    <string name="sleeplength_suggestion">"必要な睡眠量は年齢層によって異なります。 新生児には 1 日 16 ～ 18 時間、就学前の子供には 1 日 11 ～ 12 時間、学齢期の子供には 1 日最低 10 時間、10 代には 1 日 9 ～ 10 時間、成人 (高齢者を含む) には1 日 7 ～ 8 時間の睡眠が必要です。"</string>
+    <string name="deepsleepandlightsleep_info">"ZenWatch は、あなたの睡眠を追跡記録している間、あなたの体の動きを計測します。 深い睡眠とは、浅い睡眠や目覚めに比べて体の動きが少ない睡眠を意味します。 一般的に、睡眠中に体の動きが少なければ、良く眠れていることになります。"</string>
+    <string name="deepsleepandlightsleep_suggestion" formatted="false">"平均的に、普通の睡眠パターンにおいては、深い睡眠と浅い睡眠が合計睡眠時間の約 20% ～ 60% を占めます。"</string>
+    <string name="sleeplatency_info">"あなたが睡眠追跡を開始してから、ZenWatch が眠りに落ちたことを感知するまでの時間"</string>
+    <string name="sleeplatency_suggestion">"通常の睡眠パターンでは、人の睡眠待ち時間は平均で15分間です。"</string>
+    <string name="awakenings_info">"ZenWatch は、睡眠中の目覚め (体の動きが多い) の回数を検知します。"</string>
+    <string name="awakenings_suggestion">"普通の睡眠パターンにおいては、睡眠中、平均して 3 回目覚めます。"</string>
+    <string name="sleep_tips_title">"良い睡眠のためのヒント"</string>
+    <string name="stick_to_a_sleep_schedule_title">"規則正しく眠る"</string>
+    <string name="stick_to_a_sleep_schedule">"毎日、同じ時間に寝起きします。 人は習慣の生き物であり、睡眠パターンが変わるとなかなか適応できません。 週末に遅くまで眠ってもその週の睡眠不足の埋め合わせにはならず、月曜日の朝に早起きするのを難しくします。"</string>
+    <string name="exercise_is_great_title">"運動は夜遅くでなければ効果的"</string>
+    <string name="exercise_is_great">"毎日30 分以上運動してください。ただし、就寝の2、3時間前の運動は控えてください。"</string>
+    <string name="avoid_cafeine_and_nicotine_title">"カフェインとニコチンを控える"</string>
+    <string name="avoid_cafeine_and_nicotine">"コーヒー、コーラ、特定のお茶、チョコレートには刺激性のあるカフェインが含まれています。その効果が完全に消えるまで 8 時間かかることがあります。 そのため、午後の 1 杯のコーヒーが原因で夜眠れなくなることがあります。 ニコチンも刺激性です。喫煙者の眠りは非常に浅くなることがあります。 また、ニコチンの禁断症状が原因で、喫煙者には朝起きるのが早すぎる傾向があります。"</string>
+    <string name="avoid_alcoholic_drinks_before_bed_title">"就寝前のアルコール摂取を避ける"</string>
+    <string name="avoid_alcoholic_drinks_before_bed">"寝酒にはリラックス効果がありますが、深酒すると、浅い眠りが続き、深く眠れないことがあります。 また、深酒は睡眠中の呼吸を損ねることがあります。 アルコールの効果が切れ、深夜に目覚めることもあります。"</string>
+    <string name="avoid_large_meals_title">"夜遅くに大量の食事・飲み物を摂らない"</string>
+    <string name="avoid_large_meals">"軽い夜食は問題ありませんが、本格的な食事は消化不良を招き、睡眠を妨げることがあります。 夜に飲み物を摂りすぎると、トイレに行きたくなり、何度も目覚めます。"</string>
+    <string name="if_possible_title">"可能であれば、睡眠を遅らせる/妨げる薬を避ける"</string>
+    <string name="if_possible">"心臓、高血圧/低血圧、喘息のために一般的に処方される薬と咳、風邪、アレルギー用の市販薬またはハーブは睡眠パターンを妨げることがあります。 眠れない場合、ヘルスケア提供者や登録薬剤師に相談し、服用中の薬が不眠の原因になっていないか確認してください。 服用中の薬を別の時間帯に、日中や夕方に摂れないか相談してください。"</string>
+    <string name="dont_take_naps_title">"午後 3 時以降は昼寝しない"</string>
+    <string name="dont_take_naps">"昼寝は睡眠不足を補いますが、午後遅くに昼寝すると、夜眠れなくなることがあります。"</string>
+    <string name="relax_before_bed_title">"就寝前にリラックスする"</string>
+    <string name="relax_before_bed">"スケジュールを詰め込みすぎず、くつろぐための時間を残してください。 読書したり、音楽を聴いたり、リラックスするための時間を睡眠前の習慣にしてください。"</string>
+    <string name="take_a_lot_bath_title">"就寝前にお風呂で温まる"</string>
+    <string name="take_a_lot_bath">"お風呂から出て一時的に体が温まると、眠気を感じることがあります。また、入浴にはリラックス効果があり、睡眠のための準備となります。"</string>
+    <string name="have_a_good_sleeping_title">"睡眠環境を作る"</string>
+    <string name="have_a_good_sleeping">"良く眠るには、良い睡眠環境が必要です。 寝室から、騒音や明るい光など、睡眠を妨げる要素を取り除いてください。  携帯機器、テレビ、コンピューター、その他の電子機器の電源を切ってください。 心地よいベッド、快適な室温、枕も良い睡眠を促進します。 不眠の人には時計を眺める傾向があります。 不眠であれば、時計の盤面を視界から隠してください。そうすれば、眠ろうと努力している時間について気にする必要がありません。"</string>
+    <string name="have_the_right_sunlight_title">"太陽の光を適度に浴びる"</string>
+    <string name="have_the_right_sunlight">"毎日の睡眠パターンを調整する鍵となるのが日光です。 外に出て、自然の光を毎日 30 分以上浴びてください。 可能であれば、太陽と共に目覚め、朝の明るい光を浴びてください。 睡眠の専門家は、睡眠障害を抱えている人は朝の光を 1 時間浴び、就寝時には明かりを消すことを推奨しています。"</string>
+    <string name="dont_lie_in_bed_title">"起きたままベッドで横にならない"</string>
+    <string name="dont_lie_in_bed">"20 分以上ベッドに横になっていても眠れない場合、あるいは心配になってきたら、起きて、何かリラックスできることを眠くなるまで続けてください。 眠れないという不安は眠りをさらに難しくします。"</string>
+    <string name="see_a_health_title">"眠れない日が続く場合、専門家に相談する"</string>
+    <string name="see_a_health">"夜、十分な時間ベッドに入っていても、眠れない、眠りが続かない、十分に休めず、日中に疲れを感じる場合、睡眠障害の可能性があります。 そのような場合、かかりつけのヘルスケア提供者や睡眠障害の専門家が力になります。また、あなたの睡眠を邪魔している他の健康問題または心理問題を解決することが重要です。"</string>
+    <string name="sleep_detail_back">"戻る"</string>
+    <string name="data_source">"情報源:"</string>
+    <string name="articlehelpful">"お役に立ちましたか？"</string>
+
+    <!-- 2016.1.15 -->
+    <string name="allow_access_photos_title">"写真アクセスを許可する"</string>
+    <string name="allow_access_photos_content">"写真を変更するには、設定に進み、ZenWatch Wellness のストレージアクセス許可を有効にします。"</string>
+    <string name="allow_track_location_title">"位置情報追跡を許可する"</string>
+    <string name="allow_track_location_content">"位置情報を追跡するには、設定に進み、ZenWatch Wellness の位置情報アクセス許可を有効にします。"</string>
+    <string name="bug_report_preference_title">"レポートプログラムエラー"</string>
+    <string name="bug_report_email_subject">"Wellness バグレポート"</string>
+    <string name="bug_report_email_body">"Wellness バグレポート"</string>
+    <string name="but_report_share">"共有"</string>
+    <string name="settings_disable_backup">"\"自分のデータをバックアップ\"を選択解除すると、GoogleのAndroidバックアップサービスによってバックアップファイルが失われる場合があります。この機能を選択解除しますか?"</string>
+</resources>

@@ -1,0 +1,119 @@
+﻿<resources>
+	<!-- kim_bai@asus.com 2014.12.26-->
+    <string name="duration">Duración</string>
+    <string name="remind_me_session">Recordármelo en la siguiente sesión</string>
+    <string name="from">Desde</string>
+    <string name="to">Hasta</string>
+	
+	<string name="steps">pasos</string>
+    <string name="tomorrow_goal">El objetivo del mañana</string>
+
+    <!-- Inspire Asus -->
+    <string name="wm_about_inspire_asus">Inspire ASUS</string>
+    <string name="wm_inspire_asus_text1">Para proporcionar a los clientes los mejores servicios, mejorar la experiencia del usuario y descubrir problemas permanentemente para mejorar el rendimiento, ASUS pone en macha Inspire ASUS (“Programa”). Este programa puede recopilar su informe de uso de forma anónima.</string>
+    <string name="wm_inspire_asus_text2">El informe de uso no se asociará de ninguna forma con las identidades o la información personal de su dispositivo ASUS ZenWatch. Los datos de uso se componen del estado en espera, eventos de bloqueo, interfaz preferida, configuración de idioma, versión actual del software, información sobre el software frecuentemente utilizado, comportamiento del uso de funciones de software y ubicación.</string>
+    <string name="wm_inspire_asus_text3">ASUS respeta enormemente la privacidad y los derechos de nuestros clientes. Puede activar y desactivar la función de informe del programa desde el menú en cualquier momento. Para obtener información detallada acerca de cómo ASUS protege su privacidad, también le recomendamos que visite</string>
+    <string name="wm_inspire_asus_yes_text">¡Sí, cuente conmigo!</string>
+
+    <!-- Encourage Us -->
+    <string name="encourage_title">Anímenos</string>
+    <string name="scroll_up_toast" description="rate now" maxwidth="">Desplácese hacia arriba para puntuar</string>
+    <string name="toolbar_encourage_us_text">Si disfruta usando ASUS Wellness, puntúenos con 5 estrellas en Play Store. ¡Nos alentará para continuar mejorando el producto!\n\nSi quiere hacernos llegar sus sugerencias, escríbanos a través de Comentarios &amp; Ayuda.</string>
+    <string name="toolbar_encourage_dialog_rate_now" maxwidth="35">Puntuar ahora</string>
+    <string name="toolbar_encourage_us_cancel">Cancelar</string>
+
+    <!-- 2015.12.31 -->
+    <string name="pushup">"Flexiones"</string>
+    <string name="situp">"Abdominales"</string>
+    <string name="detail_sleep_totolsleep">"Sueño total"</string>
+    <string name="detail_sleep_quality">"calidad"</string>
+    <string name="detail_sleep_deepsleep">"Sueño profundo"</string>
+    <string name="detail_sleep_lightsleep">"Sueño ligero"</string>
+    <string name="detail_sleep_sleeplatency">"Latencia del sueño"</string>
+    <string name="detail_sleep_wokeup">"Vuelta y giro"</string>
+    <string name="detail_sleep_light">"Ligero"</string>
+    <string name="detail_sleep_deep">"Profundo"</string>
+    <string name="detail_sleep_shorthour">"h"</string>
+    <string name="detail_sleep_shortmin">"m"</string>
+    <string name="text_sleep" maxwidth="">"Sueño"</string>
+    <string name="weekly_info_sleep_title">"Análisis total del sueño"</string>
+    <string name="weekly_info_workout_title">"Flexiones y abdominales totales"</string>
+    <string name="sleep_notification_title" maxwidth="">"Aviso de seguimiento del sueño"</string>
+    <string name="detail_text_completion" maxwidth="">"logrado"</string>
+    <string name="text_completion" maxwidth="">"del objetivo logrado"</string>
+    <string name="daily_detail_workout_title_accumulation" maxwidth="">"Acumulación"</string>
+    <string name="sleep_quality_score" maxwidth="">"puntuación de calidad"</string>
+    <string name="text_sleep_quality_score">"Calidad del sueño"</string>
+    <string name="daily_detail_workout">"Sesión de ejercicios"</string>
+    <string name="sleptfor">"Dormido durante"</string>
+    <string name="permisson_turn_on">"¡ACTIVAR ahora!"</string>
+    <string name="permisson_body_sensor_title">"No se puede detectar su actividad"</string>
+    <string name="permisson_body_sensor_subtitle">"Wellness no puede detectar el movimiento sin permiso del detector corporal"</string>
+    <string name="permisson_location_title">"No se puede encontrar su ubicación"</string>
+    <string name="permisson_location_subtitle">"Wellness no puede detectar la ubicación sin el permiso de ubicación"</string>
+    <string name="permisson_storage_title">"No se puede acceder a las fotos"</string>
+    <string name="permisson_storage_subtitle">"Wellness no puede acceder a las imágenes sin el permiso de almacenamiento"</string>
+    <string name="permisson_notice_bodysensor_location">"Nota: NO desactive ningún permiso en la configuración del sistema mientras esté ejecutando cualquier función relacionada con su actividad."</string>
+    <string name="permisson_notice_storage">"Nota: NO desactive ningún permiso en la configuración del sistema mientras esté ejecutando cualquier función relacionada con su perfil personal."</string>
+    <string name="distance_unit_miles" description="Distance unit: miles" maxwidth="">"millas"</string>
+
+    <!-- 2016.1.11 -->
+    <string name="sleep_dictinary">"Diccionario del sueño"</string>
+    <string name="sleepinformation">"Información del sueño"</string>
+    <string name="sleeplenght">"Duración del sueño"</string>
+    <string name="deepsleepandlightsleep">"Sueño profundo y sueño ligero"</string>
+    <string name="awakenings">"Vuelta y giro (interrupciones del sueño)"</string>
+    <string name="suggestion">"Sugerencia"</string>
+    <string name="sleepquality_info">"La calidad del sueño es una puntuación (hasta 100) para cuantificar la cualidad de su sueño. Cuanto mayor sea la puntuación, mejor calidad de sueño tendrá. La puntuación de la calidad del sueño depende de cuánto tiempo duerme, cuánto tiempo tarda en dormirse, cuánto tiempo pasa en la cama, durante cuánto tiempo tiene un sueño profundo (sueño con menos movimiento del cuerpo) y cuántas veces se despierta durante el sueño."</string>
+    <string name="sleepquality_suggestion">"La puntuación de calidad de 60 representa la línea base del patrón de sueño normal. Si la puntuación es superior a 60, su sueño es mejor que la media y viceversa."</string>
+    <string name="sleeplength_info">"ZenWatch detecta el principio de su primer sueño ligero y el final de su último sueño ligero para estimar la duración del sueño."</string>
+    <string name="sleeplength_suggestion">"La velocidad tiene que ser diferente para diferentes grupos de edad. Los recién nacidos necesitan entre 16 y 18 horas por día, los niños en edad preescolar necesitan entre 11 y 12 horas por día, los niños en edad escolar necesitan al menos 10 horas por día, los adolescentes necesitan entre 9 y 10 horas al día y los adultos (incluidas las personas ancianas), necesitan entre 7 y 8 horas al día."</string>
+    <string name="deepsleepandlightsleep_info">"ZenWatch mide el movimiento de su cuerpo mientras realiza un seguimiento del sueño. El sueño profundo equivale al sueño con menor movimiento del cuerpo, en relación al sueño ligero y el estado de despierto. En general, cuanto menos se mueva durante el sueño, mejor sueño tendrá."</string>
+    <string name="deepsleepandlightsleep_suggestion" formatted="false">"De media, las personas con un patrón de sueño normal tienen sueño profundo y sueños ligeros de aproximadamente entre el 20 y el 60 % del tiempo del sueño total."</string>
+    <string name="sleeplatency_info">"El tiempo que pasa desde que comienza a realizar un seguimiento del sueño y ZenWatch detecta que se ha dormido"</string>
+    <string name="sleeplatency_suggestion">"Las personas con un patrón de sueño normal tienen una media de 15 minutos de latencia del sueño."</string>
+    <string name="awakenings_info">"ZenWatch detecta el número de interrupciones del sueño (con más movimiento del cuerpo) durante el sueño."</string>
+    <string name="awakenings_suggestion">"Las personas con un patrón de sueño normal tienen un número medio de 3 interrupciones del sueño durante este."</string>
+    <string name="sleep_tips_title">"Sugerencias para dormir mejor"</string>
+    <string name="stick_to_a_sleep_schedule_title">"Cumplir un horario de sueño"</string>
+    <string name="stick_to_a_sleep_schedule">"Vaya a la cama y despiértese a la misma hora todos los días. Como criaturas de hábito, la gente tiene dificultades en adaptarse a los cambios en los patrones de sueño. Dormir hasta tarde los fines de semana no compensará plenamente la falta de sueño durante la semana y hará que sea más difícil levantarse temprano el lunes por la mañana."</string>
+    <string name="exercise_is_great_title">"Hacer ejercicio es excelente pero no demasiado tarde"</string>
+    <string name="exercise_is_great">"Intente hacer ejercicio al menos 30 minutos la mayoría de los días pero no más tarde de 2-3 horas antes de irse la cama."</string>
+    <string name="avoid_cafeine_and_nicotine_title">"Evitar la cafeína y la nicotina"</string>
+    <string name="avoid_cafeine_and_nicotine">"El café, la cola, ciertos tés y el chocolate contienen el estimulante de la cafeína y sus efectos pueden tardar hasta 8 horas en desaparecer completamente. Por tanto, una taza de café al final de la tarde puede hacer más difícil conciliar el sueño por la noche. La nicotina también es un estimulante que suele hacer que los fumadores solo puedan dormir muy ligeramente. Además, los fumadores suelen despertarse demasiado temprano por la mañana debido al síndrome de abstinencia de la nicotina."</string>
+    <string name="avoid_alcoholic_drinks_before_bed_title">"Evitar bebidas alcohólicas antes de acostarse"</string>
+    <string name="avoid_alcoholic_drinks_before_bed">"Tomar una \"una bebida caliente\" o alcohólica, antes de irse a dormir puede relajarle, pero el uso abusivo roba sueño profundo que le mantiene en las fases más ligeras del sueño. La ingesta de mucho alcohol también puede contribuir a provocar problemas en la respiración por la noche. También tiende a despertarse en la mitad de la noche cuando los efectos del alcohol han desaparecido."</string>
+    <string name="avoid_large_meals_title">"Evite comidas abundantes y beber tarde por la noche."</string>
+    <string name="avoid_large_meals">"Puede tomar un tentempié ligero, pero una comida abundante puede provocar indigestión, que interrumpirá el sueño. Beber demasiados líquidos por la noche puede provocar interrupciones frecuentes del sueño para orinar."</string>
+    <string name="if_possible_title">"Si es posible, evite medicinas que retrasen o interrumpan el sueño."</string>
+    <string name="if_possible">"Algunos medicamentos comúnmente recetados para el corazón, presión arterial alta y baja y afecciones de asma, así como fármacos de venta en ventanilla y remedios a base de hierbas para la tos, resfriados o alergias, pueden perturbar los patrones de sueño. Si usted tiene problemas para dormir, hable con su profesional médico o con un farmacéutico registrado para evaluar si los medicamentos que está tomando podrían estar contribuyendo a su insomnio. Pregúnteles si puede tomar esos medicamentos en otros momentos durante el día o a primeras horas de la noche."</string>
+    <string name="dont_take_naps_title">"No se eche la siesta después de las 15:00."</string>
+    <string name="dont_take_naps">"Las siestas pueden ayudar a recuperar el sueño perdido, pero al final de la tarde pueden hacer más difícil conciliar el sueño por la noche."</string>
+    <string name="relax_before_bed_title">"Relájese antes de irse a la cama"</string>
+    <string name="relax_before_bed">"No sobrecargue el día de manera que no deje tiempo para relajarse. Una actividad relajante, como leer o escuchar música, debe formar parte de su ritual para ir a la cama."</string>
+    <string name="take_a_lot_bath_title">"Tome un baño caliente antes de ir a la cama."</string>
+    <string name="take_a_lot_bath">"La bajada de la temperatura corporal después de salir del baño puede ayudarle a sentirse dormido; asimismo, el baño puede ayudarle a relajarse y a calmarse de forma que esté preparado para dormir."</string>
+    <string name="have_a_good_sleeping_title">"Tenga un buen entorno de sueño."</string>
+    <string name="have_a_good_sleeping">"Para conseguir un buen sueño de noche, debe disponer de un buen entorno para dormir. Elimine del dormitorio todo lo que pueda distraerle durante el sueño, como ruidos y luces brillantes. Apague los dispositivos móviles, el televisor, su PC y otros dispositivos electrónicos. Tener una cama cómoda, una temperatura confortable en la habitación y una almohada puede contribuir a un buen sueño por la noche. Las personas con insomnio suelen mirar el reloj. Si sufre insomnio, coloque la esfera del reloj en dirección opuesta a su vista de manera que no tenga que preocuparse por la hora mientras intenta quedarse dormido."</string>
+    <string name="have_the_right_sunlight_title">"Tenga una exposición correcta a la luz del sol."</string>
+    <string name="have_the_right_sunlight">"La luz del día es la clave para regular sus patrones de sueño diarios. Expóngase a la luz natural durante al menos 30 minutos al día. Si es posible, levántese con el sol o utilice luces muy brillantes por la mañana. Los expertos del sueño recomiendan que las personas que tienen problemas para conciliar el sueño deben exponerse una ahora a la luz del sol por la mañana y apagar las luces antes de irse a dormir."</string>
+    <string name="dont_lie_in_bed_title">"No se tumbe en la cama despierto."</string>
+    <string name="dont_lie_in_bed">"Si todavía sigue despierto después de permanecer en la cama durante más de 20 minutos, o si comienza a sentirse inquieto o preocupado, levántese y haga alguna actividad relajante hasta que sienta sueño. La ansiedad provocada por no ser capaz de dormirse puede hacer más difícil conciliar el sueño."</string>
+    <string name="see_a_health_title">"Consulte a un profesional sanitario si sigue teniendo problemas para dormir."</string>
+    <string name="see_a_health">"Si continuamente tiene dificultades para conciliar el sueño o permanecer dormido y/o se siente cansado o no bien descansado durante el día a pesar de pasar suficiente tiempo en la cama por la noche, es posible que tenga problemas de sueño. Su médico de familia o un especialista del sueño deben poder ayudarle y es importante para descartar otros problemas de salud o emocionales que puedan perturbar su sueño."</string>
+    <string name="daily_info_run_type">"Correr"</string> 
+    <string name="sleep_detail_back">"Atrás"</string>
+    <string name="data_source">"Fuente:"</string>
+    <string name="articlehelpful">"¿Le resulta útil?"</string>
+
+    <!-- 2016.1.15 -->
+    <string name="allow_access_photos_title">"Permitir acceso a fotos"</string>
+    <string name="allow_access_photos_content">"Para cambiar la foto, vaya a la configuración para habilitar el permiso de almacenamiento para ZenWatch Wellness."</string>
+    <string name="allow_track_location_title">"Permitir seguimiento de ubicación"</string>
+    <string name="allow_track_location_content">"Para realizar un seguimiento de la ubicación de su actividad, vaya a la configuración para habilitar el permiso de ubicación para ZenWatch Wellness."</string>
+    <string name="bug_report_preference_title">"Informar de un error del programa"</string>
+    <string name="bug_report_email_subject">"Informe de errores de Wellness"</string>
+    <string name="bug_report_email_body">"Informe de errores de Wellness"</string>
+    <string name="but_report_share">"Compartir"</string>
+    <string name="settings_disable_backup">"Si anula la selección de \"Hacer copia de seguridad de mis datos\", se podrían perder sus archivos de copia de seguridad debido al mecanismo del servicio de copia de seguridad de Android de Google. ¿Seguro que desea anular la selección?"</string>
+</resources>

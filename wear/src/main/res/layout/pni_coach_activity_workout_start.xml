@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:autofit="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollview_container"
+    android:background="@drawable/pni_background_gradient">
+
+    <LinearLayout
+        android:id="@+id/ll_statistic"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextClock
+            android:id="@+id/tv_clock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/idle_alarm_text_size"
+            android:text="05:30"
+            android:gravity="center"
+            android:visibility="gone"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="0dp">
+               <LinearLayout
+                android:id="@+id/ll_timer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/iv_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/pni_asus_wellness_ic_time_b"
+                    />
+                <me.grantland.widget.AutofitTextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/tv_timer"
+                    android:text="00:00:00"
+                    style="@style/doughnut_time"
+                    android:textSize="26dp"
+                    android:gravity="bottom"
+                    android:singleLine="true"
+                    autofit:minAutoTextSize="20dp"
+                     />
+
+                <ImageView
+                    android:id="@+id/iv_status"
+                    android:layout_width="14dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/asus_wellness_ic_coach_play"
+                    android:layout_marginRight="6dp"
+                    />
+                </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_calories"
+                android:layout_below="@id/ll_timer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:id="@+id/iv_calories"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/pni_asus_wellness_ic_calories_b"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_calories"
+                    android:text="0"
+                    style="@style/doughnut_time"
+                    android:textSize="26dp"
+                    android:layout_marginTop="@dimen/coach_tv_calories_marginTop" />
+
+                <TextView
+                    android:text="kcal"
+                    style="@style/title_text"
+                    android:layout_toRightOf="@+id/tv_calories"
+                    android:layout_alignBaseline="@+id/tv_calories"
+                    android:layout_marginTop="@dimen/coach_tv_calories_marginTop" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_workout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                style="@style/doughnut_time"
+                android:textSize="@dimen/doughnut_time_tv_textsize"
+                android:layout_below="@+id/ll_calories"
+                />
+
+            <TextView
+                android:id="@+id/tv_target_distance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="/ 0 miles"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:layout_below="@+id/tv_workout"
+                android:layout_marginLeft="10dp"
+               />
+
+            <ImageView
+                android:id="@+id/iv_workout_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:src="@drawable/asus_wellness_ic_run_b"
+                android:layout_below="@+id/tv_workout"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="2dp"
+                android:layout_marginTop="-8dp"
+                 />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+
+            android:layout_marginBottom="6dp"
+            android:background="@color/white" />
+
+        <LinearLayout
+            android:id="@+id/ll_controller"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/pni_asus_app_micro_bg"
+            android:orientation="vertical"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="6dp"
+            android:layout_marginTop="4dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    android:id="@+id/lb_target"
+                    android:text="@string/workout_target"
+                    style="@style/coach_start_workout_target_label"
+                    android:layout_marginTop="16dp"
+                   />
+
+                <me.grantland.widget.AutofitTextView
+                    android:id="@+id/tv_target"
+                    android:text="99.99"
+                    style="@style/doughnut_time"
+                    android:layout_width="wrap_content"
+                    android:textSize="@dimen/textsize_startworkout_percent"
+                    android:gravity="right"
+                    android:singleLine="true"                    
+                    android:layout_toLeftOf="@+id/tv_target_unit"
+                    android:layout_toRightOf="@id/lb_target"
+                    android:layout_marginLeft="2dp"
+                    android:layout_alignBaseline="@+id/lb_target"
+                    autofit:minAutoTextSize="10sp"/>
+
+                <TextView
+                    android:id="@id/tv_target_unit"
+                    android:text="miles"
+                    style="@style/title_text"
+                    android:layout_alignParentRight="true"
+                    android:textSize="@dimen/textsize_startworkout_percent_unit"
+
+                    android:layout_alignBaseline="@+id/lb_target" />
+
+                <TextView
+                    android:id="@+id/lb_complete"
+                    style="@style/coach_start_workout_target_label"
+                    android:text="@string/workout_complete"
+                    android:layout_marginTop="@dimen/coach_lb_complete_tv_margintTop"
+                    android:layout_below="@+id/lb_target" />
+
+                <TextView
+                    android:id="@+id/tv_percent"
+                    android:text="1"
+                    style="@style/doughnut_time"
+                    android:textSize="@dimen/textsize_startworkout_percent"
+                    android:layout_toLeftOf="@+id/tv_percent_unit"
+                    android:layout_alignBaseline="@+id/lb_complete" />
+                <TextView
+                    android:id="@id/tv_percent_unit"
+                    android:text="%"
+                    style="@style/title_text"
+                    android:textSize="@dimen/textsize_startworkout_percent_unit"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignBaseline="@+id/lb_complete" />
+            </RelativeLayout>
+
+            <com.asus.wellness.coach.setup.WorkoutControllerLayout
+                android:id="@+id/workout_controller"
+                android:layout_width="@dimen/coach_workout_controller_width"
+                android:layout_height="@dimen/coach_workout_controller_height"
+                android:layout_gravity="center"
+               />
+
+
+            <TextView
+                android:id="@+id/tv_tap"
+                style="@style/coach_start_workout_target_label"
+                android:text="@string/tap_to_pause"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/lb_hold"
+                style="@style/coach_start_workout_target_label"
+                android:text="@string/hold_to_end"
+                android:layout_gravity="center" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    >
+    <TextView
+        android:id="@+id/tv_dot"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        style="@style/coach_list_view_text"
+        android:textColor="@color/coach_list_view_text_color_selected"
+        android:textSize="@dimen/coach_lvi_numeric_size_big"
+        android:text="."
+        android:layout_marginTop="5dp"
+        android:visibility="gone"
+        />
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        style="@style/coach_list_view_text"
+        android:textColor="@color/coach_list_view_text_color_selected"
+        android:textSize="@dimen/coach_lvi_numeric_size_big"
+        android:text=":"
+        android:visibility="gone"
+        />
+    <TextView
+        android:id="@+id/tv_cal"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        style="@style/coach_list_view_text"
+        android:textColor="@color/coach_list_view_text_color_selected"
+        android:textSize="@dimen/coach_lvi_numeric_size_normal"
+        android:text="cal"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:id="@+id/tv_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        style="@style/coach_list_view_text"
+        android:textColor="@color/coach_list_view_text_color_selected"
+        android:textSize="@dimen/coach_lvi_numeric_size_normal"
+        android:text="miles"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        />
+
+</LinearLayout>

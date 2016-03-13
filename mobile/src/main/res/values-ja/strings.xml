@@ -1,0 +1,253 @@
+<resources>
+
+    <string name="app_name" description="App name" maxwidth="-1">Wellness</string>
+	<string name="alertdialog_find_user_data_message_title" description="Restore profile title" maxwidth="-1">ユーザー情報が見つかりました。</string>
+	<string name="alertdialog_find_user_data_message_content" description="Restore profile message" maxwidth="-1">Wellnessのユーザー情報は既にこのデバイス上にあります。既存のユーザー情報を使用してセットアップを続行しますか？</string>
+	<string name="daily_energy_detail_measurement" description="Message of Energy detail page" maxwidth="-1">測定済み</string>
+	<string name="daily_energy_detail_today" description="Message of Energy detail page" maxwidth="-1">今日</string>
+	<string name="setting_title" description="Action bar title of setting page." maxwidth="-1">設定</string>
+	<string name="setting_title_activity_goal" description="Title of setting page option." maxwidth="-1">運動の目標</string>
+	<string name="setting_title_backup_restore" description="Title of setting page option." maxwidth="-1">自分のデータをバックアップ</string>
+	<string name="setting_activity_tracking" description="Title of setting page option." maxwidth="-1">アクティビティログ</string>
+	<string name="setting_dialog_backup_restore_title" description="Backup dialog title." maxwidth="-1">バックアップサービス</string>
+	<string name="setting_dialog_backup_restore_message" description="Backup dialog message." maxwidth="-1">バックアップサービスを有効にしてください。</string>
+	<string name="setting_idle_alarm_option_15mins" description="Idle alarm option." maxwidth="-1">15分毎</string>
+	<string name="setting_idle_alarm_option_30mins" description="Idle alarm option." maxwidth="-1">30分毎</string>
+	<string name="setting_idle_alarm_option_1hour" description="Idle alarm option." maxwidth="-1">1時間毎</string>
+	<string name="setting_idle_alarm_option_1_5hours" description="Idle alarm option." maxwidth="-1">1.5時間毎</string>
+	<string name="setting_idle_alarm_option_2hours" description="Idle alarm option." maxwidth="-1">2時間毎</string>
+	<string name="setting_step_goal_include_bike_title" description="Include bike option." maxwidth="-1">自転車の運動を含める</string>
+	<string name="setting_step_goal_hint" description="Hint to remind user to input goal number." maxwidth="-1">運動の目標値を入力</string>
+	<string name="step_counts_message_setting_goal" description="Step unit message of activity goal page." maxwidth="-1">歩/日</string>
+	<string name="step_counts_message_preference" description="Option message of activity goal." maxwidth="-1">%s 歩/日</string>
+	<string name="step_counts_intensity_explain" description="Explanation message of step goal in activity goal page." maxwidth="-1">(%s 歩/日)</string>
+	<string name="set_new_profile_alarm_title" description="Alarm Dialog title of adding new profile." maxwidth="-1">ユーザー情報をリセットしますか？</string>
+	<string name="set_new_profile_btn_text" description="Button text of adding new profile." maxwidth="-1">ユーザー情報をリセットします</string>
+	<string name="set_new_profile_alarm_message" description="Alarm Dialog message of adding new profile." maxwidth="-1">ユーザー情報を全て置き換えますか？</string>
+	<string name="tutorial_measure_title" description="Tutorial title." maxwidth="-1">測定方法</string>
+	<string name="set_profile_title" description="Title of setting profile page." maxwidth="-1">ユーザー情報をセットアップ</string>
+	<string name="profile_edittext_name_hint" description="Hint to request user to enter name." maxwidth="-1">名前を入力します。</string>
+	<string name="profile_edittext_name_hint_alarm" description="Hint to request user to enter name." maxwidth="-1">ユーザー名を入力してください</string>
+	<string name="profile_gender_title" description="Profile title" maxwidth="-1">性別</string>
+	<string name="profile_age_title" description="Profile title" maxwidth="-1">年齢</string>
+	<string name="profile_gender_age_title" description="Profile title" maxwidth="-1">性別/年齢</string>
+	<string name="profile_height_title" description="Profile title" maxwidth="-1">身長</string>
+	<string name="profile_weight_title" description="Profile title" maxwidth="-1">体重</string>
+	<string name="drawer_title_about" description="Drawer Profile title" maxwidth="-1">ユーザー情報</string>
+	<string name="drawer_title_status" description="Drawer Profile title" maxwidth="-1">状態</string>
+	<string name="str_edit_profile" description="Button text of edit profile" maxwidth="-1">ユーザー情報の編集</string>
+	<string name="profile_start_measure_date" description="Drawer Profile title" maxwidth="-1">測定開始日</string>
+	<string name="profile_total_steps" description="Drawer Profile title" maxwidth="-1">歩数</string>
+	<string name="none_data_inside" description="No data description" maxwidth="-1">データなし</string>
+	<string name="heart_and_exercise_intensity" description="Heart rate title of activity detail page" maxwidth="-1">心拍数と運動の強さ</string>
+	<string name="time_unit" description="Time unit" maxwidth="-1">分</string>
+	<string name="distance_unit" description="Distance unit" maxwidth="-1">km</string>
+	<string name="detail_energy_best_info_energy_level" description="Best energy text." maxwidth="-1">最高:</string>
+	<string name="detail_energy_worst_info_stress_level" description="Worst energy text." maxwidth="-1">最低:</string>
+	<string name="count_time" description="The number of measurment" maxwidth="-1">回</string>
+	<string name="not_connected_to_wellness" description="No connected device." maxwidth="-1">時計はWellnessに接続されていません</string>
+	<string-array name="profile_gender_option" description="Gender options" maxwidth="-1">
+		<item>男性</item>
+		<item>女性</item>
+	</string-array>
+    <string-array name="profile_weight_option" description="Weight options" maxwidth="">
+		<item>kg</item>
+		<item>lb</item>
+	</string-array>
+
+	<string name="dialog_number_picker_done" description="Button text of number picker." maxwidth="-1">終了</string>
+	<string name="dialog_number_picker_height_title" description="Title of setting height picker." maxwidth="-1">身長の設定</string>
+	<string name="dialog_number_picker_weight_title" description="Title of setting weight picker." maxwidth="-1">体重の設定</string>
+	<string name="dialog_number_picker_age_title" description="Title of setting age picker." maxwidth="-1">年齢の設定</string>
+	<string name="terms_services_title" description="Title of term service." maxwidth="-1">利用規約</string>
+	<string name="terms_services_subtitle" description="subtitle of term service." maxwidth="-1">重要なお知らせ</string>
+	<string name="terms_services_message" description="Message of term service." maxwidth="-1">本アプリケーションは、医療的な診断または医療目的での利用を意図するものではありません。従って、精神及び肉体に関する病気や疾病に対する治療や予防、生理学的な条件や状態の監視及び治療を目的として本アプリを使用することはできません。\n \nユーザーの健康データ（ユーザー情報、心拍数、ストレス、リラックスレベル、運動の記録、位置情報) はお使いのモバイルデバイスにインストールされたアプリ「Wellness」内に保存されます。モバイルデバイスの「設定」の「バックアップ\u0026リセット」を有効にすると、これらのデータはGoogleサーバーに自動的にバックアップされます。</string>
+	<string name="terms_services_end_user_subtitle" description="subtitle of End user license agreement subtitle." maxwidth="-1">エンドユーザー使用許諾</string>
+	<!--<string name="terms_services_end_user_message" description="Message of End user license agreement." maxwidth="">This End User License Agreement (“EULA”) constitutes a valid and binding agreement between ASUSTeK Computer Inc. (“ASUS“) and You, as a user, for the use of the ASUS Software (“Software”) defined as set forth below. By installing and continuing to use the software YOU EXPRESSLY ACKNOWLEDGE THAT YOU HAVE READ AND UNDERSTAND AND AGREE TO BE BOUND BY THE TERMS OF THIS EULA AND ANY NEW VERSIONS HEREOF.
+    \n\n1.	SOFTWARE means the ASUS Software provided in or with the applicable ASUS product including but not limited to any future programming fixes, updates, upgrades and modified versions.\n\nThe Software may be accompanied by other ASUS- or third party created software that is licensed under one or more of the Free Open Source Software licenses as listed under www.opensource.org/licenses. Such Free Open Source Software is provided to you solely under the terms of the respective license agreement or copyright notice accompanying it or in the FOSS licenses file accompanying the Software. The terms of this EULA do NOT apply to such Free Open Source Software.
+    \n\n2.	LICENSE Subject to the terms of this EULA, ASUS hereby grants You a limited, personal, non-commercial, non-exclusive license to use the Software solely as embedded in the ASUS products. You may make one copy of the Software in machine-readable form for backup purposes only; provided that the backup copy must include all copyright or other proprietary notices contained on the original. This license shall not be sublicensed, and is not transferable except to a person or entity to whom you transfer ownership of the complete ASUS products containing the Software, provided you permanently transfer all rights under this EULA and do not retain any full or partial copies of the Software, and the recipient agrees to the terms of this EULA.
+    \n\n3.	REVERSE RESTRICTION You shall not reverse engineer, decompile decrypt or disassemble the Software or permit or induce the foregoing except to the extent directly applicable law prohibits enforcement of the foregoing.
+    \n\n4.	CONFIDENTIALITY You shall have a duty to protect and not to disclose or cause to be disclosed in whole or in part of confidential information of the Software including but not limited to trade secrets, copyrighted material in any form to any third party.
+    \n\n5.	Intellectual Property RIGHTS (“IP Rights”) You acknowledge and agree that all IP Rights, title, and interest to or arising from the Software are and shall remain the exclusive property of ASUS or its licensor. Nothing in this EULA intends to transfer any such IP Rights to You. Any unauthorized use of the IP Rights is a violation of this EULA as well as a violation of intellectual property laws, including but not limited to copyright laws and trademark laws.\nBy sending any information, material, ideas, concepts or techniques except for personal information to ASUS through the Software (“Feedbacks”), You acknowledge and agree that: (i) Your Feedbacks shall not contain confidential or proprietary information; (ii) ASUS is under no obligation of any kind of confidentiality, express or implied, regarding the Feedbacks; (iii)ASUS shall be entitled to use or disclose, at ASUS’s sole discretion, the Feedbacks for any purpose, in any way, worldwide; (iv) Your Feedbacks shall become the property of ASUS without any obligation of ASUS to You; and (v) You are not entitled to any compensation or reimbursement of any kind from.
+    \n\n6.	TERM AND TERMINATION This EULA will be effective as of the date You install the Software. You may terminate this License at any time by ceasing all use of the Software and removing the Software from ASUS product. Your right will terminate without prior notice from ASUS if we think You fail to comply with any provision of this EULA.
+    \n\n7.	Warranty Disclaimer and Limitation of Liability YOU ACKNOWLEDGE THAT THE SOFTWARE IS PROVIDED “AS IS.” THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THIS SOFTWARE IS WITH YOU, INCLUDING BUT NOT LIMITED TO RELATED COST OF ALL NECESSARY SERVICING AND REPAIR. TO THE EXTENT PERMITTED BY LAW, ASUS MAKES NO WARRANTIES, EXPRESS OR IMPLIED, WITH RESPECT TO THIS SOFTWARE OR ANY OTHER INFORMATION OR DOCUMENTATION PROVIDED UNDER THIS EULA OR FOR THIS SOFTWARE, INCLUDING BUT NOT LIMITED TO ANY WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR AGAINST INFRINGEMENT, OR ANY WARRANTY ARISING OUT OF USAGE OR OUT OF COURSE OF PERFORMANCE. ASUS ALSO MAKES NO WARRANTY AS TO THE RESULTS THAT MAY BE OBTAINED FROM THE USE OF THIS SOFTWARE OR AS TO THE ACCURACY OR RELIABILITY OF ANY INFORMATION OBTAINED THROUGH THIS SOFTWARE. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF CERTAIN WARRANTIES OR THE LIMITATION OR EXCLUSION OF LIABILITY FOR CERTAIN DAMAGES. ACCORDINGLY, SOME OF THE ABOVE DISCLAIMERS AND LIMITATIONS OF LIABILITY MAY NOT APPLY TO YOU.
+    \n\nTHE ENTIRE RISK ARISING OUT OF THE USE AND/OR PERFORMANCE OF THIS SOFTWARE REMAINS WITH YOU. IN NO EVENT SHALL ASUS, ITS LICENSORS OR ANY OF THEIR RESPECTIVE OFFICERS, DIRECTORS, EMPLOYEES, AGENTS OR AFFILIATES BE LIABLE FOR ANY CONSEQUENTIAL, INCIDENTAL, DIRECT, INDIRECT, SPECIAL, PUNITIVE, OR OTHER DAMAGES WHATSOEVER (INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF PROFITS, INTERRUPTION, LOSS OF INFORMATION, OR OTHER PECUNIARY LOSS) ARISING OUT OF OR RELATING TO THIS EULA OR THE USE OF OR INABILITY TO USE THE SOFTWARE OR ANY PART THEREOF, EVEN IF ASUS HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF CERTAIN WARRANTIES OR THE LIMITATION OR EXCLUSION OF LIABILITY FOR CERTAIN DAMAGES. ACCORDINGLY, SOME OF THE ABOVE DISCLAIMERS AND LIMITATIONS OF LIABILITY MAY NOT APPLY TO YOU.
+    \n\n8.	Indemnity YOU agree to defend, indemnify and hold harmless ASUS and its affiliates, service providers, syndicators, distributors, licensors, officers, directors and employees, from and against any and all losses, damages, liabilities, and expenses arising out of any claim or demand (including reasonable attorneys\' fees and court costs), due to or in connection with YOUR violation of this EULA or any applicable law or regulation, or third-party right.
+    </string>-->
+	<string name="terms_services_agree_text">利用規約に同意します</string>
+
+	<string name="exercise_intensity_info">エクササイズの心拍数。\n エクササイズ後1分以内に計測される心拍数で、エクササイズの強さのレベルに関連しています。エクササイズの強さ \n 一般的に、運動中の心拍数が高いほど、エクササイズの強さは高くなります。\n L5 – 最大 \nL4 – 強い \n L3 – 普通 (体力の向上) \n L2 – 軽い (減量) \n L1 – 非常に軽い \n L2のレベルの運動を毎日40分続けると、減量に効果あります。L3 のレベルの運動は、体力の向上に効果があります。</string>
+
+	<string name="daily_info_walk_type">ウォーキング</string>
+	<string name="daily_info_bike_type">自転車</string>
+	<string name="daily_info_car_type">車</string>
+	<string name="daily_info_transport_type">移動</string>
+	<string name="daily_info_time_hour">時間</string>
+	<string name="daily_info_time_hours">時間</string>
+	<string name="daily_info_time_minute">分</string>
+	<string name="daily_info_heart_title">エクササイズの強さ</string>
+	<string name="daily_info_heart_rate_unit">bpm</string>
+	<string name="daily_info_stress_title">ストレスのレベル</string>
+
+	<string name="weekly_info_calories_title">消費カロリー:</string>
+	<string name="weekly_info_activity_title">運動</string>
+
+	<string name="weekly_info_exercise_intensity_title">エクササイズの強さ</string>
+	<string name="weekly_info_energy_title">エネルギー</string>
+	<string name="weekly_info_relaxation_title">リラックス</string>
+	<string name="weekly_info_stress_title">ストレス</string>
+
+	<string name="knockknock_start_stress">ストレスレベルの測定を開始します</string>
+	<string name="daily_actionbar_title">こんにちは、%sさん</string>
+	<string name="detail_energy_actionbar_title">心</string>
+
+	<string-array name="exercise_intensity">
+		<item>L1</item>
+		<item>L2</item>
+		<item>L3</item>
+		<item>L4</item>
+		<item>L5</item>
+	</string-array>
+
+	<string-array name="relax_level_1_2">
+		<item>水分補給と適度な運動はリラックスするのに役立ちます</item>
+		<item>休暇が必要かもしれません</item>
+		<item>音楽を聴くとリラックスできます</item>
+	</string-array>
+	<string-array name="relax_level_3">
+		<item>リラックスのレベルが低下しています</item>
+	</string-array>
+	<string-array name="relax_level_4_5">
+		<item>エネルギーが充分に補給され、今日のタスクを完了する準備ができています</item>
+		<item>充分休養し、集中力が維持できています</item>
+		<item>心の安定は集中力を高めます</item>
+	</string-array>
+	<string-array name="stress_level_1_2">
+		<item>軽食や果物でエネルギーを補給できます</item>
+		<item>健康的な生活習慣は困難を克服するのに役立ちます</item>
+		<item>安定した精神状態で禅の境地にあります</item>
+	</string-array>
+	<string-array name="stress_level_3">
+		<item>ストレスのレベルが増加しています</item>
+		<item>どのように感じているかをメモしましょう</item>
+	</string-array>
+	<string-array name="stress_level_4_5">
+		<item>30分のウォーキングは25％ストレスを減らすことができます</item>
+		<item>腕、背中と肩をストレッチしましょう</item>
+		<item>姿勢を楽にし、筋肉をリラックスさせましょう</item>
+		<item>DIYは喜びと達成感を感じることができます</item>
+		<item>ハンドマッサージをしましょう</item>
+	</string-array>
+
+	<!-- Daily animation -->
+	<string name="text_activity">体</string>
+	<string name="text_energy">心</string>
+
+
+	<string name="setting_idle_alarm_description" maxwidth="">運動しない状態が一定時間続いたときに鳴らすアラームの時間設定を行います。</string>
+
+	<string name="exercise_intensity_info_exercise_message" maxwidth="">通常、運動中の心拍数が高ければ、運動強度も高くなります。</string>
+	<string-array name="profile_height_option" description="Height options" maxwidth="">
+		<item>cm</item>
+		<item>ft/in.</item>
+	</string-array>
+	<string name="height_unit_feet" maxwidth="">ft</string>
+	<string name="height_unit_inch" maxwidth="">in.</string>
+	<string name="setting_title_set_idle_alarm" description="Title of setting page option." maxwidth="">運動を促す</string>
+	<string name="setting_backup_description" description="Backup message in setting page." maxwidth="">Wellnessのアプリデータ、自分のユーザー情報、心拍数と運動をGoogleのクラウドサービスにバックアップします。</string>
+	<string name="knockknock_start_heartrate" maxwidth="">心拍数を計測</string>
+	<string name="last_updated" maxwidth="">最後の更新</string>
+	<string-array name="profile_error_message" description="Height options" maxwidth="">
+		<item>範囲:20～300 cm</item>
+		<item>範囲:0\' 8"～9\' 10"</item>
+		<item>範囲:2~400 kg</item>
+		<item>範囲:4~880 lb</item>
+		<item>範囲:1~99</item>
+	</string-array>
+	<string name="range_msg">範囲:</string>
+	<string name="accepted_range_title" maxwidth="">可能な範囲</string>
+	<string name="text_average" maxwidth="">平均</string>
+	<string name="calories_unit" description="Calories unit" maxwidth="">キロカロリー</string>
+	<string-array name="step_intensity_term" description="Term of step intensity." maxwidth="">
+		<item>運動不足</item>
+		<item>やや運動不足</item>
+		<item>ややアクティブ</item>
+		<item>アクティブ</item>
+		<item>とてもアクティブ</item>
+	</string-array>
+	<string name="daily_info_walk_unit" maxwidth="">歩</string>
+	<string name="exercise_intensity_info_heart_rate_title" maxwidth="">運動心拍数</string>
+	<string name="exercise_intensity_info_heart_rate_message" maxwidth="">運動後、1分以内に測定される心拍数をエクササイズの強さに関連付けることができます。</string>
+	<string name="exercise_intensity_info_exercise_title" maxwidth="">エクササイズの強さ</string>
+	<string name="exercise_intensity_info_l5_desc" maxwidth="">最大</string>
+	<string name="exercise_intensity_info_l4_desc" maxwidth="">激しい</string>
+	<string name="exercise_intensity_info_l3_desc" maxwidth="">適度（適応度を向上させる）</string>
+	<string name="exercise_intensity_info_l2_desc" maxwidth="">軽い（減量）</string>
+	<string name="exercise_intensity_info_l1_desc" maxwidth="">非常に軽い</string>
+	<string name="daily_detail_activity_title_type" maxwidth="">タイプ</string>
+	<string name="daily_detail_activity_title_calories" maxwidth="">カロリー</string>
+	<string name="daily_button_text" maxwidth="">日</string>
+	<string name="weekly_button_text" maxwidth="">週</string>
+	<string name="text_today" maxwidth="">今日</string>
+
+	<string name="text_location">場所: %s</string>
+	<string name="daily_info_energy_title">リラックスレベル</string>
+	<string name="knockknock_start_relaxation">リラックスレベルを測定する</string>
+	<string name="text_measurement">測定結果</string>
+	<string name="text_today2">今日</string>
+	<string name="not_pair_asus_watch_title">ASUSの腕時計とペアリングされていません</string>
+	<string name="not_pair_asus_watch_message">アプリWellnessはASUSの腕時計専用アプリです。本機をASUSの腕時計とペアリングし、セットアップを続行してください。</string>
+	<string name="not_pair_asus_watch_button">OK</string>
+	<string name="suggest_wellness_message">  推奨アプリ: 	\nWellness 	\nGet ASUS ZenWatch 	\nWellnessアプリを無料でゲット！</string>
+	<string name="tutorial_paired_descrition" description="Tutorial description." maxwidth="-1">リラックス状態のレベルをグラフで表示します。また、スポーツ後に、運動の強さと心拍数を測定します。また歩数、総消費カロリーを測定することもできます。</string>
+	<string name="default_average_energy_level_message_break" description="Default string of energy detail page." maxwidth="-1">計測\nしてください</string>
+	<string name="save" description="save button." maxwidth="-1">保存</string>
+	<string name="cancel" description="cancel button." maxwidth="-1">キャンセル</string>
+
+	<string name="setting_activity_tracking_description" description="Allow GPS message." maxwidth="">Wellnessアプリは、GPSまたは携帯電話の電波塔とWi-Fiを使用して現在位置を特定し、タイムライン上に表示します。なお、運動・移動の追跡はバッテリー電力をより多く消費する場合があります。</string>
+	<string name="tutorial_measure_descrition" description="Tutorial description." maxwidth="">時計でASUS Wellnessを起動します。左方向にスクロールすると、計測I画面が表示されます。計測したい項目を選択してください。リラックス度、心拍数が測定可能です。</string>
+	<string name="text_next" maxwidth="">次へ</string>
+	<string name="text_ok" maxwidth="">OK</string>
+	<string name="tips_p1_text_title" maxwidth="">ここをタップ</string>
+	<string name="tips_p1_text_content" maxwidth="">詳細情報を表示します</string>
+	<string name="tips_p2_lefttext_title" maxwidth="">ここをタップ</string>
+	<string name="tips_p2_lefttext_content" maxwidth="">すぐに「今日」に戻ります</string>
+	<string name="tips_p2_righttext_title" maxwidth="">上下にスワイプ</string>
+	<string name="tips_p2_righttext_content" maxwidth="">日にちを変更する</string>
+	<string name="tips_p3_text_title" maxwidth="">上方向へスワイプ</string>
+	<string name="tips_p3_text_content" maxwidth="">タイムラインであなたの運動を表示します</string>
+
+	<string name="app_version" maxwidth="">バージョン</string>
+	<string name="SUN" maxwidth="">日</string>
+	<string name="MON" maxwidth="">月</string>
+	<string name="TUE" maxwidth="">火</string>
+	<string name="WED" maxwidth="">水</string>
+	<string name="THU" maxwidth="">木</string>
+	<string name="FRI" maxwidth="">金</string>
+	<string name="SAT" maxwidth="">土</string>
+	<string name="weekly_info_energy_avg" maxwidth="">平均値</string>
+
+	<!-- emily add, 2014.12.05 -->
+	<string name="about_title">バージョン情報</string>
+	<string name="about_app_version">バージョン</string>
+	<string name="about_dialog_legal_information">法律情報</string>
+	<string name="about_dialog_legal_information_des">本ソフトウェアはＡＳＵＳウェブサイトに記載されている利用条件を遵守してください</string>
+	<string name="about_dialog_website">ウェブサイト</string>
+	<string name="about_dialog_allrights">ASUSTek Computer Inc. All rights reserved.</string>
+	<!-- emily end, 2014.12.05 -->
+
+	<string name="default_anim_activity_data" maxwidth="">0%</string>
+	<string name="default_anim_energy_data" maxwidth="">0</string>
+	<string name="detail_activity_time" description="Activity title of activity detail page" maxwidth="">"活動時間"</string>
+	<string name="detail_total_steps" description="Total step title of activity detail page" maxwidth="">"移動距離"</string>
+	<string name="detail_calories_burned" description="Calories burned title of activity detail page" maxwidth="">"燃焼カロリー"</string>
+	<string name="profile_birthday_title" description="Profile title" maxwidth="">"誕生日"</string>
+	<string name="tips_p2_righttext_title_pad" maxwidth="">"左から右にスワイプする"</string>
+	<string-array name="step_intensity_term_range" maxwidth="">
+		<item>1~4999</item>
+		<item>5000~7499</item>
+		<item>7500~9999</item>
+		<item>10000~12499</item>
+		<item>12500+</item>
+	</string-array>
+</resources>

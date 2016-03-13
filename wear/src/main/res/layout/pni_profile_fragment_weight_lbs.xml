@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/profilebg"
+    >
+    <com.asus.wellness.view.MyTextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/profile_title_height"
+        android:text="@string/weight"
+        style="@style/coach_title"
+        android:id="@+id/title"
+        />
+
+    <ImageView
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:id="@+id/profile_title_line"
+        android:layout_height="1dp" />
+    <android.support.wearable.view.WearableListView
+        android:id="@+id/list_int"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/margin_left"
+        android:dividerHeight="0dp"
+        android:layout_height="match_parent" />
+</LinearLayout>

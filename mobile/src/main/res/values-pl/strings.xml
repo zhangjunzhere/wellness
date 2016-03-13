@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name" description="App name" maxwidth="-1">"Wellness"</string>
+    <string name="alertdialog_find_user_data_message_title" description="Restore profile title" maxwidth="-1">"Znaleziono profil użytkownika"</string>
+    <string name="alertdialog_find_user_data_message_content" description="Restore profile message" maxwidth="-1">"Profil użytkownika aplikacji Wellness istnieje już na tym urządzeniu. Kontynuować konfigurację przy użyciu istniejącego profilu?"</string>
+    <string name="daily_energy_detail_measurement" description="Message of Energy detail page" maxwidth="-1">"Zmierzona"</string>
+    <string name="daily_energy_detail_today" description="Message of Energy detail page" maxwidth="-1">"dzisiaj"</string>
+    <string name="setting_title" description="Action bar title of setting page." maxwidth="-1">"Ustawienia"</string>
+    <string name="setting_title_activity_goal" description="Title of setting page option." maxwidth="">"Cel aktywności"</string>
+    <string name="setting_title_backup_restore" description="Title of setting page option." maxwidth="-1">"Utwórz kopię zapasową danych"</string>
+    <string name="setting_activity_tracking" description="Title of setting page option." maxwidth="-1">"Śledzenie  aktywności"</string>
+    <string name="setting_dialog_backup_restore_title" description="Backup dialog title." maxwidth="-1">"Usługi kopii  zapasowych"</string>
+    <string name="setting_dialog_backup_restore_message" description="Backup dialog message." maxwidth="-1">"Włącz usługi kopii zapasowych."</string>
+    <string name="setting_idle_alarm_option_15mins" description="Idle alarm option." maxwidth="-1">"Co 15 min"</string>
+    <string name="setting_idle_alarm_option_30mins" description="Idle alarm option." maxwidth="-1">"Co 30 min"</string>
+    <string name="setting_idle_alarm_option_1hour" description="Idle alarm option." maxwidth="-1">"Co 1 godzinę"</string>
+    <string name="setting_idle_alarm_option_1_5hours" description="Idle alarm option." maxwidth="-1">"Co 1,5 godziny"</string>
+    <string name="setting_idle_alarm_option_2hours" description="Idle alarm option." maxwidth="-1">"Co 2 godziny"</string>
+    <string name="setting_step_goal_include_bike_title" description="Include bike option." maxwidth="-1">"Uwzględnij jazdę na rowerze"</string>
+    <string name="setting_step_goal_hint" description="Hint to remind user to input goal number." maxwidth="-1">"Wprowadź liczbę celów aktywności"</string>
+    <string name="step_counts_message_setting_goal" description="Step unit message of activity goal page." maxwidth="-1">"kroki/dzień"</string>
+    <string name="step_counts_message_preference" description="Option message of activity goal." maxwidth="-1">"%s kroki/dzień"</string>
+    <string name="step_counts_intensity_explain" description="Explanation message of step goal in activity goal page." maxwidth="-1">"(%s kroki/dzień)"</string>
+    <string name="set_new_profile_alarm_title" description="Alarm Dialog title of adding new profile." maxwidth="-1">"Zresetować profil?"</string>
+    <string name="set_new_profile_btn_text" description="Button text of adding new profile." maxwidth="-1">"Zresetuj profil"</string>
+    <string name="set_new_profile_alarm_message" description="Alarm Dialog message of adding new profile." maxwidth="-1">"Czy na pewno chcesz zastąpić istniejący profil?"</string>
+    <string name="tutorial_measure_title" description="Tutorial title." maxwidth="-1">"Jak mierzyć?"</string>
+    <string name="set_profile_title" description="Title of setting profile page." maxwidth="">"Skonfiguruj profil"</string>
+    <string name="profile_edittext_name_hint" description="Hint to request user to enter name." maxwidth="">"Wpisz nazwę"</string>
+    <string name="profile_edittext_name_hint_alarm" description="Hint to request user to enter name." maxwidth="">"Wpisz nazwę"</string>
+    <string name="profile_gender_title" description="Profile title" maxwidth="">"Płeć"</string>
+    <string name="profile_age_title" description="Profile title" maxwidth="">"Wiek"</string>
+    <string name="profile_gender_age_title" description="Profile title" maxwidth="">"Płeć/wiek"</string>
+    <string name="profile_height_title" description="Profile title" maxwidth="">"Wzrost"</string>
+    <string name="profile_weight_title" description="Profile title" maxwidth="">"Waga"</string>
+    <string name="drawer_title_about" description="Drawer Profile title" maxwidth="">"Informacje"</string>
+    <string name="drawer_title_status" description="Drawer Profile title" maxwidth="">"Stan"</string>
+    <string name="str_edit_profile" description="Button text of edit profile" maxwidth="">"Edytuj profil"</string>
+    <string name="profile_start_measure_date" description="Drawer Profile title" maxwidth="">"Data rozpoczęcia  pomiaru"</string>
+    <string name="profile_total_steps" description="Drawer Profile title" maxwidth="">"Łącznie kroków"</string>
+    <string name="none_data_inside" description="No data description" maxwidth="">"Brak danych"</string>
+    <string name="heart_and_exercise_intensity" description="Heart rate title of activity detail page" maxwidth="">"Tętno i intensywność treningu"</string>
+    <string name="time_unit" description="Time unit" maxwidth="">"min"</string>
+    <string name="distance_unit" description="Distance unit" maxwidth="">"km"</string>
+    <string name="detail_energy_best_info_energy_level" description="Best energy text." maxwidth="">"Najwyższa:"</string>
+    <string name="detail_energy_worst_info_stress_level" description="Worst energy text." maxwidth="">"Najniższa:"</string>
+    <string name="count_time" description="The number of measurment" maxwidth="">"raz(y)"</string>
+    <string name="not_connected_to_wellness" description="No connected device." maxwidth="">"Brak połączenia zegarka z aplikacją Wellness"</string>
+    <string-array name="profile_gender_option" description="Gender options" maxwidth="">
+        <item>"Mężczyzna"</item>
+        <item>"Kobieta"</item>
+    </string-array>
+    <string-array name="profile_weight_option" description="Weight options" maxwidth="">
+        <item>"kg"</item>
+        <item>"funty"</item>
+    </string-array>
+    <string name="dialog_number_picker_done" description="Button text of number picker." maxwidth="-1">"Gotowe"</string>
+    <string name="dialog_number_picker_height_title" description="Title of setting height picker." maxwidth="-1">"Określ wzrost"</string>
+    <string name="dialog_number_picker_weight_title" description="Title of setting weight picker." maxwidth="-1">"Określ wagę"</string>
+    <string name="dialog_number_picker_age_title" description="Title of setting age picker." maxwidth="-1">"Określ wiek"</string>
+    <string name="terms_services_title" description="Title of term service." maxwidth="-1">"Warunki użytkowania"</string>
+    <string name="terms_services_subtitle" description="subtitle of term service." maxwidth="-1">"Ważna uwaga"</string>
+    <string name="terms_services_message" description="Message of term service." maxwidth="-1">"Aplikacja ta nie jest przeznaczona do celów diagnostycznych ani medycznych. Z aplikacji tej nie można korzystać w celach leczenia chorób ani zapobiegania im, a także nie można używać jej do monitorowania ani leczenia jakiegokolwiek stanu zdrowia fizycznego, psychicznego czy fizjologicznego.\n\nDane dotyczące kondycji zdrowotnej użytkownika (profil użytkownika, tętno, poziom stresu, stopień odprężenia, aktywności fizyczne oraz informacje o lokalizacji) są zapisywane w aplikacji Wellness zainstalowanej na urządzeniu przenośnym. Kopia zapasowa danych dotyczących kondycji zdrowotnej użytkownika będzie tworzona automatycznie na serwerach Google, o ile w menu \"Ustawienia\" urządzenia przenośnego ze skonfigurowanym kontem kopii zapasowych włączona zostanie funkcja \"kopii zapasowych i resetowania\"."</string>
+    <string name="terms_services_end_user_subtitle" description="subtitle of End user license agreement subtitle." maxwidth="-1">"Umowa  licencyjna użytkownika oprogramowania"</string>
+    <string name="terms_services_end_user_message" description="Message of End user license agreement." maxwidth="-1">"Niniejsza umowa licencyjna użytkownika oprogramowania („EULA”) stanowi prawomocną i wiążącą umowę między firmą ASUSTeK Computer Inc. („ASUS”) a Użytkownikiem w zakresie użytkowania opisanego poniżej oprogramowania firmy ASUS („Oprogramowanie”). Instalacja oraz dalsze użytkowanie oprogramowania oznacza, że UŻYTKOWNIK POTWIERDZA PRZECZYTANIE I ZROZUMIENIE ORAZ WYRAŻA ZGODĘ NA STOSOWANIE SIĘ DO WARUNKÓW NINIEJSZEJ UMOWY EULA I JEJ NOWYCH WERSJI.
+        \n\n1. OPROGRAMOWANIE oznacza oprogramowanie firmy ASUS zapewniane wraz ze stosownymi produktami firmy ASUS, w tym m.in. przyszłe poprawki, aktualizacje, uaktualnienia i zmodyfikowane wersje programów.\n\nDo Oprogramowania może być dołączone także oprogramowanie firmy ASUS lub innych firm, objęte co najmniej jedną licencją bezpłatnego oprogramowania open source z wymienionych na stronie www.opensource.org/licenses. Bezpłatne oprogramowanie open source jest zapewniane Użytkownikowi zgodnie z warunkami odpowiedniej umowy licencyjnej lub noty o prawach autorskich dołączonej do Oprogramowania lub zawartej w plikach licencji FOSS. Warunki niniejszej umowy EULA NIE mają zastosowania do bezpłatnego oprogramowania open source.
+        \n\n2. LICENCJA Na mocy niniejszej umowy EULA firma ASUS udziela Użytkownikowi ograniczonej, osobistej, niekomercyjnej, niewyłącznej licencji na korzystanie z Oprogramowania wyłącznie w postaci wbudowanej w produkty firmy ASUS. Użytkownikowi wolno wykonać jedną kopię Oprogramowania w formie nadającej się do odczytu maszynowego wyłącznie w celu utworzenia kopii zapasowej, pod warunkiem, że kopia zapasowa będzie uwzględniała wszystkie noty o prawach autorskich i innych prawach własności zawarte w wersji oryginalnej. Na mocy niniejszej licencji nie można udzielać sublicencji, a także nie można jej przekazywać, z wyjątkiem przeniesienia prawa własności do pełnego produktu firmy ASUS, wraz z Oprogramowaniem, innej osobie lub podmiotowi, pod warunkiem, że wszystkie prawa nadane na mocy niniejszej umowy EULA zostaną przeniesione trwale i nie zostanie zachowana pełna ani częściowa kopia Oprogramowania, a odbiorca wyrazi zgodę na warunki niniejszej umowy EULA.
+        \n\n3. OGRANICZENIA DOTYCZĄCE INŻYNIERII WSTECZNEJ Użytkownikowi nie wolno dokonywać inżynierii wstecznej, dekompilować, odszyfrowywać ani dezasemblować Oprogramowania, a także zezwalać na te czynności ani do nich nakłaniać, z wyjątkiem sytuacji mieszczących się w zakresie dozwolonym przez obowiązujące przepisy prawa.
+        \n\n4. POUFNOŚĆ Użytkownik jest zobowiązany do chronienia i nieujawniania lub nieprzyczyniania się do ujawnienia stronom trzecim, w jakiejkolwiek formie, pełnych ani częściowych informacji poufnych dotyczących Oprogramowania, w tym m.in. tajemnic handlowych, materiałów objętych prawem autorskim.
+        \n\n5. PRAWA WŁASNOŚCI INTELEKTUALNEJ („Prawa WI”) Użytkownik przyjmuje do wiadomości i zgadza się na to, że wszystkie Prawa WI, udziały i tytuły własności do Oprogramowania są i pozostaną wyłączną własnością firmy ASUS lub jej licencjonodawców. Żaden zapis niniejszej umowy EULA nie ma na celu przeniesienia Praw WI Użytkownikowi. Jakiekolwiek nieuprawnione użycie materiałów objętych Prawami WI stanowi naruszenie niniejszej umowy EULA oraz praw własności intelektualnej, w tym m.in. praw autorskich i praw dotyczących znaków towarowych.\nPrzesyłając jakiekolwiek informacje, materiały, pomysły, koncepcje lub techniki, z wyjątkiem informacji osobistych, do firmy ASUS za pomocą Oprogramowania („Opinie”), Użytkownik przyjmuje do wiadomości i zgadza się na to, że: (i)  Opinie  nie  mogą  zawierać  informacji  poufnych  ani  zastrzeżonych;  (ii)  firma  ASUS  nie  ma  żadnego  obowiązku  zachowania  poufności,  wyraźnego  ani  dorozumianego,  w  odniesieniu  do  Opinii;  (iii)  firma  ASUS  ma  prawo  do  wykorzystywania  lub  ujawniania  Opinii,  według  własnego  uznania,  w  dowolnym  celu,  w  jakikolwiek  sposób,  na  całym  świecie;  (iv)  Opinie  Użytkownika  stają  się  własnością  firmy  ASUS  bez  żadnych  zobowiązań  ze  strony  firmy  ASUS  wobec  Użytkownika;  a  także,  że  (v)  Użytkownik  nie  ma  prawa  do  żadnych  odszkodowań  ani  zwrotów  kosztów.
+        \n\n6. OKRES OBOWIĄZYWANIA I WYPOWIEDZENIE UMOWY Niniejsza umowa EULA zaczyna obowiązywać od dnia instalacji Oprogramowania przez Użytkownika. Użytkownik może w dowolnym momencie wypowiedzieć niniejszą umowę licencyjną poprzez zaprzestanie korzystania z Oprogramowania oraz usunięcie Oprogramowania z produktu firmy ASUS. W razie stwierdzenia przez firmę ASUS niestosowania się przez Użytkownika do jakiegokolwiek postanowienia niniejszej umowy EULA prawa Użytkownika wygasną bez uprzedniego powiadomienia od firmy ASUS.
+        \n\n7. Wyłączenia gwarancji i ograniczenie odpowiedzialności UŻYTKOWNIK PRZYJMUJE DO WIADOMOŚCI, ŻE OPROGRAMOWANIE JEST DOSTARCZANE W STANIE „W JAKIM JEST”. CAŁE RYZYKO ZWIĄZANE Z JAKOŚCIĄ I DZIAŁANIEM OPROGRAMOWANIA PONOSI UŻYTKOWNIK, W TYM M.IN. KOSZT ZWIĄZANY ZE WSZYSTKIMI NIEZBĘDNYMI CZYNNOŚCIAMI SERWISOWYMI I NAPRAWCZYMI. W ZAKRESIE DOZWOLONYM PRZEZ PRAWO FIRMA ASUS NIE UDZIELA ŻADNYCH GWARANCJI, WYRAŹNYCH ANI DOROZUMIANYCH, W ODNIESIENIU DO OPROGRAMOWANIA ANI ŻADNYCH INNYCH INFORMACJI LUB DOKUMENTÓW ZAPEWNIANYCH NA MOCY NINIEJSZEJ UMOWY EULA LUB DOŁĄCZONYCH DO OPROGRAMOWANIA, W TYM M.IN. ŻADNYCH GWARANCJI WARTOŚCI HANDLOWEJ LUB PRZYDATNOŚCI DO OKREŚLONEGO CELU ANI ZAPOBIEGAJĄCYCH NARUSZENIOM, A TAKŻE ŻADNYCH GWARANCJI WYNIKAJĄCYCH Z UŻYTKOWANIA. FIRMA ASUS NIE UDZIELA PONADTO ŻADNYCH GWARANCJI ZWIĄZANYCH Z WYNIKAMI, JAKIE MOŻNA OSIĄGNĄĆ, KORZYSTAJĄC Z OPROGRAMOWANIA ANI DOTYCZĄCYCH ŚCISŁOŚCI LUB WIARYGODNOŚCI INFORMACJI UZYSKIWANYCH POPRZEZ OPROGRAMOWANIE. W NIEKTÓRYCH JURYSDYKCJACH NIEDOPUSZCZALNE JEST WYŁĄCZENIE OKREŚLONYCH GWARANCJI ANI OGRANICZENIE LUB WYŁĄCZENIE ODPOWIEDZIALNOŚCI ZA PEWNE SZKODY. DLATEGO TEŻ NIEKTÓRE Z POWYŻSZYCH WYŁĄCZEŃ I OGRANICZEŃ ODPOWIEDZIALNOŚCI MOGĄ NIE MIEĆ ZASTOSOWANIA.
+        \n\nCAŁE RYZYKO ZWIĄZANE Z UŻYTKOWANIEM I/LUB DZIAŁANIEM OPROGRAMOWANIA PONOSI UŻYTKOWNIK. W ŻADNYM WYPADKU FIRMA ASUS, JEJ LICENCJONODAWCY LUB ICH CZŁONKOWIE ZARZĄDU, DYREKTORZY, PRACOWNICY, PRZEDSTAWICIELE LUB ODDZIAŁY NIE BĘDĄ PONOSIĆ ODPOWIEDZIALNOŚCI ZA JAKIEKOLWIEK WYNIKOWE, PRZYPADKOWE, BEZPOŚREDNIE, POŚREDNIE, SPECJALNE, KARNE I INNE SZKODY (W TYM M.IN. SZKODY WYNIKAJĄCE Z UTRATY ZYSKÓW, PRZERW W DZIAŁALNOŚCI, UTRATY INFORMACJI LUB INNE STRATY FINANSOWE) WYNIKAJĄCE Z ALBO ZWIĄZANE Z NINIEJSZĄ UMOWĄ EULA LUB UŻYTKOWANIEM BĄDŹ BRAKIEM MOŻLIWOŚCI UŻYTKOWANIA OPROGRAMOWANIA LUB JEGO CZĘŚCI, NAWET JEŚLI FIRMA ASUS ZOSTAŁA POWIADOMIONA O MOŻLIWOŚCI WYSTĄPIENIA TAKICH SZKÓD. W  NIEKTÓRYCH  JURYSDYKCJACH  NIEDOPUSZCZALNE  JEST  WYŁĄCZENIE  OKREŚLONYCH  GWARANCJI  ANI  OGRANICZENIE  LUB  WYŁĄCZENIE  ODPOWIEDZIALNOŚCI  ZA  PEWNE  SZKODY. DLATEGO  TEŻ  NIEKTÓRE  Z  POWYŻSZYCH  WYŁĄCZEŃ  I  OGRANICZEŃ  ODPOWIEDZIALNOŚCI  MOGĄ  NIE  MIEĆ  ZASTOSOWANIA.
+        \n\n8. ZABEZPIECZENIE Użytkownik zgadza się chronić, zabezpieczyć i zwolnić firmę ASUS oraz jej oddziały, usługodawców, członków syndykatu, dystrybutorów, licencjonodawców, członków zarządu, dyrektorów i pracowników z odpowiedzialności na wypadek wszelkich strat, zobowiązań i kosztów wynikających z jakichkolwiek roszczeń (włącznie z honorarium adwokackim i kosztami postępowania sądowego), ze względu na lub w związku z naruszeniem przez Użytkownika postanowień niniejszej umowy EULA lub innych stosownych praw bądź postanowień albo praw stron trzecich.
+"
+        </string>
+    <string name="terms_services_agree_text" maxwidth="">"Wyrażam zgodę na Warunki użytkowania"</string>
+    <string name="daily_info_walk_type" maxwidth="">"Pieszo"</string>
+    <string name="daily_info_bike_type" maxwidth="">"Rower"</string>
+    <string name="daily_info_car_type" maxwidth="">"Samochód"</string>
+    <string name="daily_info_transport_type" maxwidth="">"Transport"</string>
+    <string name="daily_info_time_hour" maxwidth="">"godzina"</string>
+    <string name="daily_info_time_hours" maxwidth="">"godziny"</string>
+    <string name="daily_info_time_minute" maxwidth="">"min"</string>
+    <string name="daily_info_heart_title" maxwidth="">"Intensywność treningu"</string>
+    <string name="daily_info_heart_rate_unit" maxwidth="">"bpm"</string>
+    <string name="daily_info_stress_title" maxwidth="">"Poziom stresu"</string>
+    <string name="weekly_info_calories_title">"Całkowita liczba spalonych kalorii"</string>
+    <string name="weekly_info_activity_title">"Cała aktywność"</string>
+    <string name="weekly_info_exercise_intensity_title" maxwidth="">"Intensywność treningu"</string>
+    <string name="weekly_info_energy_title" maxwidth="">"Energia"</string>
+    <string name="weekly_info_relaxation_title" maxwidth="">"RELAKS"</string>
+    <string name="weekly_info_stress_title" maxwidth="">"STRES"</string>
+    <string name="daily_actionbar_title" maxwidth="">"Cześć %s"</string>
+    <string name="detail_energy_actionbar_title" maxwidth="">"UMYSŁ"</string>
+    <string-array name="exercise_intensity" maxwidth="">
+        <item>"P1"</item>
+        <item>"P2"</item>
+        <item>"P3"</item>
+        <item>"P4"</item>
+        <item>"P5"</item>
+    </string-array>
+    <string-array name="relax_level_1_2" maxwidth="">
+        <item>"Woda i ćwiczenia pomagają rozluźnić ciało"</item>
+        <item>"Zacznij planować wakacje"</item>
+        <item>"Słuchanie muzyki relaksacyjnej może pomóc Ci się odprężyć"</item>
+    </string-array>
+    <string-array name="relax_level_3" maxwidth="">
+        <item>"Poziom odprężenia obniża się"</item>
+    </string-array>
+    <string-array name="relax_level_4_5" maxwidth="">
+        <item>"Energia i pełna gotowość na realizację dzisiejszych zadań"</item>
+        <item>"Osiągnięto odpowiedni stopień odprężenia i koncentracji"</item>
+        <item>"Spokojny stan umysłu pomoże w zwiększeniu koncentracji"</item>
+    </string-array>
+    <string-array name="stress_level_1_2" maxwidth="">
+        <item>"Lekkie przekąski i owoce mogą pomóc odzyskać energię"</item>
+        <item>"Zdrowy styl życia pomaga w radzeniu sobie z wyzwaniami codziennego życia"</item>
+        <item>"Spokój w strefie Zen"</item>
+    </string-array>
+    <string-array name="stress_level_3" maxwidth="">
+        <item>"Poziom  stresu  podnosi  się"</item>
+        <item>"Zapisz, jak się czujesz"</item>
+    </string-array>
+    <string-array name="stress_level_4_5" maxwidth="">
+        <item>"30-minutowy spacer może zmniejszyć stres o 25%"</item>
+        <item>"Rozciągnij ramiona, plecy i barki"</item>
+        <item>"Przybierz wygodną pozycję i rozluźnij mięśnie"</item>
+        <item>"Majsterkowanie może sprawić radość i dać poczucie spełnienia"</item>
+        <item>"Zrób sobie masaż dłoni"</item>
+    </string-array>
+    <!-- Daily animation -->
+    <string name="default_anim_activity_data" maxwidth="">"0%"</string>
+    <string name="default_anim_energy_data" maxwidth="">"0"</string>
+    <string name="text_activity" maxwidth="">"CIAŁO"</string>
+    <string name="text_energy" maxwidth="">"UMYSŁ"</string>
+    <string name="text_location" maxwidth="">"w %s"</string>
+    <string name="text_measurement" maxwidth="">"Pomiary"</string>
+    <string name="text_today2" maxwidth="">"Dzisiaj"</string>
+    <string name="not_pair_asus_watch_title" maxwidth="">"Nie sparowano z zegarkiem ASUS"</string>
+    <string name="not_pair_asus_watch_message" maxwidth="">"Aplikacja Wellness jest aplikacją towarzyszącą zegarka ASUS. Sparuj to urządzenie z zegarkiem ASUS, aby móc kontynuować konfigurację."</string>
+    <string name="not_pair_asus_watch_button" maxwidth="">"Rozumiem!"</string>
+    <string name="tutorial_paired_descrition" description="Tutorial description." maxwidth="">"ASUS Wellness to aplikacja towarzysząca zegarka ASUS ZenWatch. Pełni ona funkcję osobistego menedżera kondycji zdrowotnej, który śledzi różnego rodzaju statystyki dotyczące stanu zdrowia, aby pomóc w utrzymaniu równowagi i osiąganiu własnych celów treningowych."</string>
+    <string name="default_average_energy_level_message_break" description="Default string of energy detail page." maxwidth="">"Najpierw\nzmierz"</string>
+    <string-array name="step_intensity_term_range" maxwidth="">
+        <item>"1~4999"</item>
+        <item>"5000~7499"</item>
+        <item>"7500~9999"</item>
+        <item>"10000~12499"</item>
+        <item>"12500+"</item>
+    </string-array>
+    <string name="save" description="save button." maxwidth="">"Zapisz"</string>
+    <string name="setting_idle_alarm_description" maxwidth="">"Ustaw alarm, aby zegarek zawibrował po upływie określonego czasu braku aktywności"</string>
+    <string name="exercise_intensity_info_exercise_message" maxwidth="">"Ogólnie rzecz ujmując, wyższe tętno podczas aktywności fizycznej oznacza większą intensywność treningu."</string>
+    <string-array name="profile_height_option" description="Height options" maxwidth="">
+        <item>"cm"</item>
+        <item>"stopy/cale"</item>
+    </string-array>
+    <string name="height_unit_feet" maxwidth="-1">"stopy"</string>
+    <string name="height_unit_inch" maxwidth="-1">"cale"</string>
+    <string name="setting_title_set_idle_alarm" description="Title of setting page option." maxwidth="-1">"Alert  dotyczący  stanu  bezczynności"</string>
+    <string name="setting_backup_description" description="Backup message in setting page." maxwidth="-1">"Utwórz kopię zapasową wszystkich danych z aplikacji Wellness w usłudze kopii zapasowej systemu Android firmy Google"</string>
+    <string name="knockknock_start_heartrate">"Zmierz tętno"</string>
+    <string name="knockknock_start_relaxation">"Zmierz poziom odprężenia"</string>
+    <string name="last_updated" maxwidth="">"Ostatnia  aktualizacja"</string>
+    <string-array name="profile_error_message" description="Height options" maxwidth="">
+        <item>"Zakres: 20~300 cm"</item>
+        <item>"Zakres: 0\' 8\"~9\' 10\""</item>
+        <item>"Zakres: 2~400 kg"</item>
+        <item>"Zakres: 4~880 funtów"</item>
+        <item>"Zakres: 1~99"</item>
+    </string-array>
+    <string name="range_msg">"Zakres:" </string>
+    <string name="accepted_range_title" maxwidth="">"Dopuszczalny  zakres"</string>
+    <string name="text_average" maxwidth="">"Średnia"</string>
+    <string name="calories_unit" description="Calories unit" maxwidth="">"kcal"</string>
+    <string-array name="step_intensity_term" description="Term of step intensity." maxwidth="">
+        <item>"Siedzący tryb życia"</item>
+        <item>"Mało aktywny"</item>
+        <item>"Średnio  aktywny"</item>
+        <item>"Aktywny"</item>
+        <item>"Bardzo  aktywny"</item>
+    </string-array>
+    <string name="daily_info_walk_unit" maxwidth="">"kroki"</string>
+    <string name="daily_info_energy_title" maxwidth="">"Relaks"</string>
+    <string name="exercise_intensity_info_heart_rate_title" maxwidth="">"Tętno  treningowe"</string>
+    <string name="exercise_intensity_info_heart_rate_message" maxwidth="">"Tętno zmierzone w ciągu pierwszej minuty po treningu można powiązać z poziomem intensywności treningu."</string>
+    <string name="exercise_intensity_info_exercise_title" maxwidth="">"Intensywność  treningu"</string>
+    <string name="exercise_intensity_info_l5_desc" maxwidth="">"Maksymalna"</string>
+    <string name="exercise_intensity_info_l4_desc" maxwidth="">"Duża"</string>
+    <string name="exercise_intensity_info_l3_desc" maxwidth="">"Umiarkowana (zwiększ sprawność fizyczną)"</string>
+    <string name="exercise_intensity_info_l2_desc" maxwidth="">"Mała (schudnij)"</string>
+    <string name="exercise_intensity_info_l1_desc" maxwidth="">"Bardzo  mała"</string>
+    <string name="daily_detail_activity_title_type" maxwidth="">"Typ"</string>
+    <string name="daily_detail_activity_title_calories" maxwidth="">"Kalorie"</string>
+    <string name="daily_button_text" maxwidth="">"DZIENNIE"</string>
+    <string name="weekly_button_text" maxwidth="">"TYGODNIOWO"</string>
+    <string name="text_today" maxwidth="">"DZISIAJ"</string>
+    <string name="setting_activity_tracking_description" description="Allow GPS message." maxwidth="">"Zezwól aplikacji Wellness na używanie sieci Wi-Fi i sieci komórkowej do określania lokalizacji i jej wyświetlania na osi czasu."</string>
+    <string name="tutorial_measure_descrition" description="Tutorial description." maxwidth="">"Uruchom aplikację ASUS Wellness na zegarku. Przewiń w lewo, aby wyświetlić interfejs pomiarowy. Kliknij i wybierz rodzaj pomiaru. Poziom odprężenia i tętno można mierzyć w dowolnym momencie."</string>
+    <!-- Tips -->
+    <string name="text_next" maxwidth="">"Dalej"</string>
+    <string name="text_ok" maxwidth="">"OK"</string>
+    <string name="tips_p1_text_title" maxwidth="">"Stuknij  tutaj"</string>
+    <string name="tips_p1_text_content" maxwidth="">"W celu wyświetlenia szczegółów"</string>
+    <string name="tips_p2_lefttext_title" maxwidth="">"Stuknij  tutaj"</string>
+    <string name="tips_p2_lefttext_content" maxwidth="">"W celu szybkiego powrotu do danych z dzisiejszego dnia"</string>
+    <string name="tips_p2_righttext_title" maxwidth="">"Przesuń palcem w górę lub w dół"</string>
+    <string name="tips_p2_righttext_content" maxwidth="">"W celu zmiany daty"</string>
+    <string name="tips_p3_text_title" maxwidth="">"Przesuń palcem w górę"</string>
+    <string name="tips_p3_text_content" maxwidth="">"W celu wyświetlenia osi czasu aktywności"</string>
+   <string name="app_version" maxwidth="">"Wersja"</string>
+    <string name="SUN" maxwidth="">"NIEDZ."</string>
+    <string name="MON" maxwidth="">"PON."</string>
+    <string name="TUE" maxwidth="">"WT."</string>
+    <string name="WED" maxwidth="">"ŚR."</string>
+    <string name="THU" maxwidth="">"CZW."</string>
+    <string name="FRI" maxwidth="">"PT."</string>
+    <string name="SAT" maxwidth="">"SOB."</string>
+    <string name="weekly_info_energy_avg">"śr."</string>
+    <!-- ================need to translation================== -->
+    <!-- emily add, 2014.12.05 -->
+    <string name="about_title">"Informacje"</string>
+    <string name="about_app_version">"Wersja"</string>
+    <string name="about_dialog_legal_information">"Informacje  prawne"</string>
+    <string name="about_dialog_legal_information_des">"Korzystanie  z  tego  oprogramowania  podlega  warunkom  i  postanowieniom  firmy  ASUS."</string>
+    <string name="about_dialog_website">"Witryna"</string>
+    <string name="about_dialog_allrights">"ASUSTek  Computer  Inc.  Wszelkie  prawa  zastrzeżone."</string>
+    <!-- emily end, 2014.12.05 -->
+    <string name="profile_birthday_title" description="Profile title" maxwidth="">"Urodziny"</string>
+    <string name="tips_p2_righttext_title_pad" maxwidth="">"Przesuń palcem od lewej do prawej"</string>
+
+    <string name="detail_activity_time" description="Activity title of activity detail page" maxwidth="">"aktywność od"</string>
+    <string name="detail_total_steps" description="Total step title of activity detail page" maxwidth="">"wykonano"</string>
+    <string name="detail_calories_burned" description="Calories burned title of activity detail page" maxwidth="">"spalono"</string>
+
+</resources>

@@ -1,0 +1,207 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.asus.wellness" >
+
+ <uses-sdk android:minSdkVersion="18" />
+    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION"/>
+    <!--<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />-->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.BODY_SENSORS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <!-- Calabash test -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="com.google.android.apps.photos.permission.GOOGLE_PHOTOS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <application
+        android:name=".WApplication"
+        android:allowBackup="true"
+        android:icon="${appIcon}"
+        android:label="@string/app_name"
+        android:theme="@style/WellnessActionBarTheme"
+        android:backupAgent="com.asus.wellness.WellnessBackup">
+        <meta-data
+                android:name="com.google.android.gms.version"
+                android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:value="200001"
+            android:name="CM_CHANNEL"
+            />
+        <meta-data
+            android:name="CM_AGENT_KEY"
+            android:value="bbfe2e7e5995a75325dfe0df6cf2fee41a1"
+            />
+        <meta-data android:name="com.google.android.backup.api_key" android:value="AEdPqrEAAAAIh5QMNSxlBDXKyRs8ehR7k8SGdC8gcssHv0aaPA" />
+       	<service
+                android:name=".EcgAndStepCountListenerService"
+               >
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.BIND_LISTENER" />
+            </intent-filter>
+        </service>
+        
+        <activity
+            android:theme="@style/WellnessActionBarTheme.Main"
+            android:name=".ui.MainWellness"
+            android:label="@string/app_name" >
+        </activity>  
+        
+        <activity
+            android:name=".ui.profile.SetupProfileActivity"
+            android:label="@string/set_profile_title" >
+        </activity>
+        
+       	<activity
+            android:name=".ui.setting.SettingActivity"
+            android:label="@string/app_name" >
+        </activity>
+        
+       	<activity
+            android:name=".ui.setting.SettingIdleAlarmActivity"
+            android:label="@string/app_name" >
+        </activity>
+        
+       	<activity
+            android:name=".ui.setting.SettingStepGoalActivity"
+            android:label="@string/app_name" >
+        </activity>
+        
+       	<activity
+            android:name=".ui.daily.DailyDetailActivityActivity"
+            android:label="@string/text_activity" >
+        </activity>
+
+        <activity
+            android:name=".ui.daily.DailyDetailSleepActivity"
+            android:label="@string/text_sleep" >
+        </activity>
+
+		<activity
+            android:name=".ui.daily.DailyDetailEnergyActivity"
+            android:label="@string/detail_energy_actionbar_title" >
+        </activity>
+
+        <activity
+            android:name=".ui.TutorialActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> 
+        
+        <activity
+            android:name=".ui.week.LevelDescriptionActivity"
+            android:label="@string/weekly_info_exercise_intensity_title" >
+        </activity>
+
+        <activity
+            android:name=".ui.daily.SleepInfoActivity"
+            android:label="@string/sleepinformation" >
+        </activity>
+        <activity
+            android:name=".ui.daily.SleepTipsActivity"
+            android:label="@string/sleep_tips_title" >
+        </activity>
+
+        <!-- Inspire Asus -->
+        <activity android:name=".ui.InspireAsus.InspireAsusActivity"/>
+
+		<provider 
+            android:name=".provider.WellnessProvider"
+            android:authorities="com.asus.wear.wellness.provider" />
+		
+		<!-- Collect activity type, start(end) time, distances in background. -->
+		<service
+		    android:name=".CollectInfoService"
+		    android:process=":collect"/>
+
+        <service
+            android:name=".sync.SyncService"
+        />
+
+        <service android:name=".ga.TaskWatcherService">
+        </service>
+		
+		<service android:name=".detectactivity.ActivityRecognitionIntentService"/>
+		
+		<receiver android:name="com.asus.wellness.knockknock.receiver.KnockKnockHeartRateReceiver"
+           >
+             <meta-data android:name="knockknock.action.description"
+                android:resource="@string/knockknock_start_heartrate"  />  
+             <meta-data android:name="knocknock.action.onwear"
+                android:value="true" />
+            <intent-filter>
+                <action  android:name="com.asus.wear.knockknock.DOKNOCKKNOCK" /> 
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+  		</receiver>
+  		
+		<receiver android:name="com.asus.wellness.knockknock.receiver.KnockKnockStressReceiver"
+            >
+             <meta-data android:name="knockknock.action.description"
+                android:resource="@string/knockknock_start_relaxation"  />   
+			<meta-data android:name="knocknock.action.onwear"
+                android:value="true" />
+             
+            <intent-filter>
+                <action  android:name="com.asus.wear.knockknock.DOKNOCKKNOCK" /> 
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+  		</receiver>
+		
+		<receiver android:name=".receiver.BootReceiver">
+       	    <intent-filter>
+       	        <action android:name="android.intent.action.BOOT_COMPLETED"/>
+       	    </intent-filter>
+       	  	<intent-filter>
+       	        <action android:name="android.location.PROVIDERS_CHANGED"/>
+       	    </intent-filter>
+       	</receiver>
+
+        <receiver android:name=".receiver.AlarmReceiver"/>
+
+
+        <receiver android:name=".ga.AsusAlarmReceiver" >
+            <intent-filter>
+                <action android:name="asus_sendEvent" />
+            </intent-filter>
+        </receiver>
+		
+        <!-- UserFeedback -->
+        <activity android:name="com.uservoice.uservoicesdk.activity.PortalActivity"
+              android:launchMode="singleTop">     
+              <meta-data android:name="android.app.searchable"
+                  android:resource="@xml/uf_sdk_searchable"/>
+             <intent-filter>
+                 <action android:name="android.intent.action.SEARCH" />
+             </intent-filter>
+        </activity>
+        
+        <activity android:name="com.uservoice.uservoicesdk.activity.ForumActivity" />
+        <activity android:name="com.uservoice.uservoicesdk.activity.ArticleActivity" />
+        <activity android:name="com.uservoice.uservoicesdk.activity.TopicActivity" />
+        <activity
+            android:name="com.uservoice.uservoicesdk.activity.ContactActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name="com.uservoice.uservoicesdk.activity.PostIdeaActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+
+        <receiver android:name="FeedbackReceiver"
+            >
+            <intent-filter>
+                <action android:name="com.asus.wellness.intent.action.USERFEEDBACK" />
+            </intent-filter>
+        </receiver>
+        <activity android:name=".ui.permission.GrantPermissionActivity" />
+        <activity android:name=".ui.daily.SleepInfoListActivity" android:label="@string/sleep_dictinary" />
+        <activity android:name=".ui.daily.SleepInfoDetailActivity" android:label="@string/sleep_detail_back" />
+
+    </application>
+
+</manifest>

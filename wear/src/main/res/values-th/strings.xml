@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name" maxwidth="">"Wellness"</string>
+    <string name="text_step_goal" maxwidth="">"/%s  ก้าว"</string>
+    <string name="target" maxwidth="">"เป้าหมายของวันนี้"</string>
+    <string name="count_down_text_secs" maxwidth="">"วินาที"</string>   
+    <string name="step_unit" maxwidth="">"ก้าว"</string> 
+    <string name="distance_unit" maxwidth="">"กม."</string> 
+    <string name="heart_rate_unit" maxwidth="">"bpm"</string> 
+    <string name="options_relax" maxwidth="">"ผ่อนคลาย"</string> 
+    <string name="options_stress" maxwidth="">"ความเครียด"</string>
+    <string name="options_energy" maxwidth="">"พลังงาน"</string>
+    <string name="text_measure_stress" maxwidth="">"ระดับความเครียด"</string>
+    <string name="text_measure_relax" maxwidth="">"@string/options_relaxation"</string>
+    <string name="measure_name" maxwidth="">"วัด"</string>
+    <string name="waiting_text" maxwidth="">"โปรดรอสักครู่!"</string>
+    <string-array name="stress_level_1_2" maxwidth="">
+        <item>"อาหารว่างและผลไม้สามารถช่วยเสริมพลังงานได้"</item>
+        <item>"วิถีชีวิตที่มีสุขภาพดีช่วยเอาชนะความท้าทายในชีวิตประจำวัน"</item>
+        <item>"ใน Zen โซนด้วยความสบายใจ"</item>
+    </string-array>
+    <string-array name="stress_level_3" maxwidth="">
+        <item>"ระดับความเครียดของคุณกำลังเพิ่ม"</item>
+        <item>"จดบันทึกว่าคุณรู้สึกอย่างไร"</item>
+    </string-array>
+    <string-array name="stress_level_4_5" maxwidth="">
+        <item>"การเดิน 30 นาทีสามารถลดความเครียดลงได้ 25%"</item>
+        <item>"ยืดแขน หลัง และไหล่"</item>
+        <item>"ทำตัวให้สบายและผ่อนคลายกล้ามเนื้อของคุณ"</item>
+        <item>"DIY สามารถให้ความสนุก และความรู้สึกของความสำเร็จ"</item>
+        <item>"นวดตัวเองด้วยมือ"</item>
+    </string-array>
+    <string-array name="heart_rate_level" maxwidth="">
+        <item>"L1 เบามาก"</item>
+        <item>"L2 เบา"</item>
+        <item>"L3 ปานกลาง"</item>
+        <item>"L4 หนัก"</item>
+        <item>"L5 หนักที่สุด"</item>
+    </string-array>
+    <string name="keep_touch_sensor" maxwidth="">"สัมผัสต่อไป"</string>
+    <string name="options_relaxation" maxwidth="">"การผ่อนคลาย"</string>
+    <string name="not_support_message" maxwidth="">"ฮาร์ดแวร์ของคุณมีคุณสมบัติไม่ตรงตามความต้องการในการรันแอปสวมใส่นี้ แอปถูกปิด"</string>
+    <string name="exercise_intensity" maxwidth="">"ความเข้มการออกกำลังกาย"</string>
+    <string name="tutorial_touch_sensor" maxwidth="">"แตะเบา ๆ"</string>
+    <string name="knockknock_start_relaxation" maxwidth="">"วัดการผ่อนคลาย"</string>
+    <string name="knockknock_start_heartrate" maxwidth="">"วัดอัตราการเต้นหัวใจ"</string>
+    <string name="tap_to_start" maxwidth="">"แทปไอคอนเพื่อเริ่ม"</string>
+    <string name="no_value_message" maxwidth="">"ไม่มีผลลัพธ์ในการวัด"</string>
+    <string name="tap_to_try_again" maxwidth="">"แทปไอคอนนี้เพื่อ\nลองอีกครั้ง"</string>
+    <string name="heart_rate" maxwidth="">"อัตราการเต้นหัวใจ"</string>
+    <string name="tap_message" maxwidth="">"อยู่นิ่ง ๆ ระหว่างการวัด"</string>
+    <string-array name="relax_level_1_2" maxwidth="">
+        <item>"น้ำและการออกกำลังกายช่วยให้ร่างกายผ่อนคลาย"</item>
+        <item>"เริ่มวางแผนการหยุดพักผ่อน"</item>
+        <item>"การฟังเพลงสบาย ๆ อาจช่วยให้คุณรู้สึกผ่อนคลาย"</item>
+    </string-array>
+    <string-array name="relax_level_3" maxwidth="">
+        <item>"ระดับการผ่อนคลายของคุณกำลังลดลง"</item>
+    </string-array>
+    <string-array name="relax_level_4_5" maxwidth="">
+        <item>"พลังงานเต็มเปี่ยม และพร้อมที่จะทำงานของวันนี้ให้เสร็จ"</item>
+        <item>"คุณพักผ่อนได้ดีและเข้มข้น"</item>
+        <item>"จิตใจที่สงบ จะช่วยเพิ่มความเข้มข้นได้"</item>
+    </string-array>
+    <string name="suggest_wellness_title" maxwidth="">"แอปที่แนะนำ: Wellness"</string>
+    <string name="suggest_wellness_message" maxwidth="">"&#13;
+รับแอป ASUS ZenWatch&#13;
+\nWellness ฟรี!&#13;
+"</string>
+    <string name="download_on_phone_message" maxwidth="">"ดาวน์โหลดบนโทรศัพท์"</string>
+    <string name="wait_first_heart_rate_message" maxwidth="">"เริ่มการวัด โปรดอยู่นิ่ง ๆ และทำตัวตามสบาย"</string>
+    <string name="wait_enough_rr_message" maxwidth="">"กำลังวัด อีกสองสามวินาที..."</string>
+    <string name="keep_measuring" maxwidth="">"กำลังวัด..."</string>
+    <string name="total_steps" maxwidth="">"ก้าวทั้งหมด"</string>
+    <string name="step_indicator_10k" maxwidth="">"10K"</string>
+    <string name="step_indicator_5k" maxwidth="">"5K"</string>
+    <string name="calories_unit" description="Calories unit" maxwidth="">"กิโลแคลอรี่"</string>
+    <string name="calories_string" maxwidth="">"(%1$s %2$s)"</string>
+</resources>

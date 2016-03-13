@@ -1,0 +1,59 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/daily_anim_main"
+    android:layout_width="@dimen/dailyanim_layout_width"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:visibility="visible" >
+
+    <View
+        android:id="@id/bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/dailyanim_bg_marginTop"
+        android:background="@drawable/asus_wellness_bg_bg"
+        android:visibility="gone"/>
+
+    <!-- Robin -->
+    <include layout="@layout/wellness_daily_anim_body"
+        android:id="@id/L_body"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"/>
+
+    <include layout="@layout/wellness_daily_anim_mind"
+        android:id="@id/R_mind"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"/>
+
+    <include layout="@layout/wellness_daily_anim_calendar"
+        android:id="@id/M_calendar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"/>
+
+    <!-- Sparrow -->
+    <include layout="@layout/wellness_daily_anim_body"
+        android:id="@id/L_body_sparrow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"/>
+
+    <include layout="@layout/wellness_daily_anim_calendar"
+        android:id="@id/M_calendar_sparrow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"/>
+
+    <include layout="@layout/wellness_daily_anim_sleep"
+        android:id="@+id/R_sleep"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <include layout="@layout/wellness_daily_anim_calendardot"
+        android:id="@+id/calendar_dot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+</FrameLayout>

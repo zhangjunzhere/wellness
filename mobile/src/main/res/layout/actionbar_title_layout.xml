@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    >
+
+    <TextView
+        android:id="@+id/actionbar_title"
+        style="@style/actionbar_title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/actionbar_title_marginleft"
+        android:gravity="top"
+        android:layout_marginBottom="@dimen/actionbar_title_marginBottom"
+        android:maxWidth="@dimen/actionbar_title_max_width"
+        android:singleLine="true"
+        android:ellipsize="end"
+        />
+
+    <TextView
+        android:id="@+id/actionbar_device_name"
+        style="@style/actionbar_device_name_style"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/device_name_height"
+        android:layout_marginLeft="@dimen/actionbar_title_marginleft"
+        android:gravity="center_vertical"
+        />
+
+   <Spinner
+        android:id="@+id/actionbar_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/device_name_height"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:paddingBottom="0dp"
+        android:paddingTop="0dp"
+        android:layout_marginLeft="@dimen/spinner_marginLeft"
+        style="@style/device_name_spinner"
+        />
+
+</LinearLayout>

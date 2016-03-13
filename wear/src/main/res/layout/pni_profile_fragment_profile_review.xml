@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/profilebg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+ <RelativeLayout
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content">
+    <com.asus.wellness.view.MyTextView
+        android:id="@+id/title"
+        style="@style/coach_title"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/profile_review_title_height"
+        android:text="@string/profile"
+        android:textSize="@dimen/profile_review_title_size"
+        />
+
+    <ImageView
+        android:layout_toRightOf="@+id/title"
+        android:layout_width="match_parent"
+        android:id="@+id/profile_title_line"
+        android:layout_height="1dp"
+        android:layout_marginBottom="@dimen/profile_margin_left"
+        android:layout_alignBottom="@+id/title"
+        android:background="@color/white" />
+ </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarThumbVertical="@null">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="13dp"
+                android:layout_marginLeft="@dimen/margin_left"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/name"
+                    style="@style/textstylebase"
+                    android:fontFamily="sans-serif-medium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/profile_name_size"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:layout_marginTop="@dimen/profile_first_margin_top"
+                    android:layout_marginBottom="@dimen/profile_margin_normal"
+                    />
+                 <TextView
+                        android:id="@+id/gender"
+                        style="@style/textstylebase"
+                        android:fontFamily="sans-serif-medium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/profile_normal_size"
+                        android:layout_marginBottom="@dimen/profile_margin_normal"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="@dimen/profile_margin_normal"
+                        >
+
+                        <TextView
+                            android:id="@+id/age"
+                            style="@style/textstylebase"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:singleLine="true"
+                            android:textSize="@dimen/profile_normal_size"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            style="@style/textstylebase"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-light"
+                            android:text="@string/yearsold"
+                            android:layout_marginLeft="@dimen/profile_margin_left"
+                            android:textSize="@dimen/profile_small_size" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="@dimen/profile_margin_normal"
+                        >
+
+                        <TextView
+                            android:id="@+id/height"
+                            style="@style/textstylebase"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/profile_normal_size"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            style="@style/textstylebase"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=", "
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:id="@+id/weight"
+                            style="@style/textstylebase"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/profile_normal_size"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/profile_margin_normal"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/stepgoal"
+                            style="@style/textstylebase"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/profile_normal_size"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            style="@style/textstylebase"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/profile_margin_left"
+                            android:fontFamily="sans-serif-light"
+                            android:textSize="@dimen/profile_small_size"
+                            android:text="@string/stepsgoal"
+                             />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/lifestyle"
+                        style="@style/textstylebase"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/profile_margin_normal"
+                        android:textSize="@dimen/profile_margin_normal" />
+
+                    <TextView
+                        android:id="@+id/distanceunit"
+                        style="@style/textstylebase"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/profile_margin_normal"
+                        android:textSize="@dimen/profile_normal_size" />
+                </LinearLayout>
+
+            <TextView
+                android:id="@+id/saveprofilebtn"
+                style="@style/textstylebase"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/pni_save_bg"
+                android:gravity="center"
+                android:text="@string/saveprofile"
+                android:textAllCaps="false"
+                android:textSize="@dimen/btn_select_font_size"
+                android:layout_marginBottom="@dimen/profile_margin_buttom"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/editprofilebtn"
+                style="@style/textstylebase"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/pni_save_bg"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:text="@string/editprofile"
+                android:layout_marginBottom="@dimen/profile_margin_buttom"
+                android:textSize="@dimen/btn_select_font_size"
+                android:textStyle="bold"
+                android:visibility="gone"></TextView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

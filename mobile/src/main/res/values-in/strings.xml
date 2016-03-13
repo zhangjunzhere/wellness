@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name" description="App name" maxwidth="-1">"Kebugaran"</string>
+    <string name="alertdialog_find_user_data_message_title" description="Restore profile title" maxwidth="-1">"Profil pengguna ditemukan"</string>
+    <string name="alertdialog_find_user_data_message_content" description="Restore profile message" maxwidth="-1">"Profil pengguna aplikasi Wellness sudah ada di perangkat ini. Lanjutkan konfigurasi menggunakan profil yang ada?"</string>
+    <string name="daily_energy_detail_measurement" description="Message of Energy detail page" maxwidth="-1">"Terukur"</string>
+    <string name="daily_energy_detail_today" description="Message of Energy detail page" maxwidth="-1">"hari ini"</string>
+    <string name="setting_title" description="Action bar title of setting page." maxwidth="-1">"Pengaturan"</string>
+    <string name="setting_title_activity_goal" description="Title of setting page option." maxwidth="">"Sasaran aktivitas"</string>
+    <string name="setting_title_backup_restore" description="Title of setting page option." maxwidth="-1">"Cadangkan data saya"</string>
+    <string name="setting_activity_tracking" description="Title of setting page option." maxwidth="-1">"Pelacakan aktivitas"</string>
+    <string name="setting_dialog_backup_restore_title" description="Backup dialog title." maxwidth="-1">"Layanan Pencadangan"</string>
+    <string name="setting_dialog_backup_restore_message" description="Backup dialog message." maxwidth="-1">"Aktifkan layanan pencadangan."</string>
+    <string name="setting_idle_alarm_option_15mins" description="Idle alarm option." maxwidth="-1">"Setiap 15 menit"</string>
+    <string name="setting_idle_alarm_option_30mins" description="Idle alarm option." maxwidth="-1">"Setiap 30 menit"</string>
+    <string name="setting_idle_alarm_option_1hour" description="Idle alarm option." maxwidth="-1">"Setiap 1 jam"</string>
+    <string name="setting_idle_alarm_option_1_5hours" description="Idle alarm option." maxwidth="-1">"Setiap 1,5 jam"</string>
+    <string name="setting_idle_alarm_option_2hours" description="Idle alarm option." maxwidth="-1">"Setiap 2 jam"</string>
+    <string name="setting_step_goal_include_bike_title" description="Include bike option." maxwidth="-1">"Termasuk aktivitas bersepeda"</string>
+    <string name="setting_step_goal_hint" description="Hint to remind user to input goal number." maxwidth="-1">"Masukkan jumlah sasaran aktivitas"</string>
+    <string name="step_counts_message_setting_goal" description="Step unit message of activity goal page." maxwidth="-1">"langkah/hari"</string>
+    <string name="step_counts_message_preference" description="Option message of activity goal." maxwidth="-1">"%s langkah/hari"</string>
+    <string name="step_counts_intensity_explain" description="Explanation message of step goal in activity goal page." maxwidth="-1">"(%s langkah/hari)"</string>
+    <string name="set_new_profile_alarm_title" description="Alarm Dialog title of adding new profile." maxwidth="-1">"Atur ulang profil?"</string>
+    <string name="set_new_profile_btn_text" description="Button text of adding new profile." maxwidth="-1">"Atur ulang profil"</string>
+    <string name="set_new_profile_alarm_message" description="Alarm Dialog message of adding new profile." maxwidth="-1">"Anda yakin ingin mengganti profil yang ada?"</string>
+    <string name="tutorial_measure_title" description="Tutorial title." maxwidth="-1">"Cara mengukur"</string>
+    <string name="set_profile_title" description="Title of setting profile page." maxwidth="">"Konfigurasi profil"</string>
+    <string name="profile_edittext_name_hint" description="Hint to request user to enter name." maxwidth="">"Masukkan nama"</string>
+    <string name="profile_edittext_name_hint_alarm" description="Hint to request user to enter name." maxwidth="">"Masukkan nama"</string>
+    <string name="profile_gender_title" description="Profile title" maxwidth="">"Jenis kelamin"</string>
+    <string name="profile_age_title" description="Profile title" maxwidth="">"Usia"</string>
+    <string name="profile_gender_age_title" description="Profile title" maxwidth="">"Jenis Kelamin/Usia"</string>
+    <string name="profile_height_title" description="Profile title" maxwidth="">"Tinggi"</string>
+    <string name="profile_weight_title" description="Profile title" maxwidth="">"Berat"</string>
+    <string name="drawer_title_about" description="Drawer Profile title" maxwidth="">"Tentang"</string>
+    <string name="drawer_title_status" description="Drawer Profile title" maxwidth="">"Status"</string>
+    <string name="str_edit_profile" description="Button text of edit profile" maxwidth="">"Edit profil"</string>
+    <string name="profile_start_measure_date" description="Drawer Profile title" maxwidth="">"Mulai tanggal pengukuran"</string>
+    <string name="profile_total_steps" description="Drawer Profile title" maxwidth="">"Langkah total"</string>
+    <string name="none_data_inside" description="No data description" maxwidth="">"Data tidak tersedia"</string>
+    <string name="heart_and_exercise_intensity" description="Heart rate title of activity detail page" maxwidth="">"Detak jantung dan intensitas latihan"</string>
+    <string name="time_unit" description="Time unit" maxwidth="">"menit"</string>
+    <string name="distance_unit" description="Distance unit" maxwidth="">"km"</string>
+    <string name="detail_energy_best_info_energy_level" description="Best energy text." maxwidth="">"Tertinggi"</string>
+    <string name="detail_energy_worst_info_stress_level" description="Worst energy text." maxwidth="">"Terendah:"</string>
+    <string name="count_time" description="The number of measurment" maxwidth="">"kali"</string>
+    <string name="not_connected_to_wellness" description="No connected device." maxwidth="">"Jam Anda tidak tersambung ke Kebugaran"</string>
+    <string-array name="profile_gender_option" description="Gender options" maxwidth="">
+        <item>"Pria"</item>
+        <item>"Wanita"</item>
+    </string-array>
+    <string-array name="profile_weight_option" description="Weight options" maxwidth="">
+        <item>"kg"</item>
+        <item>"lb"</item>
+    </string-array>
+    <string name="dialog_number_picker_done" description="Button text of number picker." maxwidth="-1">"Selesai"</string>
+    <string name="dialog_number_picker_height_title" description="Title of setting height picker." maxwidth="-1">"Tetapkan Tinggi"</string>
+    <string name="dialog_number_picker_weight_title" description="Title of setting weight picker." maxwidth="-1">"Tetapkan Berat"</string>
+    <string name="dialog_number_picker_age_title" description="Title of setting age picker." maxwidth="-1">"Tetapkan Usia"</string>
+    <string name="terms_services_title" description="Title of term service." maxwidth="-1">"Persyaratan Penggunaan"</string>
+    <string name="terms_services_subtitle" description="subtitle of term service." maxwidth="-1">"Pemberitahuan penting"</string>
+    <string name="terms_services_message" description="Message of term service." maxwidth="-1">"Aplikasi ini tidak ditujukan untuk diagnostik atau penggunaan medis. Anda tidak dapat menggunakan aplikasi ini untuk pengobatan, perawatan, atau pencegahan penyakit apapun, serta tidak dapat digunakan untuk memantau atau mengobati kondisi fisik, mental, maupun psikologis.\n\nData kebugaran Anda (profil pengguna, detak jantung, stres, relaksasi, aktivitas, dan informasi lokasi) tidak disimpan dalam aplikasi Kebugaran yang terinstal di perangkat bergerak Anda. Data kebugaran Anda akan secara otomatis dicadangkan ke server Google jika Anda mengaktifkan perangkat bergerak \"Cadangkan &amp; atur ulang\" dalam \"Pengaturan\" perangkat dengan akun cadangan yang ditetapkan."</string>
+    <string name="terms_services_end_user_subtitle" description="subtitle of End user license agreement subtitle." maxwidth="-1">"Perjanjian lisensi pengguna akhir"</string>
+    <string name="terms_services_end_user_message" description="Message of End user license agreement." maxwidth="-1">"EULA (Perjanjian Lisensi Pengguna Akhir) merupakan perjanjian yang sah dan mengikat antara ASUSTeK Computer Inc. ("ASUS") dan Anda, sebagai pengguna, atas penggunaan Perangkat Lunak ASUS ("Perangkat Lunak") yang ditetapkan di bawah ini. Dengan menginstal dan terus menggunakan perangkat lunak ini, ANDA SECARA TEGAS MENYATAKAN BAHWA ANDA TELAH MEMBACA DAN MEMAHAMI SERTA SETUJU UNTUK TERIKAT OLEH PERSYARATAN EULA INI DAN VERSI BARUNYA.
+        \n\n1.PERANGKAT LUNAK adalah Perangkat Lunak ASUS yang diberikan bersama atau dengan produk ASUS yang berlaku, termasuk namun tidak terbatas pada, perbaikan, update, upgrade, versi modifikasi program mendatang.\n\nPerangkat Lunak dapat diberikan bersaman perangkat lunak ASUS maupun pihak ketiga yang dilisensi berdasarkan satu lisensi Perangkat Lunak Open Source gratis atau lebih sebagaimana tercantum di www.opensource.org/licenses. Perangkat Lunak Open Source Gratis tersebut diberikan kepada Anda hanya berdasarkan persyaratan perjanjian lisensi terkait atau informasi hak cipta yang menyertainya atau dalam file lisensi FOSS yang diberikan bersama Perangkat Lunak. Persyaratan EULA ini TIDAK berlaku untuk Perangkat Lunak Open Source Gratis.
+        \n\n2.LISENSI Berdasarkan persyaratan EULA ini, ASUS memberi Anda lisensi terbatas, perorangan, non-kemersial, non-ekslusif untuk menggunakan Perangkat Lunak hanya sebagaimana tertanam dalam produk ASUS. Anda dapat membuat satu salinan Perangkat Lunak dalam bentuk yang dapat dibaca perangkat hanya untuk tujuan pencadangan, asalkan salinan cadangan tersebut menyertakan semua informasi hak cipta atau informasi eksklusif lainnya yang terdapat pada Perangkat Lunak asli. Lisensi ini tidak boleh disublisensikan dan tidak dapat dialihkan, kecuali kepada seseorang atau badan yang menerima pengalihan kepemilikan dari Anda atas produk lengkap ASUS yang berisi Perangkat Lunak, jika Anda secara permanen mengalihkan semua hak cipta tersebut berdasarkan EULA dan tidak menyimpan sebagian maupun seluruh salinan Perangkat Lunak, dan penerima menyetujui persyaratan EULA ini.
+        \n\n3.LARANGAN REKAYASA BALIK Anda dilarang merekayasa balik mesin, mendekompilasi dekripsi, atau membongkar Perangkat Lunak maupun mengizinkan atau menyebabkan tindakan tersebut, kecuali sejauh undang-undang yang berlaku secara langsung melarang pelaksanaan tindakan yang dimaksud.
+        \n\n4.KERAHASIAAN Anda bertugas melindungi dan tidak mengungkapkan atau menyebabkan pengungkapan seluruh maupun sebagian informasi rahasia Perangkat Lunak, termasuk namun tidak terbatas pada rahasia dagang, materi berhak cipta dalam bentuk apa pun kepada pihak ketiga.
+        \n\n5.HAK Atas Kekayaan Intelektual ("HAKI") Anda menyatakan dan menyetujui bahwa semua HAKI, hak lainnya, dan kepentingan terhadap atau ditimbulkan dari Perangkat Lunak akan dan tetap menjadi properti eksklusif ASUS atau pemegang lisensinya. Tidak ada satu pernyataan pun dalam EULA ini yang ditujukan untuk mengalihkan HAKI tersebut kepada Anda. Setiap penggunaan tidak sah atas HAKI akan melanggar EULA serta undang-undang kekayaan intelektual, termasuk namun tidak terbatas pada undang-undang hak cipta dan merek dagang.\nDengan mengirim informasi, materi, ide, konsep, atau teknik kecuali untuk informasi perorangan kepada ASUS melalui Perangkat Lunak ("Tanggapan"), Anda menyatakan dan menyetujui bahwa: (i) Tanggapan Anda tidak akan berisi informasi rahasia atau eksklusif; (ii) ASUS tidak bertanggung jawab atas kerahasiaan apa pun, baik tersurat maupun tersirat, terkait Tanggapan; (iii) Atas kebijaksanaannya sendiri, ASUS berhak menggunakan atau mengungkapkan Tanggapan untuk tujuan apapun, dengan cara apapun, di seluruh dunia; (iv) Tanggapan Anda akan menjadi milik ASUS tanpa adanya kewajiban ASUS terhadap Anda; dan (v) Anda tidak berhak atas kompensasi atau penggantian dalam bentuk apa pun.
+        \n\n6.JANGKA WAKTU DAN PENGHENTIAN EULA ini akan berlaku sejak tanggal penginstalan Perangkat Lunak. Anda dapat setiap saat menghentikan Lisensi ini dengan menghentikan semua penggunaan Perangkat Lunak dan menghapus Perangkat Lunak dari produk ASUS. Hak Anda akan dihentikan tanpa pemberitahuan sebelumnya dari ASUS jika kami merasa bahwa Anda lalai dalam mematuhi ketentuan EULA.
+        \n\n7.Pelepasan Tanggung Jawab Hukum Terhadap Jaminan dan Kewajiban ANDA MEMAHAMI BAHWA PERANGKAT LUNAK DIBERIKAN "SEBAGAIMANA ADANYA". ANDA MENANGGUNG SELURUH RISIKO ATAS KUALITAS DAN PERFORMA PERANGKAT LUNAK INI, TERMASUK NAMUN TIDAK TERBATAS PADA, BIAYA TERKAIT ATAS SEMUA SERVIS DAN PERBAIKAN YANG DIPERLUKAN. SEJAUH YANG DIIZINKAN OLEH UNDANG-UNDANG, ASUS TIDAK MEMBERIKAN JAMINAN, BAIK SECARA TERSURAT MAUPUN TERSIRAT, TERKAIT PERANGKAT LUNAK INI MAUPUN INFORMASI ATAU DOKUMEN LAIN YANG DIBERIKAN DALAM EULA INI ATAU UNTUK PERANGKAT LUNAK INI, TERMASUK NAMUN TIDAK TERBATAS PADA, JAMINAN KELAYAKAN UNTUK DIPERDAGANGKAN ATAU KESESUAIAN UNTUK TUJUAN TERTENTU ATAU TERHADAP PELANGGARAN, ATAU JAMINAN APA PUN YANG TIMBUL AKIBAT PENGGUNAAN ATAU PERFORMA. ASUS JUGA TIDAK MENJAMIN HASIL YANG DAPAT DIPEROLEH DARI PENGGUNAAN PERANGKAT LUNAK INI ATAU KEAKURATAN MAUPUN KEANDALAN INFORMASI YANG DIPEROLEH MELALUI PERANGKAT LUNAK INI. BEBERAPA WILAYAH HUKUM TIDAK MENGIZINKAN PENGECUALIAN TERHADAP JAMINAN TERTENTU ATAU BATASAN MAUPUN PENGECUALIAN TANGGUNG JAWAB ATAS KERUSAKAN TERTENTU. OLEH KARENA ITU, SEBAGIAN DARI PERNYATAAN PELEPASAN TANGGUNG JAWAB HUKUM DAN BATASAN KEWAJIBAN DI ATAS MUNGKIN TIDAK BERLAKU UNTUK ANDA.
+        \n\nANDA MENANGGUNG SELURUH RISIKO YANG TIMBUL DARI PENGGUNAAN DAN/ATAU PERFORMA PERANGKAT LUNAK INI. DALAM KONDISI APA PUN, ASUS, PEMEGANG LISENSI, ATAU PEJABAT, DIREKTUR, KARYAWAN, AGEN, MAUPUN AFILIASINYA TIDAK AKAN BERTANGGUNG JAWAB ATAS KERUGIAN KONSEKUENSIAL, INSIDENTAL, LANGSUNG, TIDAK LANGSUNG, KHUSUS, HUKUMAN, ATAU KERUSAKAN APA PUN LAINNYA (TERMASUK, NAMUN TIDAK TERBATAS PADA, KERUGIAN ATAS HILANGNYA LABA, GANGGUAN, HILANGNYA INFORMASI, ATAU KERUGIAN FINANSIAL LAINNYA) YANG TIMBUL DARI ATAU TERKAIT DENGAN EULA MAUPUN PENGGUNAAN ATAU KETIDAKMAMPUAN UNTUK MENGGUNAKAN PERANGKAT LUNAK ATAU BAGIANNYA, MESKIPUN ASUS TELAH DIBERITAHUKAN TENTANG KEMUNGKINAN KERUSAKAN TERSEBUT. BEBERAPA WILAYAH HUKUM TIDAK MENGIZINKAN PENGECUALIAN TERHADAP JAMINAN TERTENTU ATAU BATASAN MAUPUN PENGECUALIAN TANGGUNG JAWAB ATAS KERUSAKAN TERTENTU. OLEH KARENA ITU, SEBAGIAN DARI PERNYATAAN PELEPASAN TANGGUNG JAWAB DAN BATASAN KEWAJIBAN DI ATAS MUNGKIN TIDAK BERLAKU UNTUK ANDA.
+        \n\n8.Ganti Rugi ANDA setuju untuk melindungi, mengganti kerugian, dan membebaskan ASUS beserta afiliasi, penyedia layanan, sindikator, distributor, pemegang lisensi, pejabat, direktur, dan karyawannya, dari dan terhadap segala kerugian, kerusakan, kewajiban, dan biaya yang timbul akibat klaim atau tuntutan (termasuk biaya pengacara dan pengadilan yang wajar), karena atau terkait dengan pelanggaran ANDA terhadap EULA atau undang-undang maupun peraturan yang berlaku, atau hak pihak ketiga.
+"
+        </string>
+    <string name="terms_services_agree_text" maxwidth="">"Saya menyetujui Persyaratan Penggunaan"</string>
+    <string name="daily_info_walk_type" maxwidth="">"Jalan"</string>
+    <string name="daily_info_bike_type" maxwidth="">"Bersepeda"</string>
+    <string name="daily_info_car_type" maxwidth="">"Mobil"</string>
+    <string name="daily_info_transport_type" maxwidth="">"Transportasi"</string>
+    <string name="daily_info_time_hour" maxwidth="">"jam"</string>
+    <string name="daily_info_time_hours" maxwidth="">"jam"</string>
+    <string name="daily_info_time_minute" maxwidth="">"men"</string>
+    <string name="daily_info_heart_title" maxwidth="">"Intensitas Latihan"</string>
+    <string name="daily_info_heart_rate_unit" maxwidth="">"bpm"</string>
+    <string name="daily_info_stress_title" maxwidth="">"Tingkat stres"</string>
+    <string name="weekly_info_calories_title">"Kalori Terbakar Total"</string>
+    <string name="weekly_info_activity_title">"Aktivitas Total"</string>
+    <string name="weekly_info_exercise_intensity_title" maxwidth="">"Intensitas latihan"</string>
+    <string name="weekly_info_energy_title" maxwidth="">"Energi"</string>
+    <string name="weekly_info_relaxation_title" maxwidth="">"RELAKSASI"</string>
+    <string name="weekly_info_stress_title" maxwidth="">"STRES"</string>
+    <string name="daily_actionbar_title" maxwidth="">"Hai, %s"</string>
+    <string name="detail_energy_actionbar_title" maxwidth="">"PIKIRAN"</string>
+    <string-array name="exercise_intensity" maxwidth="">
+        <item>"L1"</item>
+        <item>"L2"</item>
+        <item>"L3"</item>
+        <item>"L4"</item>
+        <item>"L5"</item>
+    </string-array>
+    <string-array name="relax_level_1_2" maxwidth="">
+        <item>"Air dan latihan membantu merelaksasikan tubuh"</item>
+        <item>"Mulai rencana liburan"</item>
+        <item>"Mendengarkan musik relaksasi akan membantu Anda rileks"</item>
+    </string-array>
+    <string-array name="relax_level_3" maxwidth="">
+        <item>"Tingkat relaksasi Anda menurun"</item>
+    </string-array>
+    <string-array name="relax_level_4_5" maxwidth="">
+        <item>"Tenaga penuh dan siap menyelesaikan tugas hari ini"</item>
+        <item>"Anda beristirahat dan berkonsentrasi dengan baik"</item>
+        <item>"Pola pikir yang damai akan membantu meningkatkan konsentrasi"</item>
+    </string-array>
+    <string-array name="stress_level_1_2" maxwidth="">
+        <item>"Makanan ringan dan buah dapat membantu mengembalikan energi"</item>
+        <item>"Gaya hidup sehat membantu mengatasi tantangan hidup harian"</item>
+        <item>"Dalam zona Zen dengan ketenangan pikiran"</item>
+    </string-array>
+    <string-array name="stress_level_3" maxwidth="">
+        <item>"Tingkat relaksasi Anda meningkat"</item>
+        <item>"Buat catatan tentang perasaan Anda"</item>
+    </string-array>
+    <string-array name="stress_level_4_5" maxwidth="">
+        <item>"Jalan 30 menit dapat mengurangi stres sekitar 25%"</item>
+        <item>"Regangkan lengan, punggung, dan bahu"</item>
+        <item>"Buat Anda nyaman dan otot Anda rileks"</item>
+        <item>"DIY dapat memberikan kesenangan dan rasa pencapaian"</item>
+        <item>"Pijat tangan Anda sendiri"</item>
+    </string-array>
+    <!-- Daily animation -->
+    <string name="default_anim_activity_data" maxwidth="">"0%"</string>
+    <string name="default_anim_energy_data" maxwidth="">"0"</string>
+    <string name="text_activity" maxwidth="">"TUBUH"</string>
+    <string name="text_energy" maxwidth="">"PIKIRAN"</string>
+    <string name="text_location" maxwidth="">"pada %s"</string>
+    <string name="text_measurement" maxwidth="">"Pengukuran"</string>
+    <string name="text_today2" maxwidth="">"Hari ini"</string>
+    <string name="not_pair_asus_watch_title" maxwidth="">"Tidak dipasangkan dengan jam ASUS"</string>
+    <string name="not_pair_asus_watch_message" maxwidth="">"Aplikasi Kebugaran merupakan aplikasi pelengkap jam ASUS. Pasangkan perangkat ini dengan jam ASUS untuk melanjutkan konfigurasi."</string>
+    <string name="not_pair_asus_watch_button" maxwidth="">"OK!"</string>
+    <string name="tutorial_paired_descrition" description="Tutorial description." maxwidth="">"Fitur Kebugaran ASUS merupakan aplikasi pelengkap ASUS ZenWatch. Aplikasi ini berfungsi sebagai manajer kebugaran pribadi yang melacak beragam statistik kebugaran untuk membantu hidup Anda tetap seimbang dan mencapai sasaran kebugaran pribadi."</string>
+    <string name="default_average_energy_level_message_break" description="Default string of energy detail page." maxwidth="">"Ukur\nDulu"</string>
+    <string-array name="step_intensity_term_range" maxwidth="">
+        <item>"1~4999"</item>
+        <item>"5000~7499"</item>
+        <item>"7500~9999"</item>
+        <item>"10000~12499"</item>
+        <item>"12500+"</item>
+    </string-array>
+    <string name="save" description="save button." maxwidth="">"Simpan"</string>
+    <string name="setting_idle_alarm_description" maxwidth="">"Tetapkan alarm agar jam bergetar setelah waktu tidak aktif yang ditentukan"</string>
+    <string name="exercise_intensity_info_exercise_message" maxwidth="">"Umumnya, lebih tinggi detak jantung selama aktivitas fisik, maka lebih tinggi juga intensitas latihan."</string>
+    <string-array name="profile_height_option" description="Height options" maxwidth="">
+        <item>"cm"</item>
+        <item>"kaki/in."</item>
+    </string-array>
+    <string name="height_unit_feet" maxwidth="-1">"kaki"</string>
+    <string name="height_unit_inch" maxwidth="-1">"in."</string>
+    <string name="setting_title_set_idle_alarm" description="Title of setting page option." maxwidth="-1">"Peringatan siaga"</string>
+    <string name="setting_backup_description" description="Backup message in setting page." maxwidth="-1">"Cadangkan semua data aplikasi Wellness Anda ke layanan pencadangan Android Google."</string>
+    <string name="knockknock_start_heartrate">"Ukur detak jantung"</string>
+    <string name="knockknock_start_relaxation">"Ukur relaksasi"</string>
+    <string name="last_updated" maxwidth="">"Terakhir diperbarui"</string>
+    <string-array name="profile_error_message" description="Height options" maxwidth="">
+        <item>"Rentang: 20~300 cm"</item>
+        <item>"Rentang: 0\' 8"~ 9\' 10\" "</item>
+        <item>"Rentang: 2~400 kg"</item>
+        <item>"Rentang: 4~880 lb"</item>
+        <item>"Rentang: 1~99"</item>
+    </string-array>
+    <string name="range_msg">"Rentang:" </string>
+    <string name="accepted_range_title" maxwidth="">"Rentang Diterima"</string>
+    <string name="text_average" maxwidth="">"Rata-rata"</string>
+    <string name="calories_unit" description="Calories unit" maxwidth="">"kkal"</string>
+    <string-array name="step_intensity_term" description="Term of step intensity." maxwidth="">
+        <item>"Gaya hidup tetap"</item>
+        <item>"Kurang aktif"</item>
+        <item>"Sedikit aktif"</item>
+        <item>"Aktif"</item>
+        <item>"Sangat aktif"</item>
+    </string-array>
+    <string name="daily_info_walk_unit" maxwidth="">"langkah"</string>
+    <string name="daily_info_energy_title" maxwidth="">"Relaksasi"</string>
+    <string name="exercise_intensity_info_heart_rate_title" maxwidth="">"Latih detak jantung"</string>
+    <string name="exercise_intensity_info_heart_rate_message" maxwidth="">"Detak jantung yang diukur pada menit pertama setelah latihan dapat dihubungkan dengan tingkat intensitas latihan."</string>
+    <string name="exercise_intensity_info_exercise_title" maxwidth="">"Intensitas latihan"</string>
+    <string name="exercise_intensity_info_l5_desc" maxwidth="">"Maksimum"</string>
+    <string name="exercise_intensity_info_l4_desc" maxwidth="">"Sulit"</string>
+    <string name="exercise_intensity_info_l3_desc" maxwidth="">"Sedang (Tingkatkan kebugaran)"</string>
+    <string name="exercise_intensity_info_l2_desc" maxwidth="">"Ringan (Menurunkan berat badan)"</string>
+    <string name="exercise_intensity_info_l1_desc" maxwidth="">"Sangat Ringan"</string>
+    <string name="daily_detail_activity_title_type" maxwidth="">"Jenis"</string>
+    <string name="daily_detail_activity_title_calories" maxwidth="">"Kalori"</string>
+    <string name="daily_button_text" maxwidth="">"HARIAN"</string>
+    <string name="weekly_button_text" maxwidth="">"MINGGUAN"</string>
+    <string name="text_today" maxwidth="">"HARI INI"</string>
+    <string name="setting_activity_tracking_description" description="Allow GPS message." maxwidth="">"Izinkan aplikasi Kebugaran menggunakan Wi-Fi dan jaringan seluler untuk menentukan lokasi Anda agar ditampilkan pada kronologi."</string>
+    <string name="tutorial_measure_descrition" description="Tutorial description." maxwidth="">"Akses Kebugaran ASUS di jam Anda. Gulir ke kiri untuk melihat UI Pengukuran. Klik, lalu pilih yang akan diukur. Anda dapat mengukur relaksasi dan detak jantung kapanpun."</string>
+    <!-- Tips -->
+    <string name="text_next" maxwidth="">"Berikutnya"</string>
+    <string name="text_ok" maxwidth="">"OK"</string>
+    <string name="tips_p1_text_title" maxwidth="">"Ketuk di sini"</string>
+    <string name="tips_p1_text_content" maxwidth="">"Untuk menampilkan informasi rinci"</string>
+    <string name="tips_p2_lefttext_title" maxwidth="">"Ketuk di sini"</string>
+    <string name="tips_p2_lefttext_content" maxwidth="">"Untuk kembali ke hari ini secara cepat"</string>
+    <string name="tips_p2_righttext_title" maxwidth="">"Geser ke atas dan bawah"</string>
+    <string name="tips_p2_righttext_content" maxwidth="">"Untuk mengubah tanggal"</string>
+    <string name="tips_p3_text_title" maxwidth="">"Geser ke atas"</string>
+    <string name="tips_p3_text_content" maxwidth="">"Untuk melihat jadwal aktivitas"</string>
+   <string name="app_version" maxwidth="">"Versi"</string>
+    <string name="SUN" maxwidth="">"MIN"</string>
+    <string name="MON" maxwidth="">"SEN"</string>
+    <string name="TUE" maxwidth="">"SEL"</string>
+    <string name="WED" maxwidth="">"RAB"</string>
+    <string name="THU" maxwidth="">"KAM"</string>
+    <string name="FRI" maxwidth="">"JUM"</string>
+    <string name="SAT" maxwidth="">"SAB"</string>
+    <string name="weekly_info_energy_avg">"rata-rata"</string>
+    <!-- ================need to translation================== -->
+    <!-- emily add, 2014.12.05 -->
+    <string name="about_title">"Tentang"</string>
+    <string name="about_app_version">"Versi"</string>
+    <string name="about_dialog_legal_information">"Informasi Hukum"</string>
+    <string name="about_dialog_legal_information_des">"Penggunaan perangkat lunak ini diatur dalam persyaratan dan ketentuan ASUS."</string>
+    <string name="about_dialog_website">"Situs web"</string>
+    <string name="about_dialog_allrights">"ASUSTek Computer Inc. Semua hak dilindungi undang-undang."</string>
+    <!-- emily end, 2014.12.05 -->
+
+    <string name="profile_birthday_title" description="Profile title" maxwidth="">"Ulang tahun"</string>
+    <string name="tips_p2_righttext_title_pad" maxwidth="">"Geser dari kiri ke kanan"</string>
+    <string name="detail_activity_time" description="Activity title of activity detail page" maxwidth="">"aktif untuk"</string>
+    <string name="detail_total_steps" description="Total step title of activity detail page" maxwidth="">"telah pindah"</string>
+    <string name="detail_calories_burned" description="Calories burned title of activity detail page" maxwidth="">"terbakar"</string>
+
+</resources>

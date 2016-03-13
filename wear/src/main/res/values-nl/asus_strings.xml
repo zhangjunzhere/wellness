@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!-- kim_bai@asus.com -->
+    <string name="warm_up">"Opwarmen"</string>
+    <string name="remind_me_to_move">"U bent al een tijdje inactief. Neem even de tijd en sta op."</string>
+    <!-- smile -->
+    <string name="met_goal">"Met DOEL"</string>
+    <string name="congratulations">"Gefeliciteerd"</string>
+    <string name="hundred_percent">"100%"</string>
+    <string name="reach_goal">"U heeft het doel van vandaag bereikt"</string>
+    <string name="add_five_percent">"+5%"</string>
+    <string name="tap_to_add_goal">"Tik om een DOEL toe te voegen"</string>
+    <string name="next_goal">"Volgend DOEL"</string>
+    <string name="steps">"stappen"</string>
+    <string name="tomorrow_goal">"Doel van morgen"</string>
+    <string name="coach">"Coach"</string>
+    <string name="running">"Rennen"</string>
+    <string name="pushup">"Push-up"</string>
+    <string name="situp">"Sit-up"</string>
+    <string name="coach_done">"Coach klaar"</string>
+    
+
+    <!-- Steps Activity -->
+    <string name="today_target">"Doel van vandaag"</string>
+    <!-- Start Workout -->
+    <string name="start_new_workout">"Start een work-out"</string>
+    <!-- Setup Profile -->
+    <string name="setup_profile">"Tik om uw profiel in te stellen"</string>
+    <!-- end kim -->
+    <!-- junzheng -->
+    <string name="title_workout_choose"> "Kies training"</string>
+    <string name="title_workout_goal">"Kies doel"</string>
+    <string name="title_workout_target_value">"Doel "</string>
+    <string name="title_workout_insert_data"> "Gegevens invoegen"</string>
+    <string name="workout_start_action">"Tik om te starten"</string>
+    <string name="workout_choose_run">"Rennen"</string>
+    <string name="workout_goal_none">"Vrij doel"</string>
+    <string name="workout_goal_distance">"Afstand"</string>
+    <string name="workout_goal_quantity">"Keer"</string>
+    <string name="workout_goal_time">"Duur"</string>
+    <string name="workout_goal_calories">"Calorieën"</string>
+    <string name="total_distance">"Totale afstand"</string>
+    <string name="total_time">"Totale duur"</string>
+    <string name="calories_burned">"Verbrande calorieën"</string>
+    <string name="unit_mintes">"m"</string>
+    <string name="unit_mintes_plurals">"min"</string>
+    <string name="go">"Start"</string>
+    <string name="insert_distance">"Voer afstand in (%s)"</string>
+    <string name="insert_calories">"Voer calorieën in (%s)"</string>
+    <string name="insert_time">"Duur (%s)"</string>
+    <string name="insert_quantity">"Voer aantal keer in"</string>
+    <string name="tap_to_pause">"Tik om te pauzeren"</string>
+    <string name="hold_to_end">"Houd vast voor einde"</string>
+    <string name="cancel_notification">"Tik om te finishen"</string>
+    <string name="workout_target">"Doel"</string>
+    <string name="workout_complete">"Voltooien"</string>
+    <string name="yes_stop">"Ja"</string>
+    <string name="hr_mitute_sec">"Minuten"</string>
+    <!-- end junzheng -->
+    <!-- smile_gao -->
+    <string name="male">"Man"</string>
+    <string name="female">"Vrouw"</string>
+    <string name="skip">"overslaan"</string>
+    <string name="age">"Leeftijd"</string>
+    <string name="yo">"y.o."</string>
+    <string name="heightunit">"Gewenste lengte-eenheid"</string>
+    <string name="cm">"CM"</string>
+    <!--<string name="cm_low">"cm"</string>-->
+    <string name="ft">"FT/IN"</string>
+    <string name="height">"Lengte"</string>
+    <string name="ftlowcast">"ft"</string>
+    <string name="weightunit">"Gewenste gewichtseenheid"</string>
+    <string name="kg">"kg"</string>
+    <string name="lbs">"lbs"</string>
+    <string name="weight">"Gewicht"</string>
+    <string name="activitygoal">"Doel activiteit"</string>
+    <string name="sedentaryliftstyle">"Sedentaire levensstijl"</string>
+    <string name="k05">"5k"</string>
+    <string name="k57">"7,5k"</string>
+    <string name="k710">"10k"</string>
+    <string name="k1012">"12,5k"</string>
+    <!--<string name="k12more">"&amp;gt;12,5k"</string>-->
+    <string name="lowactive">"Laag-actief"</string>
+    <string name="somewhatactive">"Enigzins actief"</string>
+    <string name="active">"Actief"</string>
+    <string name="highlyactive">"Erg actief"</string>
+    <string name="predistanceunit">"Gewenste afstandseenheid"</string>
+    <string name="km">"km"</string>
+    <string name="miles">"mijlen"</string>
+    <string name="profile">"Profiel"</string>
+    <string name="yearsold">"jaren oud"</string>
+    <string name="stepsgoal">"doel stappen"</string>
+    <string name="distanceunit">"Work-out afstandseenheid"</string>
+    <string name="saveprofile">"OPSLAAN"</string>
+    <string name="skipprofilesetup">"Sla profielsetup over?"</string>
+    <string name="yesskip">"Ja"</string>
+    <string name="cancel">"Annuleren"</string>
+    <string name="editprofile">"bewerken"</string>
+    <string name="title_activity_profile">"Profiel"</string>
+    <string name="action_settings">"Instellingen"</string>
+    <string name="idle_alarm_text">"Waarschuwing inactiviteit"</string>
+    <string name="idle_alarm_on">"AAN"</string>
+    <string name="idle_alarm_off">"UIT"</string>
+    <!-- end smilegao -->
+
+    <!-- 2015.11.5 -->
+    <string name="total_quantity">"Totale tijd"</string>
+    <string name="tap_to_start_sleep">"Tikken voor volgen van slaapstand"</string>
+    <string name="sleep_analysis">"Analyse slaapstand"</string>
+    <!--<string name="sleeping">"Bezig met opnemen..."</string>-->
+    <string name="sleep_tracking">"Volgen slaapstand"</string>
+    <!--<string name="sleep_recording">Recording</string>-->
+    <string name="sleep_stop_tip">"Bent u wakker?"</string>
+    <string name="Hold_to_stop_sleep">"Vasthouden om de opname te stoppen"</string>
+    <string name="unit_hour">"uur"</string>
+    <string name="total">"Totaal"</string>
+    <string name="inbed">"In bed"</string>
+    <string name="wokeup">"Uit slaapstand gehaald"</string>
+    <string name="awoke">"Uit slaapstand gehaald"</string>
+    <string name="light">"Licht"</string>
+    <string name="deep">"Diep"</string>
+    <string name="am">"am"</string>
+    <string name="pm">"pm"</string>
+    <string name="start_a_run">"Een ronde starten"</string>
+    <string name="stop_current_workout">"Huidige training stoppen?"</string>
+
+    <!-- 2015.12.31 -->
+    <string name="unit_quantity">"keer"</string>
+    <string name="unit_quantity_plurals">"keer"</string>
+    <string name="no_sleep_data">"Geen slaapgegevens"</string>
+    <string name="sleep_tracker">"Slaapvolger"</string>
+    <string name="sleep_tracking_tips">"Nu slaap volgen"</string>
+    <string name="workout_coaching_tips">"Nu training coachen"</string>
+    <string name="coach_pause">"gepauzeerd"</string>
+    <string name="coach_finished">"voltooid"</string>
+    <string name="sleep_save_power_tips">"Om energie te sparen bij het volgen van slaap, kunt u twee keer op de voedingsknop drukken om naar de Theatermodus te gaan."</string>
+    <string name="setupyourprofile">"Stel uw profiel in"</string>
+
+
+</resources>

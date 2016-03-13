@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="target_week_text_size">18dp</dimen>
+    <dimen name="indicator_text_size">16dp</dimen>
+    <dimen name="timeline_left_right_margin">10dp</dimen>
+    <dimen name="timeline_line_length">51dp</dimen>
+    <dimen name="touch_gently_text_size">22dp</dimen>
+    <dimen name="keep_touching_text_size">23dp</dimen>
+    <dimen name="keep_measuring_text_size">23dp</dimen>
+
+    <dimen name="tap_to_add_goal_normal">16dp</dimen>
+
+    <dimen name="reach_goal_large">14dp</dimen>
+    <dimen name="reach_goal_normal">12dp</dimen>
+    <dimen name="reach_goal_small">11dp</dimen>
+
+    <dimen name="congradulations_ts">20dp</dimen>
+
+    <dimen name="padding_lr">2dp</dimen>
+
+    <!-- LDY62 -->
+    <dimen name="ts_relaxtion">20dp</dimen>
+    <dimen name="heart_rate_number">87dp</dimen>
+    <dimen name="relax_number">87dp</dimen>
+
+    <dimen name="measure_result">17dp</dimen>
+    <dimen name="exercise_intensity">17dp</dimen>
+    <dimen name="measure_comment">15dp</dimen>
+
+    <dimen name="tap_to_start">23dp</dimen>
+    <dimen name="stay_clam_during_mearsurement">20dp</dimen>
+
+    <dimen name="today_target_top">16dp</dimen>
+    <dimen name="hundred_percent">25dp</dimen>
+    <dimen name="next_goal_top">20dp</dimen>
+    <dimen name="next_goal_size">23dp</dimen>
+    <dimen name="next_goal_img_margin_top">20dp</dimen>
+
+    <dimen name="next_goal_step_count">31dp</dimen>
+    <dimen name="next_goal_steps">20dp</dimen>
+
+    <!-- emily, add -->
+    <dimen name="target_message_text_size">16dp</dimen>
+    <dimen name="target_status_text_size">50px</dimen>
+    <dimen name="barchart_width">12dp</dimen>
+    <dimen name="barchart_space">6dp</dimen>
+    <dimen name="barchart_left_offset">5dp</dimen>
+    <dimen name="barchart_week_text_space">6dp</dimen>
+    <dimen name="barchart_top_margin">8dp</dimen>
+    <dimen name="timeline_left_margin">26dp</dimen>
+    <dimen name="timeline_top_margin">8dp</dimen>
+    <dimen name="timeline_datatext_size">16dp</dimen>
+    <dimen name="timeline_steptext_size">16dp</dimen>
+    <dimen name="timeline_caloriestext_size">15dp</dimen>
+    <dimen name="status_tv_maxwidth">132dp</dimen>
+    <dimen name="status_tv_height">64dp</dimen>
+
+    <dimen name="coach_workout_action_target_value_size">19dp</dimen>
+    <dimen name="coach_workout_action_target_unit_size">18dp</dimen>
+    <dimen name="coach_tv_target_unit_top_margin">-6dp</dimen>
+    <!-- emily, end -->
+
+    <!-- smile-->
+    <dimen name="notification_reach_goal_height">230px</dimen>
+
+    <dimen name="weight_item_height">258px</dimen>
+    <dimen name="weight_item_width_1">50px</dimen>
+    <dimen name="weight_item_width_2">86px</dimen>
+    <dimen name="weight_item_width_3">126px</dimen>
+
+    <!-- smile end-->
+      <!-- kim_bai -->
+    <dimen name="title_text_size">18dp</dimen>
+
+    <dimen name="tap_text_size">16dp</dimen>
+    <dimen name="tap_image_margin_top">6dp</dimen>
+    <dimen name="tap_text_margin_top">2dp</dimen>
+
+    <!--junzheng-->
+    <dimen name="coach_list_view_text_size_normal">10dp</dimen>
+    <dimen name="coach_lvi_numeric_size_big">26dp</dimen>
+    <dimen name="coach_lvi_numeric_size_normal">22dp</dimen>
+
+    <dimen name="coach_lvi_height">52dp</dimen>
+    <dimen name="workout_action_margin_bottom">2dp</dimen>
+    <dimen name="workout_start_name_size">24dp</dimen>
+    <dimen name="summery_item_title_size">16dp</dimen>
+    <dimen name="workout_start_value_size">14dp</dimen>
+    <dimen name="start_workout_target_label_text_size">18dp</dimen>
+
+    <!--smile_gao -->
+    <dimen name="margin_left">13dp</dimen>
+    <dimen name="profile_title_height">29dp</dimen>
+
+    <dimen name="normal_list_item_height">51dp</dimen>
+    <dimen name="age_small_list_item_size">29dp</dimen>
+    <dimen name="age_big_list_item_size">34dp</dimen>
+
+    <dimen name="goal_small_list_item_size">20dp</dimen>
+    <dimen name="goal_big_list_item_size">25dp</dimen>
+
+    <dimen name="describe_small_list_item_size">17dp</dimen>
+    <dimen name="describe_big_list_item_size">20dp</dimen>
+
+    <dimen name="to_right_of_listview_small">15dp</dimen>
+
+    <dimen name="btn_normal_font_size">17dp</dimen>
+    <dimen name="btn_select_font_size">27dp</dimen>
+
+    <dimen name="profile_name_size">25dp</dimen>
+    <dimen name="profile_normal_size">17dp</dimen>
+    <dimen name="profile_small_size">14dp</dimen>
+    <dimen name="profile_first_margin_top">5dp</dimen>
+    <dimen name="profile_margin_normal">19dp</dimen>
+    <dimen name="profile_margin_left">4dp</dimen>
+    <dimen name="profile_margin_buttom">17dp</dimen>
+    <dimen name="profile_review_title_height">21dp</dimen>
+    <dimen name="profile_review_title_size">15dp</dimen>
+    <!-- idle alram -->
+    <dimen name="idle_alarm_text_size">20dp</dimen>
+
+    <!--junzheng-->
+    <dimen name="coach_tv_count_textsize">72dp</dimen>
+    <dimen name="doughnut_time_tv_textsize">46dp</dimen>
+    <dimen name="coach_tv_calories_marginTop">3dp</dimen>
+    <dimen name="coach_lb_complete_tv_margintTop">0dp</dimen>
+    <dimen name="coach_workout_controller_width">127dp</dimen>
+    <dimen name="coach_workout_controller_height">127dp</dimen>
+    <dimen name="coach_workout_start_name_marginTop">-5dp</dimen>
+    <dimen name="page_title_text_size">18dp</dimen>
+    <dimen name="textsize_startworkout_percent">20dp</dimen>
+    <dimen name="textsize_startworkout_percent_unit">15dp</dimen>
+
+    <dimen name="main_icon_width">120dp</dimen>
+    <dimen name="go_tv_width">72dp</dimen>
+    <dimen name="doughnut_time_tv_size">18dp</dimen>
+    <dimen name="sleep_record_start_img_marginTop">4dp</dimen>
+    <dimen name="sleep_controller_marginTop">14dp</dimen>
+    <dimen name="sleep_controller_bg_marginTop">12dp</dimen>
+    <dimen name="sleep_record_text_size">18dp</dimen>
+    <dimen name="sleep_controller_layout_width">116dp</dimen>
+    <dimen name="sleep_controller_layout_height">116dp</dimen>
+
+    <dimen name="notification_coach_height">230px</dimen>
+
+    <!-- three dot  -->
+    <dimen name="dot_margin_top">18dp</dimen>
+</resources>

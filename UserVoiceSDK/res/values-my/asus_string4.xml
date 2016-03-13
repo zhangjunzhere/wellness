@@ -1,0 +1,9 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="uf_sdk_suggestion_status_answered" maxWidth="">"ဖြေပြီး"</string>
+    <string name="uf_sdk_suggestion_status_under_review" maxWidth="">"စစ်ဆေးဆဲ"</string>
+    <string name="uf_sdk_suggestion_status_planned" maxWidth="">"စီစဉ်ထား"</string>
+    <string name="uf_sdk_suggestion_status_implemented" maxWidth="">"တည်ဆောက်ပြီး"</string>
+    <string name="uf_sdk_suggestion_status_completed" maxWidth="">"ပြီးစီး"</string>
+    <string name="uf_sdk_suggestion_status_declined" maxWidth="">"မအောင်မြင်"</string>
+    <string name="uf_sdk_translation_10117605">"ဘာသာပြန် ထုတ်ပြန်မှု"</string>
+</resources>

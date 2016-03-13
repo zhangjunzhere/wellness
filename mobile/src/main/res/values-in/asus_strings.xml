@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!-- kim_bai@asus.com 2014.12.26-->
+    <string name="duration">"Durasi"</string>
+    <string name="remind_me_session">"Ingatkan saya di sesi berikutnya"</string>
+    <string name="from">"Dari"</string>
+    <string name="to">"Ke</string>
+    <string name="steps">"langkah"</string>
+    <string name="tomorrow_goal">"Sasaran besok"</string>
+    <!-- Inspire Asus -->
+    <string name="wm_about_inspire_asus">"Inspire ASUS"</string>
+    <string name="wm_inspire_asus_text1">"Untuk menyediakan layanan yang lebih baik kepada pelanggan, menyempurnakan pengalaman pengguna, dan terus menemukan masalah agar dapat meningkatkan performa, ASUS menginisiasi Inspire ASUS ("Program"). Program ini mungkin akan mengumpulkan laporan penggunaan Anda secara anonim."</string>
+    <string name="wm_inspire_asus_text2">"Laporan penggunaan tidak akan dikaitkan dalam cara apapun dengan identitas perangkat ASUS ZenWatch maupun informasi pribadi Anda. Data penggunaan terdiri atas status siaga, kejadian gangguan, antarmuka yang dipilih, pengaturan bahasa, versi perangkat lunak saat ini, informasi perangkat lunak yang sering digunakan, aktivitas dan lokasi penggunaan fungsi perangkat lunak."</string>
+    <string name="wm_inspire_asus_text3">"ASUS sangat menghormati privasi dan hak pelanggan. Anda dapat mengaktifkan maupun menonaktifkan fungsi laporan program dari menu kapanpun. Untuk informasi lebih lanjut tentang cara ASUS melindungi privasi Anda, sebaiknya kunjungi juga"</string>
+    <string name="wm_inspire_asus_yes_text">"Ya, sertakan saya!"</string>
+    <!-- Encourage Us -->
+    <string name="encourage_title">"Dukung kami"</string>
+    <string name="scroll_up_toast" description="rate now" maxwidth="">"Gulir ke atas untuk menilai"</string>
+    <string name="toolbar_encourage_us_text">"Jika Anda menyukai ASUS Wellness, nilai kami dengan 5 bintang di Play Store agar kami lebih semangat untuk terus menyempurnakan produk ini!\n\nSebagai saran, email kami melalui Tanggapan &amp; Bantuan."</string>
+    <string name="toolbar_encourage_dialog_rate_now" maxwidth="35">"Nilai sekarang"</string>
+    <string name="toolbar_encourage_us_cancel">"Batal"</string>
+
+    <!-- 2015.11.5-->
+    <string name="pushup">"Push-up"</string>
+    <string name="situp">"Sit-up"</string>
+    <string name="detail_sleep_deepsleep">"Tidur nyenyak"</string>
+    <string name="detail_sleep_lightsleep">"Tidur sebentar"</string>
+    <string name="detail_sleep_sleeplatency">"Terlambat tidur"</string>
+   <!-- <string name="detail_sleep_sleepanalysis">Sleep analysis:</string>-->
+    <!--<string name="detail_sleep_awake">Toss and turn</string>-->
+    <string name="detail_sleep_light">"Sebentar"</string>
+    <string name="detail_sleep_deep">"Nyenyak"</string>
+
+    <string name="text_sleep" maxwidth="">"Tidur"</string>
+    <string name="weekly_info_sleep_title">"Analisis tidur total"</string>
+    <string name="daily_detail_workout">"Olahraga"</string>
+    <string name="weekly_info_workout_title">"Jumlah push-up/sit-up"</string>
+    <string name="sleep_notification_title" maxwidth="">"Laporan rekaman tidur"</string>
+    <string name="sleep_notification_content" maxwidth="">"Merekam..."</string>
+    <string name="daily_info_run_type">"lari"</string>
+
+    <!-- 2015.12.31 -->
+    <string name="detail_sleep_wokeup">"Perubahan posisi"</string>
+    <string name="detail_sleep_shorthour">"j"</string>
+    <string name="detail_sleep_shortmin">"m"</string>
+    <string name="detail_text_completion" maxwidth="">"tercapai"</string>
+    <string name="text_completion" maxwidth="">"sasaran tercapai";</string>
+    <string name="daily_detail_workout_title_accumulation" maxwidth="">"Akumulasi"</string>
+    <string name="sleep_quality_score" maxwidth="">"skor kualitas"</string>
+    <string name="text_sleep_quality_score">"Kuaitas tidur"</string>
+    <string name="sleptfor">"Tidur selama"</string>
+    <string name="permisson_turn_on">"AKTIFKAN sekarang!"</string>
+    <string name="permisson_body_sensor_title">"Tidak dapat mendeteksi aktivitas Anda"</string>
+    <string name="permisson_body_sensor_subtitle">"Kebugaran tidak dapat mendeteksi gerakan Anda tanpa izin sensor tubuh"</string>
+    <string name="permisson_location_title">"Tidak dapat menemukan lokasi Anda"</string>
+    <string name="permisson_location_subtitle">"Kebugaran tidak dapat mendeteksi lokasi Anda tanpa izin lokasi"</string>
+    <string name="permisson_storage_title">"Tidak dapat mengakses foto-foto Anda"</string>
+    <string name="permisson_storage_subtitle">"Kebugaran tidak dapat mendeteksi gambar-gambar Anda tanpa izin penyimpanan"</string>
+    <string name="permisson_notice_bodysensor_location">"Catatan: JANGAN matikan izin apa pun dari pengaturan sistem ketika menjalankan fungsi apa pun aktivitas Anda."</string>
+    <string name="permisson_notice_storage">"Catatan: JANGAN matikan izin apa pun dari pengaturan sistem ketika menjalankan fungsi apa pun profil pribadi Anda."</string>
+    <string name="distance_unit_miles" description="Distance unit: miles" maxwidth="">"mil"</string>
+
+    <!-- 2016.1.11 -->
+    <string name="sleep_dictinary">"Kamus Tidur"</string>
+    <string name="sleepinformation">"Informasi tidur"</string>
+    <string name="sleeplenght">"Lamanya tidur"</string>
+    <string name="deepsleepandlightsleep">"Tidur nyenyak dan tidur sebentar"</string>
+    <string name="awakenings">"Perubahan posisi (keadaan terjaga)"</string>
+    <string name="suggestion">"Saran"</string>
+    <string name="sleepquality_info">"Kualitas tidur memiliki nilai (hingga 100) untuk memenuhi syarat kualitas tidur Anda. Semakin tinggi nilainya, semakin baik kualitas tidur yang Anda miliki. Nilai kualitas tidur bergantung pada seberapa lama Anda tidur, seberapa banyak waktu yang Anda butuhkan untuk tertidur, seberapa banyak waktu yang Anda habiskan di ranjang, seberapa lama waktu tidur nyenyak Anda (tidur dengan gerak tubuh lebih sedikit), dan berapa kali Anda terjaga selama tidur."</string>
+    <string name="sleepquality_suggestion">"Nilai kualitas 60 mewakili batas dasar pola tidur normal. Jika Anda mempunyai nilai lebih dari 60, maka tidur Anda lebih baik dari rata-rata dan sebaliknya."</string>
+    <string name="sleeplength_info">"ZenWatch mendeteksi awal tidur sebentar Anda dan akhir tidur sebentar Anda untuk memperkirakan lamanya tidur Anda."</string>
+    <string name="sleeplength_suggestion">"Kebutuhan tidur beragam untuk berbagai kelompok usia. Bayi membutuhkan 16-18 jam per hari, anak-anak usia prasekolah membutuhkan 11-12 jam per hari, anak-anak usia sekolah membutuhkan sekurang-kurangnya 10 jam, remaja membutuhkan 9-10 jam per hari, dan orang dewasa (termasuk manula) membutuhkan 7-8 jam per hari."</string>
+    <string name="deepsleepandlightsleep_info">"ZenWatch menghitung gerakan tubuh Anda sambil merekam tidur Anda. Tidur nyenya adalah tidur dengan gerakan tubuh lebih sedikit, bersifat relatif terhadap tidur sebentar dan keadaan terjaga. Secara umum, semakin sedikit gerakan tubuh Anda selama tidur, semakin bagus kualitas tidur yang Anda miliki."</string>
+    <string name="deepsleepandlightsleep_suggestion" formatted="false">"Rata-rata, orang-orang dengan pola tidur normal memiliki tidur nyenyak dan tidur sebentar kurang lebih sekitar 20% sampai 60% dari waktu total tidur."</string>
+    <string name="sleeplatency_info">"Waktu antara Anda mulai merekam tidur dan ZenWatch mendeteksi Anda tertidur"</string>
+    <string name="sleeplatency_suggestion">"Untuk pola tidur normal, orang-orang memiliki rata-rata terlambat tidur selama 15 menit."</string>
+    <string name="awakenings_info">"ZenWatch mendeteksi jumlah keadaan terjaga (dengan lebih banyak gerakan tubuh) selama Anda tidur"</string>
+    <string name="awakenings_suggestion">"Orang-orang dengan pola tidur normal memiliki jumlah rata-rata 3 kali terjaga selama tidur."</string>
+    <string name="sleep_tips_title">"Tips untuk tidur yang lebih baik"</string>
+    <string name="stick_to_a_sleep_schedule_title">"Patuhi jadwal tidur"</string>
+    <string name="stick_to_a_sleep_schedule">"Tidur dan bangunlah pada jam yang sama setiap hari. Sebagai mahluk yang memiliki kebiasaan, manusia kesulitan menyesuaikan perubahan pada pola tidur. Tidur nanti pada akhir pekan tidak akan sepenuhnya menggantikan kurang tidur pada har biasa dan akan membuat lebih sulit bangun lebih awal pada hari Senin pagi."</string>
+    <string name="exercise_is_great_title">"Berolahraga itu bagus, tetapi jangan terlalu siang"</string>
+    <string name="exercise_is_great">"Cobalah berolahraga sekurang-kurangnya 30 menit pada kebanyakan hari tetapi jangan lebih dari 2-3 jam sebelum tidur."</string>
+    <string name="avoid_cafeine_and_nicotine_title">"Hindari kafein dan nikotin"</string>
+    <string name="avoid_cafeine_and_nicotine">"Kopi, cola, teh tertentu, dan coklat mengandung kafein stimulan, dan pengaruhnya bisa berlangsung sampai 8 jam sebelum hilang sepenuhnya. Oleh karena itu, secangkir kopi di sore akhir bisa membuat Anda sukar tidak di malam hari. Nikotin juga merupakan stimulan, kerap menyebabkan perokok tidur sebentar sekali. Selain itu, perokok seringkali terbangun pada waktu dini hari dikarenakan efek penarikan nikotin."</string>
+    <string name="avoid_alcoholic_drinks_before_bed_title">"Hindari minum alkohol sebelum tidur"</string>
+    <string name="avoid_alcoholic_drinks_before_bed">"Mengenakan \"minuman penghangat\" atau minuman beralkohol sebelum tidur bisa membantu Anda rileks, tetapi mengenakan piyama yang berat untuk tidur nyenyak akan membuat Anda tetap berada pada tahap-tahap tidur yang lebih sebentar. Pencernaan alkohol yang banyak juga bisa menyebabkan gangguan pernapasan pada malam hari. Anda juga cenderung terjaga di tengah malam ketika efek alkohol menghilang,"</string>
+    <string name="avoid_large_meals_title">"Hindari makan besar dan minum pada larut malam."</string>
+    <string name="avoid_large_meals">"Kudapan ringan tak masalah, namun makan besar bisa menyebabkan gangguan pencernaan yang mengganggu tidur. Minum terlalu banyak cairan pada malam hari bisa menyebabkan sering terjaga untuk buang air kecil."</string>
+    <string name="if_possible_title">"Bila memungkinkan, hindari obat yang menunda atau mengganggu tidur Anda"</string>
+    <string name="if_possible">"Beberapa obat yang umum diresepkan untuk untuk jantung, tekanan darah tinggi/rendah, dan kondisi asma, maupun obat kontra indikasi dan obat herbal untuk batuk, flu, atau alergi, bisa mengganggu pola tidur. Jika Anda punya masalah tidur, bicarakanlah dengan penyedia layanan kesehatan atau ahli farmasi terdaftar untuk menilai apakah obat yang Anda konsumsi bisa menyebabkan insomnia. Tanyakan kepada mereka apakah Anda bisa mengonsumsi obat-obatan tersebut pada waktu lain di siang hari atau pada waktu petang."</string>
+    <string name="dont_take_naps_title">"Jangan tidur siang sesudah jam 3 sore."</string>
+    <string name="dont_take_naps">"Tidur siang bisa mengganti waktu tidur yang hilang, namun tidur pada sore hari bisa membuat Anda sukar tidur pada malam hari."</string>
+    <string name="relax_before_bed_title">"Rilekslah sebelum tidur"</string>
+    <string name="relax_before_bed">"Jangan membuat jadwal terlalu ketat pada siang hari sehingga tidak ada waktu tersisa untuk beristirahat. Kegiatan santai, misalnya membaca atau mendengarkan musik, harus menjadi bagian dari ritual sebelum tidur."</string>
+    <string name="take_a_lot_bath_title">"Mandilah air hangat sebelum tidur."</string>
+    <string name="take_a_lot_bath">Suhu badan yang turun sesudah mandi bisa membantu Anda merasa mengantuk, dan mandi bisa membantu Anda rileks dan lambat sehingga Anda lebih siap tidur."</string>
+    <string name="have_a_good_sleeping_title">"Nikmati lingkungan tidur yang bagus."</string>
+    <string name="have_a_good_sleeping">"Agar bisa tidur malam dengan nyenyak, siapkan lingkungan tidur yang bagus. Dari kamar tidur Anda, singkirkan semua yang bisa mengganggu selama tidur seperti suara berisik dan lampu yang terang.  Matikan perangkat seluler, TV, komputer, dan alat-alat elektronik lainnya. Siapkan ranjang yang nyaman, suhu kamar yang nyaman, dan bantal yang dapat membantu mendorong tidur malam yang nyaman. Orang yang mengalami insomnia sering melihat jam. Jika Anda orang yang insomnia, jauhkani jam dari pandangan Anda sehingga Anda tidak perlu merisaukan soal waktu ketika berusaha tidur."</string>
+    <string name="have_the_right_sunlight_title">"Dapatkan paparan sinar matahari yang tepat."</string>
+    <string name="have_the_right_sunlight">"Siang hari merupakan kunci untuk mengatur pola tidur sehari-hari Anda. Pergilah ke luar untuk mendapat sinar alami sekurang-kurangnya 30 menit per hari. Bila memungkinkan, bangunlah dalam terang sinar matahari atau cahaya yang amat terang pada pagi hari. Pakar tidur merekomendasikan agar yang mempunyai masalah tidur harus mendapatkan paparan sinar matahari pagi selama satu jam dan mematikan lampu sebelum tidur."</string>
+    <string name="dont_lie_in_bed_title">"Jangan berbaring di ranjang dalam keadaan terjaga."</string>
+    <string name="dont_lie_in_bed">"Jika Anda masih terjaga setelah berada di atas ranjang selama lebih dari 20 menit, atau jika Anda mulai merasa cemas atau khawatir, bangunlah dan lakukan kegiatan santai sampai Anda mengantuk. Kecemasan karena tidak bisa tidur bisa membuat semakin sukar tidur."</string>
+    <string name="see_a_health_title">"Temui profesional bidang kesehatan jika Anda terus menerus ada masalah tidur."</string>
+    <string name="see_a_health">"Jika Anda terus menrus merasa sulit tidur atau tetap tidur dan/atau merasa lelah atau kurang istirahat di siang haru sekalipun menghabiskan waktu yang cukup di atas tempat tidur pada malam hari, maka mungkin Anda mengalami gangguan tidur. Penyedia layanan kesehatan keluarga atau ahli tidur Anda akan bisa membantu Anda, dan perlu kiranya menyingkirkan masalah kesehatan atau emosi lain yang mungkin mengganggu tidur Anda."</string>
+    <string name="sleep_detail_back">"Kembali"</string>
+    <string name="data_source">"Sumber:"</string>
+    <string name="articlehelpful">"Apakah ini membantu?"</string>
+
+    <!-- 2016.1.15 -->
+    <string name="allow_access_photos_title">"Bolehkan akses foto"</string>
+    <string name="allow_access_photos_content">"Untuk mengubah foto, buka Pengaturan untuk mengaktifkan izin penyimpanan untuk ZenWatch Wellness."</string>
+    <string name="allow_track_location_title">"Bolehkan pelacakan lokasi"</string>
+    <string name="allow_track_location_content">"Untuk melacak lokasi buka Pengaturan untuk mengaktifkan izin penyimpanan lokasi untuk ZenWatch Wellness."</string>
+    <string name="bug_report_preference_title">"Kesalahan program laporan"</string>
+    <string name="bug_report_email_subject">"Laporan bug Wellness"</string>
+    <string name="bug_report_email_body">"Laporan bug Wellness"</string>
+    <string name="but_report_share">"Bagikan"</string>
+    <string name="settings_disable_backup">"Jika Anda batal memilih \"Cadangkan data saya\", file cadangan Anda mungkin hilang karena mekanisme layanan pencadangan Android Google. Anda yakin batal memilihnya?"</string>
+</resources>

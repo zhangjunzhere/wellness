@@ -1,0 +1,132 @@
+<resources>
+    <!-- kim_bai@asus.com 2014.12.26-->
+    <string name="duration">"活動時間"</string>
+    <string name="remind_me_session">在下列時段內提醒我</string>
+    <string name="from">從</string>
+    <string name="to">到</string>
+
+    <string name="steps">步</string>
+    <string name="tomorrow_goal">明天的目標</string>
+
+    <!-- Inspire Asus -->
+    <string name="wm_about_inspire_asus">Inspire ASUS</string>
+    <string name="wm_inspire_asus_text1">為了提供更貼近您需求的服務，提升您的使用者經驗，以及持續的問題偵測及改善，華碩推動使用者經驗改善計畫，此計畫可能從您的華碩智慧手錶裝置匿名蒐集裝置使用相關之數據。</string>
+    <string name="wm_inspire_asus_text2">上述裝置使用相關之數據包含：待機狀態、當機事件、慣用介面、語言設定、所執行的軟體版本、軟體功能操作習慣以及位置資訊。請您知悉，前述數據皆去識別化，將不會以任何形式連結到您的個人資料或產品識別碼。</string>
+    <string name="wm_inspire_asus_text3">華碩十分尊重您的個人隱私和權益，您可以隨時關閉以上使用者經驗改善計畫之資訊回傳功能；進一步了解華碩如何保護您的隱私，亦建議您造訪</string>
+    <string name="wm_inspire_asus_yes_text">是，我要參加！</string>
+
+    <!-- Encourage Us -->
+    <string name="encourage_title">鼓勵我們</string>
+    <string name="scroll_up_toast" description="rate now" maxwidth="">請滑到下方為我們評分</string>
+    <string name="toolbar_encourage_us_text">如果您喜歡使用Asus Wellness，請在Play 商店上給我們五顆星的評價，這對我們持續改進產品上，會是很大的鼓勵!\n\n歡迎至「意見與協助」給予我們寶貴的建議。</string>
+    <string name="toolbar_encourage_dialog_rate_now" maxwidth="35">馬上評分</string>
+    <string name="toolbar_encourage_us_cancel">取消</string>
+
+    <!-- 2015.11.2-->
+    <string name="pushup">"伏地挺身"</string>
+    <string name="situp">"仰臥起坐"</string>
+    <string name="detail_sleep_deepsleep">"深眠時間"</string>
+    <string name="detail_sleep_lightsleep">"淺眠時間"</string>
+    <string name="detail_sleep_sleeplatency">"入睡所需時間"</string>
+    <string name="detail_sleep_wokeup">"輾轉反側"</string>
+    <string name="detail_sleep_light">"淺眠"</string>
+    <string name="detail_sleep_deep">"深眠"</string>
+    <string name="detail_sleep_shorthour">"小時"</string>
+    <string name="detail_sleep_shortmin">"分鐘"</string>
+    <string name="text_sleep" maxwidth="">"睡眠"</string>
+    <string name="weekly_info_sleep_title">"睡眠分析"</string>
+    <string name="daily_detail_workout">"鍛鍊"</string>
+    <string name="weekly_info_workout_title">"伏地挺身和仰臥起坐"</string>
+    <string name="sleep_notification_title" maxwidth="">"睡眠追蹤通知"</string>
+    <string name="sleep_notification_content" maxwidth="">"記錄中"</string>
+    <string name="detail_text_completion" maxwidth="">"完成"</string>
+    <string name="daily_detail_workout_title_accumulation" maxwidth="">"累積"</string>
+    <string name="sleep_quality_score" maxwidth="">"分數"</string>
+   <!-- <string name="text_sleep_timeline" maxwidth="">"睡眠"</string>-->
+    <string name="text_sleep_quality_score">"睡眠品質 "</string>
+    <string name="sleptfor">已睡了</string>
+<string name="distance_unit_miles" description="Distance unit: miles" maxwidth="">"英哩"</string>
+
+    <!-- sleep information -->
+    <string name="sleep_dictinary">名詞解釋</string>
+    <string name="sleepinformation">睡眠信息</string>
+    <string name="sleeplenght">睡眠長度</string>
+    <string name="deepsleepandlightsleep">深眠與淺眠</string>
+    <string name="awakenings">"輾轉反側 (醒來次數)"</string>
+
+    <string name="suggestion">"建議值"</string>
+
+    <string name="sleepquality_info">"睡眠品質是一個代表睡眠品質的分數（最高 100）。分數越高，代表睡眠品質越好。睡眠品質分數取決於：睡眠的長度、入睡所花費的時間、躺在床上的時間長度、深眠的時間長度（在睡眠期間肢體移動的次數比較少）、睡眠中醒來的次數。"</string>
+    <string name="sleepquality_suggestion">"60 分是一般正常的睡眠型態的睡眠品質分數。如果你的分數高於 60 分，則你的睡眠比平均要好，反之則比平均差。"</string>
+    <string name="sleeplength_info">"ZenWatch 偵測您第一個淺眠的開始，與最後一個淺眠的結束，來估計您的睡眠長度。"</string>
+    <string name="sleeplength_suggestion">"不同年齡的人所需的睡眠也不同。新生兒每天需要 16-18 小時的睡眠、學齡前兒童每天需要 11-12小時的睡眠、學齡兒童每天需要至少 10小時的睡眠、青少年每天需要 9-10小時的睡眠、成年人（包含老年人）則每天需要 7-8小時的睡眠。"</string>
+    <string name="deepsleepandlightsleep_info">"進行睡眠追蹤時，ZenWatch 會量測您的身體移動程度。深眠代表比淺眠與醒著有著更少的身體移動。在睡眠時，當身體移動較少的時候，一般而言會有比較好的睡眠。"</string>
+    <string name="deepsleepandlightsleep_suggestion" formatted="false">以一般的睡眠型態來說，深眠與淺眠各佔總睡眠時間長度的 20% 與60% 左右。"</string>
+    <string name="sleeplatency_info">"開始睡眠追蹤後，到 ZenWatch 感測到你入睡的時間。"</string>
+    <string name="sleeplatency_suggestion">"以一般的睡眠型態來說，平均入睡所需時間約 15 分鐘。"</string>
+    <string name="awakenings_info">"ZenWatch 會感測到你入睡後醒來（比較頻繁的身體移動）的次數。"</string>
+    <string name="awakenings_suggestion">"以一般的睡眠型態來說，入睡後大約會醒來 3 次。"</string>
+    <!-- sleep info end -->
+
+    <!-- sleep tips -->
+    <string name="sleep_tips_title">"小秘訣"</string>
+    <string name="stick_to_a_sleep_schedule_title">"保持固定的睡眠習慣"</string>
+    <string name="stick_to_a_sleep_schedule">"每天盡量保持在同一個時間點上床與起床。人是容易習以為常的，每當睡眠習慣被改變，總需要一段時間去適應。週末的睡晚一點也無法完全彌補在工作日所缺乏的睡眠，反而會讓你星期一早上不容易準時起床。"</string>
+    <string name="exercise_is_great_title">"運動很好，但是不要太晚去運動"</string>
+    <string name="exercise_is_great">"每天盡量至少運動 30 分鐘，但是不要在睡前 2-3小時左右運動。"</string>
+    <string name="avoid_cafeine_and_nicotine_title">"避免食用含咖啡因食品與抽煙"</string>
+    <string name="avoid_cafeine_and_nicotine">"咖啡、可樂、茶與巧克力都可能含有刺激性的咖啡因，而且效果最長可達 8 小時。因此，下午傍晚的一杯咖啡可能會讓你當晚難以入眠。尼古丁也是一種刺激物質，通常會讓吸菸的人不易深眠。此外，尼古丁的戒斷現象，會讓吸菸者會有過早起床的問題。"</string>
+    <string name="avoid_alcoholic_drinks_before_bed_title">"睡前盡量避免飲用酒精飲料"</string>
+    <string name="avoid_alcoholic_drinks_before_bed">"睡前小酌或啜飲酒精性飲料能幫助你放鬆，但飲用過度可能會使你難以進入深眠，而停留在淺眠階段。攝取過量酒精也會讓你睡覺時呼吸不順。酒退了之後，也會使你半夜醒來。"</string>
+    <string name="avoid_large_meals_title">"晚上避免吃太飽，喝太多飲料"</string>
+    <string name="avoid_large_meals">"晚上可以吃些小點心，但是一頓大餐可能會消化不良而干擾睡眠。晚上飲用太多液體會使你頻尿。"</string>
+    <string name="if_possible_title">"儘可能避免會延後或干擾你睡眠的藥物"</string>
+    <string name="if_possible">"某些常見的心臟、血壓或氣喘處方藥物，以及用來治療咳嗽、感冒或過敏的成藥與草本藥方，會擾亂你的睡眠習慣。如果你有睡眠問題，請與醫療保健人員或藥師討論，了解目前你所服用的任何一種藥劑是否會引起失眠，並詢問是否可在當日其他時段或傍晚前服用藥物。"</string>
+    <string name="dont_take_naps_title">"儘量別下午三點後小睡"</string>
+    <string name="dont_take_naps">"小睡能幫助補眠，但是接近傍晚時的小睡會使你晚上更難入睡。"</string>
+    <string name="relax_before_bed_title">"睡前好好放鬆"</string>
+    <string name="relax_before_bed">"別每天塞滿行程而沒有時間好好放鬆。使人輕鬆的活動，像閱讀或聽音樂，應該成為你每日就寢的一部分。"</string>
+    <string name="take_a_lot_bath_title">"睡前洗個熱水澡"</string>
+    <string name="take_a_lot_bath">"沐浴後的體溫降低，可能會讓你感覺到睡意，而且沐浴可幫助你放鬆與放慢步調，讓入眠準備更充分。"</string>
+    <string name="have_a_good_sleeping_title">"塑造良好的睡眠環境"</string>
+    <string name="have_a_good_sleeping">"消除任何在臥房會使你分心而無法好好睡覺的事物，比如：噪音、明亮的燈光、不舒適的床鋪與房間過於暖和。保持室溫涼爽，你能睡得更香甜。房間內的電視、手機或電腦都可能會是導致睡眠不足的干擾。舒適的床墊與枕頭有助於一覺好眠。失眠的人經常會注意時鐘。請將有指針的鐘面轉向，如此當你嘗試入睡時，就不會憂心時間問題。"</string>
+    <string name="have_the_right_sunlight_title">"適量的日光浴時間"</string>
+    <string name="have_the_right_sunlight">"日光是調節每日睡眠習慣的關鍵因素。試著每天在外頭曬至少30分鐘的自然光。可能的話，試圖早晨被用陽光或明亮光照喚醒。睡眠專家建議，如果你入睡困難，應該花一個小時沐浴晨光，並在就寢時間前關燈。"</string>
+    <string name="dont_lie_in_bed_title">"如果睡不著別賴在床上"</string>
+    <string name="dont_lie_in_bed">"如果你發覺躺在床上超過20分鐘後依舊保持清醒，或開始感到焦慮、擔憂時，請起身並做些放鬆活動，直到你想睡為止。因為無法睡著的焦慮感會使你更難入眠。"</string>
+    <string name="see_a_health_title">"如果持續有睡眠問題，請諮詢睡眠醫學與健康的專業人員"</string>
+    <string name="see_a_health">"如果你一再發現很難入睡、熟睡，或是儘管晚上有充足的臥床時間卻經常感到疲倦、休息不足，那你可能有睡眠障礙。你的家庭醫生或是睡眠專家應該能協助你診斷病因，並記得排除其他可能干擾睡眠的健康或情緒問題。"</string>
+
+    <!-- sleep tips end -->
+
+    <string name="daily_info_run_type">"跑步"</string>
+
+    <string name="sleep_detail_back">回上頁</string>
+    <string name="data_source">資料來源：</string>
+    <string name="articlehelpful">這篇文章對您有幫助嗎？</string>
+
+    <string name="bug_report_preference_title">"回報程式錯誤"</string>
+    <string name="bug_report_email_subject">"Wellness 錯誤報告"</string>
+    <string name="bug_report_email_body">"Wellness 錯誤報告"</string>
+    <string name="but_report_share">"分享"</string>
+
+    <!-- permission -->
+    <string name="allow_access_photos_title">"允許讀取相片"</string>
+    <string name="allow_access_photos_content">"為了更換您的相片，請前往設定頁面，替華碩健康管理開啟儲存授權。"</string>
+
+    <string name="allow_track_location_title">"允許追蹤位置"</string>
+    <string name="allow_track_location_content">"為了追蹤您的活動位置，請前往設定頁面，替華碩健康管理開啟位置授權。"</string>
+
+    <string name="permisson_turn_on">"立即開啟"</string>
+    <string name="permisson_body_sensor_title">"無法偵測您的活動"</string>
+    <string name="permisson_body_sensor_subtitle">"在未取得身體感應器授權的情況下，華碩健康管理無法偵測您的動作。"</string>
+    <string name="permisson_notice_bodysensor_location">"注意：當您使用活動相關功能時，建議不要關閉設定頁面上的任一授權選項。"</string>
+    <string name="permisson_location_title">"找不到您的位置"</string>
+    <string name="permisson_location_subtitle">"在未取得位置授權的情況下，華碩健康管理無法偵測您的位置"</string>
+    <string name="permisson_storage_title">"無法存取您的相片"</string>
+    <string name="permisson_storage_subtitle">"在未取得儲存授權的情況下，華碩健康管理無法存取您的照片"</string>
+    <string name="permisson_notice_storage">"注意：當您使用個人檔案的相關功能時，建議不要關閉頁面上的任一授權選項。"</string>
+
+    <string name="settings_disable_backup">"若您取消勾選「備份我的資料」，因Google的Android備份服務機制，有可能導致您的備份檔案遺失。確定取消勾選？"</string>
+
+</resources>

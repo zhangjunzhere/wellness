@@ -1,0 +1,5 @@
+include ':mobile', ':wear', ':MyDaoGenerator', ':sharedata', ":viewPagerIndicator", ':smartgraph2', ':EcgManager', ':UserVoiceSDK', ':autofit_textview'
+project(':MyDaoGenerator').projectDir = new File('docs/MyDaoGenerator')
+project(':smartgraph2').projectDir = new File('my_libs/smartgraph2')
+project(':autofit_textview').projectDir = new File('my_libs/autofit_textview')
+include ':commonUi'

@@ -1,0 +1,17 @@
+<resources>
+    <string-array name="remind_duration_option">
+        <item>@string/setting_idle_alarm_option_15mins</item>
+        <item>@string/setting_idle_alarm_option_30mins</item>
+        <item>@string/setting_idle_alarm_option_1hour</item>
+        <item>@string/setting_idle_alarm_option_1_5hours</item>
+        <item>@string/setting_idle_alarm_option_2hours</item>
+    </string-array>
+
+    <string-array name="remind_duration_option_values">
+        <item>@string/duration_15mins</item>
+        <item>@string/duration_30mins</item>
+        <item>@string/duration_1hour</item>
+        <item>@string/duration_1_5hours</item>
+        <item>@string/duration_2_hours</item>
+    </string-array>
+</resources>

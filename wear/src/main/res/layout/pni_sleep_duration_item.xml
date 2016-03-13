@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="right"
+   >
+    <TextView android:id="@+id/tv_hour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7"
+        android:textColor="@color/sleep_text_highlight"
+        android:textStyle="bold"
+        />
+    <TextView android:id="@+id/tv_hour_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/unit_hour"
+        android:textColor="@color/sleep_text_normal"
+        android:layout_marginRight="2dp"
+        />
+
+    <TextView android:id="@+id/tv_minute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="50"
+        android:textColor="@color/sleep_text_highlight"
+        android:textStyle="bold"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_minute_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/unit_mintes"
+        android:textColor="@color/sleep_text_normal"
+        />
+
+</LinearLayout>
+
+
+
+
+

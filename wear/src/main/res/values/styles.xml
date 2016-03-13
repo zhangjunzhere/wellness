@@ -1,0 +1,214 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="roboto_green_bold">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/congratulation_green</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="notification_tap_style" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:background">@color/notification_tap_bg</item>
+    </style>
+
+    <style name="next_goal_style" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:background">@drawable/asus_micro_ic_bg1</item>
+    </style>
+
+  <!-- kim-->
+    <style name="title_text" parent="textstylebase">
+        <item name="android:textSize">@dimen/title_text_size</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="tap_text">
+        <item name="android:textSize">@dimen/tap_text_size</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_marginTop">@dimen/tap_text_margin_top</item>
+        <item name="android:includeFontPadding">false</item>
+        <!--<item name="android:layout_marginLeft">@dimen/top_text_margin_lr</item>-->
+        <!--<item name="android:layout_marginRight">@dimen/top_text_margin_lr</item>-->
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="fragment_marquee_tap_text" parent="margee_style">
+        <item name="android:textSize">@dimen/tap_text_size</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_marginTop">@dimen/tap_text_margin_top</item>
+        <item name="android:includeFontPadding">false</item>
+        <!--<item name="android:layout_marginLeft">@dimen/top_text_margin_lr</item>-->
+        <!--<item name="android:layout_marginRight">@dimen/top_text_margin_lr</item>-->
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="doughnut_time" parent="textstylebase">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="skipbutton" parent="textstylebase">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:minHeight">0dp</item>
+    </style>
+
+    <style name="doughnut_time_label">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <!-- end kim-->
+    <!--smile gao -->
+    <style name="profilebg">
+        <item name="android:background">@drawable/pni_background_gradient</item>
+    </style>
+    <style name="textstylebase" >
+        <item name="android:fontFamily">roboto</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+
+    </style>
+    <style name="texttitle" parent="textstylebase">
+        <item name="android:textSize">@dimen/page_title_text_size</item>
+        <item name="android:paddingLeft">@dimen/margin_left</item>
+        <item name="android:paddingRight">3dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="coach_title" parent="margee_style">
+        <item name="android:fontFamily">roboto</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/page_title_text_size</item>
+        <item name="android:paddingLeft">@dimen/margin_left</item>
+        <item name="android:paddingRight">3dp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="skiptexttitle" parent="textstylebase">
+        <item name="android:textSize">@dimen/page_title_text_size</item>
+        <item name="android:paddingLeft">@dimen/margin_left</item>
+        <item name="android:paddingRight">3dp</item>
+    </style>
+    <style name="texttitleunit" parent="textstylebase">
+        <item name="android:textSize">15dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="textstep" parent="textstylebase">
+        <item name="android:textSize">18dp</item>
+        <item name="android:gravity">right|center_vertical</item>
+        <item name="android:paddingRight">@dimen/margin_left</item>
+    </style>
+    <style name="textcontent" parent="textstylebase">
+        <item name="android:background">@null</item>
+        <item name="android:textSize">@dimen/btn_normal_font_size</item>
+        <item name="android:paddingLeft">@dimen/margin_left</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="textskip" parent="textstylebase">
+        <item name="android:textSize">@dimen/btn_normal_font_size</item>
+        <item name="android:background">@null</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">@dimen/margin_left</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="activity_goal" parent="textstylebase">
+        <item name="android:textSize">@dimen/goal_small_list_item_size</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="activity_goal_describe" parent="textstylebase">
+        <item name="android:textSize">@dimen/describe_small_list_item_size</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="activity_goal_step" parent="textstylebase">
+        <item name="android:textSize">@dimen/describe_small_list_item_size</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="list_item_style" >
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <!-- end smile -->
+
+    <!-- start junzheng -->
+
+    <style name="coach_list_view_text" parent="textstylebase">
+        <item name="android:textSize">@dimen/coach_lvi_numeric_size_normal</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/coach_list_view_text_color_normal</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="coach_list_view_text_selected" parent="textstylebase">
+        <item name="android:textSize">@dimen/coach_lvi_numeric_size_big</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/coach_list_view_text_color_selected</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="coach_start_workout_target_label" parent="textstylebase">
+        <item name="android:textSize">@dimen/start_workout_target_label_text_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="coach_start_workout_target_value" parent="doughnut_time" >
+
+    </style>
+
+    <style name="coach_start_workout_target_unit" >
+        <item name="android:textSize">@dimen/coach_list_view_text_size_normal</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <!-- end junzheng -->
+    <style name="btn_confirm">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/pni_skip_button_bg</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="margee_style">
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:focusable">true</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+</resources>

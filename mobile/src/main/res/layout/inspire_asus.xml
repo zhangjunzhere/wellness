@@ -1,0 +1,94 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/rootLayout">
+
+        <TextView
+            android:id="@+id/mainTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/wm_recommended_apps_maintextview_marginrbotton"
+            android:layout_marginTop="@dimen/wm_recommended_apps_maintextview_marginrbotton"
+            android:layout_marginLeft="@dimen/wm_recommended_apps_layout_marginleft"
+            android:fontFamily="sans-serif"
+            android:text="@string/wm_about_inspire_asus"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/wm_recommended_apps_maintextview_fontsize"/>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/wm_recommended_apps_maintextview_marginrbotton">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="@dimen/dw_fogot_phone_warning_textview_content_marginleft"
+                android:layout_marginRight="@dimen/dw_fogot_phone_warning_textview_content_marginleft">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/dw_fogot_phone_warning_textview_content_textsize"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/wm_inspire_asus_text1"/>
+
+                <TextView
+                    android:id="@+id/spireTextView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/dw_fogot_phone_warning_textview_content_textsize"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/wm_inspire_asus_text2"/>
+
+                <TextView
+                    android:id="@+id/spireTextView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/dw_fogot_phone_warning_textview_content_margintop"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/dw_fogot_phone_warning_textview_content_textsize"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/wm_inspire_asus_text3"/>
+
+                <TextView
+                    android:id="@+id/asusPrivacyTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif"
+                    android:textSize="@dimen/dw_fogot_phone_warning_textview_content_textsize"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/wm_inspire_asus_yes_text"
+                    android:textColor="@android:color/white"
+                    android:fontFamily="sans-serif"
+                    android:background="@drawable/asus_wellness_tab_bottom_p"
+                    android:id="@+id/yesButton"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"
+                    android:ellipsize="marquee"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:singleLine="true"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:minWidth="230dp"
+                    />
+
+            </LinearLayout>
+        </ScrollView>
+
+
+</LinearLayout>

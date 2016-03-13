@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="uf_sdk_suggestion_status_answered" maxWidth="">"회신함"</string>
+    <string name="uf_sdk_suggestion_status_under_review" maxWidth="">"검토 중"</string>
+    <string name="uf_sdk_suggestion_status_planned" maxWidth="">"계획됨"</string>
+    <string name="uf_sdk_suggestion_status_implemented" maxWidth="">"구현됨"</string>
+    <string name="uf_sdk_suggestion_status_completed" maxWidth="">"완료됨"</string>
+    <string name="uf_sdk_suggestion_status_declined" maxWidth="">"거부됨"</string>
+    <string name="uf_sdk_translation_10117605">"번역 문제"</string>
+</resources>

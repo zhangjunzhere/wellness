@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name" maxwidth="">"Kebugaran"</string>
+    <string name="text_step_goal" maxwidth="">"/%s  langkah"</string>
+    <string name="target" maxwidth="">"TARGET HARI INI"</string>
+    <string name="count_down_text_secs" maxwidth="">"DETIK"</string>   
+    <string name="step_unit" maxwidth="">"LANGKAH"</string> 
+    <string name="distance_unit" maxwidth="">"KM"</string> 
+    <string name="heart_rate_unit" maxwidth="">"bpm"</string> 
+    <string name="options_relax" maxwidth="">"RILEKS"</string> 
+    <string name="options_stress" maxwidth="">"STRES"</string>
+    <string name="options_energy" maxwidth="">"ENERGI"</string>
+    <string name="text_measure_stress" maxwidth="">"TINGKAT STRES"</string>
+    <string name="text_measure_relax" maxwidth="">"@string/options_relaxation"</string>
+    <string name="measure_name" maxwidth="">"Ukuran"</string>
+    <string name="waiting_text" maxwidth="">"Tunggu!"</string>
+    <string-array name="stress_level_1_2" maxwidth="">
+        <item>"Makanan ringan dan buah dapat membantu mengembalikan energi"</item>
+        <item>"Gaya hidup sehat membantu mengatasi tantangan hidup setiap hari"</item>
+        <item>"Dalam zona Zen dengan ketenangan pikiran"</item>
+    </string-array>
+    <string-array name="stress_level_3" maxwidth="">
+        <item>"Tingkat relaksasi Anda meningkat"</item>
+        <item>"Buat catatan tentang perasaan Anda"</item>
+    </string-array>
+    <string-array name="stress_level_4_5" maxwidth="">
+        <item>"Jalan 30 menit dapat mengurangi stres sekitar 25%"</item>
+        <item>"Regangkan lengan, punggung, dan bahu"</item>
+        <item>"Buat Anda nyaman dan otot rileks"</item>
+        <item>"DIY dapat memberikan kesenangan dan rasa pencapaian"</item>
+        <item>"Pijat tangan Anda sendiri"</item>
+    </string-array>
+    <string-array name="heart_rate_level" maxwidth="">
+        <item>"L1 SANGAT RINGAN"</item>
+        <item>"L2 RINGAN"</item>
+        <item>"L3 SEDANG"</item>
+        <item>"L4 SULIT"</item>
+        <item>"L5 MAKSIMUM"</item>
+    </string-array>
+    <string name="keep_touch_sensor" maxwidth="">"Sentuh terus"</string>
+    <string name="options_relaxation" maxwidth="">"RELAKSASI"</string>
+    <string name="not_support_message" maxwidth="">"Perangkat keras Anda tidak sesuai dengan spesifikasi yang diperlukan untuk menjalankan aplikasi teknologi pakai ini. Aplikasi ditutup"</string>
+    <string name="exercise_intensity" maxwidth="">"INTENSITAS LATIHAN"</string>
+    <string name="tutorial_touch_sensor" maxwidth="">"Sentuh perlahan"</string>
+    <string name="knockknock_start_relaxation" maxwidth="">"Ukur relaksasi"</string>
+    <string name="knockknock_start_heartrate" maxwidth="">"Ukur detak jantung"</string>
+    <string name="tap_to_start" maxwidth="">"Ketuk ikon untuk mulai"</string>
+    <string name="no_value_message" maxwidth="">"Tidak ada hasil pengukuran"</string>
+    <string name="tap_to_try_again" maxwidth="">"Ketuk ikon ini untuk\ncoba lagi"</string>
+    <string name="heart_rate" maxwidth="">"DETAK JANTUNG"</string>
+    <string name="tap_message" maxwidth="">"Tetap tenang selama pengukuran"</string>
+    <string-array name="relax_level_1_2" maxwidth="">
+        <item>"Air dan latihan membantu merelaksasikan tubuh"</item>
+        <item>"Mulai rencana liburan"</item>
+        <item>"Mendengarkan musik relaksasi akan membantu Anda rileks"</item>
+    </string-array>
+    <string-array name="relax_level_3" maxwidth="">
+        <item>"Tingkat relaksasi Anda menurun"</item>
+    </string-array>
+    <string-array name="relax_level_4_5" maxwidth="">
+        <item>"Tenaga penuh dan siap menyelesaikan tugas hari ini"</item>
+        <item>"Anda beristirahat dan berkonsentrasi dengan baik"</item>
+        <item>"Pola pikir yang damai akan membantu meningkatkan konsentrasi"</item>
+    </string-array>
+    <string name="suggest_wellness_title" maxwidth="">"Aplikasi Disarankan: Kebugaran"</string>
+    <string name="suggest_wellness_message" maxwidth="">"&#13;
+Dapatkan aplikasi ASUS ZenWatch&#13;
+\nKebugaran gratis!&#13;
+"</string>
+    <string name="download_on_phone_message" maxwidth="">"Download di ponsel"</string>
+    <string name="wait_first_heart_rate_message" maxwidth="">"Mulai pengukuran, diam, dan rileks."</string>
+    <string name="wait_enough_rr_message" maxwidth="">"Terus ukur, beberapa detik lagi..."</string>
+    <string name="keep_measuring" maxwidth="">"Terus ukur..."</string>
+    <string name="total_steps" maxwidth="">"LANGKAH TOTAL"</string>
+    <string name="step_indicator_10k" maxwidth="">"10K"</string>
+    <string name="step_indicator_5k" maxwidth="">"5K"</string>
+    <string name="calories_unit" description="Calories unit" maxwidth="">"kkal"</string>
+    <string name="calories_string" maxwidth="">"(%1$s %2$s)"</string>
+</resources>

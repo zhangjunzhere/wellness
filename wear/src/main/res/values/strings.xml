@@ -1,0 +1,83 @@
+<resources>
+
+    <string name="app_name" maxwidth="">Wellness</string>
+    <string name="text_step_goal" maxwidth="">/%s  steps</string>
+    <string name="target" maxwidth="">TODAY\'S TARGET</string>
+    <string name="count_down_text_secs" maxwidth="">SECONDS</string>   
+    <string name="step_unit" maxwidth="">STEPS</string> 
+    <string name="distance_unit" maxwidth="">KM</string> 
+    <string name="heart_rate_unit" maxwidth="">bpm</string> 
+    <string name="options_relax" maxwidth="">RELAX</string> 
+    <string name="options_stress" maxwidth="">STRESS</string>
+    <string name="options_energy" maxwidth="">ENERGY</string>
+    <string name="text_measure_stress" maxwidth="">STRESS LEVEL</string>
+    <string name="text_measure_relax" maxwidth="">@string/options_relaxation</string>
+    <string name="measure_name" maxwidth="">Measure</string>
+    <string name="waiting_text" maxwidth="">Please wait!</string>
+	<string-array name="stress_level_1_2" maxwidth="">
+	    <item>Light snacks and fruits can help replenish energy</item>
+	    <item>Healthy lifestyle helps overcome the daily life challenges</item>
+	    <item>In a Zen zone with a peace of mind</item>
+	</string-array>
+	<string-array name="stress_level_3" maxwidth="">
+	    <item>Your stress level is increasing</item>
+	    <item>Make a note of how you feel</item>
+	</string-array>
+	<string-array name="stress_level_4_5" maxwidth="">
+	    <item>A 30-minute walk can reduce stress by 25%</item>
+	    <item>Stretch arms, back and shoulders</item>
+	    <item>Get comfortable and relax your muscles</item>
+	    <item>DIY can bring joy and a sense of accomplishment</item>
+	    <item>Give yourself a hand massage</item>
+	</string-array>
+	<string-array name="heart_rate_level" maxwidth="">
+	    <item>L1 VERY LIGHT</item>
+	    <item>L2 LIGHT</item>
+	    <item>L3 MODERATE</item>
+	    <item>L4 HARD</item>
+	    <item>L5 MAXIMUM</item>
+	</string-array>
+
+	<string name="keep_touch_sensor" maxwidth="">Keep touching</string>
+
+	<string name="options_relaxation" maxwidth="">RELAXATION</string>
+	<string name="not_support_message" maxwidth="">Your hardware does not meet specifications needed to run this wearable app. The app is closed</string>
+
+	<string name="exercise_intensity" maxwidth="">EXERCISE INTENSITY</string>
+	<string name="tutorial_touch_sensor" maxwidth="">Touch gently</string>
+	<string name="knockknock_start_relaxation" maxwidth="">Measure relaxation</string>
+	<string name="knockknock_start_heartrate" maxwidth="">Measure heart rate</string>
+	<string name="tap_to_start" maxwidth="">Tap icon to start</string>
+	<string name="no_value_message" maxwidth="">No measurement results</string>
+	<string name="tap_to_try_again" maxwidth="">Tap this icon to\ntry again</string>
+	<string name="heart_rate" maxwidth="">HEART RATE</string>
+	<string name="tap_message" maxwidth="">Stay calm during measurement</string>
+	<string-array name="relax_level_1_2" maxwidth="">
+	    <item>Water and exercise help loosen up the body</item>
+	    <item>Start planning a vacation</item>
+	    <item>Listening some relaxing music may help you relax</item>
+	</string-array>
+	<string-array name="relax_level_3" maxwidth="">
+	    <item>Your relaxation level is declining</item>
+	</string-array>
+	<string-array name="relax_level_4_5" maxwidth="">
+	    <item>Full of energy and ready to complete today’s tasks</item>
+	    <item>You are well rested and concentrated</item>
+	    <item>A peaceful state of mind will help increase concentration</item>
+	</string-array>
+	<string name="suggest_wellness_title" maxwidth="">Suggested App:Wellness</string>
+	<string name="suggest_wellness_message" maxwidth="">
+	Get ASUS ZenWatch
+	\nWellness app for free!
+	</string>
+	
+	<string name="download_on_phone_message" maxwidth="">Download on phone</string>
+	<string name="wait_first_heart_rate_message" maxwidth="">Start measuring, please keep still and relaxed.</string>
+	<string name="wait_enough_rr_message" maxwidth="">Keep measuring, just few more seconds...</string>
+	<string name="keep_measuring" maxwidth="">Keep measuring...</string>
+	<string name="total_steps" maxwidth="">TOTAL STEPS</string>
+	<string name="step_indicator_10k" maxwidth="">10K</string>
+	<string name="step_indicator_5k" maxwidth="">5K</string>
+	<string name="calories_unit" description="Calories unit" maxwidth="">"kcal"</string>
+	<string name="calories_string" maxwidth="">(%1$s %2$s)</string>
+</resources>

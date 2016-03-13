@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.uservoice.uservoicesdk"
+    android:versionCode="1101511130"
+    android:versionName="1.1.0.151113" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+    <application/>
+
+</manifest>

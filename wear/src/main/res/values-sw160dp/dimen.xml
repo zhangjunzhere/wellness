@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- emily, add , for Female watch, sw160dp-->
+    <dimen name="target_message_text_size">16dp</dimen>
+    <dimen name="target_status_text_size">50px</dimen>
+    <dimen name="barchart_width">12dp</dimen>
+    <dimen name="barchart_space">6dp</dimen>
+    <dimen name="barchart_left_offset">5dp</dimen>
+    <dimen name="barchart_week_text_space">6dp</dimen>
+
+    <dimen name="today_target_top">16dp</dimen>
+    <dimen name="indicator_text_size">12dp</dimen>
+    <dimen name="barchart_top_margin">8dp</dimen>
+    <dimen name="target_week_text_size">14dp</dimen>
+    <dimen name="timeline_left_margin">26dp</dimen>
+    <dimen name="timeline_top_margin">8dp</dimen>
+    <dimen name="timeline_line_length">44dp</dimen>
+    <dimen name="timeline_datatext_size">16dp</dimen>
+    <dimen name="timeline_steptext_size">16dp</dimen>
+    <dimen name="timeline_caloriestext_size">15dp</dimen>
+    <dimen name="status_tv_maxwidth">132dp</dimen>
+    <dimen name="status_tv_height">64dp</dimen>
+
+    <dimen name="coach_workout_action_target_value_size">19dp</dimen>
+    <dimen name="coach_workout_action_target_unit_size">18dp</dimen>
+    <dimen name="coach_tv_target_unit_top_margin">-6dp</dimen>
+    <!-- emily, end -->
+
+    <!-- smile for robin notification-->
+    <dimen name="notification_reach_goal_height">190px</dimen>
+
+    <dimen name="tap_to_add_goal_normal">13dp</dimen>
+
+    <dimen name="next_goal_top">10dp</dimen>
+    <dimen name="next_goal_step_count">21dp</dimen>
+    <dimen name="next_goal_size">20dp</dimen>
+    <dimen name="next_goal_img_margin_top">15dp</dimen>
+    <dimen name="next_goal_steps">15dp</dimen>
+    <!-- smile end-->
+
+    <dimen name="go_tv_width">72dp</dimen>
+    <dimen name="sleep_record_start_img_marginTop">4dp</dimen>
+    <dimen name="sleep_controller_marginTop">14dp</dimen>
+    <dimen name="sleep_controller_bg_marginTop">12dp</dimen>
+    <dimen name="sleep_record_text_size">18dp</dimen>
+    <dimen name="sleep_controller_layout_width">116dp</dimen>
+    <dimen name="sleep_controller_layout_height">116dp</dimen>
+
+</resources>

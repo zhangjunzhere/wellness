@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="coach_lvi_numeric_size_big">26dp</dimen>
+    <dimen name="coach_lvi_numeric_size_normal">22dp</dimen>
+    <dimen name="coach_tv_count_textsize">72dp</dimen>
+    <dimen name="doughnut_time_tv_textsize">40dp</dimen>
+    <dimen name="coach_tv_calories_marginTop">3dp</dimen>
+    <dimen name="coach_lb_complete_tv_margintTop">0dp</dimen>
+    <dimen name="coach_workout_controller_width">100dp</dimen>
+    <dimen name="coach_workout_controller_height">100dp</dimen>
+    <dimen name="coach_workout_start_name_marginTop">-5dp</dimen>
+
+    <!-- smile -->
+    <dimen name="age_small_list_item_size">25dp</dimen>
+    <dimen name="age_big_list_item_size">34dp</dimen>
+
+    <dimen name="goal_small_list_item_size">17dp</dimen>
+    <dimen name="goal_big_list_item_size">22dp</dimen>
+    <dimen name="describe_small_list_item_size">15dp</dimen>
+    <dimen name="describe_big_list_item_size">18dp</dimen>
+    <dimen name="doughnut_time_tv_size">18dp</dimen>
+
+</resources>

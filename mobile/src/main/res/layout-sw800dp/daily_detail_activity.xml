@@ -1,0 +1,1347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_marginRight="40dp">
+
+    <!--
+            FrameLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content">
+	        <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:orientation="horizontal"
+    -->
+    <!-- no data -->
+    <LinearLayout
+        android:id="@+id/no_data_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <RelativeLayout
+            android:layout_width="334dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="77dp" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/asus_wellness_btn_green_leaves" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="42dp"
+            android:layout_marginTop="110dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/setting_title_activity_goal"
+                    android:textColor="#000"
+                    android:textSize="24dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="24dp"
+                        android:background="#e1e1e1" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/nondata_step_intensity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/setting_title_activity_goal"
+                    android:textColor="#000"
+                    android:textSize="36dp" />
+
+                <LinearLayout
+                    android:id="@+id/activity_goal_view_nodata"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/nodata_step_goal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-regular"
+                        android:text="0"
+                        android:textColor="#50b527"
+                        android:textSize="72dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:fontFamily="sans-serif"
+                        android:text="@string/daily_info_walk_unit"
+                        android:textColor="#50b527"
+                        android:textSize="30dp" />
+                    <ImageButton
+                        android:id="@+id/goto_setting_btn_nodata"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:background="#00000000"
+                        android:src="@drawable/today_button"
+                        android:layout_gravity="bottom"
+                        android:layout_marginBottom="6dp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="320dp"
+                android:layout_height="1dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="24dp"
+                android:background="#e1e1e1" />
+             <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="40dp"
+                android:layout_marginRight="40dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:text="0% "
+                    android:textColor="#000"
+                    android:textSize="32dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/detail_text_completion"
+                    android:textColor="#000"
+                    android:textSize="24dp" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/detail_activity_time"
+                    android:textColor="#585858"
+                    android:textSize="22dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:fontFamily="sans-serif"
+                    android:text="0"
+                    android:textColor="@android:color/black"
+                    android:textSize="26dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/time_unit"
+                    android:textColor="@android:color/black"
+                    android:textSize="22dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="30dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/detail_total_steps"
+                    android:textColor="#585858"
+                    android:textSize="22dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:fontFamily="sans-serif"
+                    android:text="0"
+                    android:textColor="@android:color/black"
+                    android:textSize="26dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/daily_info_walk_unit"
+                    android:textColor="@android:color/black"
+                    android:textSize="22dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="30dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/detail_calories_burned"
+                    android:textColor="#585858"
+                    android:textSize="22dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:fontFamily="sans-serif-regular"
+                    android:text="0"
+                    android:textColor="@android:color/black"
+                    android:textSize="26dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/calories_unit"
+                    android:textColor="@android:color/black"
+                    android:textSize="22dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="4dp"
+            android:layout_height="664dp"
+            android:background="#f7f7f7"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="0dp"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <!-- android:drawableLeft="@drawable/asus_wellness_ic_heart_rate" -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/heart_and_exercise_intensity"
+                android:textColor="#000000"
+                android:textSize="24dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="72dp"
+                android:background="@drawable/asus_wellness_btn_orange_leaves_watch" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/none_data_inside"
+                android:textColor="#ff919191"
+                android:textSize="21dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="72dp"
+                android:orientation="vertical" >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="26dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="24dp"
+                        android:text="@string/daily_detail_workout"
+                        android:textColor="#ff000000"/>
+                    <!--<TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:textColor="#ff228d54"
+                        android:textSize="24dp"
+                        android:text="0" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="24dp"
+                        android:textColor="#ff000000"
+                        android:fontFamily="sans-serif"/>-->
+                </LinearLayout>
+                <!-- title 1-->
+                <TableLayout
+                    android:id="@+id/workout_title_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#40a737">
+                    <TableRow>
+                        <TextView
+                            android:layout_width="88dp"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-regular"
+                            android:gravity="center"
+                            android:text="@string/daily_detail_activity_title_type"
+                            android:textColor="@color/color_white"
+                            android:textSize="21dp" />
+
+                        <TextView
+                            android:layout_width="@dimen/daily_detail_item_time_width"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-regular"
+                            android:gravity="center"
+                            android:text="@string/duration"
+                            android:textColor="@color/color_white"
+                            android:textSize="21dp" />
+
+                        <TextView
+                            android:layout_width="@dimen/daily_detail_item_calo_width"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-regular"
+                            android:gravity="center"
+                            android:text="@string/daily_detail_activity_title_calories"
+                            android:textColor="@color/color_white"
+                            android:textSize="21dp" />
+
+                        <TextView
+                            android:layout_width="142dp"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-regular"
+                            android:gravity="center"
+                            android:text="@string/daily_detail_workout_title_accumulation"
+                            android:textColor="@color/color_white"
+                            android:textSize="21dp" />
+                    </TableRow>
+                </TableLayout>
+                
+                <TableLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#e1e1e1" >
+                    <!--<TableRow
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="1.5dp"
+                        android:layout_marginLeft="1.5dp"
+                        android:layout_marginBottom="1.5dp"
+                        android:background="#fff">
+                        <LinearLayout
+                             android:layout_width="94dp"
+                             android:layout_height="90dp"
+                             android:gravity="center"
+                             android:orientation="horizontal">
+                             <ImageView
+                                 android:layout_marginTop="5dp"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:gravity="center"
+                                 android:src="@drawable/asus_wellness_ic_traffic2_n"/>
+                        </LinearLayout>
+                        <TextView
+                            android:layout_width="94dp"
+                            android:layout_height="90dp"
+                            android:fontFamily="sans-serif-regular"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:text=""
+                            android:textSize="22dp" />
+                        <TextView
+                            android:layout_width="116dp"
+                            android:layout_height="90dp"
+                            android:fontFamily="sans-serif-regular"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:text=""
+                            android:textSize="22dp" />
+                        <TextView
+                            android:layout_width="116dp"
+                            android:layout_height="90dp"
+                            android:fontFamily="sans-serif-regular"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:text=""
+                            android:textSize="22dp" />
+                    </TableRow>-->
+                    
+                    <TableRow
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="1.5dp"
+                        android:layout_marginLeft="1.5dp"
+                        android:layout_marginBottom="1.5dp"
+                        android:background="#fff">
+                        <LinearLayout
+                             android:layout_width="@dimen/daily_detail_item_img_width"
+                             android:layout_height="@dimen/daily_detail_item_height"
+                             android:gravity="center"
+                             android:orientation="horizontal">
+                             <ImageView
+                                 android:layout_marginTop="5dp"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:src="@drawable/asus_wellness_ic_medium"/>
+                        </LinearLayout>
+                        <TextView
+                            android:layout_width="@dimen/daily_detail_item_time_width"
+                            android:layout_height="@dimen/daily_detail_item_height"
+                            android:fontFamily="sans-serif-regular"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:text="--"
+                            android:textSize="21dp" />
+                        <TextView
+                            android:layout_width="@dimen/daily_detail_item_calo_width"
+                            android:layout_height="@dimen/daily_detail_item_height"
+                            android:fontFamily="sans-serif-regular"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:text="--"
+                            android:textSize="21dp" />
+                        <TextView
+                            android:layout_width="@dimen/daily_detail_item_accu_width"
+                            android:layout_height="@dimen/daily_detail_item_height"
+                            android:fontFamily="sans-serif-regular"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:text="--"
+                            android:textSize="21dp" />
+                    </TableRow>
+                </TableLayout>
+
+                <!-- title 2-->
+                <TableLayout
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#40a737"
+                    android:layout_marginTop="10dp">
+                    <TableRow>
+                        <TextView
+                            android:layout_width="88dp"
+                            android:layout_height="wrap_content"
+                            style="@style/workout_detail_title_style"
+                            android:textColor="@color/color_white"
+                            android:fontFamily="sans-serif-regular"
+                            android:text="@string/daily_detail_activity_title_type"/>
+
+                        <TextView
+                            android:layout_width="@dimen/daily_detail_item_time_width"
+                            android:layout_height="wrap_content"
+                            style="@style/workout_detail_title_style"
+                            android:textColor="@color/color_white"
+                            android:fontFamily="sans-serif-regular"
+                            android:text="@string/duration" />
+
+                        <TextView
+                            android:layout_width="@dimen/daily_detail_item_calo_width"
+                            android:layout_height="wrap_content"
+                            style="@style/workout_detail_title_style"
+                            android:textColor="@color/color_white"
+                            android:fontFamily="sans-serif-regular"
+                            android:text="@string/daily_detail_workout_title_accumulation" />
+
+                        <TextView
+                            android:layout_width="142dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                </TableLayout>
+
+                <!--Pushup & Situp no data-->
+                <TableLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#e1e1e1" >
+
+                    <TableRow
+                        android:layout_marginRight="1.5dp"
+                        android:layout_marginLeft="1.5dp"
+                        android:layout_marginBottom="1.5dp"
+                        android:background="#fff">
+                        <LinearLayout
+                            android:layout_width="@dimen/daily_detail_item_img_width"
+                            android:layout_height="@dimen/daily_detail_item_height"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_marginTop="5dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/asus_wellness_ic_pushup"/>
+                        </LinearLayout>
+                        <TextView
+                            android:layout_width="@dimen/daily_detail_item_time_width"
+                            android:layout_height="@dimen/daily_detail_item_height"
+                            android:fontFamily="sans-serif-regular"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:text="--"
+                            android:textSize="21dp" />
+                        <TextView
+                            android:layout_width="@dimen/daily_detail_item_calo_width"
+                            android:layout_height="@dimen/daily_detail_item_height"
+                            android:fontFamily="sans-serif-regular"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:text="--"
+                            android:textSize="21dp" />
+                        <TextView
+                            android:layout_width="@dimen/daily_detail_item_accu_width"
+                            android:layout_height="@dimen/daily_detail_item_height"
+                            android:fontFamily="sans-serif-regular"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:text="--"
+                            android:textSize="21dp" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_marginRight="1.5dp"
+                        android:layout_marginLeft="1.5dp"
+                        android:layout_marginBottom="1.5dp"
+                        android:background="#fff">
+                        <LinearLayout
+                            android:layout_width="@dimen/daily_detail_item_img_width"
+                            android:layout_height="@dimen/daily_detail_item_height"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_marginTop="5dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/asus_wellness_ic_situp"/>
+                        </LinearLayout>
+                        <TextView
+                            android:layout_width="@dimen/daily_detail_item_time_width"
+                            android:layout_height="@dimen/daily_detail_item_height"
+                            android:fontFamily="sans-serif-regular"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:text="--"
+                            android:textSize="21dp" />
+                        <TextView
+                            android:layout_width="@dimen/daily_detail_item_calo_width"
+                            android:layout_height="@dimen/daily_detail_item_height"
+                            android:fontFamily="sans-serif-regular"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:text="--"
+                            android:textSize="21dp" />
+                        <TextView
+                            android:layout_width="@dimen/daily_detail_item_accu_width"
+                            android:layout_height="@dimen/daily_detail_item_height"
+                            android:fontFamily="sans-serif-regular"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:text="--"
+                            android:textSize="21dp" />
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <!-- /LinearLayout -->
+    <!-- /FrameLayout -->
+
+    <!-- has data -->
+    <LinearLayout
+        android:id="@+id/has_data_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <!-- leave -->
+        <RelativeLayout
+            android:layout_width="334dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="77dp" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/asus_wellness_btn_green_leaves" />
+        </RelativeLayout>
+
+        <!-- activity detail -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="110dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/setting_title_activity_goal"
+                    android:textColor="#000"
+                    android:textSize="24dp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="24dp"
+                        android:background="#e1e1e1" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/step_intensity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/setting_title_activity_goal"
+                    android:textColor="#000"
+                    android:textSize="36dp" />
+
+                <LinearLayout
+                    android:id="@+id/activity_goal_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/step_goal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-regular"
+                        android:text="12500"
+                        android:textColor="#50b527"
+                        android:textSize="72dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="6dp"
+                        android:fontFamily="sans-serif"
+                        android:text="@string/daily_info_walk_unit"
+                        android:textColor="#50b527"
+                        android:textSize="30dp" />
+                   <ImageButton
+                       android:id="@+id/goto_setting_btn"
+                       android:layout_height="wrap_content"
+                       android:layout_width="wrap_content"
+                       android:layout_marginLeft="8dp"
+                       android:background="#00000000"
+                       android:src="@drawable/today_button"
+                       android:layout_gravity="bottom"
+                       android:layout_marginBottom="6dp"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="320dp"
+                android:layout_height="1dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="24dp"
+                android:background="#e1e1e1" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="40dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_completion_percentage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:text="0%"
+                    android:textColor="#000"
+                    android:textSize="36dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:text=" "
+                    android:textColor="#000"
+                    android:textSize="24dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/detail_text_completion"
+                    android:textColor="#585858"
+                    android:textSize="24dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="42dp"
+                android:layout_marginLeft="30dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/detail_activity_time"
+                    android:textColor="#585858"
+                    android:textSize="22dp" />
+
+                <TextView
+                    android:id="@+id/tv_activity_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:text="50"
+                    android:textColor="@android:color/black"
+                    android:textSize="22dp"
+                    android:layout_marginLeft="12dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/time_unit"
+                    android:textColor="#585858"
+                    android:textSize="22dp"
+                    android:visibility="gone"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="30dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/detail_total_steps"
+                    android:textColor="#585858"
+                    android:textSize="22dp" />
+
+                <TextView
+                    android:id="@+id/tv_total_step"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:fontFamily="sans-serif"
+                    android:text="6572"
+                    android:textColor="@android:color/black"
+                    android:textSize="28dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/daily_info_walk_unit"
+                    android:textColor="@android:color/black"
+                    android:textSize="22dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="30dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/detail_calories_burned"
+                    android:textColor="#585858"
+                    android:textSize="22dp" />
+
+                <TextView
+                    android:id="@+id/tv_total_calories"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:fontFamily="sans-serif"
+                    android:text="1200"
+                    android:textColor="@android:color/black"
+                    android:textSize="28dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/calories_unit"
+                    android:textColor="@android:color/black"
+                    android:textSize="22dp" />
+            </LinearLayout>
+        </LinearLayout>
+        <!-- /FrameLayout -->
+
+        <LinearLayout
+            android:layout_width="4dp"
+            android:layout_height="664dp"
+            android:background="#f7f7f7"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:orientation="vertical">
+
+                <!-- Heart rate and exercise intensity -->
+                <LinearLayout
+                    android:id="@+id/heart_intensity_detail_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-regular"
+                        android:layout_marginLeft ="0dp"
+                        android:text="@string/heart_and_exercise_intensity"
+                        android:textColor="#000000"
+                        android:textSize="24dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_gravity="center_horizontal"/>
+
+                    <ScrollView
+                        android:id="@+id/heart_rate_and_exercise_scroll_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/activity_detail_pad_height"
+                        android:paddingBottom="42dp"
+                        android:layout_marginLeft="26dp"
+                        android:fillViewport="true"
+                        android:visibility="gone">
+
+                        <LinearLayout
+                            android:id="@+id/heart_rate_and_exercise_intensity_container"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:visibility="gone" >
+
+                            <com.asus.wellness.ui.daily.TimeLineRelativeLayout
+                                android:id="@+id/heart_rate_timeline"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"/>
+                        </LinearLayout>
+                    </ScrollView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/no_data_heart_rate_exercise"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+                    <!--<TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="40dp"
+                        android:fontFamily="sans-serif-light"
+                        android:text="@string/heart_and_exercise_intensity"
+                        android:textColor="#000000"
+                        android:textSize="24dp" />-->
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="72dp"
+                        android:background="@drawable/asus_wellness_btn_orange_leaves_watch" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="12dp"
+                        android:fontFamily="sans-serif"
+                        android:text="@string/none_data_inside"
+                        android:textColor="#ff919191"
+                        android:textSize="21dp"
+                        android:layout_marginBottom="52dp"/>
+                </LinearLayout>
+
+                <!-- Workout -->
+                <LinearLayout
+                    android:id="@+id/workout_detail_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <!-- Workout title-->
+                    <LinearLayout
+                        android:id="@+id/workout_detail_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="48dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="24dp"
+                            android:text="@string/daily_detail_workout"
+                            android:textColor="#ff000000"/>
+                        <TextView
+                            android:id="@+id/tv_workout_completion"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginRight="8dp"
+                            android:textColor="#ff228d54"
+                            android:textSize="24dp"
+                            android:text="3/4"
+                            android:visibility="invisible"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="24dp"
+                            android:textColor="#ff000000"
+                            android:fontFamily="sans-serif"
+                            android:visibility="invisible"/>
+                    </LinearLayout>
+
+                    <!-- Workout detail  -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_gravity="center_horizontal">
+
+                        <!-- title 1 -->
+                        <TableLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="#40a737">
+                            <TableRow>
+                                <TextView
+                                    android:layout_width="88dp"
+                                    android:layout_height="wrap_content"
+                                    style="@style/workout_detail_title_style"
+                                    android:textColor="@color/color_white"
+                                    android:fontFamily="sans-serif-regular"
+                                    android:text="@string/daily_detail_activity_title_type"/>
+
+                                <TextView
+                                    android:layout_width="@dimen/daily_detail_item_time_width"
+                                    android:layout_height="wrap_content"
+                                    style="@style/workout_detail_title_style"
+                                    android:textColor="@color/color_white"
+                                    android:fontFamily="sans-serif-regular"
+                                    android:text="@string/duration" />
+
+                                <TextView
+                                    android:layout_width="@dimen/daily_detail_item_calo_width"
+                                    android:layout_height="wrap_content"
+                                    style="@style/workout_detail_title_style"
+                                    android:textColor="@color/color_white"
+                                    android:fontFamily="sans-serif-regular"
+                                    android:text="@string/daily_detail_activity_title_calories"/>
+
+                                <TextView
+                                    android:layout_width="142dp"
+                                    android:layout_height="wrap_content"
+                                    style="@style/workout_detail_title_style"
+                                    android:textColor="@color/color_white"
+                                    android:fontFamily="sans-serif-regular"
+                                    android:text="@string/daily_detail_workout_title_accumulation"/>
+                            </TableRow>
+                        </TableLayout>
+
+                        <!--Run no data-->
+                        <TableLayout
+                            android:id="@+id/nodata_run"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="#e1e1e1" >
+
+                            <TableRow
+                                android:layout_marginTop="0dp"
+                                android:layout_marginRight="1.5dp"
+                                android:layout_marginLeft="1.5dp"
+                                android:layout_marginBottom="1.5dp"
+                                android:background="#fff"
+                                android:visibility="gone">
+                                <LinearLayout
+                                    android:layout_width="86.5dp"
+                                    android:layout_height="90dp"
+                                    android:gravity="center"
+                                    android:orientation="horizontal">
+                                    <ImageView
+                                        android:layout_marginTop="5dp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:src="@drawable/asus_wellness_ic_traffic2"/>
+                                </LinearLayout>
+                                <TextView
+                                    android:id="@+id/walk_time"
+                                    android:layout_width="94dp"
+                                    android:layout_height="90dp"
+                                    android:fontFamily="sans-serif-regular"
+                                    android:textColor="#000"
+                                    android:gravity="center"
+                                    android:text="--"
+                                    android:textSize="21dp" />
+                                <TextView
+                                    android:id="@+id/walk_cal"
+                                    android:layout_width="116dp"
+                                    android:layout_height="90dp"
+                                    android:fontFamily="sans-serif-regular"
+                                    android:textColor="#000"
+                                    android:gravity="center"
+                                    android:text="--"
+                                    android:textSize="21dp" />
+                                <TextView
+                                    android:id="@+id/walk_step"
+                                    android:layout_width="140dp"
+                                    android:layout_height="90dp"
+                                    android:fontFamily="sans-serif-regular"
+                                    android:textColor="#000"
+                                    android:gravity="center"
+                                    android:text="--"
+                                    android:textSize="21dp" />
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_marginTop="0dp"
+                                android:layout_marginRight="1.5dp"
+                                android:layout_marginLeft="1.5dp"
+                                android:layout_marginBottom="1.5dp"
+                                android:background="#fff"
+                                android:visibility="gone">
+                                <LinearLayout
+                                    android:layout_width="86.5dp"
+                                    android:layout_height="90dp"
+                                    android:gravity="center"
+                                    android:orientation="horizontal">
+                                    <ImageView
+                                        android:layout_marginTop="5dp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:src="@drawable/asus_wellness_ic_traffic2"/>
+                                </LinearLayout>
+                                <TextView
+                                    android:id="@+id/bike_time"
+                                    android:layout_width="94dp"
+                                    android:layout_height="90dp"
+                                    android:fontFamily="sans-serif-regular"
+                                    android:textColor="#000"
+                                    android:gravity="center"
+                                    android:text="--"
+                                    android:textSize="21dp" />
+                                <TextView
+                                    android:id="@+id/bike_cal"
+                                    android:layout_width="116dp"
+                                    android:layout_height="90dp"
+                                    android:fontFamily="sans-serif-regular"
+                                    android:textColor="#000"
+                                    android:gravity="center"
+                                    android:text="--"
+                                    android:textSize="21dp" />
+                                <TextView
+                                    android:id="@+id/bike_distance"
+                                    android:layout_width="140dp"
+                                    android:layout_height="90dp"
+                                    android:fontFamily="sans-serif-regular"
+                                    android:textColor="#000"
+                                    android:gravity="center"
+                                    android:text="--"
+                                    android:textSize="21dp" />
+                            </TableRow>
+
+                            <!-- walk -->
+                            <TableRow
+                                android:layout_marginRight="1.5dp"
+                                android:layout_marginLeft="1.5dp"
+                                android:layout_marginBottom="1.5dp"
+                                android:background="#fff">
+                                <LinearLayout
+                                    android:layout_width="@dimen/daily_detail_item_img_width"
+                                    android:layout_height="@dimen/daily_detail_item_height"
+                                    android:gravity="center"
+                                    android:orientation="horizontal">
+                                    <ImageView
+                                        android:layout_marginTop="5dp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:src="@drawable/asus_wellness_ic_medium"/>
+                                </LinearLayout>
+                                <TextView
+                                    android:id="@+id/run_time"
+                                    android:layout_width="@dimen/daily_detail_item_time_width"
+                                    android:layout_height="@dimen/daily_detail_item_height"
+                                    android:fontFamily="sans-serif-regular"
+                                    android:textColor="#000"
+                                    android:gravity="center"
+                                    android:text="--"
+                                    android:textSize="21dp" />
+                                <TextView
+                                    android:id="@+id/run_cal"
+                                    android:layout_width="@dimen/daily_detail_item_calo_width"
+                                    android:layout_height="@dimen/daily_detail_item_height"
+                                    android:fontFamily="sans-serif-regular"
+                                    android:textColor="#000"
+                                    android:gravity="center"
+                                    android:text="--"
+                                    android:textSize="21dp" />
+                                <TextView
+                                    android:id="@+id/run_step"
+                                    android:layout_width="@dimen/daily_detail_item_accu_width"
+                                    android:layout_height="@dimen/daily_detail_item_height"
+                                    android:fontFamily="sans-serif-regular"
+                                    android:textColor="#000"
+                                    android:gravity="center"
+                                    android:text="--"
+                                    android:textSize="21dp" />
+                            </TableRow>
+                        </TableLayout>
+
+                        <!--Run detail list-->
+                        <ListView
+                            android:id="@+id/run_list"
+                            android:layout_width="488dp"
+                            android:layout_height="wrap_content" />
+
+                        <!-- title 2-->
+                        <TableLayout
+                            android:id="@+id/workout_title_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="#40a737"
+                            android:layout_marginTop="10dp">
+                            <TableRow>
+                                <TextView
+                                    android:layout_width="88dp"
+                                    android:layout_height="wrap_content"
+                                    style="@style/workout_detail_title_style"
+                                    android:textColor="@color/color_white"
+                                    android:fontFamily="sans-serif-regular"
+                                    android:text="@string/daily_detail_activity_title_type"/>
+
+                                <TextView
+                                    android:layout_width="@dimen/daily_detail_item_time_width"
+                                    android:layout_height="wrap_content"
+                                    style="@style/workout_detail_title_style"
+                                    android:textColor="@color/color_white"
+                                    android:fontFamily="sans-serif-regular"
+                                    android:text="@string/duration" />
+
+                                <TextView
+                                    android:layout_width="@dimen/daily_detail_item_calo_width"
+                                    android:layout_height="wrap_content"
+                                    style="@style/workout_detail_title_style"
+                                    android:textColor="@color/color_white"
+                                    android:fontFamily="sans-serif-regular"
+                                    android:text="@string/daily_detail_workout_title_accumulation" />
+
+                                <TextView
+                                    android:layout_width="142dp"
+                                    android:layout_height="wrap_content" />
+                            </TableRow>
+                        </TableLayout>
+
+                        <!--Pushup & Situp no data-->
+                        <TableLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="#e1e1e1" >
+
+                            <TableRow
+                                android:id="@+id/pushup_container"
+                                android:layout_marginRight="1.5dp"
+                                android:layout_marginLeft="1.5dp"
+                                android:layout_marginBottom="1.5dp"
+                                android:background="#fff">
+                                <LinearLayout
+                                    android:layout_width="@dimen/daily_detail_item_img_width"
+                                    android:layout_height="@dimen/daily_detail_item_height"
+                                    android:gravity="center"
+                                    android:orientation="horizontal">
+                                    <ImageView
+                                        android:layout_marginTop="5dp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:src="@drawable/asus_wellness_ic_pushup"/>
+                                </LinearLayout>
+                                <TextView
+                                    android:id="@+id/pushup_time"
+                                    android:layout_width="@dimen/daily_detail_item_time_width"
+                                    android:layout_height="@dimen/daily_detail_item_height"
+                                    android:fontFamily="sans-serif-regular"
+                                    android:textColor="#000"
+                                    android:gravity="center"
+                                    android:text="--"
+                                    android:textSize="21dp" />
+                                <TextView
+                                    android:id="@+id/pushup_distance"
+                                    android:layout_width="@dimen/daily_detail_item_calo_width"
+                                    android:layout_height="@dimen/daily_detail_item_height"
+                                    android:fontFamily="sans-serif-regular"
+                                    android:textColor="#000"
+                                    android:gravity="center"
+                                    android:text="--"
+                                    android:textSize="21dp" />
+                                <TextView
+                                    android:layout_width="@dimen/daily_detail_item_accu_width"
+                                    android:layout_height="@dimen/daily_detail_item_height"
+                                    android:fontFamily="sans-serif-regular"
+                                    android:textColor="#000"
+                                    android:gravity="center"
+                                    android:text="--"
+                                    android:textSize="21dp" />
+                            </TableRow>
+                            <TableRow
+                                android:id="@+id/situp_container"
+                                android:layout_marginRight="1.5dp"
+                                android:layout_marginLeft="1.5dp"
+                                android:layout_marginBottom="1.5dp"
+                                android:background="#fff">
+                                <LinearLayout
+                                    android:layout_width="@dimen/daily_detail_item_img_width"
+                                    android:layout_height="@dimen/daily_detail_item_height"
+                                    android:gravity="center"
+                                    android:orientation="horizontal">
+                                    <ImageView
+                                        android:layout_marginTop="5dp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:src="@drawable/asus_wellness_ic_situp"/>
+                                </LinearLayout>
+                                <TextView
+                                    android:id="@+id/situp_time"
+                                    android:layout_width="@dimen/daily_detail_item_time_width"
+                                    android:layout_height="@dimen/daily_detail_item_height"
+                                    android:fontFamily="sans-serif-regular"
+                                    android:textColor="#000"
+                                    android:gravity="center"
+                                    android:text="--"
+                                    android:textSize="21dp" />
+                                <TextView
+                                    android:id="@+id/situp_distance"
+                                    android:layout_width="@dimen/daily_detail_item_calo_width"
+                                    android:layout_height="@dimen/daily_detail_item_height"
+                                    android:fontFamily="sans-serif-regular"
+                                    android:textColor="#000"
+                                    android:gravity="center"
+                                    android:text="--"
+                                    android:textSize="21dp" />
+                                <TextView
+                                    android:layout_width="@dimen/daily_detail_item_accu_width"
+                                    android:layout_height="@dimen/daily_detail_item_height"
+                                    android:fontFamily="sans-serif-regular"
+                                    android:textColor="#000"
+                                    android:gravity="center"
+                                    android:text="--"
+                                    android:textSize="21dp" />
+                            </TableRow>
+                        </TableLayout>
+
+                        <!--Pushup & Situp detail list-->
+                        <ListView
+                            android:id="@+id/pushup_situp_list"
+                            android:layout_width="488dp"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

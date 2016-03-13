@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:title="@string/text_sleep_quality_score"
+        android:key="@string/text_sleep_quality_score"
+        >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.asus.wellness"
+            android:targetClass="com.asus.wellness.ui.daily.SleepInfoDetailActivity">
+           <extra android:name="key"
+               android:value="0"
+               />
+            </intent>
+    </Preference>
+
+    <Preference
+        android:title="@string/sleeplenght"
+        android:key="@string/sleeplenght"
+        >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.asus.wellness"
+            android:targetClass="com.asus.wellness.ui.daily.SleepInfoDetailActivity">
+            <extra android:name="key"
+                android:value="1"
+                />
+        </intent>
+    </Preference>
+    <Preference
+        android:title="@string/deepsleepandlightsleep"
+        android:key="@string/deepsleepandlightsleep"
+        >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.asus.wellness"
+            android:targetClass="com.asus.wellness.ui.daily.SleepInfoDetailActivity">
+            <extra android:name="key"
+                android:value="2"
+                />
+        </intent>
+    </Preference>
+    <Preference
+        android:title="@string/awakenings"
+        android:key="@string/awakenings"
+        >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.asus.wellness"
+            android:targetClass="com.asus.wellness.ui.daily.SleepInfoDetailActivity">
+            <extra android:name="key"
+                android:value="3"
+                />
+        </intent>
+    </Preference>
+</PreferenceScreen>

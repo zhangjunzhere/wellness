@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!-- quality -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_sleep_quality_score"
+            style="@style/sleep_info_title_style"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sleepquality_info"
+            style="@style/sleep_info_content_style"
+            />
+        <ImageView
+            style="@style/sleep_info_line" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/suggestion"
+            style="@style/sleep_info_title_style"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sleepquality_suggestion"
+            style="@style/sleep_info_content_style"
+            />
+        <ImageView
+            style="@style/sleep_info_line" />
+        <!-- length -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sleeplenght"
+            style="@style/sleep_info_title_style"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sleeplength_info"
+            style="@style/sleep_info_content_style"
+            />
+        <ImageView
+            style="@style/sleep_info_line" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/suggestion"
+            style="@style/sleep_info_title_style"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sleeplength_suggestion"
+            style="@style/sleep_info_content_style"
+            />
+        <ImageView
+            style="@style/sleep_info_line" />
+        <!-- deep -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/deepsleepandlightsleep"
+            style="@style/sleep_info_title_style"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/deepsleepandlightsleep_info"
+            style="@style/sleep_info_content_style"
+            />
+        <ImageView
+            style="@style/sleep_info_line" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/suggestion"
+            style="@style/sleep_info_title_style"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/deepsleepandlightsleep_suggestion"
+            style="@style/sleep_info_content_style"
+            />
+        <ImageView
+            style="@style/sleep_info_line" />
+        <!-- latency -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/detail_sleep_sleeplatency"
+            style="@style/sleep_info_title_style"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sleeplatency_info"
+            style="@style/sleep_info_content_style"
+            />
+        <ImageView
+            style="@style/sleep_info_line" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/suggestion"
+            style="@style/sleep_info_title_style"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sleeplatency_suggestion"
+            style="@style/sleep_info_content_style"
+            />
+        <ImageView
+            style="@style/sleep_info_line" />
+        <!-- awakenings -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/awakenings"
+            style="@style/sleep_info_title_style"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/awakenings_info"
+            style="@style/sleep_info_content_style"
+            />
+        <ImageView
+            style="@style/sleep_info_line" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/suggestion"
+            style="@style/sleep_info_title_style"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/awakenings_suggestion"
+            style="@style/sleep_info_content_style"
+            />
+
+    </LinearLayout>
+</ScrollView>

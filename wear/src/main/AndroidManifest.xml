@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.asus.wellness" >
+    <uses-feature android:name="asus.software.zenwatch" />
+    <uses-feature android:name="android.hardware.type.watch" />
+
+    <!-- nerosky -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.BODY_SENSORS" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+
+
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:name=".WApplication"
+        android:allowBackup="true"
+        android:icon="${appIcon}"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.DeviceDefault" >
+        <uses-library android:name="com.google.android.wearable" android:required="false" />
+        <activity
+            android:name=".StartActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="vnd.google.fitness.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.google.fitness.data_type/com.google.step_count.cumulative" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="vnd.google.fitness.TRACK" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.google.fitness.activity/other" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="vnd.google.fitness.TRACK" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.google.fitness.activity/running" />
+            </intent-filter>
+        </activity>
+
+        <activity  android:name=".sleep.SleepShortcutActivity"
+            android:label="@string/sleep_tracker"
+            android:icon="${sleepIcon}">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Profile.ProfileActivity"
+            android:theme="@android:style/Theme.DeviceDefault" />
+        <activity
+            android:name=".Profile.SkipProfileDialog"
+            android:theme="@android:style/Theme.DeviceDefault" />
+        <activity
+            android:name=".coach.CoachSetupActivity"
+            android:theme="@style/Theme.PageIndicatorDefaults"
+            >
+        </activity>
+        <activity
+            android:name=".coach.StartWorkoutActivity"
+            android:theme="@android:style/Theme.DeviceDefault" />
+        <activity
+            android:name=".notification.NotificationWorkoutControllerActivity"
+            android:allowEmbedded="true"
+            android:theme="@android:style/Theme.DeviceDefault" />
+        <activity
+            android:name=".coach.SummeryWorkoutActivity"
+            android:allowEmbedded="true"
+            android:theme="@android:style/Theme.DeviceDefault" />
+        <activity
+            android:name=".notification.NotificationWorkoutInfoActivity"
+            android:allowEmbedded="true"
+            android:theme="@android:style/Theme.DeviceDefault" />
+
+        <service android:name=".coach.WorkoutDataService" />
+
+        <activity
+            android:name=".WellnessMicroAppMain"    android:label="@string/app_name" />
+
+        <activity
+            android:name=".MeasureActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="vnd.google.fitness.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.google.fitness.data_type/com.google.heart_rate.bpm" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".notification.ReachGoalActivity"
+            android:allowEmbedded="true"
+            android:exported="true"
+            android:taskAffinity=""
+            android:theme="@android:style/Theme.DeviceDefault.Light" />
+        <activity
+            android:name=".notification.TapActivity"
+            android:allowEmbedded="true"
+            android:exported="true"
+            android:taskAffinity=""
+            android:theme="@style/notification_tap_style" />
+        <activity
+            android:name=".notification.NextGoalActivity"
+            android:allowEmbedded="true"
+            android:exported="true"
+            android:taskAffinity=""
+            android:theme="@style/next_goal_style" />
+        <activity
+            android:name=".IndependentMeasureActivity"
+            android:label="@string/measure_name" >
+        </activity>
+
+        <provider
+            android:name=".microprovider.WellnessProvider"
+            android:authorities="com.asus.wear.wellness.provider"
+            android:exported="true" />
+
+        <service android:name=".service.CollectStepCountService" />
+
+        <receiver android:name=".BootReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".receiver.PackageReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".ListenerService" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.BIND_LISTENER" />
+            </intent-filter>
+        </service>
+        <service android:name=".sync.SyncService" />
+
+        <receiver android:name=".receiver.KnockKnockHeartRateReceiver" >
+            <meta-data
+                android:name="knockknock.action.description"
+                android:resource="@string/knockknock_start_heartrate" />
+            <meta-data
+                android:name="knocknock.action.onwear"
+                android:value="true" />
+
+            <intent-filter>
+                <action android:name="com.asus.wear.knockknock.DOKNOCKKNOCK" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".receiver.KnockKnockStressReceiver" >
+            <meta-data
+                android:name="knockknock.action.description"
+                android:resource="@string/knockknock_start_relaxation" />
+            <meta-data
+                android:name="knocknock.action.onwear"
+                android:value="true" />
+            <intent-filter>
+                <action android:name="com.asus.wear.knockknock.DOKNOCKKNOCK" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+        <activity    android:name=".Profile.ProfileEditActivity" />
+        <activity    android:name=".sleep.SleepNofication"  android:allowEmbedded="true" />
+        <activity    android:name=".sleep.SleepActivity" />
+    </application>
+
+</manifest>

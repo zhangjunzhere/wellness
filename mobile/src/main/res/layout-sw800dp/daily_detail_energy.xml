@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- no data -->
+
+    <RelativeLayout
+        android:id="@+id/no_data_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:orientation="horizontal" >
+
+            <!-- info and leave -->
+
+
+            <!-- best info -->
+
+
+            <!-- leaves -->
+
+            <ImageView
+                android:layout_width="448dp"
+                android:layout_height="610dp"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="0dp"
+                android:src="@drawable/asus_wellness_btn_orange_leaves" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-8dp"
+                android:gravity="left"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="134dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/detail_energy_best_info_energy_level"
+                    android:textColor="#000"
+                    android:textSize="24dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/daily_info_energy_title"
+                    android:textColor="#000"
+                    android:textSize="36dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-light"
+                        android:text="0"
+                        android:textColor="#f77148"
+                        android:textSize="72dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginTop="100dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/detail_energy_worst_info_stress_level"
+                    android:textColor="#000"
+                    android:textSize="24dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="70dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/daily_info_stress_title"
+                    android:textColor="#000"
+                    android:textSize="36dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="70dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="0"
+                    android:textColor="#ffc14343"
+                    android:textSize="72dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="492dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="42dp"
+                android:layout_marginRight="42dp"
+                android:layout_marginTop="68dp"
+                android:orientation="horizontal" >
+
+                <!--
+                     <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="33dp"
+                    android:layout_height="33dp"
+                    android:src="@drawable/asus_wellness_ic_measurements"/>
+                -->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/daily_energy_detail_measurement"
+                    android:textColor="#000"
+                    android:textSize="26dp" />
+                
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:fontFamily="sans-serif"
+                    android:text=":"
+                    android:textColor="#000"
+                    android:textSize="26dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:fontFamily="sans-serif"
+                    android:text=" 0 "
+                    android:textColor="#fff77148"
+                    android:textSize="36dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:fontFamily="sans-serif"
+                    android:text="times"
+                    android:textColor="#fff77148"
+                    android:textSize="26dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="192dp"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/asus_wellness_btn_orange_leaves_watch" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/none_data_inside"
+                    android:textColor="#c7c7c7"
+                    android:textSize="24dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <!-- has data -->
+
+    <LinearLayout
+        android:id="@+id/has_data_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <!-- info and leave -->
+
+
+            <!-- best info -->
+
+
+            <!-- leaves -->
+
+            <RelativeLayout
+                android:layout_width="448dp"
+                android:layout_height="610dp"
+                android:layout_gravity="bottom" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:src="@drawable/asus_wellness_btn_orange_leaves" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/info_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="-8dp"
+                android:gravity="left"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-light"
+                        android:text="@string/text_average"
+                        android:textColor="#000"
+                        android:textSize="36dp" />
+                    
+                    <TextView
+                        android:id="@+id/tv_average_energy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="sans-serif-light"
+                        android:text="0"
+                        android:textColor="#f77148"
+                        android:textSize="50dp" />
+                </LinearLayout>
+                
+                <TextView
+                    android:id="@+id/best_info_tag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:fontFamily="sans-serif-light"
+                    android:textColor="#000"
+                    android:textSize="24dp" />
+
+                <LinearLayout
+                    android:layout_width="346dp"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#e1e1e1"
+                    android:orientation="horizontal" >
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/best_info_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/daily_info_energy_title"
+                    android:textColor="#000"
+                    android:textSize="36dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/measure_value_best"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-light"
+                        android:text="0"
+                        android:textColor="#f77148"
+                        android:textSize="72dp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginBottom="13dp"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/asus_wellness_ic_relaxation" />
+
+                    <TextView
+                        android:id="@+id/measure_time_best"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="13dp"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="sans-serif"
+                        android:text="00:00"
+                        android:textColor="#ff282828"
+                        android:textSize="18dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/worst_info_tag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="70dp"
+                    android:fontFamily="sans-serif-light"
+                    android:textColor="#000"
+                    android:textSize="24dp" />
+
+                <LinearLayout
+                    android:layout_width="276dp"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#e1e1e1"
+                    android:orientation="horizontal" >
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/worst_info_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="70dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/daily_info_energy_title"
+                    android:textColor="#000"
+                    android:textSize="36dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/measure_value_worst"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="70dp"
+                        android:fontFamily="sans-serif-light"
+                        android:text="0"
+                        android:textColor="#ffc14343"
+                        android:textSize="72dp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginBottom="13dp"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/asus_wellness_ic_stress" />
+
+                    <TextView
+                        android:id="@+id/measure_time_worst"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="13dp"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="sans-serif"
+                        android:text="00:00"
+                        android:textColor="#ff282828"
+                        android:textSize="18dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="4dp"
+            android:layout_height="664dp"
+            android:background="#f7f7f7"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="492dp"
+                android:fillViewport="true"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="42dp"
+                    android:layout_marginRight="42dp"
+                    android:layout_marginTop="68dp"
+                    android:orientation="horizontal" >
+
+                    <!--
+                     <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="33dp"
+                    android:layout_height="33dp"
+                    android:src="@drawable/asus_wellness_ic_measurements"/>
+                    -->
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="14dp"
+                        android:fontFamily="sans-serif"
+                        android:text="@string/daily_energy_detail_measurement"
+                        android:textColor="#000"
+                        android:textSize="26dp" />
+                    
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:fontFamily="sans-serif"
+                        android:text=":"
+                        android:textColor="#000"
+                        android:textSize="26dp" />
+
+                    <TextView
+                        android:id="@+id/measure_times"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12dp"
+                        android:fontFamily="sans-serif"
+                        android:text=" 4 "
+                        android:textColor="#fff77148"
+                        android:textSize="36dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="6dp"
+                        android:fontFamily="sans-serif"
+                        android:text="@string/count_time"
+                        android:textColor="#fff77148"
+                        android:textSize="26dp" />
+                </LinearLayout>
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fillViewport="true">
+                    <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="42dp"
+                    android:layout_marginRight="42dp"
+                    android:orientation="horizontal" >
+                    <com.asus.wellness.ui.daily.TimeLineRelativeLayout
+                        android:id="@+id/measure_timeline"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal" />
+                    </LinearLayout>
+                </ScrollView>
+            </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center">
+	<ImageView
+	    android:id="@+id/energy_or_stress_icon"
+	  	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:src="@drawable/asus_wellness_ic_energy_level"/>
+	<LinearLayout
+		android:minWidth="@dimen/timeline_relax_minwidth"
+		android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical">
+ 		<LinearLayout
+ 		    android:id="@+id/relax_container_up"
+			android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:orientation="horizontal">
+			<TextView
+			    android:layout_marginLeft="@dimen/timeline_item_left_margin"
+		   	    android:id="@+id/measure_energy_title"
+		    	android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		   		android:textSize="16dp"
+		    	android:textColor="#ff000000"
+		    	android:fontFamily="sans-serif-light"
+		    	android:text="@string/daily_info_energy_title"/>
+			<!-- fake data -->
+			<TextView
+				android:visibility="invisible"
+				android:text="1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				style="@style/timestring_big" />
+			<!-- fake data -->
+	    	<TextView
+	    	    android:visibility="invisible"
+    	        android:text="1"
+	    	    android:textSize="22dp"
+	    	    android:textColor="#dd6161"
+		    	android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:fontFamily="sans-serif-light"/>
+	    </LinearLayout>
+    	<View
+	   	    android:layout_width="match_parent"
+	    	android:layout_height="1dp"
+	    	android:background="#fff55923"/>
+   		<TextView
+   		    android:layout_marginLeft="@dimen/timeline_item_left_margin"
+		    android:id="@+id/measure_energy_value"
+			android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+			style="@style/timestring_big" />
+   	</LinearLayout>
+</LinearLayout>

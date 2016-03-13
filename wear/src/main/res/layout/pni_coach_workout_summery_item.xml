@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/ll_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/anchor_center"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/iv_icon"
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:src="@drawable/pni_asus_wellness_ic_distance"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="TOTAL DISTANCE"
+            android:textSize="@dimen/summery_item_title_size"
+            android:textColor="@color/white"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="0.1"
+            style="@style/coach_list_view_text"
+            android:textSize="@dimen/workout_start_name_size"
+            android:id="@+id/tv_value"
+            android:layout_marginTop="@dimen/coach_workout_start_name_marginTop"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/miles"
+            android:id="@+id/tv_unit"
+            android:textSize="@dimen/workout_start_value_size"
+            android:textColor="@color/white"
+            android:layout_toRightOf="@+id/tv_value"
+            android:layout_alignBaseline="@+id/tv_value" />
+    </RelativeLayout>
+</LinearLayout>

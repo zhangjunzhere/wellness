@@ -1,0 +1,35 @@
+<resources>
+    <!-- Preference key don't translate, this is for programming. -->
+    <string name="pref_key_idle_alarm_switch_screen">pref_key_idle_alarm_switch_screen</string>
+	<string name="pref_key_idle_alarm_switch">pref_key_idle_alarm_switch</string>
+    <string name="pref_key_idle_alarm_switch_settings">pref_key_idle_alarm_switch_settings</string>
+	<string name="pref_key_idle_alarm_options_interval">pref_key_idle_alarm_options_interval</string>
+	<string name="pref_key_backup_restore">pref_key_backup_restore</string>
+	<string name="pref_key_activity_goal_preference">pref_key_activity_goal_preference</string>
+	<string name="pref_key_include_bike">pref_key_include_bike</string>
+	<string name="pref_key_height_unit">pref_key_height_unit</string>
+	<string name="pref_key_weight_unit">pref_key_weight_unit</string>
+	<string name="pref_key_private_first_launch">pref_key_private_first_launch</string>
+	<string name="pref_key_location">pref_key_location</string>
+    <string name="pref_key_inspire_asus">pref_inspire_asus</string>
+	<string name="time_template">hh:mm a</string>
+	<string name="pref_key_last_updated">pref_key_last_updated</string>
+	<string name="pref_key_tips_daily_showed">pref_key_tips_daily_showed</string>
+	<string name="pref_key_app_ver">pref_key_app_ver</string>
+    <string name="pref_key_userfeedback">pref_key_userfeedback</string>
+    
+    <!-- kim_bai@asus.com 2014.12.26 -->    
+    <string name="pref_key_idle_alarm_duration_summary">pref_key_idle_alarm_duration_summary_index</string>
+    <string name="pref_remind_duration">pref_remind_duration</string>
+    <string name="pref_key_idle_alarm_from">pref_key_idle_alarm_from</string>
+    <string name="pref_key_idle_alarm_to">pref_key_idle_alarm_to</string>
+
+    <string name="duration_15mins">900000</string>
+    <string name="duration_30mins">1800000</string>
+    <string name="duration_1hour">3600000</string>
+    <string name="duration_1_5hours">5400000</string>
+    <string name="duration_2_hours">7200000</string>
+
+    <string name="pref_key_encourage_us">pref_key_encourage_us</string>
+
+</resources>

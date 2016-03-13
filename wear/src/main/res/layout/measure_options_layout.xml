@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/background_gradient"
+    android:gravity="center_vertical">
+    
+	<Button
+	    android:onClick="startMeasureBody" 
+		android:layout_width="match_parent"
+    	android:layout_height="67dp"
+    	android:text="@string/options_relaxation"
+    	android:drawableLeft="@drawable/asus_wellness_ic_relax"
+    	android:background="@drawable/measure_options_color_background"
+    	android:textSize="@dimen/ts_relaxtion"
+    	android:gravity="left|center_vertical"
+    	android:drawablePadding="13dp"
+    	android:paddingLeft="15dp"/>
+	
+	<!-- <Button
+		android:layout_width="match_parent"
+    	android:layout_height="67dp"
+    	android:text="@string/options_stress"
+    	android:drawableLeft="@drawable/asus_wellness_ic_stress"
+    	android:textSize="20dp"
+    	android:onClick="startMeasureStress"
+    	android:gravity="left|center_vertical"
+    	android:drawablePadding="13dp"
+    	android:paddingLeft="15dp"
+    	android:background="@drawable/measure_options_color_background"/>-->
+		
+	<Button
+		android:layout_width="match_parent"
+    	android:layout_height="67dp"
+    	android:text="@string/heart_rate"
+    	android:drawableLeft="@drawable/asus_wellness_ic_heart_rate"
+    	android:background="@drawable/measure_options_color_background"
+    	android:textSize="@dimen/ts_relaxtion"
+    	android:onClick="startMeasureHeartRate"
+    	android:gravity="left|center_vertical"
+    	android:drawablePadding="13dp"
+    	android:paddingLeft="15dp"/>
+	
+</LinearLayout>

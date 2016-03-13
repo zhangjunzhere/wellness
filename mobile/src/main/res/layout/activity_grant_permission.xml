@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.asus.wellness.ui.permission.GrantPermissionActivity">
+
+    <Button
+        android:id="@+id/perm_turnon_now"
+        android:layout_centerInParent="true"
+        android:text="@string/permisson_turn_on"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/permission_turnon_size"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="sans-serif"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+    <TextView
+        android:id="@+id/perm_title"
+        android:layout_above="@+id/perm_subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/permisson_body_sensor_title"
+        android:textSize="@dimen/permissoin_title_size"
+        android:gravity="center_horizontal"
+        style="@style/permission_title_style"
+        />
+    <TextView
+        android:paddingLeft="@dimen/subtitle_padding_left"
+        android:id="@+id/perm_subtitle"
+        android:layout_above="@+id/perm_turnon_now"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/permisson_body_sensor_subtitle"
+        android:textSize="@dimen/permission_subtitle_size"
+        style="@style/permission_title_style"
+        />
+
+    <TextView
+        android:paddingLeft="@dimen/subtitle_padding_left"
+        android:id="@+id/perm_note"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/permisson_notice_bodysensor_location"
+        android:textSize="@dimen/permission_note_size"
+        style="@style/permission_title_style"
+        android:layout_marginBottom="@dimen/note_margin_bottom"
+        />
+</RelativeLayout>

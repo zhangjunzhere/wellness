@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pni_background_gradient"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+       >
+        <TextView
+            android:id="@+id/lb_target"
+            android:text="Target"
+            style="@style/coach_start_workout_target_label"
+           />
+
+        <TextView
+            android:id="@+id/tv_target"
+            android:text="30min"
+            style="@style/title_text"
+            android:layout_alignParentRight="true"
+            android:layout_alignBaseline="@+id/lb_target" />
+
+        <TextView
+            android:id="@+id/lb_complete"
+            style="@style/coach_start_workout_target_label"
+            android:text="complete"
+            android:layout_below="@+id/lb_target" />
+
+        <TextView
+            android:id="@+id/tv_percent"
+            android:text="1%"
+            style="@style/title_text"
+            android:layout_alignParentRight="true"
+            android:layout_alignBaseline="@+id/lb_complete" />
+    </RelativeLayout>
+
+    <com.asus.wellness.coach.setup.WorkoutControllerLayout
+        android:id="@+id/workout_controller"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+       />
+
+    <TextView
+        android:id="@+id/tv_tap"
+        style="@style/coach_start_workout_target_label"
+        android:text="Tap to pause,hold to end run"
+        android:textSize="13dp"
+        android:layout_gravity="center" />
+</LinearLayout>
+

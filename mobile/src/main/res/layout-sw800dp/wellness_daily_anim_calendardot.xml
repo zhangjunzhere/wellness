@@ -1,0 +1,63 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dailyanim_layout_width"
+    android:layout_height="match_parent"
+    android:layout_gravity="bottom">
+    <!--     android:visibility="invisible" > -->
+
+
+    <ImageView
+        android:id="@+id/cal_dot1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="@dimen/dailyanim_cal_dot1_marginLeft"
+        android:layout_marginBottom="@dimen/dailyanim_cal_dot_marginBottom"
+        android:src="@drawable/cal_dot" />
+
+    <ImageView
+        android:id="@+id/cal_dot2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="@dimen/dailyanim_cal_dot2_marginLeft"
+        android:layout_marginBottom="@dimen/dailyanim_cal_dot_marginBottom"
+        android:src="@drawable/cal_dot" />
+
+    <ImageView
+        android:id="@+id/cal_dot3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="@dimen/dailyanim_cal_dot3_marginLeft"
+        android:layout_marginBottom="@dimen/dailyanim_cal_dot_marginBottom"
+        android:src="@drawable/cal_dot" />
+
+    <ImageView
+        android:id="@+id/cal_dot4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="@dimen/dailyanim_cal_dot4_marginLeft"
+        android:layout_marginBottom="@dimen/dailyanim_cal_dot_marginBottom"
+        android:src="@drawable/cal_dot" />
+
+    <ImageView
+        android:id="@+id/cal_dot5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="@dimen/dailyanim_cal_dot5_marginLeft"
+        android:layout_marginBottom="@dimen/dailyanim_cal_dot_marginBottom"
+        android:src="@drawable/cal_dot" />
+
+    <ImageView
+        android:id="@+id/cal_dot6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="@dimen/dailyanim_cal_dot6_marginLeft"
+        android:layout_marginBottom="@dimen/dailyanim_cal_dot_marginBottom"
+        android:src="@drawable/cal_dot" />
+
+
+</FrameLayout>

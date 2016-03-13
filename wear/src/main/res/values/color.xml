@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="measure_options_click_color">#ff627e0b</color>
+    <!--smile -->
+    <color name="congratulation_green">#7fa01b</color>
+
+    <color name="notification_tap_bg">#a0c923</color>
+
+    <color name="light_green">#9db562</color>
+     <!-- kim_bai -->
+    <color name="white">#ffffff</color>
+
+    <color name="pink">#FF00CC</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="green">#60DE2A</color>
+    <color name="blue">#2B60DE</color>
+
+    <color name="GREEN1">#f2ffc6</color>
+    <color name="GREEN2">#ddf68b</color>
+    <color name="GREEN3">#c0dc66</color>
+    <color name="GREEN4">#afd833</color>
+    <color name="GREEN5">#7fa01b</color>
+    
+    <color name="skipbg">#6c8e00</color>
+    <color name="skippress">#627e0b</color>
+    
+    <!--jz-->
+    <color name="coach_list_view_text_color_selected">#314001</color>
+    <color name="coach_list_view_text_color_normal">@color/white</color>
+    <color name="workout_start_counter_timer_color">#add926</color>
+    <color name="sleep_text_normal">#5c5c5c</color>
+    <color name="sleep_text_highlight">#303030</color>
+    <color name="sleep_summery_line_normal">#5c5c5c</color>
+    <color name="sleep_summery_line_ambient">#ffffff</color>
+
+
+    <!--smile -->
+    <color name="activitygoalselectcolor">#314001</color>
+    <color name="save_normal">#6c8e00</color>
+    <color name="save_pressed">#6c7e0b</color>
+
+</resources>

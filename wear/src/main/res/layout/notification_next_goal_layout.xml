@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/flag"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@drawable/asus_micro_ic_goal"
+    android:orientation="vertical">
+
+    <!-- String: Next GOAL -->
+
+
+    <!-- White Flag -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/next_goal"
+            android:layout_marginTop="@dimen/next_goal_top"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/next_goal_size"
+            android:background="@android:color/transparent"
+            android:layout_marginLeft="4dp"/>
+        <!-- Arrow Icon -->
+        <ImageView
+            android:src="@drawable/asus_micro_ic_target"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/next_goal_img_margin_top"
+            android:scaleType="center"
+            android:background="@android:color/transparent"/>
+
+        <!-- Step Count -->
+        <TextView
+            android:id="@+id/step_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12500"
+            style="@style/roboto_green_bold"
+            android:textSize="@dimen/next_goal_step_count"
+            android:background="@android:color/transparent"/>
+
+        <!-- String: steps -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/steps"
+            android:textSize="@dimen/next_goal_steps"
+            style="@style/roboto_green_bold"
+            android:background="@android:color/transparent"/>
+
+</LinearLayout>

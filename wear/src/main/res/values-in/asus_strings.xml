@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!-- kim_bai@asus.com -->
+    <string name="warm_up">"Pemanasan"</string>
+    <string name="remind_me_to_move">"Anda tidak aktif selama beberapa saat. Luangkan waktu dan berdiri."</string>
+    <!-- smile -->
+    <string name="met_goal">"Capai SASARAN"</string>
+    <string name="congratulations">"Selamat"</string>
+    <string name="hundred_percent">"100%"</string>
+    <string name="reach_goal">"Anda mencapai sasaran hari ini"</string>
+    <string name="add_five_percent">"+5%"</string>
+    <string name="tap_to_add_goal">"Ketuk untuk menambahkan SASARAN"</string>
+    <string name="next_goal">"SASARAN Berikutnya"</string>
+    <string name="steps">"langkah"</string>
+    <string name="tomorrow_goal">"Sasaran besok"</string>
+    <string name="coach">"Latihan"</string>
+    <string name="running">"Berlari"</string>
+    <string name="pushup">"Push-up"</string>
+    <string name="situp">"Sit-up"</string>
+    <string name="coach_done">"Latihan selesai"</string>
+    
+
+    <!-- Steps Activity -->
+    <string name="today_target">"Target hari ini"</string>
+    <!-- Start Workout -->
+    <string name="start_new_workout">"Mulai latihan"</string>
+    <!-- Setup Profile -->
+    <string name="setup_profile">"Ketuk untuk mengonfigurasi profil Anda"</string>
+    <!-- end kim -->
+    <!-- junzheng -->
+    <string name="title_workout_choose">"Pilih latihan"</string>
+    <string name="title_workout_goal">"Pilih sasaran"</string>
+    <string name="title_workout_target_value">"Target"</string>
+    <string name="title_workout_insert_data">"Masukkan data"</string>
+    <string name="workout_start_action">"Ketuk untuk mulai"</string>
+    <string name="workout_choose_run">"lari"</string>
+    <!--<string name="workout_choose_bike">"Bersepeda"</string>-->
+    <string name="workout_goal_none">"Sasaran bebas"</string>
+    <string name="workout_goal_distance">"Jarak"</string>
+    <string name="workout_goal_quantity">"Kali"</string>
+    <string name="workout_goal_time">"Durasi"</string>
+    <string name="workout_goal_calories">"Kalori"</string>
+    <string name="total_distance">"Total jarak"</string>
+    <string name="total_quantity">"Waktu total"</string>
+    <string name="total_time">"Total durasi"</string>
+    <string name="calories_burned">"Kalori terbakar"</string>
+    <string name="unit_mintes">"m"</string>
+    <string name="unit_quantity">"waktu"</string>
+    <string name="unit_quantity_plurals">"kali"</string>
+    <!--</plurals>-->
+    <string name="go">"Buka"</string>
+    <string name="insert_distance">"Masukkan jarak (%s)"</string>
+    <string name="insert_calories">"Masukkan kalori (%s)"</string>
+    <string name="insert_time">"Durasi (%s)"</string>
+    <string name="insert_quantity">"Masukkan waktu"</string>
+    <string name="tap_to_pause">"Ketuk untuk jeda"</string>
+    <string name="hold_to_end">"Tahan untuk berhenti"</string>
+    <string name="cancel_notification">"Ketuk untuk selesai"</string>
+    <string name="workout_target">"Target"</string>
+    <string name="workout_complete">"Selesai"</string>
+    <string name="yes_stop">"Ya"</string>
+    <string name="hr_mitute_sec">"Menit"</string>
+    <!-- end junzheng -->
+    <!-- smile_gao -->
+    <string name="gender">"Jenis kelamin"</string>
+    <string name="male">"Pria"</string>
+    <string name="female">"Wanita"</string>
+    <string name="skip">"lewati"</string>
+    <string name="age">"Usia"</string>
+    <string name="yo">"tahun"</string>
+    <string name="heightunit">"Satuan tinggi yang dipilih"</string>
+    <string name="cm">"CM"</string>
+    <!--<string name="cm_low">"cm"</string>-->
+    <string name="ft">"KAKI/IN"</string>
+    <string name="height">"Tinggi"</string>
+    <string name="ftlowcast">"kaki"</string>
+    <string name="weightunit">"Satuan tinggi yang dipilih"</string>
+    <string name="kg">"Kg"</string>
+    <string name="lbs">"lb"</string>
+    <string name="weight">"Berat"</string>
+    <string name="activitygoal">"Sasaran aktivitas"</string>
+    <string name="sedentaryliftstyle">"Gaya hidup tetap"</string>
+    <string name="k05">"5k"</string>
+    <string name="k57">"7,5k"</string>
+    <string name="k710">"10k"</string>
+    <string name="k1012">"12,5k"</string>
+    <!--<string name="k12more">>12.5k</string>-->
+    <string name="lowactive">"Kurang aktif"</string>
+    <string name="somewhatactive">"Sedikit aktif"</string>
+    <string name="active">"Aktif"</string>
+    <string name="highlyactive">"Sangat aktif"</string>
+    <string name="predistanceunit">"Satuan tinggi yang dipilih"</string>
+    <string name="km">"km"</string>
+    <string name="miles">"mil"</string>
+    <string name="profile">"Profil"</string>
+    <string name="yearsold">"tahun"</string>
+    <string name="stepsgoal">"langkah sasaran"</string>
+    <string name="distanceunit">"Satuan jarak latihan"</string>
+    <string name="saveprofile">"Simpan"</string>
+    <string name="skipprofilesetup">"Lewati konfigurasi profil?"</string>
+    <string name="yesskip">"Ya"</string>
+    <string name="cancel">"Batal"</string>
+    <string name="editprofile">"Edit"</string>
+    <string name="title_activity_profile">"Profil"</string>
+    <string name="action_settings">"Pengaturan"</string>
+    <string name="idle_alarm_text">"Peringatan siaga"</string>
+    <string name="idle_alarm_on">"AKTIF"</string>
+    <string name="idle_alarm_off">"TIDAK AKTIF"</string>
+    <!-- end smilegao -->
+
+    <!-- 2015.11.5 -->
+    <string name="tap_to_start_sleep">"Ketuk untuk merekam tidur"</string>
+    <string name="sleep_analysis">"Laporan tidur"</string>
+    <string name="sleep_tracking">"Rekaman tidur"</string>
+    <string name="sleep_tracker">"SleepTracker"</string>
+    <string name="sleep_stop_tip">"Anda terbangun?"</string>
+    <string name="Hold_to_stop_sleep">"Tahan untuk menghentikan perekaman"</string>
+    <string name="unit_hour">"j"</string>
+    <string name="total">"Total"</string>
+    <string name="inbed">"Tidur"</string>
+    <string name="wokeup">"Bangun"</string>
+    <string name="awoke">"Terbangun"</string>
+    <string name="light">"Sebentar"</string>
+    <string name="deep">"Nyenyak"</string>
+    <string name="am">"pagi"</string>
+    <string name="pm">"malam"</string>
+    <string name="start_a_run">"Mulai lari"</string>
+    <string name="stop_current_workout">"Hentikan olahraga saat ini?"</string>
+    <string name="sleep_tracking_tips">"Perekaman tidur sekarang"</string>
+    <string name="workout_coaching_tips">"Melakukan latihan sekarang"</string>
+    <string name="coach_pause">"dijeda"</string>
+    <string name="coach_finished">"selesai"</string>
+    <string name="sleep_save_power_tips">"Untuk menghemat daya ketika merekam tidur, Anda bisa menekan tombol daya dua kali untuk memasuki mode Teater."</string>
+    <string name="setupyourprofile">"Konfigurasi profil Anda"</string>
+    <string name="no_sleep_data">"Tidak ada data tidur"</string>
+</resources>

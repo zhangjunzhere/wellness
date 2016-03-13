@@ -1,0 +1,167 @@
+<resources>
+    <!-- kim_bai@asus.com -->
+    <string name="warm_up">Warm up</string>
+    <string name="remind_me_to_move">You\'ve been inactive for a while. Take a minute and stand up.</string>
+
+    <!-- smile -->
+    <string name="met_goal">Met GOAL</string>
+    <string name="congratulations">Congratulations</string>
+    <string name="hundred_percent">100%</string>
+    <string name="reach_goal">You\'ve reached today\'s goal</string>
+    <string name="add_five_percent">+5%</string>
+    <string name="tap_to_add_goal">Tap to add GOAL</string>
+    <string name="next_goal">Next GOAL</string>
+    <string name="steps">steps</string>
+    <string name="tomorrow_goal">Tomorrow\'s goal</string>
+
+    <string name="coach">"Coach"</string>
+    <string name="running">"Running"</string>
+    <string name="pushup">"Push-up"</string>
+    <string name="situp">"Sit-up"</string>
+    <string name="coach_done">"Coach done"</string>
+    
+
+
+    <!-- Steps Activity -->
+    <string name="today_target">"Today's Target"</string>
+
+    <!-- Start Workout -->
+    <string name="start_new_workout">"Start a workout"</string>
+
+    <!-- Setup Profile -->
+    <string name="setup_profile">"Tap to set up your profile"</string>
+    <!-- end kim -->
+
+
+    <!-- junzheng -->
+    <string name="title_workout_choose">" Choose workout "</string>
+    <string name="title_workout_goal">" Choose goal "</string>
+    <string name="title_workout_target_value">"Target "</string>
+    <string name="title_workout_insert_data">" Insert data "</string>
+    <string name="workout_start_action">"Tap to start"</string>
+    <string name="workout_choose_run">"Run"</string>
+    <!--<string name="workout_choose_bike">Bike</string>-->
+    <!--<string name="workout_choose_pushup">"Push-up"</string>-->
+   <!-- <string name="workout_choose_situp">"Sit-up "</string>-->
+    <string name="workout_goal_none">"Goal free"</string>
+    <string name="workout_goal_distance">"Distance"</string>
+    <string name="workout_goal_quantity">"Times"</string>
+    <string name="workout_goal_time">"Duration"</string>
+    <string name="workout_goal_calories">"Calories"</string>
+    <string name="total_distance">"Total distance"</string>
+    <string name="total_quantity">"Total times"</string>
+    <string name="total_time">"Total duration"</string>
+    <string name="calories_burned">"Calories burned"</string>
+
+  <!--  <string name="unit_calories">kcal</string>-->
+    <string name="unit_mintes">"m"</string>
+    <string name="unit_mintes_plurals">"mins"</string>
+    <string name="unit_quantity">"time"</string>
+    <string name="unit_quantity_plurals">"times"</string>
+
+    <!--</plurals>-->
+    <string name="go">"Go"</string>
+    <string name="insert_distance">"Insert distance (%s)"</string>
+    <string name="insert_calories">"Insert calories (%s)"</string>
+    <string name="insert_time">"Duration (%s)"</string>
+    <string name="insert_quantity">"Insert times"</string>
+    <string name="tap_to_pause">"Tap to pause"</string>
+    <string name="hold_to_end">"Hold to end"</string>
+    <string name="cancel_notification">"Tap to finish"</string>
+    <string name="workout_target">"Target"</string>
+    <string name="workout_complete">"Complete"</string>
+    <string name="yes_stop">"Yes"</string>
+    <string name="hr_mitute_sec">"Minutes"</string>
+    <string name="no_sleep_data">"No sleep data"</string>
+
+    <!-- end junzheng -->
+
+    <!-- smile_gao -->
+    <string name="male">"Male"</string>
+    <string name="female">"Female"</string>
+    <string name="skip">"Skip"</string>
+    <string name="age">"Age"</string>
+    <string name="yo">"y.o."</string>
+    <string name="heightunit">"Preferred height unit"</string>
+    <string name="cm">"CM"</string>
+    <!--<string name="cm_low">cm</string>-->
+    <string name="ft">"FT/IN"</string>
+    <string name="height">"Height"</string>
+    <string name="ftlowcast">"ft"</string>
+    <string name="weightunit">"Preferred weight unit"</string>
+    <string name="kg">"Kg"</string>
+    <string name="lbs">"lbs"</string>
+    <string name="weight">"Weight"</string>
+    <string name="activitygoal">"Activity goal"</string>
+    <string name="k05">"5k"</string>
+    <string name="k57">"7.5k"</string>
+    <string name="k710">"10k"</string>
+    <string name="k1012">"12.5k"</string>
+    <!--<string name="k12more">>12.5k</string>-->
+    <string name="sedentaryliftstyle">"Sedentary lifestyle"</string>
+    <string name="lowactive">"Low active"</string>
+    <string name="somewhatactive">"Somewhat active"</string>
+    <string name="active">"Active"</string>
+    <string name="highlyactive">"Highly active"</string>
+    <string name="predistanceunit">"Preferred distance unit"</string>
+    <string name="km">"km"</string>
+    <string name="miles">"miles"</string>
+    <string name="profile">"Profile"</string>
+    <string name="yearsold">"years old"</string>
+    <string name="stepsgoal">"goal steps"</string>
+    <string name="distanceunit">"Workout distance unit"</string>
+    <string name="saveprofile">"Save"</string>
+    <string name="skipprofilesetup">"Skip profile setup?"</string>
+    <string name="yesskip">"Yes"</string>
+    <string name="cancel">"Cancel"</string>
+    <string name="editprofile">"Edit"</string>
+    <string name="title_activity_profile">"Profile"</string>
+    <string name="action_settings">"Settings"</string>
+
+    <string name="idle_alarm_text">"Idle alert"</string>
+    <string name="idle_alarm_on">"ON"</string>
+    <string name="idle_alarm_off">"OFF"</string>
+    <!-- end smilegao -->
+
+    <string name="tap_to_start_sleep">"Tap to track sleep"</string>
+    <string name="sleep_analysis">"Sleep report"</string>
+    <!--<string name="sleeping">Recording</string>-->
+    <string name="sleep_tracking">"Sleep tracking"</string>
+    <string name="sleep_tracker">"SleepTracker"</string>
+    <!--<string name="sleep_recording">Recording</string>-->
+    <string name="sleep_stop_tip">"Are you awake?"</string>
+    <string name="Hold_to_stop_sleep">"Hold to stop tracking"</string>
+
+    <string name="unit_hour">"h"</string>
+    <string name="total">"Total"</string>
+    <string name="inbed">"Go to bed"</string>
+    <string name="wokeup">"Wake up"</string>
+    <string name="awoke">"Toss and turn"</string>
+    <string name="light">"Light"</string>
+    <string name="deep">"Deep"</string>
+    <string name="am">"am"</string>
+    <string name="pm">"pm"</string>
+
+    <string name="start_a_run">"Start a run"</string>
+    <!-- 20151104 added-->
+    <string name="stop_current_workout">"Stop current workout?"</string>
+    <string name="sleep_tracking_tips">"Sleep tracking now"</string>
+     <string name="workout_coaching_tips">"Workout coaching now"</string>
+
+   <!-- <string name="coach_resume">"..."</string>
+    <string name="coach_pause">"Coach  paused"</string>
+    <string name="running_pause">"Running  paused"</string>
+    <string name="pushup_pause">"Push-up  paused"</string>
+    <string name="situp_pause">"Sit-up  paused"</string>
+    <string name="coach_finished">"Coach  finished"</string>
+    <string name="running_finished">"Running  finished"</string>
+    <string name="pushup_finished">"Push-up  finished"</string>
+    <string name="situp_finished">"Sit-up  finished"</string>-->
+
+    <string name="coach_resume">"..."</string>
+    <string name="coach_pause">"paused"</string>
+    <string name="coach_finished">"finished"</string>
+
+    <string name="sleep_save_power_tips">"To save power when tracking sleep, press power button twice to enter Theater mode."</string>
+    <string name="setupyourprofile">"Set up your profile"</string>
+</resources>

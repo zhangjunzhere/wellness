@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <!-- String: Congratulations -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/congratulations"
+        android:textSize="@dimen/congradulations_ts"
+        android:fontFamily="sans-serif-thin"
+        android:textColor="@color/congratulation_green" />
+
+    <!-- Arrow Icon -->
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/asus_micro_ic_target" />
+
+    <!-- 100% -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hundred_percent"
+        android:textSize="@dimen/hundred_percent"
+        style="@style/roboto_green_bold" />
+
+    <!-- String: You've reached your goal today -->
+    <TextView
+        android:id="@+id/reach_goal_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="@string/reach_goal"
+        android:textColor="@color/congratulation_green"
+        android:gravity="center_horizontal"
+        android:paddingLeft="@dimen/padding_lr"
+        android:paddingRight="@dimen/padding_lr"/>
+</LinearLayout>

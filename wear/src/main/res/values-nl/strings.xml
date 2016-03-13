@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name" maxwidth="">"Wellness"</string>
+    <string name="text_step_goal" maxwidth="">"/%s  stappen"</string>
+    <string name="target" maxwidth="">"DOEL VAN VANDAAG"</string>
+    <string name="count_down_text_secs" maxwidth="">"SECONDEN"</string>   
+    <string name="step_unit" maxwidth="">"STAPPEN"</string> 
+    <string name="distance_unit" maxwidth="">"KM"</string> 
+    <string name="heart_rate_unit" maxwidth="">"bpm"</string> 
+    <string name="options_relax" maxwidth="">"RELAX"</string> 
+    <string name="options_stress" maxwidth="">"STRESS"</string>
+    <string name="options_energy" maxwidth="">"ENERGIE"</string>
+    <string name="text_measure_stress" maxwidth="">"STRESSNIVEAU"</string>
+    <string name="text_measure_relax" maxwidth="">"@string/options_relaxation"</string>
+    <string name="measure_name" maxwidth="">"Meten"</string>
+    <string name="waiting_text" maxwidth="">"Een ogenblik geduld!"</string>
+    <string-array name="stress_level_1_2" maxwidth="">
+        <item>"Lichte snacks en fruit kan helpen om uw energie weer op peil te brengen"</item>
+        <item>"Een gezonde levensstijl helpt bij het overwinnen van de dagelijkse uitdagingen in het leven"</item>
+        <item>"In een Zen-zone met een goede gemoedsrust"</item>
+    </string-array>
+    <string-array name="stress_level_3" maxwidth="">
+        <item>"Uw stressniveau neemt toe"</item>
+        <item>"Maak een notitie over hoe u u voelt"</item>
+    </string-array>
+    <string-array name="stress_level_4_5" maxwidth="">
+        <item>"Een wandeling van 30 minuten kan stress reduceren met 25%"</item>
+        <item>"Stretch armen, rug en schouders"</item>
+        <item>"Ontspan uzelf en uw spieren"</item>
+        <item>"DIY kan u plezier en een gevoel van voldoening brengen"</item>
+        <item>"Geef uzelf een handmassage"</item>
+    </string-array>
+    <string-array name="heart_rate_level" maxwidth="">
+        <item>"L1 HEEL LICHT"</item>
+        <item>"L2 LICHT"</item>
+        <item>"L3 NORMAAL"</item>
+        <item>"L4 ZWAAR"</item>
+        <item>"L5 MAXIMUM"</item>
+    </string-array>
+    <string name="keep_touch_sensor" maxwidth="">"Blijf aanraken"</string>
+    <string name="options_relaxation" maxwidth="">"ONTSPANNING"</string>
+    <string name="not_support_message" maxwidth="">"Uw hardware voldoet niet aan de benodigde specificaties om deze draagbare app uit te voeren. De app is afgesloten.</string>
+    <string name="exercise_intensity" maxwidth="">"INTENSITEIT OEFENING"</string>
+    <string name="tutorial_touch_sensor" maxwidth="">"Raak voorzichtig aan"</string>
+    <string name="knockknock_start_relaxation" maxwidth="">"Meet ontspanning"</string>
+    <string name="knockknock_start_heartrate" maxwidth="">"Meet hartslag"</string>
+    <string name="tap_to_start" maxwidth="">"Tik pictogram om te starten"</string>
+    <string name="no_value_message" maxwidth="">"Geen meetresultaten"</string>
+    <string name="tap_to_try_again" maxwidth="">"Tik dit pictogram om \nprobeer opnieuw"</string>
+    <string name="heart_rate" maxwidth="">"HARTSLAG"</string>
+    <string name="tap_message" maxwidth="">"Blijf kalm tijdens meten"</string>
+    <string-array name="relax_level_1_2" maxwidth="">
+        <item>"Water en oefening helpen om uw lichaam wat losser te maken"</item>
+        <item>"Begin met het plannen van een vakantie"</item>
+        <item>"Luister naar wat ontspannende muziek kan helpen om wat te ontspannen"</item>
+    </string-array>
+    <string-array name="relax_level_3" maxwidth="">
+        <item>"Uw ontspanningsniveau loopt terug"</item>
+    </string-array>
+    <string-array name="relax_level_4_5" maxwidth="">
+        <item>"Vol met energie en klaar om de bezigheden voor vandaag uit te voeren"</item>
+        <item>"U bent goed uitgerust en geconcentreerd"</item>
+        <item>"Een goede gemoedsrust helpt om uw concentratie te verhogen"</item>
+    </string-array>
+    <string name="suggest_wellness_title" maxwidth="">"Suggestie App:Wellness"</string>
+    <string name="suggest_wellness_message" maxwidth="">"&#13;
+Krijg ASUS ZenWatch&#13;
+\nWellness app gratis!&#13;
+"</string>
+    <string name="download_on_phone_message" maxwidth="">"Download op telefoon"</string>
+    <string name="wait_first_heart_rate_message" maxwidth="">"Start meten, beweeg niet en ontspan."</string>
+    <string name="wait_enough_rr_message" maxwidth="">"Blijft meten, nog enkele seconden..."</string>
+    <string name="keep_measuring" maxwidth="">"Blijft meten..."</string>
+    <string name="total_steps" maxwidth="">"TOTAAL AANTAL STAPPEN"</string>
+    <string name="step_indicator_10k" maxwidth="">"10K"</string>
+    <string name="step_indicator_5k" maxwidth="">"5K"</string>
+    <string name="calories_unit" description="Calories unit" maxwidth="">"kcal"</string>
+    <string name="calories_string" maxwidth="">"(%1$s %2$s)"</string>
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name" description="App name" maxwidth="-1">"华硕健康管理"</string>
+    <string name="text_step_goal" maxwidth="">"/%s 步"</string>
+    <string name="target" maxwidth="">"今天目标"</string>
+    <string name="count_down_text_secs" maxwidth="">"秒"</string>   
+    <string name="step_unit" maxwidth="">"步"</string> 
+    <string name="distance_unit" maxwidth="">"KM"</string> 
+    <string name="heart_rate_unit" maxwidth="">"bpm"</string> 
+    <string name="options_relax" maxwidth="">"放松"</string> 
+    <string name="options_stress" maxwidth="">"压力"</string>
+    <string name="options_energy" maxwidth="">"能量"</string>
+    <string name="text_measure_stress" maxwidth="">"压力级别"</string>
+    <string name="text_measure_relax" maxwidth="">"@string/options_relaxation"</string>
+    <string name="measure_name" maxwidth="">"测量"</string>
+    <string name="waiting_text" maxwidth="">"请稍候!"</string>
+    <string-array name="stress_level_1_2" maxwidth="">
+        <item>"少量零食和水果有助于补充能量"</item>
+        <item>"健康的生活方式有助于克服日常生活的挑战"</item>
+        <item>"在禅境中心态平和"</item>
+    </string-array>
+    <string-array name="stress_level_3" maxwidth="">
+        <item>"您的压力级别正在上升"</item>
+        <item>"记录下您的感受"</item>
+    </string-array>
+    <string-array name="stress_level_4_5" maxwidth="">
+        <item>"30分钟散步可使压力降低25%"</item>
+        <item>"伸展手臂、背部和肩膀"</item>
+        <item>"让身体舒适，肌肉放松"</item>
+        <item>"DIY可以带来喜悦和成就感"</item>
+        <item>"用手按摩身体"</item>
+    </string-array>
+    <string-array name="heart_rate_level" maxwidth="">
+        <item>"L1非常弱"</item>
+        <item>"L2弱"</item>
+        <item>"L3中等"</item>
+        <item>"L4强"</item>
+        <item>"L5最大"</item>
+    </string-array>
+    <string name="keep_touch_sensor" maxwidth="">"保持触摸"</string>
+    <string name="options_relaxation" maxwidth="">"放松"</string>
+    <string name="not_support_message" maxwidth="">"您的硬件不符合此可穿戴应用程序运行所需的规格。 应用程序已关闭"</string>
+    <string name="exercise_intensity" maxwidth="">"运动强度"</string>
+    <string name="tutorial_touch_sensor" maxwidth="">"轻轻触摸"</string>
+    <string name="knockknock_start_relaxation" maxwidth="">"测量放松"</string>
+    <string name="knockknock_start_heartrate" maxwidth="">"测量心率"</string>
+    <string name="tap_to_start" maxwidth="">"点击图标以开始"</string>
+    <string name="no_value_message" maxwidth="">"无测量结果"</string>
+    <string name="tap_to_try_again" maxwidth="">"点击此图标以\n再试一次"</string>
+    <string name="heart_rate" maxwidth="">"心率"</string>
+    <string name="tap_message" maxwidth="">"测量时保持镇静"</string>
+    <string-array name="relax_level_1_2" maxwidth="">
+        <item>"水和运动有助于放松身体"</item>
+        <item>"开始规划假期"</item>
+        <item>"听一些轻松的音乐可以帮助您放松"</item>
+    </string-array>
+    <string-array name="relax_level_3" maxwidth="">
+        <item>"您的放松级别正在下降"</item>
+    </string-array>
+    <string-array name="relax_level_4_5" maxwidth="">
+        <item>"充满活力，准备完成今天的任务"</item>
+        <item>"您休息得很好，注意力集中"</item>
+        <item>"平静的心态有助于提高注意力 "</item>
+    </string-array>
+    <string name="suggest_wellness_title" maxwidth="">"建议的应用程序:Wellness"</string>
+    <string name="suggest_wellness_message" maxwidth="">"&#13;
+免费获取ASUS ZenWatch&#13;
+\nWellness应用程序!&#13;
+&#13;
+"</string>
+    <string name="download_on_phone_message" maxwidth="">"手机下载"</string>
+    <string name="wait_first_heart_rate_message" maxwidth="">"开始测量，请保持安静和放松。"</string>
+    <string name="wait_enough_rr_message" maxwidth="">"正在测量，还需几秒钟..."</string>
+    <string name="keep_measuring" maxwidth="">"测量中..."</string>
+    <string name="total_steps" maxwidth="">"总步数"</string>
+    <string name="step_indicator_10k" maxwidth="">"10K"</string>
+    <string name="step_indicator_5k" maxwidth="">"5K"</string>
+    <string name="calories_unit" description="Calories unit" maxwidth="">"大卡"</string>
+    <string name="calories_string" maxwidth="">"(%1$s %2$s)"</string>
+</resources>

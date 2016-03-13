@@ -1,0 +1,120 @@
+<resources>
+    <!-- kim_bai@asus.com 2014.12.26-->
+    <string name="duration">Durée</string>
+    <string name="remind_me_session">Me le rappeler plus tard</string>
+    <string name="from">De</string>
+    <string name="to">À</string>
+	
+	<string name="steps">pas</string>
+    <string name="tomorrow_goal">Objectif de demain</string>
+
+    <!-- Inspire Asus -->
+    <string name="wm_about_inspire_asus">Inspire ASUS</string>
+    <string name="wm_inspire_asus_text1">Pour proposer à nos clients de meilleurs services, améliorer l\'expérience utilisateur et découvrir continuellement des problèmes pour améliorer les performances, ASUS lance Inspire ASUS (le « Programme »). Ce programme peut collecter anonymement votre compte-rendu d\'utilisation.</string>
+    <string name="wm_inspire_asus_text2">Le compte-rendu d\'utilisation ne sera en aucune manière associé aux identités ou aux informations personnelles de votre appareil ASUS ZenWatch. Les données d\'utilisation comprennent le statut de veille, les événements de plantage, l\'interface préférée, les paramètres de langue, la version logicielle actuelle, des informations sur les logiciels utilisés fréquemment, le comportement lors de l\'utilisation de fonctions logicielles et l\'emplacement.</string>
+    <string name="wm_inspire_asus_text3">ASUS respecte fortement la confidentialité et les droits de ses clients. Vous pouvez activer/désactiver la fonction compte-rendu du programme depuis le menu à tout moment. Pour plus d\'informations sur la façon dont ASUS protège votre confidentialité, il vous est également conseillé de consulter la</string>
+    <string name="wm_inspire_asus_yes_text">Oui, comptez sur moi !</string>
+
+    <!-- Encourage Us -->
+    <string name="encourage_title">Nous encourager</string>
+    <string name="scroll_up_toast" description="rate now" maxwidth="">D\u00e9filer pour \u00e9valuer</string>
+    <string name="toolbar_encourage_us_text">Si vous aimez ASUS Wellness, donnez-nous 5 étoiles sur Play Store. Cela nous encouragerait grandement afin de continuer à améliorer le produit !\n\nPour des suggestions, écrivez-nous via Commentaires &amp; aide.</string>
+    <string name="toolbar_encourage_dialog_rate_now" maxwidth="35">Noter maintenant</string>
+    <string name="toolbar_encourage_us_cancel">Annuler</string>
+
+    <!-- 2015.11.5-->
+    <string name="pushup">"Traction"</string>
+    <string name="situp">"Redressement assis"</string>
+    <string name="detail_sleep_deepsleep">"Sommeil profond"</string>
+    <string name="detail_sleep_lightsleep">"Sommeil léger"</string>
+    <string name="detail_sleep_sleeplatency">"Latence du sommeil"</string>
+    <string name="detail_sleep_light">"Léger"</string>
+    <string name="detail_sleep_deep">"Profond"</string>
+    <string name="detail_sleep_shorthour">"h"</string>
+    <string name="text_sleep" maxwidth="">"Sommeil"</string>
+    <string name="daily_detail_workout">"Entraînement"</string>
+    <string name="weekly_info_workout_title">"Total tractions/redressements assis"</string>
+    <string name="sleep_notification_title" maxwidth="">"Avis sur le suivi du sommeil"</string>
+    <string name="sleep_notification_content" maxwidth="">"Enregistrement..."</string>
+    <string name="daily_info_run_type">"Courir"</string>
+
+    <!-- 2015.12.31 -->
+    <string name="detail_sleep_wokeup">"Sommeil agité"</string>
+    <string name="detail_sleep_shortmin">"m"</string>
+    <string name="weekly_info_sleep_title">"Analyse du sommeil total"</string>
+    <string name="detail_text_completion" maxwidth="">"atteint"</string>
+    <string name="text_completion" maxwidth="">"objectif atteint"</string>
+    <string name="daily_detail_workout_title_accumulation" maxwidth="">"Accumulation"</string>
+    <string name="sleep_quality_score" maxwidth="">"score qualité"</string>
+    <string name="text_sleep_quality_score">"Qualité du sommeil"</string>
+    <string name="sleptfor">"Dormi pendant"</string>
+    <string name="permisson_turn_on">"ACTIVER maintenant !"</string>
+    <string name="permisson_body_sensor_title">"Impossible de détecter votre activité"</string>
+    <string name="permisson_body_sensor_subtitle">"Wellness ne peut pas détecter votre mouvement sans l'autorisation du capteur corporel"</string>
+    <string name="permisson_location_title">"Impossible de trouver votre localisation"</string>
+    <string name="permisson_location_subtitle">"Wellness ne peut pas détecter votre localisation sans l'autorisation de localisation"</string>
+    <string name="permisson_storage_title">"Impossible d'accéder à vos photos"</string>
+    <string name="permisson_storage_subtitle">"Wellness ne peut pas accéder à vos images sans l'autorisation de stockage"</string>
+    <string name="permisson_notice_bodysensor_location">"Remarque : NE désactivez PAS les autorisations du paramétrage système pendant qu'il exécute des fonctions concernant votre activité."</string>
+    <string name="permisson_notice_storage">"Remarque : NE désactivez PAS les autorisations du paramétrage système pendant qu'il exécute des fonctions concernant votre profil personnel."</string>
+
+    <!-- 2016.1.11 -->
+    <string name="sleep_dictinary">"Dictionnaire du sommeil"</string>
+    <string name="sleepinformation">"Informations sur le sommeil"</string>
+    <string name="sleeplenght">"Durée du sommeil"</string>
+    <string name="deepsleepandlightsleep">"Sommeil profond et sommeil léger"</string>
+    <string name="awakenings">"Sommeil agité (réveils)"</string>
+    <string name="suggestion">"Suggestion"</string>
+    <string name="sleepquality_info">"La qualité du sommeil est un score (jusqu'à 100) afin de quantifier la qualité de votre sommeil. Plus le score est élevé, meilleure est la qualité de votre sommeil. Le score de qualité du sommeil dépend de la durée de votre sommeil, du temps que vous mettez pour vous endormir, du temps que vous passez au lit, de la durée de votre sommeil profond (sommeil avec moins de mouvements du corps), et du nombre de fois que vous vous éveillez pendant le sommeil."</string>
+    <string name="sleepquality_suggestion">"Un score de qualité de 60 indique la référence pour un schéma de sommeil normal. Si votre score est supérieur à 60, votre sommeil est meilleur que la moyenne, et réciproquement."</string>
+   <string name="sleeplength_info">"ZenWatch détecte le début de votre premier sommeil léger et la fin de votre dernier sommeil léger pour estimer la durée de votre sommeil."</string>
+    <string name="sleeplength_suggestion">"Les besoins en sommeil varient selon les différents groupes d'âge. Les nouveau-nés ont besoin de 16 à 18 heures par jour, les enfants en âge préscolaire ont besoin de 11 à 12 heures par jour, les enfants en âge scolaire ont besoin d'au moins 10 heures par jour, les adolescents ont besoin de 9 à 10 heures par jour, et les adultes (y compris les personnes âgées) ont besoin de 7 à 8 heures par jour."</string>
+    <string name="deepsleepandlightsleep_info">"ZenWatch mesure les mouvements de votre corps tout en suivant votre sommeil. Le sommeil profond renvoie à un sommeil avec moins de mouvements du corps, par rapport au sommeil léger et à l'état éveillé. En général, moins vous avez de mouvements du corps pendant le sommeil, meilleur est votre sommeil."</string>
+    <string name="deepsleepandlightsleep_suggestion" formatted="false">"En moyenne, les personnes ayant un rythme de sommeil normal ont des sommeils profonds et légers pour environ 20% à 60% du temps de sommeil total."</string>
+    <string name="sleeplatency_info">"Le temps entre le moment où vous commencez le suivi de sommeil et le moment où ZenWatch détecte que vous vous endormez"</string>
+    <string name="sleeplatency_suggestion">"Pour un modèle de sommeil normal, les gens ont une latence d'endormissement de 15 minutes en moyenne."</string>
+    <string name="awakenings_info">"ZenWatch détecte le nombre de réveils (avec davantage de mouvements du corps) pendant votre sommeil"</string>
+    <string name="awakenings_suggestion">"Les personnes ayant un schéma de sommeil normal ont un nombre moyen de 3 réveils pendant le sommeil."</string>
+    <string name="distance_unit_miles" description="Distance unit: miles" maxwidth="">"miles"</string>
+    <string name="sleep_tips_title">"Conseils pour un meilleur sommeil"</string>
+    <string name="stick_to_a_sleep_schedule_title">"Ayez un planning de sommeil et tenez-vous y"</string>
+    <string name="stick_to_a_sleep_schedule">"Allez au lit et réveillez-vous chaque jour à la même heure. En tant que créatures avec des habitudes, les gens ont du mal à s'adapter aux modifications de schéma de sommeil. Dormir plus le week-end ne compense pas entièrement un manque de sommeil au cours de la semaine et cela rend plus difficile de se lever tôt le lundi matin."</string>
+    <string name="exercise_is_great_title">"Faire de l'exercice, c'est bien, mais pas trop tard dans la journée"</string>
+    <string name="exercise_is_great">"Essayez de faire de l'exercice au moins 30 minutes la plupart des jours, mais au plus tard 2-3 heures avant votre coucher."</string>
+    <string name="avoid_cafeine_and_nicotine_title">"Évitez la caféine et la nicotine"</string>
+    <string name="avoid_cafeine_and_nicotine">"Le café, le cola, certains thés et le chocolat contiennent de la caféine qui stimule, et ses effets peuvent durer jusqu'à 8 heures avant de se dissiper complètement. Par conséquent, une tasse de café dans l'après-midi peut rendre difficile de vous endormir le soir. La nicotine est aussi un stimulant, qui fait souvent que les fumeurs ne dorment que très légèrement. En outre, les fumeurs se réveillent souvent trop tôt le matin à cause du manque de nicotine."</string>
+    <string name="avoid_alcoholic_drinks_before_bed_title">"Évitez les boissons alcoolisées avant de vous coucher"</string>
+    <string name="avoid_alcoholic_drinks_before_bed">"Prendre un \"pousse-café\" ou une boisson alcoolisée avant le sommeil peut aider à vous détendre, mais un usage intensif vous prive de sommeil profond et vous maintient aux stades de sommeil léger. Une grosse ingestion d'alcool peut également contribuer à l'altération de la respiration pendant la nuit. Vous avez aussi tendance à vous réveiller au milieu de la nuit une fois que les effets de l'alcool ont disparu."</string>
+    <string name="avoid_large_meals_title">"Évitez les gros repas et les boissons tard dans la nuit".</string>
+    <string name="avoid_large_meals">"Un léger snack convient, mais un gros repas peut provoquer une indigestion qui interfère avec le sommeil. Boire trop de fluides le soir peut provoquer des réveils fréquents pour uriner."</string>
+    <string name="if_possible_title">"Si possible, évitez les médicaments qui retardent ou perturbent votre sommeil"</string>
+    <string name="if_possible">"Certains médicaments couramment prescrits pour le cœur, les tensions artérielles hautes / faibles, les états asthmatiques, ainsi que les médicaments et remèdes en vente libre contre la toux, le rhume ou les allergies, peuvent perturber les schémas de sommeil. Si vous avez du mal à dormir, parlez-en à votre prestataire de soins de santé ou à un pharmacien patenté pour déterminer si les médicaments que vous prenez sont susceptibles de contribuer à votre insomnie. Demandez-leur si vous pouvez prendre ces médicaments à d'autres moments pendant la journée ou en début de soirée."</string>
+    <string name="dont_take_naps_title">"Ne faites pas de sieste après 15 heures."</string>
+    <string name="dont_take_naps">"Les siestes peuvent contribuer à rattraper le sommeil perdu, mais la sieste en fin de journée peuvent rendre plus difficile l'endormissement le soir."</string>
+    <string name="relax_before_bed_title">"Détendez-vous avant de vous coucher."</string>
+    <string name="relax_before_bed">"Ne planifiez pas votre journée au point de ne pas laisser de temps pour vous détendre. Une activité de détente, telle que la lecture ou l'écoute de musique, doit faire partie de votre rituel du coucher."</string>
+    <string name="take_a_lot_bath_title">"Prenez un bain chaud avant de vous coucher."</string>
+    <string name="take_a_lot_bath">"La baisse de température du corps après être sorti du bain peut vous aider à trouver le sommeil, et le bain peut vous aider à vous détendre et à ralentir pour être plus prêt à dormir."</string>
+    <string name="have_a_good_sleeping_title">"Ayez un environnement propice au sommeil."</string>
+    <string name="have_a_good_sleeping">"Pour obtenir un sommeil réparateur, ayez un environnement propice au sommeil. Dans votre chambre, enlevez tout ce qui peut vous perturber pendant le sommeil, par exemple les bruits et les lumières fortes.  Éteignez vos appareils mobiles, la télévision, l'ordinateur et les autres appareils électroniques. Le fait d'avoir un lit confortable, une température ambiante confortable, et un oreiller peut aider à promouvoir un sommeil de qualité. Les gens qui souffrent d'insomnie regardent souvent l'heure. Si vous êtes insomniaque, tournez le réveil hors de votre vue pour ne pas vous soucier de l'heure pendant que vous essayez de vous endormir."</string>
+    <string name="have_the_right_sunlight_title">"Ayez une exposition correcte à la lumière du soleil."</string>
+    <string name="have_the_right_sunlight">"La lumière du jour est une clé pour réguler vos schémas quotidiens de sommeil. Sortez à la lumière naturelle pendant au moins 30 minutes par jour. Si possible, réveillez-vous avec le soleil ou utilisez des lampes très lumineuses dans la matinée. Les experts du sommeil recommandent aux personnes ayant des problèmes d'endormissement d'avoir une heure d'exposition au soleil le matin et d'éteindre les lumières avant de se coucher."</string>
+    <string name="dont_lie_in_bed_title">"Ne restez pas au lit éveillé."</string>
+    <string name="dont_lie_in_bed">"Si vous êtes toujours éveillé après être resté au lit pendant plus de 20 minutes, ou si vous commencez à vous sentir angoissé ou inquiet, levez-vous et faites une activité de détente jusqu'à ce que le sommeil arrive. L'angoisse de ne pas être capable de dormir peut rendre l'endormissement encore plus difficile."</string>
+    <string name="see_a_health_title">"Consultez un professionnel de la santé si vous continuez à des problèmes de sommeil."</string>
+    <string name="see_a_health">"Si vous avez toujours des difficultés à vous endormir ou à rester endormi et / ou si vous vous sentez fatigué ou pas bien reposé pendant la journée, bien qu'ayant passé suffisamment de temps au lit la nuit, vous avez peut-être un trouble du sommeil. Votre prestataire de santé de famille ou un spécialiste du sommeil doivent être en mesure de vous aider, et il est important d'éliminer du diagnostic les autres problèmes de santé ou émotionnels qui peuvent perturber votre sommeil."</string>
+    <string name="sleep_detail_back">"Retour"</string>
+    <string name="data_source">"Source :"</string>
+    <string name="articlehelpful">"Est-ce utile ?"</string>
+
+    <!-- 2016.1.15 -->
+    <string name="allow_access_photos_title">"Autoriser l'accès aux photos"</string>
+    <string name="allow_access_photos_content">"Pour changer votre photo, allez dans Paramètres pour activer l'autorisation de stockage pour ZenWatch Wellness."</string>
+    <string name="allow_track_location_title">"Autoriser la géolocalisation"</string>
+    <string name="allow_track_location_content">"Pour géolocaliser votre activité, allez dans Paramètres pour activer l'autorisation de localisation pour ZenWatch Wellness."</string>
+    <string name="bug_report_preference_title">"Signaler une erreur du programme"</string>
+    <string name="bug_report_email_subject">"Rapport de bogue Wellness"</string>
+    <string name="bug_report_email_body">"Rapport de bogue Wellness"</string>
+    <string name="but_report_share">"Partager"</string>
+    <string name="settings_disable_backup">"Si vous désélectionnez \"Sauvegarder mes données\", vos fichiers de sauvegarde pourraient être perdus en raison du mécanisme du service de sauvegarde d'Android de Google. Êtes-vous sur de vouloir désélectionner l'option ?"</string>
+</resources>

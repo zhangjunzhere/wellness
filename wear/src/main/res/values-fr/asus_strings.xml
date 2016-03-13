@@ -1,0 +1,136 @@
+<resources>
+    <!-- kim_bai@asus.com -->
+    <string name="warm_up">"Échauffement"</string>
+    <string name="remind_me_to_move">Vous \u00eates inactif depuis un certain temps. Prenez le temps de vous exercer quelques minutes.</string>
+
+    <!-- smile -->
+    <string name="met_goal">Objectif atteint</string>
+    <string name="congratulations">F\u00e9licitations</string>
+    <string name="hundred_percent">100%</string>
+    <string name="reach_goal">Vous avez atteint votre objectif journalier</string>
+    <string name="add_five_percent">+5%</string>
+    <string name="tap_to_add_goal">Appuyez pour ajouter un objectif</string>
+    <string name="next_goal">Objectif suivant</string>
+    <string name="steps">pas</string>
+    <string name="tomorrow_goal">Objectif de demain</string>
+    <string name="coach">"Entraîneur"</string>
+    <string name="running">"Course"</string>
+    <string name="pushup">"Traction"</string>
+    <string name="situp">"Redressement assis"</string>
+    <string name="coach_done">"Entraîneur terminé"</string>
+    
+
+    <!-- Steps Activity -->
+    <string name="today_target">"Objectif de ce jour"</string>
+    <!-- Start Workout -->
+    <string name="start_new_workout">"Commencer un entraînement"</string>
+    <!-- Setup Profile -->
+    <string name="setup_profile">"Appuyez pour configurer votre profil"</string>
+    <string name="title_workout_choose"> "Choisir un entraînement"</string>
+    <string name="title_workout_goal">"Choisir objectif"</string>
+    <string name="title_workout_target_value">"Cible"</string>
+    <string name="title_workout_insert_data">"Insérer données"</string>
+    <string name="workout_start_action">"Appuyez pour commencer"</string>
+    <string name="workout_choose_run">"Courir"</string>
+    <string name="workout_goal_distance">"Distance"</string>
+    <string name="workout_goal_quantity">"Fois"</string>
+    <string name="workout_goal_time">"Durée"</string>
+    <string name="workout_goal_calories">"Calories"</string>
+    <string name="total_distance">"Distance totale"</string>
+    <string name="total_time">"Durée totale"</string>
+    <string name="calories_burned">"Calories brûlées"</string>
+    <string name="unit_mintes">"min"</string>
+    <string name="unit_mintes_plurals">"mins"</string>
+    <!--</plurals>-->
+    <string name="go">"Partez"</string>
+    <string name="insert_distance">"Insérer distance (%s)"</string>
+    <string name="insert_calories">"Insérer calories (%s)"</string>
+    <string name="insert_time">"Durée (%s)"</string>
+    <string name="insert_quantity">"Insérer fois"</string>
+    <string name="tap_to_pause">"Appuyez pour interrompre"</string>
+    <string name="hold_to_end">"Maintenez enfoncé pour terminer"</string>
+    <string name="cancel_notification">"Appuyez pour finir"</string>
+    <string name="workout_target">"Cible"</string>
+    <string name="workout_complete">"Terminer"</string>
+    <string name="yes_stop">"Oui"</string>
+    <string name="hr_mitute_sec">"Minutes"</string>
+    <!-- end junzheng -->
+    <!-- smile_gao -->
+    <string name="gender">"Sexe"</string>
+    <string name="male">"Homme"</string>
+    <string name="female">"Femme"</string>
+    <string name="age">"Âge"</string>
+    <string name="yo">"ans"</string>
+    <string name="heightunit">"Unité de taille préférée"</string>
+    <string name="cm">"CM"</string>
+    <string name="ft">"PO/PI"</string>
+    <string name="height">"Taille"</string>
+    <string name="ftlowcast">"pi"</string>
+    <string name="weightunit">"Unité de poids préférée"</string>
+    <string name="kg">"Kg"</string>
+    <string name="lbs">"lbs"</string>
+    <string name="weight">"Poids"</string>
+    <string name="activitygoal">"Objectif de l'activité"</string>
+    <string name="sedentaryliftstyle">"Style de vie sédentaire"</string>
+    <string name="k05">"5 k"</string>
+    <string name="k57">"7,5 k"</string>
+    <string name="k710">"10 k"</string>
+    <string name="k1012">"12,5 k"</string>
+    <!--<string name="k12more">"&amp;gt;12,5 k"</string>-->
+    <string name="lowactive">"Faiblement actif"</string>
+    <string name="somewhatactive">"Assez actif"</string>
+    <string name="active">"Actif"</string>
+    <string name="highlyactive">"Hautement actif"</string>
+    <string name="predistanceunit">"Unité de distance préférée"</string>
+    <string name="km">"Km"</string>
+    <string name="miles">"miles"</string>
+    <string name="profile">"Profil"</string>
+    <string name="yearsold">"ans"</string>
+    <string name="stepsgoal">"objectif de pas"</string>
+    <string name="distanceunit">"Unité de distance d'entraînement"</string>
+    <string name="saveprofile">"Enregistrer"</string>
+    <string name="skipprofilesetup">"Sauter la configuration du profil ?"</string>
+    <string name="yesskip">"Oui"</string>
+    <string name="cancel">"Annuler"</string>
+    <string name="editprofile">"Éditer"</string>
+    <string name="title_activity_profile">"Profil"</string>
+    <string name="action_settings">"Réglages"</string>
+    <string name="idle_alarm_text">"Désactiver alerte"</string>
+    <string name="idle_alarm_on">"ACTIVÉ"</string>
+    <string name="idle_alarm_off">"DÉSACTIVÉ"</string>
+    <!-- end smilegao -->
+
+    <!-- 2015.11.5 -->
+    <string name="total_quantity">"Durée totale"</string>
+    <string name="tap_to_start_sleep">"Appuyer pour suivre le sommeil"</string>
+    <string name="sleep_analysis">"Rapport de sommeil"</string>
+    <string name="sleep_tracking">"Suivi du sommeil"</string>
+    <string name="sleep_stop_tip">"Êtes-vous réveillé ?"</string>
+    <string name="Hold_to_stop_sleep">"Maintenez enfoncé pour arrêter l'enregistrement"</string>
+    <string name="unit_hour">"h"</string>
+    <string name="total">"Total"</string>
+    <string name="light">"Léger"</string>
+    <string name="deep">"Profond"</string>
+    <string name="am">"am"</string>
+    <string name="pm">"pm"</string>
+    <string name="start_a_run">"Commencer une course"</string>
+    <string name="stop_current_workout">"Arrêter l'entraînement en cours?"</string>
+
+    <!-- 2015.12.31 -->
+    <string name="inbed">"Aller au lit"</string>
+    <string name="wokeup">"Se réveiller"</string>
+    <string name="awoke">"Sommeil agité"</string>
+    <string name="workout_goal_none">"Objectif libre"</string>
+    <string name="unit_quantity">"fois"</string>
+    <string name="unit_quantity_plurals">"fois"</string>
+    <string name="no_sleep_data">"Aucune donnée de sommeil"</string>
+    <string name="skip">"Sauter"</string>
+    <string name="sleep_tracker">"SuiveurSommeil"</string>
+    <string name="sleep_tracking_tips">"Suivi du sommeil maintenant"</string>
+    <string name="workout_coaching_tips">"Encadrement d'entraînement maintenant"</string>
+    <string name="coach_pause">"en pause"</string>
+    <string name="coach_finished">"terminé"</string>
+    <string name="sleep_save_power_tips">"Pour économiser l'énergie lors du suivi du sommeil, vous pouvez appuyer deux fois sur le bouton d'alimentation pour accéder au mode Théâtre."</string>
+    <string name="setupyourprofile">"Configurer votre profil"</string>
+
+</resources>

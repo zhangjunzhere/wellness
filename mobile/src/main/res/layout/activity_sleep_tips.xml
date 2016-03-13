@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!-- stcik -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/stick_to_a_sleep_schedule_title"
+            style="@style/sleep_info_title_style"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/stick_to_a_sleep_schedule"
+            style="@style/sleep_info_content_style"
+            />
+        <ImageView
+            style="@style/sleep_info_line" />
+
+        <!-- exercise -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/exercise_is_great_title"
+            style="@style/sleep_info_title_style"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/exercise_is_great"
+            style="@style/sleep_info_content_style"
+            />
+
+        <ImageView
+            style="@style/sleep_info_line" />
+        <!-- avoid caffeine -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/avoid_cafeine_and_nicotine_title"
+            style="@style/sleep_info_title_style"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/avoid_cafeine_and_nicotine"
+            style="@style/sleep_info_content_style"
+            />
+        <ImageView
+            style="@style/sleep_info_line" />
+        <!-- avoid alcoholic -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/avoid_alcoholic_drinks_before_bed_title"
+            style="@style/sleep_info_title_style"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/avoid_alcoholic_drinks_before_bed"
+            style="@style/sleep_info_content_style"
+            />
+        <ImageView
+            style="@style/sleep_info_line" />
+        <!-- avoid large -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/avoid_large_meals_title"
+            style="@style/sleep_info_title_style"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/avoid_large_meals"
+            style="@style/sleep_info_content_style"
+            />
+        <ImageView
+            style="@style/sleep_info_line" />
+        <!-- ifpossible -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/if_possible_title"
+            style="@style/sleep_info_title_style"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/if_possible"
+            style="@style/sleep_info_content_style"
+            />
+        <ImageView
+            style="@style/sleep_info_line" />
+        <!-- dont take -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dont_take_naps_title"
+            style="@style/sleep_info_title_style"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dont_take_naps"
+            style="@style/sleep_info_content_style"
+            />
+        <ImageView
+            style="@style/sleep_info_line" />
+        <!-- relex before bed -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/relax_before_bed_title"
+            style="@style/sleep_info_title_style"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/relax_before_bed"
+            style="@style/sleep_info_content_style"
+            />
+        <ImageView
+            style="@style/sleep_info_line" />
+        <!-- take a hot  -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/take_a_lot_bath_title"
+            style="@style/sleep_info_title_style"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/take_a_lot_bath"
+            style="@style/sleep_info_content_style"
+            />
+        <ImageView
+            style="@style/sleep_info_line" />
+        <!-- have a good sleeping  -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/have_a_good_sleeping_title"
+            style="@style/sleep_info_title_style"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/have_a_good_sleeping"
+            style="@style/sleep_info_content_style"
+            />
+        <ImageView
+            style="@style/sleep_info_line" />
+        <!-- have the right sunlight  -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/have_the_right_sunlight_title"
+            style="@style/sleep_info_title_style"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/have_the_right_sunlight"
+            style="@style/sleep_info_content_style"
+            />
+        <ImageView
+            style="@style/sleep_info_line" />
+        <!-- dont lie in bed  -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dont_lie_in_bed_title"
+            style="@style/sleep_info_title_style"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dont_lie_in_bed"
+            style="@style/sleep_info_content_style"
+            />
+        <ImageView
+            style="@style/sleep_info_line" />
+        <!-- see a health  -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/see_a_health_title"
+            style="@style/sleep_info_title_style"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/see_a_health"
+            style="@style/sleep_info_content_style"
+            />
+    </LinearLayout>
+</ScrollView>

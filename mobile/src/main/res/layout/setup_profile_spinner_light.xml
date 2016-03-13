@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/text1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:textColor="@color/setup_profile_item_font_color_light"
+    android:textSize="@dimen/setup_profile_text_font_size"
+    android:fontFamily="sans-serif">
+    
+
+</TextView>

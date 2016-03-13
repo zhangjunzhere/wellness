@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="uf_sdk_suggestion_status_answered" maxWidth="">"Atbildēts"</string>
+    <string name="uf_sdk_suggestion_status_under_review" maxWidth="">"Tiek pārskatīts"</string>
+    <string name="uf_sdk_suggestion_status_planned" maxWidth="">"Plānots"</string>
+    <string name="uf_sdk_suggestion_status_implemented" maxWidth="">"Ieviests"</string>
+    <string name="uf_sdk_suggestion_status_completed" maxWidth="">"Pabeigts"</string>
+    <string name="uf_sdk_suggestion_status_declined" maxWidth="">"Nepieņemts"</string>
+    <string name="uf_sdk_translation_10117605">"Tulkojuma izdošana"</string>
+</resources>

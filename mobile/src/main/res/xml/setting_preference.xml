@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" > 
+    
+    	<Preference 
+    	    android:title="@string/setting_title_activity_goal"
+    	    android:key="@string/pref_key_activity_goal_preference">
+    		<intent 
+        		android:action="android.intent.action.VIEW"
+        		android:targetPackage="com.asus.wellness"
+        		android:targetClass="com.asus.wellness.ui.setting.SettingStepGoalActivity"/>
+    	</Preference>
+
+        <com.asus.wellness.ui.setting.RemindMeMovePreference
+			android:title="@string/setting_title_set_idle_alarm"
+			android:summary="@string/setting_idle_alarm_description"
+			android:widgetLayout="@layout/asus_checkbox"
+            android:key="@string/pref_key_idle_alarm_switch_settings">
+        <intent
+                android:action="android.intent.action.VIEW"
+                android:targetPackage="com.asus.wellness"
+                android:targetClass="com.asus.wellness.ui.setting.SettingIdleAlarmActivity"/>
+
+        </com.asus.wellness.ui.setting.RemindMeMovePreference>
+
+
+<!--        <com.asus.wellness.ui.WellnessSwitchPreference
+                android:title="@string/setting_title_set_idle_alarm"
+                android:key="@string/pref_key_idle_alarm_switch"
+                android:defaultValue="@bool/default_idle_alarm_switch"
+                android:summary="@string/setting_idle_alarm_description"
+                android:widgetLayout="@layout/asus_switch" >
+    	    <intent 
+        		android:action="android.intent.action.VIEW"
+        		android:targetPackage="com.asus.wellness"
+        		android:targetClass="com.asus.wellness.ui.SettingIdleAlarmActivity"/>
+    	</com.asus.wellness.ui.WellnessSwitchPreference>-->
+		
+		<CheckBoxPreference
+			android:key="@string/pref_key_backup_restore"
+			android:title="@string/setting_title_backup_restore"
+			android:summary="@string/setting_backup_description"
+			android:defaultValue="@bool/default_backup_restore"
+			android:widgetLayout="@layout/asus_checkbox" />
+		
+		<CheckBoxPreference
+		    android:defaultValue="@bool/default_location"
+			android:key="@string/pref_key_location"
+			android:title="@string/setting_activity_tracking"
+			android:summary="@string/setting_activity_tracking_description"
+			android:widgetLayout="@layout/asus_checkbox" />
+
+        <com.asus.wellness.ui.InspireAsus.InspireAsusPreference
+			android:title="@string/wm_about_inspire_asus"
+            android:key="@string/pref_key_inspire_asus"
+			android:widgetLayout="@layout/asus_checkbox"
+			>
+			<intent
+				android:action="android.intent.action.VIEW"
+				android:targetPackage="com.asus.wellness"
+				android:targetClass="com.asus.wellness.ui.InspireAsus.InspireAsusActivity"/>
+			</com.asus.wellness.ui.InspireAsus.InspireAsusPreference>
+
+		<Preference
+			android:key="@string/pref_key_encourage_us"
+			android:title="@string/encourage_title" />
+
+        <Preference
+			android:key="@string/pref_key_userfeedback" />
+        
+        <!-- emily add, 2014.12.05 -->
+        <Preference 
+            android:key="pref_key_about"
+            android:title="@string/about_title"/>
+        <!-- emily end, 2014.12.05 -->
+<!--
+	<Preference
+		android:key="pref_key_export"
+		android:title="@string/exportdb"/>
+		-->
+
+
+	<!--<Preference
+		android:key="pref_key_report_bugs"
+		android:title="@string/bug_report_preference_title" />-->
+
+</PreferenceScreen>

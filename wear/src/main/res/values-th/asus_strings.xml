@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!-- kim_bai@asus.com -->
+    <string name="warm_up">"อุ่นเครื่อง"</string>
+    <string name="remind_me_to_move">"คุณไม่มีกิจกรรมใด ๆ มาพักหนึ่งแล้ว ใช้เวลาสักครู่และลุกขึ้นยืน"</string>
+    <!-- smile -->
+    <string name="met_goal">"บรรลุเป้าหมาย"</string>
+    <string name="congratulations">"ขอแสดงความยินดี"</string>
+    <string name="hundred_percent">"100%"</string>
+    <string name="reach_goal">"คุณถึงเป้าหมายของวันนี้แล้ว"</string>
+    <string name="add_five_percent">"+5%"</string>
+    <string name="tap_to_add_goal">"แทปเพื่อเพิ่มเป้าหมาย"</string>
+    <string name="next_goal">"เป้าหมายถัดไป"</string>
+    <string name="steps">"ก้าว"</string>
+    <string name="tomorrow_goal">"เป้าหมายวันพรุ่งนี้"</string>
+    <string name="coach">"โค้ช"</string>
+    <string name="running">"การวิ่ง"</string>
+    <string name="pushup">"วิดพื้น"</string>
+    <string name="situp">"ซิตอัพ"</string>
+    <string name="coach_done">"โค้ชเสร็จ"</string>
+    
+
+    <!-- Steps Activity -->
+    <string name="today_target">"เป้าหมายของวันนี้"</string>
+    <!-- Start Workout -->
+    <string name="start_new_workout">"เริ่มออกกำลังกาย"</string>
+    <!-- Setup Profile -->
+    <string name="setup_profile">"แทปเพื่อตั้งค่าโปรไฟล์ของคุณ"</string>
+    <!-- end kim -->
+    <!-- junzheng -->
+    <string name="title_workout_choose"> "เลือกการออกกำลังกาย"</string>
+    <string name="title_workout_goal">"เลือกเป้าหมาย"</string>
+    <string name="title_workout_target_value">"เป้าหมาย"</string>
+    <string name="title_workout_insert_data">"ใส่ข้อมูล"</string>
+    <string name="workout_start_action">"แตะเพื่อเริ่ม"</string>
+    <string name="workout_choose_run">"วิ่ง"</string>
+    <string name="workout_goal_none">"ไม่มีเป้าหมาย"</string>
+    <string name="workout_goal_distance">"ระยะทาง"</string>
+    <string name="workout_goal_quantity">"ครั้ง"</string>
+    <string name="workout_goal_time">"ระยะเวลา"</string>
+    <string name="workout_goal_calories">"แคลอรี่"</string>
+    <string name="total_distance">"ระยะทางทั้งหมด"</string>
+    <string name="total_time">"ระยะเวลาทั้งหมด"</string>
+    <string name="calories_burned">"แคลอรี่ที่เผาไหม้"</string>
+    <string name="unit_mintes">"นาที"</string>
+    <string name="unit_mintes_plurals">"นาที"</string>
+    <string name="go">"ไป"</string>
+    <string name="insert_distance">"ใส่ระยะทาง (%s)"</string>
+    <string name="insert_calories">"ใส่แคลอรี่ (%s)"</string>
+    <string name="insert_time">"ระยะเวลา (%s)"</string>
+    <string name="insert_quantity">"ใส่ครั้ง"</string>
+    <string name="tap_to_pause">"แทปเพื่อหยุดชั่วคราว"</string>
+    <string name="hold_to_end">"กดค้างเพื่อสิ้นสุด"</string>
+    <string name="cancel_notification">"แทปเพื่อเสร็จ"</string>
+    <string name="workout_target">"เป้าหมาย"</string>
+    <string name="workout_complete">"สมบูรณ์"</string>
+    <string name="yes_stop">"ใช่"</string>
+    <string name="hr_mitute_sec">"นาที"</string>
+    <!-- end junzheng -->
+    <!-- smile_gao -->
+    <string name="male">"ชาย"</string>
+    <string name="female">"หญิง"</string>
+    <string name="skip">"ข้าม"</string>
+    <string name="age">"อายุ"</string>
+    <string name="yo">"ปี"</string>
+    <string name="heightunit">"หน่วยส่วนสูงที่เลือกใช้"</string>
+    <string name="cm">"ซม."</string>
+    <!--<string name="cm_low">cm</string>-->
+    <string name="ft">"ฟุต/นิ้ว"</string>
+    <string name="height">"ส่วนสูง"</string>
+    <string name="ftlowcast">"ฟุต"</string>
+    <string name="weightunit">"หน่วยน้ำหนักที่เลือกใช้"</string>
+    <string name="kg">"กก."</string>
+    <string name="lbs">"ปอนด์"</string>
+    <string name="weight">"น้ำหนัก"</string>
+    <string name="activitygoal">"เป้าหมายกิจกรรม"</string>
+    <string name="sedentaryliftstyle">"วิถีชีวิตที่นั่งนิ่ง ๆ"</string>
+    <string name="k05">"5k"</string>
+    <string name="k57">"7.5k"</string>
+    <string name="k710">"10k"</string>
+    <string name="k1012">"12.5k"</string>
+    <!--<string name="k12more">"&amp;gt;12.5k"</string>-->
+    <string name="lowactive">"ไม่ค่อยแอกทีฟ"</string>
+    <string name="somewhatactive">"แอกทีฟพอสมควร"</string>
+    <string name="active">"แอกทีฟ"</string>
+    <string name="highlyactive">"แอกทีฟมาก"</string>
+    <string name="predistanceunit">"หน่วยระยะทางที่เลือกใช้"</string>
+    <string name="km">"กม."</string>
+    <string name="miles">"ไมล์"</string>
+    <string name="profile">"โปรไฟล์"</string>
+    <string name="yearsold">"ปี"</string>
+    <string name="stepsgoal">"จำนวนก้าวเดินเป้าหมาย"</string>
+    <string name="distanceunit">"หน่วยระยะทางการออกกำลังกาย"</string>
+    <string name="saveprofile">"บันทึก"</string>
+    <string name="skipprofilesetup">"ข้ามการตั้งค่าโปรไฟล์?"</string>
+    <string name="yesskip">"ใช่ ข้าม"</string>
+    <string name="cancel">"ยกเลิก"</string>
+    <string name="editprofile">"แก้ไข"</string>
+    <string name="title_activity_profile">"โปรไฟล์"</string>
+    <string name="action_settings">"การตั้งค่า"</string>
+    <string name="idle_alarm_text">"เตือนการอยู่นิ่ง"</string>
+    <string name="idle_alarm_on">"เปิด"</string>
+    <string name="idle_alarm_off">"ปิด"</string>
+    <!-- end smilegao -->
+
+    <!-- 2015.11.5-->
+    <string name="total_quantity">"เวลาทั้งหมด"</string>
+    <string name="tap_to_start_sleep">"แทปเพื่อติดตามการนอนหลับ"</string>
+    <string name="sleep_analysis">"รายงานการนอนหลับ"</string>
+    <!--<string name="sleeping">"กำลังบันทึก ..."</string>-->
+    <string name="sleep_tracking">"การติดตามการนอนหลับ"</string>
+    <string name="sleep_stop_tip">"คุณตื่นอยู่หรือไม่?"</string>
+    <string name="Hold_to_stop_sleep">"กดค้างเพื่อหยุดการติดตาม"</string>
+    <string name="unit_hour">"ชม."</string>
+    <string name="total">"รวม"</string>
+    <string name="inbed">"ไปนอน"</string>
+    <string name="wokeup">"ตื่น"</string>
+    <string name="awoke">"หลับๆ ตื่นๆ"</string>
+    <string name="light">"ตื้น"</string>
+    <string name="deep">"ลึก"</string>
+    <string name="am">"AM"</string>
+    <string name="pm">"PM"</string>
+    <string name="start_a_run">"เริ่มวิ่ง"</string>
+    <string name="stop_current_workout">"หยุดการออกกำลังกายปัจจุบัน?"</string>
+
+    <!-- 2015.12.31 -->
+    <string name="unit_quantity">"เวลา"</string>
+    <string name="unit_quantity_plurals">"ครั้ง"</string>
+    <string name="no_sleep_data">"ไม่มีข้อมูลการนอน"</string>
+    <string name="sleep_tracker">"ตัวติดตามการนอน"</string>
+    <string name="sleep_tracking_tips">"ติดตามการนอนหลับตอนนี้เลย"</string>
+    <string name="workout_coaching_tips">"สอนการออกกำลังกายตอนนี้เลย"</string>
+    <string name="coach_pause">"หยุดชั่วคราว"</string>
+    <string name="coach_finished">"เสร็จ"</string>
+    <string name="sleep_save_power_tips">"หากต้องการประหยัดพลังงานเมื่อติดตามการนอน คุณสามารถกดปุ่มเปิด/ปิดเครื่องสองครั้งเพื่อเข้าสู่โหมดภาพยนตร์ได้"</string>
+    <string name="setupyourprofile">"ตั้งค่าโปรไฟล์ของคุณ"</string>
+
+</resources>

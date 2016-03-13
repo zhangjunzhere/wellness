@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- UserFeedback : Use other id for test -->
+    <integer name="uservoice_forum_id">273574</integer>
+    <integer name="uservoice_topic_id">68069</integer>
+</resources>

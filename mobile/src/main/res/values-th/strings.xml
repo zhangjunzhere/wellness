@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name" description="App name" maxwidth="-1">"Wellness"</string>
+    <string name="alertdialog_find_user_data_message_title" description="Restore profile title" maxwidth="-1">"พบโปรไฟล์ผู้ใช้"</string>
+    <string name="alertdialog_find_user_data_message_content" description="Restore profile message" maxwidth="-1">"มีโปรไฟล์ผู้ใช้ของแอป Wellness บนอุปกรณ์นี้อยู่แล้ว ทำการตั้งค่าโดยใช้โปรไฟล์ที่มีอยู่?"</string>
+    <string name="daily_energy_detail_measurement" description="Message of Energy detail page" maxwidth="-1">"วัดแล้ว"</string>
+    <string name="daily_energy_detail_today" description="Message of Energy detail page" maxwidth="-1">"วันนี้"</string>
+    <string name="setting_title" description="Action bar title of setting page." maxwidth="-1">"การตั้งค่า"</string>
+    <string name="setting_title_activity_goal" description="Title of setting page option." maxwidth="">"เป้าหมายกิจกรรม"</string>
+    <string name="setting_title_backup_restore" description="Title of setting page option." maxwidth="-1">"สำรองข้อมูลของฉัน"</string>
+    <string name="setting_activity_tracking" description="Title of setting page option." maxwidth="-1">"การติดตามกิจกรรม"</string>
+    <string name="setting_dialog_backup_restore_title" description="Backup dialog title." maxwidth="-1">"บริการสำรอง"</string>
+    <string name="setting_dialog_backup_restore_message" description="Backup dialog message." maxwidth="-1">"โปรดเปิดทำงานบริการสำรอง"</string>
+    <string name="setting_idle_alarm_option_15mins" description="Idle alarm option." maxwidth="-1">"ทุก 15 นาที"</string>
+    <string name="setting_idle_alarm_option_30mins" description="Idle alarm option." maxwidth="-1">"ทุก 30 นาที"</string>
+    <string name="setting_idle_alarm_option_1hour" description="Idle alarm option." maxwidth="-1">"ทุก 1 ชั่วโมง"</string>
+    <string name="setting_idle_alarm_option_1_5hours" description="Idle alarm option." maxwidth="-1">"ทุก 1.5 ชั่วโมง"</string>
+    <string name="setting_idle_alarm_option_2hours" description="Idle alarm option." maxwidth="-1">"ทุก 2 ชั่วโมง"</string>
+    <string name="setting_step_goal_include_bike_title" description="Include bike option." maxwidth="-1">"รวมกิจกรรมขี่จักรยาน"</string>
+    <string name="setting_step_goal_hint" description="Hint to remind user to input goal number." maxwidth="-1">"ป้อนตัวเลขเป้าหมายกิจกรรม"</string>
+    <string name="step_counts_message_setting_goal" description="Step unit message of activity goal page." maxwidth="-1">"ก้าว / วัน"</string>
+    <string name="step_counts_message_preference" description="Option message of activity goal." maxwidth="-1">"%s ก้าว/วัน"</string>
+    <string name="step_counts_intensity_explain" description="Explanation message of step goal in activity goal page." maxwidth="-1">"(%s ก้าว / วัน)"</string>
+    <string name="set_new_profile_alarm_title" description="Alarm Dialog title of adding new profile." maxwidth="-1">"รีเซ็ตโปรไฟล์?"</string>
+    <string name="set_new_profile_btn_text" description="Button text of adding new profile." maxwidth="-1">"รีเซ็ตโปรไฟล์"</string>
+    <string name="set_new_profile_alarm_message" description="Alarm Dialog message of adding new profile." maxwidth="-1">"แน่ใจหรือว่าต้องการแทนที่โปรไฟล์ที่มีอยู่?"</string>
+    <string name="tutorial_measure_title" description="Tutorial title." maxwidth="-1">"วิธีการวัด"</string>
+    <string name="set_profile_title" description="Title of setting profile page." maxwidth="">"ตั้งค่าโปรไฟล์ของคุณ"</string>
+    <string name="profile_edittext_name_hint" description="Hint to request user to enter name." maxwidth="">"ป้อนชื่อของคุณ"</string>
+    <string name="profile_edittext_name_hint_alarm" description="Hint to request user to enter name." maxwidth="">"โปรดป้อนชื่อของคุณ"</string>
+    <string name="profile_gender_title" description="Profile title" maxwidth="">"เพศ"</string>
+    <string name="profile_age_title" description="Profile title" maxwidth="">"อายุ"</string>
+    <string name="profile_gender_age_title" description="Profile title" maxwidth="">"เพศ/อายุ"</string>
+    <string name="profile_height_title" description="Profile title" maxwidth="">"ส่วนสูง"</string>
+    <string name="profile_weight_title" description="Profile title" maxwidth="">"น้ำหนัก"</string>
+    <string name="drawer_title_about" description="Drawer Profile title" maxwidth="">"เกี่ยวกับ"</string>
+    <string name="drawer_title_status" description="Drawer Profile title" maxwidth="">"สถานะ"</string>
+    <string name="str_edit_profile" description="Button text of edit profile" maxwidth="">"แก้ไขโปรไฟล์"</string>
+    <string name="profile_start_measure_date" description="Drawer Profile title" maxwidth="">"เริ่มวันที่วัด"</string>
+    <string name="profile_total_steps" description="Drawer Profile title" maxwidth="">"ก้าวทั้งหมด"</string>
+    <string name="none_data_inside" description="No data description" maxwidth="">"ไม่มีข้อมูล"</string>
+    <string name="heart_and_exercise_intensity" description="Heart rate title of activity detail page" maxwidth="">"อัตราเต้นหัวใจและความเข้มการออกกำลังกาย"</string>
+    <string name="time_unit" description="Time unit" maxwidth="">"นาที"</string>
+    <string name="distance_unit" description="Distance unit" maxwidth="">"กม."</string>
+    <string name="detail_energy_best_info_energy_level" description="Best energy text." maxwidth="">"สูงที่สุด:"</string>
+    <string name="detail_energy_worst_info_stress_level" description="Worst energy text." maxwidth="">"ต่ำที่สุด:"</string>
+    <string name="count_time" description="The number of measurment" maxwidth="">"ครั้ง"</string>
+    <string name="not_connected_to_wellness" description="No connected device." maxwidth="">"นาฬิกาของคุณไม่ได้เชื่อมต่อกับ Wellness"</string>
+    <string-array name="profile_gender_option" description="Gender options" maxwidth="">
+        <item>"ชาย"</item>
+        <item>"หญิง"</item>
+    </string-array>
+    <string-array name="profile_weight_option" description="Weight options" maxwidth="">
+        <item>"กก."</item>
+        <item>"ปอนด์"</item>
+    </string-array>
+    <string name="dialog_number_picker_done" description="Button text of number picker." maxwidth="-1">"เสร็จ"</string>
+    <string name="dialog_number_picker_height_title" description="Title of setting height picker." maxwidth="-1">"ตั้งส่วนสูง"</string>
+    <string name="dialog_number_picker_weight_title" description="Title of setting weight picker." maxwidth="-1">"ตั้งน้ำหนัก"</string>
+    <string name="dialog_number_picker_age_title" description="Title of setting age picker." maxwidth="-1">"ตั้งอายุ"</string>
+    <string name="terms_services_title" description="Title of term service." maxwidth="-1">"เงื่อนไขการใช้"</string>
+    <string name="terms_services_subtitle" description="subtitle of term service." maxwidth="-1">"ประกาศสำคัญ"</string>
+    <string name="terms_services_message" description="Message of term service." maxwidth="-1">"แอปพลิเคชั่นนี้ไม่ได้มีไว้สำหรับการวินิจฉัย หรือใช้ทางการแพทย์ คุณไม่สามารถใช้แอปนี้เพื่อบำบัด รักษา หรือป้องกันโรคใด ๆ หรือไม่สามารถนำมาใช้สำหรับการตรวจดูแล หรือการรักษาใด ๆ ทางกายภาพ จิตใจ หรือสภาพร่างกายได้\n\nข้อมูลสุขภาพของคุณ (โปรไฟล์ผู้ใช้, อัตราเต้นหัวใจ, ความเครียด, ความผ่อนคลาย, กิจกรรมทางกายภาพ และข้อมูลตำแหน่ง) ถูกเก็บอยู่ภายในแอป Wellness ที่ติดตั้งบนอุปกรณ์มือถือของคุณ ข้อมูลสุขภาพของคุณจะถูกสำรองไปยังเซิร์ฟเวอร์ Google โดยอัตโนมัติถ้าคุณเปิดทำงาน \"Backup &amp; reset (สำรองและรีเซ็ต)\" ใน \"Settings (การตั้งค่า)\" ของอุปกรณ์มือถือของคุณด้วยบัญชีสำรองที่คุณตั้งค่าไว้"</string>
+    <string name="terms_services_end_user_subtitle" description="subtitle of End user license agreement subtitle." maxwidth="-1">"ข้อตกลงในการอนุญาตให้ใช้งานของผู้ใช้"</string>
+    <string name="terms_services_end_user_message" description="Message of End user license agreement." maxwidth="-1">"ข้อตกลงในการอนุญาตให้ใช้งานของผู้ใช้ (“EULA”) นี้ ถือเป็นข้อตกลงที่ถูกต้องและมีผลผูกพันระหว่าง ASUSTeK Computer Inc. (“ASUS“) กับคุณ ในฐานะผู้ใช้ สำหรับการใช้งานซอฟต์แวร์ ASUS (“ซอฟต์แวร์”) ตามที่กำหนดไว้ด้านล่าง โดยการติดตั้งและใช้งานซอฟต์แวร์ คุณรับทราบอย่างชัดแจ้งว่าคุณได้อ่าน และเข้าใจ และยอมรับที่จะผูกพันตามเงื่อนไขของ EULA นี้และเวอร์ชั่นใหม่ใด ๆ ที่จะออกมา
+        \n\n1. ซอฟต์แวร์ หมายถึงซอฟต์แวร์ ASUS ที่มีให้ใน หรือมาพร้อมกับผลิตภัณฑ์ ASUS ที่ใช้ได้ ซึ่งรวมถึงแต่ไม่จำกัดอยู่เพียงการแก้ไขโปรแกรมในอนาคต การอัปเดต การอัปเกรด และเวอร์ชั่นที่มีการปรับปรุง\n\nซอฟต์แวร์อาจมาพร้อมกับซอฟต์แวร์ ASUS อื่น หรือซอฟต์แวร์ของบุคคลที่สามที่สร้างซอฟต์แวร์ ซึ่งได้รับอนุญาตภายใต้ใบอนุญาตซอฟต์แวร์โอเพ่นซอร์สฟรี ตามที่แสดงไว้ภายใต้ www.opensource.org/licenses ซอฟต์แวร์โอเพ่นซอร์สฟรีดังกล่าว มีให้คุณแต่เพียงผู้เดียวภายใต้เงื่อนไขของข้อตกลงใบอนุญาตที่เกี่ยวข้อง หรือประกาศเกี่ยวกับลิขสิทธิ์ที่มาพร้อมกัน หรืออยู่ในไฟล์ใบอนุญาต FOSS ที่มาพร้อมกับซอฟต์แวร์ เงื่อนไขของ EULA นี้ ไม่ใช้กับซอฟต์แวร์โอเพ่นซอร์สฟรีดังกล่าว
+        \n\n2. ใบอนุญาต ตามเงื่อนไขของ EULA นี้ ASUS ให้สิทธิ์การอนุญาตที่จำกัด เป็นส่วนตัว ไม่เป็นเชิงพาณิชย์ และไม่ผูกขาดในการใช้ซอฟต์แวร์ที่ฝังอยู่ในผลิตภัณฑ์ ASUS แก่คุณแต่เพียงผู้เดียว คุณสามารถทำสำเนาซอฟแวร์ได้หนึ่งชุดในรูปแบบที่เครื่องสามารถอ่านได้ เพื่อวัตถุประสงค์ในการสำรองข้อมูลเท่านั้น; โดยที่สำเนาสำรองนั้นต้องบรรจุข้อมูลเกี่ยวกับลิขสิทธิ์หรือประกาศกรรมสิทธิ์อื่น ๆ ที่มีอยู่ในต้นฉบับทั้งหมด ใบอนุญาตนี้ต้องไม่นำไปให้อนุญาตช่วง และไม่สามารถโอนสิทธิ์ได้ ยกเว้นไปยังบุคคลหรือนิติบุคคลที่คุณโอนกรรมสิทธิ์ผลิตภัณฑ์ ASUS อย่างสมบูรณ์ ซึ่งประกอบด้วยซอฟต์แวร์ที่คุณโอนสิทธิ์ทั้งหมดอย่างถาวรภายใต้ EULA นี้ และคุณไม่เก็บสำเนาใด ๆ ทั้งหมดหรือบางส่วนของซอฟต์แวร์ไว้ และผู้รับยอมรับเงื่อนไขของ EULA นี้
+        \n\n3. ข้อจำกัดการย้อนกลับ คุณต้องไม่ืทำวิศวกรรมย้อนกลับ ดีคอมไพล์ ถอดรหัส หรือแยกชิ้นส่วนซอฟต์แวร์ หรืออนุญาตหรือชักนำให้เกิดการกระทำต่าง ๆ ข้างต้น ยกเว้นส่วนที่ห้ามโดยกฎหมายที่ใช้บังคับการกระทำดังกล่าวข้างต้นโดยตรง
+        \n\n4. ความลับ คุณมีหน้าที่ในการป้องกัน และไม่เปิดเผย หรือเป็นสาเหตุให้มีการเปิดเผยข้อมูลลับทั้งหมดหรือบางส่วนของซอฟต์แวร์ ซึ่งรวมถึงแต่ไม่จำกัดเพียง ความลับทางการค้า เนื้อหาที่มีลิขสิทธิ์ในรูปแบบใด ๆ ต่อบุคคลที่สาม
+        \n\n5. สิทธิ์ในทรัพย์สินทางปัญญา (“สิทธิ์ IP”) คุณรับทราบและยอมรับว่าสิทธิ์ IP, ชื่อ และผลประโยชน์ที่เกิดขึ้นจากซอฟต์แวร์ จะยังคงเป็นทรัพย์สินของ ASUS หรือผู้ให้สิทธิ์แต่เพียงผู้เดียว ไม่มีอะไรใน EULA นี้ที่มุ่งหมายจะถ่ายโอนสิทธิ์ IP ดังกล่าวไปให้คุณ การใช้สิทธิ์ IP โดยไม่ได้รับอนุญาต เป็นการละเมิด EULA นี้  เช่นเดียวกับการละเมิดกฎหมายทรัพย์สินทางปัญญา ซึ่งรวมถึงแต่ไม่จำกัดเฉพาะ กฎหมายลิขสิทธิ์และเครื่องหมายการค้า\nโดยการส่งข้อมูล วัสดุ ความคิด แนวคิด หรือเทคนิคใด ๆ ยกเว้นข้อมูลส่วนบุคคลให้ ASUS ผ่านซอฟแวร์ (“การให้ข้อมูลย้อนกลับ”) คุณรับทราบและยอมรับว่า: (i) การให้ข้อมูลย้อนกลับของคุณต้องไม่บรรจุข้อมูลที่เป็นความลับหรือเป็นกรรมสิทธิ์; (ii) ASUS ไม่มีภาระผูกพันในการรักษาความลับประเภทใด ๆ เกี่ยวกับการให้ข้อมูลย้อนกลับทั้งอย่างชัดแจ้งหรือโดยนัย; (iii)ASUS มีสิทธิ์ที่จะใช้หรือเปิดเผยการให้ข้อมูลย้อนกลับตามดุลยพินิจของ ASUS เพื่อวัตถุประสงค์ใด ๆ ในลักษณะใด ๆ ก็ได้ทั่วโลก; (iv) การให้ข้อมูลย้อนกลับของคุณจะกลายเป็นทรัพย์สินของ ASUS โดยไม่มีข้อผูกมัดใด ๆ จาก ASUS ต่อคุณ; และ (v) คุณไม่มีสิทธิ์ได้รับค่าชดเชยใด ๆ หรือการชดใช้เงินใด ๆ
+        \n\n6. ระยะเวลาและการสิ้นสุด EULA นี้จะมีผลตั้งแต่วันที่คุณติดตั้งซอฟต์แวร์ คุณอาจยกเลิกใบอนุญาตนี้เมื่อใดก็ได้ โดยการหยุดการใช้งานทั้งหมดของซอฟแวร์ และลบซอฟต์แวร์จากผลิตภัณฑ์ ASUS สิทธิ์ของคุณจะสิ้นสุดโดยไม่ได้รับการแจ้งให้ทราบล่วงหน้าจาก ASUS ถ้าเราคิดว่าคุณไม่ปฏิบัติตามบทบัญญัติของ EULA นี้
+        \n\n7. การรับประกัน ขอสงวนสิทธิ์และจำกัดความรับผิด คุณรับทราบว่าซอฟต์แวร์นี้มีให้ “ตามที่เป็น” ความเสี่ยงทั้งหมดในเรื่องคุณภาพและประสิทธิภาพของซอฟต์แวร์นี้เป็นของคุณ ซึ่งรวมถึงแต่ไม่จำกัดเพียง ค่าใช้จ่ายที่เกี่ยวข้องกับการใช้บริการที่จำเป็นและการซ่อมแซม ตามขอบเขตที่กฎหมายอนุญาต ASUS ไม่รับประกันทั้งแบบชัดแจ้งหรือโดยนัย เกี่ยวกับซอฟแวร์หรือข้อมูลอื่น ๆ หรือเอกสารที่มีให้ภายใต้ EULA นี้หรือสำหรับซอฟต์แวร์นี้ ซึ่งรวมถึงแต่ไม่จำกัดเพียง การรับประกันความสามารถเชิงพาณิชย์ หรือความเหมาะสมสำหรับวัตถุประสงค์เฉพาะ หรือต่อการละเมิด หรือการรับประกันใด ๆ ที่เกิดขึ้นจากการใช้งาน หรือการที่สมรรถนะการทำงานไม่เป็นไปตามที่ระบุ นอกจากนี้ ASUS ไม่รับประกัน ผลที่อาจได้รับจากการใช้งานซอฟต์แวร์นี้ หรือเรื่องของความถูกต้องหรือความน่าเชื่อถือของข้อมูลใด ๆ ที่ได้รับผ่านซอฟต์แวร์นี้ เขตอำนาจศาลบางแห่งไม่อนุญาตให้มีการยกเว้นการรับประกันบางอย่าง หรือข้อจำกัด หรือยกเว้นความรับผิดสำหรับความเสียหายบางประการ ดังนั้น บางส่วนของการปฏิเสธความรับผิดชอบดังกล่าวข้างต้น และการจำกัดความรับผิดอาจไม่มีผลกับคุณ
+        \n\nความเสี่ยงทั้งหมดที่เกิดขึ้นจากการใช้งาน และ/หรือประสิทธิภาพการทำงานของซอฟต์แวร์นี้ยังคงอยู่กับคุณ ไม่มีเหตุการณ์ใดที่ ASUS ผู้ออกใบอนุญาต หรือเจ้าหน้าที่ที่เกี่ยวข้อง ผู้อำนวยการ พนักงาน ตัวแทน หรือบริษัทในเครือ ต้องรับผิดชอบถึงความเสียหายที่ตามมา ความเสียหายจากอุบัติเหตุ ความเสียหายทั้งทางตรงและทางอ้อม ความเสียหายพิเศษ การลงโทษ หรือความเสียหายอื่น ๆ (ซึ่งรวมถึงแต่ไม่จำกัดเพียง ความเสียหายจากการสูญเสียกำไร การหยุดชะงัก การสูญเสียข้อมูล หรือการสูญเสียทางการเงินอื่น ๆ) ที่เกิดขึ้นจาก หรือเกี่ยวข้องกับ EULA นี้ หรือการใช้ หรือความไม่สามารถใช้ซอฟต์แวร์ หรือส่วนใด ๆ ได้ แม้ว่า ASUS จะได้รับการแจ้งถึงความเป็นไปได้ที่จะเกิดความเสียหายดังกล่าวก็ตาม เขตอำนาจศาลบางแห่งไม่อนุญาตให้มีการยกเว้นการรับประกันบางอย่าง หรือข้อจำกัด หรือยกเว้นความรับผิดสำหรับความเสียหายบางประการ ดังนั้น บางส่วนของการปฏิเสธความรับผิดชอบดังกล่าวข้างต้น และการจำกัดความรับผิดอาจไม่มีผลกับคุณ
+        \n\n8. การชดใช้ค่าเสียหาย คุณตกลงที่จะปกป้อง ชดใช้ค่าเสียหาย และป้องกัน ASUS และบริษัทในเครือ ผู้ให้บริการ ผู้ร่วมในองค์กร ผู้จัดจำหน่าย ผู้ออกใบอนุญาต ผู้อำนวยการรวมถึงพนักงานของบริษัท จากความเสียหายใด ๆ และการสูญเสียทั้งหมด ความเสียหาย หนี้สิน และค่าใช้จ่ายที่เกิดขึ้นจากการเรียกร้อง หรือคำสั่งใด ๆ (ซึ่งรวมถึงค่าทนายความที่เหมาะสมและค่าใช้จ่ายในศาล) เนื่องจากการที่คุณละเมิด หรือมีส่วนเกี่ยวข้องกับการละเมิด EULA นี้ หรือกฎหมายหรือระเบียบที่ใช้บังคับ หรือสิทธิ์ของบุคคลที่สาม
+"
+        </string>
+    <string name="terms_services_agree_text" maxwidth="">"ข้าพเจ้ายอมรับเงื่อนไขการใช้งาน"</string>
+    <string name="daily_info_walk_type" maxwidth="">"เดิน"</string>
+    <string name="daily_info_bike_type" maxwidth="">"ขี่จักรยาน"</string>
+    <string name="daily_info_car_type" maxwidth="">"รถยนต์"</string>
+    <string name="daily_info_transport_type" maxwidth="">"การขนส่ง"</string>
+    <string name="daily_info_time_hour" maxwidth="">"ชั่วโมง"</string>
+    <string name="daily_info_time_hours" maxwidth="">"ชั่วโมง"</string>
+    <string name="daily_info_time_minute" maxwidth="">"นาที"</string>
+    <string name="daily_info_heart_title" maxwidth="">"ความเข้มการออกกำลังกาย "</string>
+    <string name="daily_info_heart_rate_unit" maxwidth="">"bpm"</string>
+    <string name="daily_info_stress_title" maxwidth="">"ระดับความเครียด"</string>
+    <string name="weekly_info_calories_title">"แคลอรี่ที่เผาไหม้ทั้งหมด"</string>
+    <string name="weekly_info_activity_title">"กิจกรรมทั้งหมด"</string>
+    <string name="weekly_info_exercise_intensity_title" maxwidth="">"ความเข้มการออกกำลังกาย"</string>
+    <string name="weekly_info_energy_title" maxwidth="">"พลังงาน"</string>
+    <string name="weekly_info_relaxation_title" maxwidth="">"การผ่อนคลาย"</string>
+    <string name="weekly_info_stress_title" maxwidth="">"ความเครียด"</string>
+    <string name="daily_actionbar_title" maxwidth="">"สวัสดี %s"</string>
+    <string name="detail_energy_actionbar_title" maxwidth="">"จิตใจ"</string>
+    <string-array name="exercise_intensity" maxwidth="">
+        <item>"L1"</item>
+        <item>"L2"</item>
+        <item>"L3"</item>
+        <item>"L4"</item>
+        <item>"L5"</item>
+    </string-array>
+    <string-array name="relax_level_1_2" maxwidth="">
+        <item>"น้ำและการออกกำลังกายช่วยให้ร่างกายผ่อนคลาย"</item>
+        <item>"เริ่มวางแผนการหยุดพักผ่อน"</item>
+        <item>"การฟังเพลงสบาย ๆ อาจช่วยให้คุณรู้สึกผ่อนคลาย"</item>
+    </string-array>
+    <string-array name="relax_level_3" maxwidth="">
+        <item>"ระดับการผ่อนคลายของคุณกำลังลดลง"</item>
+    </string-array>
+    <string-array name="relax_level_4_5" maxwidth="">
+        <item>"พลังงานเต็มเปี่ยม และพร้อมที่จะทำงานของวันนี้ให้เสร็จ"</item>
+        <item>"คุณพักผ่อนได้ดีและมีความเข้มข้น"</item>
+        <item>"จิตใจที่สงบ จะช่วยเพิ่มความเข้มข้นได้"</item>
+    </string-array>
+    <string-array name="stress_level_1_2" maxwidth="">
+        <item>"อาหารว่างและผลไม้สามารถช่วยเสริมพลังงานได้"</item>
+        <item>"วิถีชีวิตที่มีสุขภาพดีช่วยเอาชนะความท้าทายในชีวิตประจำวัน"</item>
+        <item>"ใน Zen โซนด้วยความสบายใจ"</item>
+    </string-array>
+    <string-array name="stress_level_3" maxwidth="">
+        <item>"ระดับความเครียดของคุณกำลังเพิ่ม"</item>
+        <item>"จดบันทึกว่าคุณรู้สึกอย่างไร"</item>
+    </string-array>
+    <string-array name="stress_level_4_5" maxwidth="">
+        <item>"การเดิน 30 นาทีสามารถลดความเครียดลงได้ 25%"</item>
+        <item>"ยืดแขน หลัง และไหล่"</item>
+        <item>"ทำตัวให้สบายและผ่อนคลายกล้ามเนื้อของคุณ"</item>
+        <item>"DIY สามารถให้ความสนุก และความรู้สึกของความสำเร็จ"</item>
+        <item>"นวดตัวเองด้วยมือ"</item>
+    </string-array>
+    <!-- Daily animation -->
+    <string name="default_anim_activity_data" maxwidth="">"0%"</string>
+    <string name="default_anim_energy_data" maxwidth="">"0"</string>
+    <string name="text_activity" maxwidth="">"ร่างกาย"</string>
+    <string name="text_energy" maxwidth="">"จิตใจ"</string>
+    <string name="text_location" maxwidth="">"ที่ %s"</string>
+    <string name="text_measurement" maxwidth="">"ค่าที่วัดได้"</string>
+    <string name="text_today2" maxwidth="">"วันนี้"</string>
+    <string name="not_pair_asus_watch_title" maxwidth="">"ไม่ได้จับคู่กับนาฬิกา ASUS"</string>
+    <string name="not_pair_asus_watch_message" maxwidth="">"แอป Wellness เป็นแอปคู่หูที่ใช้ร่วมกับนาฬิกา ASUS จับคู่อุปกรณ์นี้กับนาฬิกา ASUS เพื่อทำการตั้งค่าต่อ"</string>
+    <string name="not_pair_asus_watch_button" maxwidth="">"เรียบร้อย!"</string>
+    <string name="tutorial_paired_descrition" description="Tutorial description." maxwidth="">"ASUS Wellness เป็นแอปคู่หูที่ใช้ร่วมกับ ASUS ZenWatch แอปทำหน้าที่เป็นโปรแกรมจัดการเกี่ยวกับสุขภาพส่วนตัว ซึ่งติดตามสถิติต่าง ๆ เกี่ยวกับสุขภาพเพื่อช่วยให้ชีวิตของคุณมีความสมดุล และบรรลุเป้าหมายการออกกำลังกายส่วนตัวของคุณ"</string>
+    <string name="default_average_energy_level_message_break" description="Default string of energy detail page." maxwidth="">"วัด\nก่อน"</string>
+    <string-array name="step_intensity_term_range" maxwidth="">
+        <item>"1~4999"</item>
+        <item>"5000~7499"</item>
+        <item>"7500~9999"</item>
+        <item>"10000~12499"</item>
+        <item>"12500+"</item>
+    </string-array>
+    <string name="save" description="save button." maxwidth="">"บันทึก"</string>
+    <string name="setting_idle_alarm_description" maxwidth="">"ตั้งการปลุกให้นาฬิกาสั่นหลังจากที่ไม่มีกิจกรรมถึงเวลาที่กำหนด"</string>
+    <string name="exercise_intensity_info_exercise_message" maxwidth="">"โดยทั่วไป ยิ่งอัตราการเต้นของหัวใจสูงระหว่างที่ออกกำลังกาย หมายถึงความเข้มข้นการออกกำลังกายจะยิ่งสูง"</string>
+    <string-array name="profile_height_option" description="Height options" maxwidth="">
+        <item>"ซม."</item>
+        <item>"ฟุต/นิ้ว"</item>
+    </string-array>
+    <string name="height_unit_feet" maxwidth="-1">"ฟุต"</string>
+    <string name="height_unit_inch" maxwidth="-1">"นิ้ว"</string>
+    <string name="setting_title_set_idle_alarm" description="Title of setting page option." maxwidth="-1">"เตือนการอยู่นิ่ง"</string>
+    <string name="setting_backup_description" description="Backup message in setting page." maxwidth="-1">"สำรองข้อมูลแอป Wellness ทั้งหมดของคุณไปที่บริการสำรองข้อมูลของ Google Android"</string>
+    <string name="knockknock_start_heartrate">"วัดอัตราการเต้นหัวใจ"</string>
+    <string name="knockknock_start_relaxation">"วัดการผ่อนคลาย"</string>
+    <string name="last_updated" maxwidth="">"อัปเดตครั้งล่าสุด"</string>
+    <string-array name="profile_error_message" description="Height options" maxwidth="">
+        <item>"ช่วง: 20~300 ซม."</item>
+        <item>"ช่วง: 0\' 8\"~9\' 10\""</item>
+        <item>"ช่วง: 2~400 กก."</item>
+        <item>"ช่วง: 4~880 ปอนด์"</item>
+        <item>"ช่วง: 1~99"</item>
+    </string-array>
+    <string name="range_msg">"ช่วง:" </string>
+    <string name="accepted_range_title" maxwidth="">"ช่องที่ยอมรับ"</string>
+    <string name="text_average" maxwidth="">"เฉลี่ย"</string>
+    <string name="calories_unit" description="Calories unit" maxwidth="">"กิโลแคลอรี่"</string>
+    <string-array name="step_intensity_term" description="Term of step intensity." maxwidth="">
+        <item>"วิถีชีวิตที่นั่งนิ่ง ๆ"</item>
+        <item>"ไม่ค่อยแอกทีฟ"</item>
+        <item>"แอกทีฟพอสมควร"</item>
+        <item>"แอกทีฟ"</item>
+        <item>"แอกทีฟมาก"</item>
+    </string-array>
+    <string name="daily_info_walk_unit" maxwidth="">"ก้าว"</string>
+    <string name="daily_info_energy_title" maxwidth="">"การผ่อนคลาย"</string>
+    <string name="exercise_intensity_info_heart_rate_title" maxwidth="">"อัตราการเต้นหัวใจขณะออกกำลังกาย"</string>
+    <string name="exercise_intensity_info_heart_rate_message" maxwidth="">"อัตราการเต้นหัวใจของคุณที่วัดภายในนาทีแรกหลังจากที่ออกกำลังกาย สามารถถูกเชื่อมโยงเข้ากับระดับความเข้มของการออกกำลังกาย"</string>
+    <string name="exercise_intensity_info_exercise_title" maxwidth="">"ความเข้มการออกกำลังกาย"</string>
+    <string name="exercise_intensity_info_l5_desc" maxwidth="">"สูงสุด"</string>
+    <string name="exercise_intensity_info_l4_desc" maxwidth="">"หนัก"</string>
+    <string name="exercise_intensity_info_l3_desc" maxwidth="">"ปานกลาง (ปรับปรุงการออกกำลังกาย)"</string>
+    <string name="exercise_intensity_info_l2_desc" maxwidth="">"เบา (ลดนํ้าหนัก)"</string>
+    <string name="exercise_intensity_info_l1_desc" maxwidth="">"เบามาก"</string>
+    <string name="daily_detail_activity_title_type" maxwidth="">"ประเภท"</string>
+    <string name="daily_detail_activity_title_calories" maxwidth="">"แคลอรี่"</string>
+    <string name="daily_button_text" maxwidth="">"รายวัน"</string>
+    <string name="weekly_button_text" maxwidth="">"รายสัปดาห์"</string>
+    <string name="text_today" maxwidth="">"วันนี้"</string>
+    <string name="setting_activity_tracking_description" description="Allow GPS message." maxwidth="">"อนุญาตให้แอป Wellness ใช้ Wi-Fi และเครือข่ายเซลลูล่าร์ เพื่อดูว่าคุณอยู่ที่ไหน และสำหรับแสดงบนไทม์ไลน์ของคุณ"</string>
+    <string name="tutorial_measure_descrition" description="Tutorial description." maxwidth="">"เรียกใช้ ASUS Wellness บนนาฬิกาของคุณ เลื่อนไปทางซ้ายเพื่อดู UI การวัด คลิกเพื่อเลือกสิ่งที่คุณต้องการวัด คุณสามารถวัดการผ่อนคลาย และอัตราเต้นของหัวใจได้ตลอดเวลา"</string>
+    <!-- Tips -->
+    <string name="text_next" maxwidth="">"ถัดไป"</string>
+    <string name="text_ok" maxwidth="">"ตกลง"</string>
+    <string name="tips_p1_text_title" maxwidth="">"แทปที่นี่"</string>
+    <string name="tips_p1_text_content" maxwidth="">"เพื่อดูข้อมูลอย่างละเอียด"</string>
+    <string name="tips_p2_lefttext_title" maxwidth="">"แทปที่นี่"</string>
+    <string name="tips_p2_lefttext_content" maxwidth="">"เพื่อกลับไปยังวันนี้อย่างรวดเร็ว"</string>
+    <string name="tips_p2_righttext_title" maxwidth="">"ปัดขึ้นและลง"</string>
+    <string name="tips_p2_righttext_content" maxwidth="">"เพื่อเปลี่ยนวันที่"</string>
+    <string name="tips_p3_text_title" maxwidth="">"ปัดขึ้น"</string>
+    <string name="tips_p3_text_content" maxwidth="">"เพื่อดูไทม์ไลน์กิจกรรมของคุณ"</string>
+   <string name="app_version" maxwidth="">"เวอร์ชั่น"</string>
+    <string name="SUN" maxwidth="">"อา"</string>
+    <string name="MON" maxwidth="">"จ"</string>
+    <string name="TUE" maxwidth="">"อ"</string>
+    <string name="WED" maxwidth="">"พ"</string>
+    <string name="THU" maxwidth="">"พฤ"</string>
+    <string name="FRI" maxwidth="">"ศ"</string>
+    <string name="SAT" maxwidth="">"ส"</string>
+    <string name="weekly_info_energy_avg">"เฉลี่ย"</string>
+    <!-- ================need to translation================== -->
+    <!-- emily add, 2014.12.05 -->
+    <string name="about_title">"เกี่ยวกับ"</string>
+    <string name="about_app_version">"เวอร์ชั่น"</string>
+    <string name="about_dialog_legal_information">"ข้อมูลด้านกฎหมาย"</string>
+    <string name="about_dialog_legal_information_des">"การใช้ซอฟต์แวร์นี้อยู่ภายใต้เงื่อนไขและข้อตกลงของ ASUS"</string>
+    <string name="about_dialog_website">"เว็บไซต์"</string>
+    <string name="about_dialog_allrights">"ASUSTek Computer Inc. สงวนลิขสิทธิ์"</string>
+    <!-- emily end, 2014.12.05 -->
+    <string name="profile_birthday_title" description="Profile title" maxwidth="">"วันเกิด"</string>
+    <string name="tips_p2_righttext_title_pad" maxwidth="">"ปัดซ้ายไปขวา"</string>
+
+    <string name="detail_activity_time" description="Activity title of activity detail page" maxwidth="">"แอคทีฟเป็นเวลา"</string>
+    <string name="detail_total_steps" description="Total step title of activity detail page" maxwidth="">"ได้เคลื่อนไหว"</string>
+    <string name="detail_calories_burned" description="Calories burned title of activity detail page" maxwidth="">"ได้เผาผลาญ"</string>
+</resources>

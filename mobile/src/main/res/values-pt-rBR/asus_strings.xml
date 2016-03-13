@@ -1,0 +1,116 @@
+﻿<resources>
+	<!-- kim_bai@asus.com 2014.12.26-->
+    <string name="duration">Duração</string>
+    <string name="remind_me_session">Lembre-me na sessão seguinte</string>
+    <string name="from">De</string>
+    <string name="to">Para</string>
+	
+	<string name="steps">passos</string>
+    <string name="tomorrow_goal">Meta de amanhã</string>
+
+    <!-- Inspire Asus -->
+    <string name="wm_about_inspire_asus">Inspire ASUS</string>
+    <string name="wm_inspire_asus_text1">Para oferecer aos nossos clientes os melhores serviços, melhoramos a experiência do usuário, e descobrir continuamente problemas para melhorar o desempenho, a ASUS inicia o Inspire ASUS ("Programa"). Este Programa pode coletar o seu relatório de uso de forma anônima.</string>
+    <string name="wm_inspire_asus_text2">O relatório de uso não será de forma alguma associado a suas identidades de dispositivo do ASUS ZenWatch ou informações pessoais. Os dados de utilização compreendem estado de espera, eventos de quebra, interface preferida, configurações de idioma, versão atual do software, informações software frequentemente usado, comportamento de uso da função do software e localização.</string>
+    <string name="wm_inspire_asus_text3">A ASUS respeita muito a privacidade e os direitos de nossos clientes. Você pode ligar/desligar a função de relatório do programa do menu a qualquer momento. Para obter informações mais detalhadas sobre como a ASUS protege sua privacidade, você também é recomendado a visitar</string>
+    <string name="wm_inspire_asus_yes_text">Sim, conte comigo!</string>
+
+    <!-- Encourage Us -->
+    <string name="scroll_up_toast" description="rate now" maxwidth="">Por favor, vá para cima para avaliar</string>
+    <string name="toolbar_encourage_us_text">Se você gosta de usar o ASUS Wellness, por favor classifique-nos cm 5 estrelas no Play Store. Seria um grande incentivo para nós continuarmos a melhorar o produto!\nPara sugestões\n, escreva para nós através de Feedback &amp; Ajuda.</string>
+    <string name="toolbar_encourage_dialog_rate_now" maxwidth="35">Classificar agora</string>
+    <string name="toolbar_encourage_us_cancel">Cancelar</string>
+
+
+    <!--2015.12.31-->
+    <string name="pushup">"Flexão"</string>
+    <string name="situp">"Sentar-se"</string>
+    <string name="detail_sleep_deepsleep">"Sono profundo"</string>
+    <string name="detail_sleep_lightsleep">"Sono leve"</string>
+    <string name="detail_sleep_sleeplatency">"Latência do sono"</string>
+    <string name="detail_sleep_wokeup">"Arremessar e virar"</string>
+    <string name="detail_sleep_light">"Luz"</string>
+    <string name="detail_sleep_deep">"Profundo"</string>
+    <string name="detail_sleep_shorthour">"h"</string>
+    <string name="detail_sleep_shortmin">"m"</string>
+    <string name="text_sleep" maxwidth="">"Dormir"</string>
+    <string name="weekly_info_sleep_title">"Análise do Sono Total"</string>
+    <string name="weekly_info_workout_title">"Total de flexões / sentadas"</string>
+    <string name="sleep_notification_title" maxwidth="">"Aviso de rastreamento de sono"</string>
+    <string name="detail_text_completion" maxwidth="">"alcançado"</string>
+    <string name="text_completion" maxwidth="">"meta alcançada"</string>
+    <string name="daily_detail_workout_title_accumulation" maxwidth="">"Acúmulo"</string>
+    <string name="sleep_quality_score" maxwidth="">"pontuação da qualidade"</string>
+    <string name="text_sleep_quality_score">"Qualidade do sono"</string>
+    <string name="daily_detail_workout">"Treino"</string>
+    <string name="sleptfor">"Dormiu por"</string>
+    <string name="permisson_turn_on">"Ativar agora!"</string>
+    <string name="permisson_body_sensor_title">"Não é possível detectar a sua atividade"</string>
+    <string name="permisson_body_sensor_subtitle">"Wellness não pode detectar o seu movimento sem a permissão do sensor do corpo"</string>
+    <string name="permisson_location_title">"Não é possível encontrar a sua localização"</string>
+    <string name="permisson_location_subtitle">"Wellness não pode detectar sua localização sem a permissão de localização"</string>
+    <string name="permisson_storage_title">"Não é possível acessar suas fotos"</string>
+    <string name="permisson_storage_subtitle">"Wellness não pode acessar suas fotos sem a permissão de armazenamento"</string>
+    <string name="permisson_notice_bodysensor_location">"Nota: Não desligue quaisquer permissões de configuração do sistema enquanto ele está executando todas as funções em relação a sua atividade ".</string>
+    <string name="permisson_notice_storage">"Nota: Não desligue quaisquer permissões de configuração do sistema enquanto ele está executando todas as funções em relação ao seu perfil".</string>
+    <string name="distance_unit_miles" description="Distance unit: miles" maxwidth="">"milhas"</string>
+
+    <!-- 2016.1.11 -->
+    <string name="sleep_dictinary">"Dicionário de sono"</string>
+    <string name="sleepinformation">"Informações de sono"</string>
+    <string name="sleeplenght">"Duração de sono"</string>
+    <string name="deepsleepandlightsleep">"Sono profundo e sono leve"</string>
+    <string name="awakenings">"Mexer e virar (despertares)"</string>
+    <string name="suggestion">“Sugestão"</string>
+    <string name="sleepquality_info">"A qualidade do sono é uma pontuação (até 100) para quantificar a qualidade do seu sono. Quanto maior a pontuação, melhor a qualidade de seu sono. A pontuação da qualidade do sono depende de quanto tempo você dorme, quanto tempo você leva para cair no sono, quanto tempo você fica na cama, quanto dura seu sono profundo (sono com menos movimento de corpo) e quantas vezes você é acordado durante o sono."</string>
+    <string name="sleepquality_suggestion">"Pontuação de qualidade 60 é a linha de base do padrão de sono normal. Se a sua pontuação for maior que 60, seu sono é melhor do que a média e vice-versa."</string>
+   <string name="sleeplength_info">"ZenWatch detecta o início de seu primeiro sono leve e o final de seu último sono leve para estimar a duração de seu sono."</string>
+    <string name="sleeplength_suggestion">"As necessidades de sono variam para diferentes faixas etárias. Os recém-nascidos precisam de 16 a 18 horas por dia, crianças em idade pré-escolar precisam de 11 a 12 horas por dia, crianças em idade escolar precisam de pelo menos 10 horas por dia, adolescentes precisam de 9 a 10 horas por dia e adultos (incluindo idosos) precisam de 7 a 8 horas por dia."</string>
+    <string name="deepsleepandlightsleep_info">"ZenWatch mede o movimento do seu corpo enquanto rastreia seu sono. Sono profundo significa dormir com menos movimento de corpo, relativamente para sono leve e acordado. Em geral, quanto menos movimento de corpo você tem durante o sono, melhor sono você tem."</string>
+    <string name="deepsleepandlightsleep_suggestion" formatted="false">"Em média, as pessoas com um padrão de sono normal têm sonos profundo e leve aproximadamente cerca de 20% a 60% do tempo total de sono."</string>
+    <string name="sleeplatency_info">"O tempo entre você começar a registrar o sono e quando o ZenWatch detecta o momento em que você cai no sono"</string>
+    <string name="sleeplatency_suggestion">"Para um padrão de sono normal, as pessoas apresentam uma latência de 15 minutos em média."</string>
+    <string name="awakenings_info">"ZenWatch detecta o número de despertares (com mais movimento do corpo) durante o seu sono"</string>
+    <string name="awakenings_suggestion">"Pessoas com padrão de sono normal têm um número médio de 3 vezes de despertares durante o sono."</string>
+    <string name="sleep_tips_title">"Dicas para um sono melhor"</string>
+    <string name="stick_to_a_sleep_schedule_title">"Manter um horário de sono"</string>
+    <string name="stick_to_a_sleep_schedule">"Ir para a cama e acordar no mesmo horário todo dia. Como criaturas de hábito, as pessoas têm dificuldade em adaptar-se às mudanças nos padrões de sono. Dormir mais tarde nos fins de semana não vai compensar totalmente a falta de sono durante a semana e tornará mais difícil acordar cedo na segunda-feira de manhã."</string>
+    <string name="exercise_is_great_title">"O exercício é ótimo, mas não muito tarde no dia"</string>
+    <string name="exercise_is_great">"Tente se exercitar pelo menos 30 minutos na maioria dos dias, mas o mais tardar até 2 a 3 horas antes de dormir."</string>
+    <string name="avoid_cafeine_and_nicotine_title">"Evite cafeína e nicotina"</string>
+    <string name="avoid_cafeine_and_nicotine">"Café, refrigerantes de cola, certos chás e chocolate contêm cafeína estimulante e seus efeitos podem demorar até 8 horas para desaparecer totalmente. Portanto, uma xícara de café no final da tarde pode tornar difícil para você cair no sono à noite. A nicotina também é um estimulante, muitas vezes fazendo os fumantes dormir apenas muito levemente. Além disso, os fumantes muitas vezes acordam muito cedo de manhã por causa da abstinência de nicotina."</string>
+    <string name="avoid_alcoholic_drinks_before_bed_title">"Evite bebidas alcoólicas antes de dormir"</string>
+    <string name="avoid_alcoholic_drinks_before_bed">"Tomar uma "saideira" ou uma bebida alcoólica antes de dormir pode ajudá-lo a relaxar, mas o uso pesado rouba seu sono profundo e o mantém na fase mais leve do sono. A ingestão pesada de álcool também pode contribuir para a deficiência na respiração à noite. Você também tende a acordar no meio da noite quando os efeitos do álcool passaram."</string>
+    <string name="avoid_large_meals_title">"Evite grandes refeições e bebidas tarde da noite."</string>
+    <string name="avoid_large_meals">"Uma refeição leve é ok, mas uma refeição pesada pode causar indigestão que interfere com o sono. Beber muitos líquidos à noite pode causar urinação frequente."</string>
+    <string name="if_possible_title">"Se possível, evite medicamentos que atrasam ou interrompem seu sono"</string>
+    <string name="if_possible">"Alguns medicamentos comumente prescritos para o coração, pressão alta/baixa e asma, bem como medicamentos comuns e ervas medicinais para tosse, constipações ou alergias podem interromper os padrões de sono. Se você tem problemas para dormir, converse com seu médico ou um farmacêutico registrado para avaliar se os medicamentos que você está tomando podem estar contribuindo para sua insônia. Pergunte-lhes se você pode tomar esses medicamentos em outros momentos durante o dia ou no início da noite."</string>
+    <string name="dont_take_naps_title">"Não tirar cochilos após às 15:00"</string>
+    <string name="dont_take_naps">"Cochilos podem ajudar a compensar o sono perdido, mas sonecas à tarde podem tornar mais difícil adormecer à noite."</string>
+    <string name="relax_before_bed_title">"Relaxe antes de dormir."</string>
+    <string name="relax_before_bed">"Não sobrecarregue seu dia de forma que não sobre tempo para relaxar. Uma atividade relaxante, como ler ou ouvir música, deve ser parte de seu ritual para dormir."</string>
+    <string name="take_a_lot_bath_title">"Tome um banho quente antes de dormir."</string>
+    <string name="take_a_lot_bath">"A queda de temperatura do corpo depois de sair do banho pode ajudá-lo a se sentir sonolento e o banho pode ajudar a relaxar e desacelerar, então você está mais pronto para dormir."</string>
+    <string name="have_a_good_sleeping_title">"Tenha um bom ambiente para dormir."</string>
+    <string name="have_a_good_sleeping">"Para ter uma boa noite de sono, tenha um bom ambiente de sono. Do seu quarto, remova qualquer coisa que possa perturbá-lo durante o sono, como barulhos e luzes brilhantes.  Desligue seus dispositivos móveis, TV, computador e outros dispositivos eletrônicos. Ter uma cama , uma temperatura e um travesseiro confortáveis pode ajudar a promover uma boa noite de sono. Pessoas que têm insônia, frequentemente, olham o relógio. Se você é insone, vire a face do relógio longe da sua vista para que você não precise se preocupar com as horas enquanto tenta adormecer."</string>
+    <string name="have_the_right_sunlight_title">"Tenha a exposição de luz solar certa."</string>
+    <string name="have_the_right_sunlight">"Luz do dia é a chave para regular seus padrões de sono diários. Saia para luz natural durante pelo menos 30 minutos por dia. Se possível, acorde com o sol ou use todas as luzes brilhantes da manhã. Especialistas do sono recomendam que as pessoas com problemas para dormir devem ter uma hora de exposição ao sol de manhã e apagar as luzes antes de dormir."</string>
+    <string name="dont_lie_in_bed_title">"Não fique acordado na cama."</string>
+    <string name="dont_lie_in_bed">"Se você se achar ainda acordado depois de ficar na cama por mais de 20 minutos, ou se você começar a se sentir ansioso ou preocupado, se levante e faça alguma atividade relaxante, até você sentir sono. A ansiedade de não conseguir dormir pode tornar mais difícil adormecer."</string>
+    <string name="see_a_health_title">"Consulte um profissional de saúde se você continuar a ter problemas para dormir."</string>
+    <string name="see_a_health">"Se você consistentemente tem dificuldade para cair ou ficar dormindo e/ou se sente cansado ou não bem descansado durante o dia, apesar de passar tempo suficiente na cama à noite, você pode ter um distúrbio do sono. Seu médico de família ou um especialista do sono deve ser capaz de ajudá-lo e é importante para descartar outros problemas de saúde ou emocionais que podem perturbar seu sono."</string>
+    <string name="sleep_detail_back">"Retornar"</string>
+    <string name="data_source">"Fonte:"</string>
+    <string name="articlehelpful">"É útil?""</string>
+
+    <!-- 2016.1.15 -->
+    <string name="allow_access_photos_title">"Permitir acesso de foto"</string>
+    <string name="allow_access_photos_content">"Para mudar sua foto, vá para Configurações para ativar a permissão de armazenamento para ZenWatch Wellness."</string>
+    <string name="allow_track_location_title">"Permitir rastreamento de local"</string>
+    <string name="allow_track_location_content">"Para rastrear seu local de atividade, vá para Configurações para ativar a permissão de local para ZenWatch Wellness."</string>
+    <string name="bug_report_preference_title">"Relatar erro de programa"</string>
+    <string name="bug_report_email_subject">"Relatório de bug de Wellness"</string>
+    <string name="bug_report_email_body">"Relatório de bug de Wellness"</string>
+    <string name="but_report_share">"Compartilhar"</string>
+    <string name="settings_disable_backup">"Se você desmarcar \"Fazer Backup de meus dados\", seus arquivos de backup podem ser perdidos devido ao mecanismo do serviço de backup Android. Deseja realmente desmarcar?"</string>
+</resources>

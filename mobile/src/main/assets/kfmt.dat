@@ -1,0 +1,7 @@
+lbapsdk_public:2 uuid:binary sdkver:int appver:int mcc:short os:byte osver:string lang:string root:byte channel_key:string company_devid:int imei:binary model:string brand:string ratio:string timezone:int pkgname:string
+lbapsdk_servactive:108 uptime:int nettype:short dataex:string
+lbapsdk_dev_servactive:109 uptime:int deviceid:string deviceversion:string action:byte dataex:string
+lbapsdk_pageinfo:110 inpage_time:int outpage_time:int pagename:string newsession:bit dataex:string
+lbapsdk_startup:111 uptime:int startup_type:byte
+lbapsdk_syncdata:112 uptime:int deviceid:string deviceversion:string eventname:string eventdata:string
+lbapsdk_appaction:113 uptime:int eventname:string eventdata:string

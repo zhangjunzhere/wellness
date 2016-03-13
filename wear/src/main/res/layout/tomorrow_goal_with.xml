@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/tomorrow_goal_with"
+    android:visibility="gone">
+
+    <TextView
+        android:id="@+id/tomorrow_goal"
+        android:layout_marginLeft="7dp"
+        android:textSize="17dp"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="33dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ffffffff" />
+
+    <TextView
+        android:layout_marginLeft="7dp"
+        android:textSize="18dp"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/total_steps" />
+
+</LinearLayout>

@@ -1,0 +1,234 @@
+<resources>
+    <string name="app_name" description="App name" maxwidth="-1">"华硕健康管理"</string>
+    <string name="alertdialog_find_user_data_message_title" description="Restore profile title" maxwidth="-1">"发现用户简档"</string>
+    <string name="alertdialog_find_user_data_message_content" description="Restore profile message" maxwidth="-1">"此设备中已存在Wellness应用程序的一个用户简档。 使用现有简档继续进行设置?"</string>
+    <string name="daily_energy_detail_measurement" description="Message of Energy detail page" maxwidth="-1">"已测量"</string>
+    <string name="daily_energy_detail_today" description="Message of Energy detail page" maxwidth="-1">"今天"</string>
+    <string name="setting_title" description="Action bar title of setting page." maxwidth="-1">"设置"</string>
+    <string name="setting_title_activity_goal" description="Title of setting page option." maxwidth="">"活动目标"</string>
+    <string name="setting_title_backup_restore" description="Title of setting page option." maxwidth="-1">"备份我的数据"</string>
+    <string name="setting_activity_tracking" description="Title of setting page option." maxwidth="-1">"活动跟踪"</string>
+    <string name="setting_dialog_backup_restore_title" description="Backup dialog title." maxwidth="-1">"备份服务"</string>
+    <string name="setting_dialog_backup_restore_message" description="Backup dialog message." maxwidth="-1">"请启用备份服务。"</string>
+    <string name="setting_idle_alarm_option_15mins" description="Idle alarm option." maxwidth="-1">"每15分钟"</string>
+    <string name="setting_idle_alarm_option_30mins" description="Idle alarm option." maxwidth="-1">"每30分钟"</string>
+    <string name="setting_idle_alarm_option_1hour" description="Idle alarm option." maxwidth="-1">"每1小时"</string>
+    <string name="setting_idle_alarm_option_1_5hours" description="Idle alarm option." maxwidth="-1">"每1.5小时"</string>
+    <string name="setting_idle_alarm_option_2hours" description="Idle alarm option." maxwidth="-1">"每2小时"</string>
+    <string name="setting_step_goal_include_bike_title" description="Include bike option." maxwidth="-1">"包括自行车活动"</string>
+    <string name="setting_step_goal_hint" description="Hint to remind user to input goal number." maxwidth="-1">"输入活动目标数值"</string>
+    <string name="step_counts_message_setting_goal" description="Step unit message of activity goal page." maxwidth="-1">"步/天"</string>
+    <string name="step_counts_message_preference" description="Option message of activity goal." maxwidth="-1">"%s 步/天"</string>
+    <string name="step_counts_intensity_explain" description="Explanation message of step goal in activity goal page." maxwidth="-1">"（%s 步/天）"</string>
+    <string name="set_new_profile_alarm_title" description="Alarm Dialog title of adding new profile." maxwidth="-1">"重置简档?"</string>
+    <string name="set_new_profile_btn_text" description="Button text of adding new profile." maxwidth="-1">"重置简档"</string>
+    <string name="set_new_profile_alarm_message" description="Alarm Dialog message of adding new profile." maxwidth="-1">"确实要更换您的现有简档?"</string>
+    <string name="tutorial_measure_title" description="Tutorial title." maxwidth="-1">"如何测量"</string>
+    <string name="set_profile_title" description="Title of setting profile page." maxwidth="">"设置您的简档"</string>
+    <string name="profile_edittext_name_hint" description="Hint to request user to enter name." maxwidth="">"输入您的名称"</string>
+    <string name="profile_edittext_name_hint_alarm" description="Hint to request user to enter name." maxwidth="">"请输入您的名称"</string>
+    <string name="profile_gender_title" description="Profile title" maxwidth="">"性别"</string>
+    <string name="profile_age_title" description="Profile title" maxwidth="">"年龄"</string>
+    <string name="profile_gender_age_title" description="Profile title" maxwidth="">"性别/年龄"</string>
+    <string name="profile_height_title" description="Profile title" maxwidth="">"身高"</string>
+    <string name="profile_weight_title" description="Profile title" maxwidth="">"体重"</string>
+    <string name="drawer_title_about" description="Drawer Profile title" maxwidth="">"关于"</string>
+    <string name="drawer_title_status" description="Drawer Profile title" maxwidth="">"状态"</string>
+    <string name="str_edit_profile" description="Button text of edit profile" maxwidth="">"编辑简档"</string>
+    <string name="profile_start_measure_date" description="Drawer Profile title" maxwidth="">"开始测量日期"</string>
+    <string name="profile_total_steps" description="Drawer Profile title" maxwidth="">"总步数"</string>
+    <string name="none_data_inside" description="No data description" maxwidth="">"没有可用的数据"</string>
+    <string name="detail_activity_time" description="Activity title of activity detail page" maxwidth="">"共活动了"</string>
+    <string name="detail_total_steps" description="Total step title of activity detail page" maxwidth="">"共移动了"</string>
+    <string name="detail_calories_burned" description="Calories burned title of activity detail page" maxwidth="">"共消耗了"</string>
+    <string name="heart_and_exercise_intensity" description="Heart rate title of activity detail page" maxwidth="">"心率和运动强度"</string>
+    <string name="time_unit" description="Time unit" maxwidth="">"分钟"</string>
+    <string name="distance_unit" description="Distance unit" maxwidth="">"km"</string>
+    <string name="detail_energy_best_info_energy_level" description="Best energy text." maxwidth="">"最高:"</string>
+    <string name="detail_energy_worst_info_stress_level" description="Worst energy text." maxwidth="">"最低:"</string>
+    <string name="count_time" description="The number of measurment" maxwidth="">"次"</string>
+    <string name="not_connected_to_wellness" description="No connected device." maxwidth="">"您的手表未连接到Wellness"</string>
+    <string-array name="profile_gender_option" description="Gender options" maxwidth="">
+        <item>"男性"</item>
+        <item>"女性"</item>
+    </string-array>
+    <string-array name="profile_weight_option" description="Weight options" maxwidth="">
+        <item>"公斤"</item>
+        <item>"磅"</item>
+    </string-array>
+    <string name="dialog_number_picker_done" description="Button text of number picker." maxwidth="-1">"完成"</string>
+    <string name="dialog_number_picker_height_title" description="Title of setting height picker." maxwidth="-1">"设置身高"</string>
+    <string name="dialog_number_picker_weight_title" description="Title of setting weight picker." maxwidth="-1">"设置体重"</string>
+    <string name="dialog_number_picker_age_title" description="Title of setting age picker." maxwidth="-1">"设置年龄"</string>
+    <string name="terms_services_title" description="Title of term service." maxwidth="-1">"使用条款"</string>
+    <string name="terms_services_subtitle" description="subtitle of term service." maxwidth="-1">"重要注意事项"</string>
+    <string name="terms_services_message" description="Message of term service." maxwidth="-1">"此应用程序不应用于诊断或医疗用途。  您不得使用这个应用程序来处置、治疗或预防任何疾病，也不得用于任何物理、心理或生理状况的监测或治疗。 \n\n您的健康数据（用户简档、心率、压力、放松、身体活动、以及位置信息）存储在您的移动设备所安装的Wellness应用程序内。 如果您在设备的\"设置\"中启用移动设备的\"备份&amp;重置\"，将利用您设置的备份帐户将您的健康数据自动备份到Google服务器。"</string>
+    <string name="terms_services_end_user_subtitle" description="subtitle of End user license agreement subtitle." maxwidth="-1">"最终用户许可协议"</string>
+    <string name="terms_services_end_user_message" description="Message of End user license agreement." maxwidth="-1">"本最终用户许可协议（以下简称“协议”）是华硕电脑股份有限公司（以下简称“华硕”）与作为用户的您之间，就下面定义的华硕软件（以下简称“软件”）的使用而达成的有效且有约束力的协议。 您一旦安装并继续使用本“软件”，即表示您已阅读并理解本协议，愿意接受其所有条款的约束。
+        \n\n1.“软件”是指适用的华硕产品提供的华硕软件，包括但不限于其将来的编程修正、更新、升级和修改版本。\n\n“软件”可能随附华硕或第三方创建的其他软件，这些软件依据一个或多个“免费开放源软件许可”（参见www.opensource.org/licenses）取得许可。 此类免费开放源软件依据软件随附的相应许可协议的条款或版权声明或者依据本“软件”随附的FOSS许可文件而提供给您。 本协议的条款不适用于此类免费开放源软件。
+        \n\n2.许可 在您遵守本协议所有条款的前提下，华硕授权您有限的、个人的、非商业的、非排他的许可，允许您使用华硕产品中安装的本“软件”。 您只可出于备份目的而制作本“软件”的一份机器可读形式的副本；备份副本必须包含正本所包含的所有版权或其他所有权声明。 本许可禁止再许可，亦不可转让；除非您将包含本“软件”的完整华硕产品转让给他人或实体，同时永久性转让本协议授权您的所有权利，而不保留本“软件”的任何全部或部分副本，并且受让者同意本协议的所有条款。
+        \n\n3.使用限制 您不得对本“软件”进行反向工程、反编译解密或反汇编，也不得容许或引诱他人从事此类工作；但若相关法令明文禁止上述限制，则此限制不适用。
+        \n\n4.保密义务 对于本“软件”相关的全部或部分机密信息，包括但不限于以任何形式呈现的商业机密、版权资料等，您有义务予以保密，并应防止第三方知悉。
+        \n\n5.知识产权（以下简称“知识产权”） 您承认并同意，本“软件”的知识产权、版权、及其他相关利益，皆归于协议或其许可者。 本协议未将任何此类知识产权转让给您。 任何未经授权使用知识产权的行为，除了违反本协议，还违反知识产权法律，包括但不限于版权法和商标法。\n您一旦利用本“软件”发送个人信息之外的任何信息、资料、想法、观念或技术（以下简称“反馈”）至华硕，即表示您承认并同意： (i) 您的“反馈”不含有机密或专有信息；(ii) 华硕对“反馈”不负任何明示或隐含的保密义务；(iii)华硕有权自行决定出于任何目的、在任何地域、以任何形式使用或公开“反馈”；(iv) 您的“反馈”将成为华硕的资产，并且华硕对此不负任何义务；以及 (v) 华硕对您不负任何赔偿或补偿责任。
+        \n\n6.期间和终止 本协议自您安装本“软件”之日起生效。 您可以在停止使用并从华硕产品中删除本“软件”的前提下，随时终止本许可。 若您未能遵守本协议的任何规定，华硕有权终止本许可而无需事先通知。
+        \n\n7.担保免责和责任限制 您承认，本“软件”按“原样”提供。 您需要承担本“软件”在品质和性能方面的全部风险，包括但不限于因此导致的所有必要的服务费用和维修费用。 在法律允许的范围内，华硕对本“软件”以及本协议或本“软件”提供的任何其他信息或文档，不提供任何明示的或隐含的担保，包括但不限于适销性、特定用途适用性、未侵害任何他人权利的保证以及能使用或不能使用的保证。 华硕对使用本“软件”而获取的结果或通过本“软件”所获得信息的准确性或可靠性不提供担保。 有些司法管辖区域不允许排除特定担保或者限制或排除对特定损失的责任。 因此，前述限制或排除条款可能对您不适用。
+        \n\n您应自行承担与使用本“软件”和/或与本“软件”性能相关的所有风险。 无论在任何情况下，华硕及其许可者或其各个主管、董事、员工、代理或关联企业对于因本协议、使用或不能使用本“软件”或其任何部分而导致的任何衍生、附随、直接、间接、特别、惩罚或其他任何损失（包括但不限于利益损失、业务中断、信息丢失或其他金钱损失）不承担任何责任，无论华硕是否被告知发生上述损失的可能性。 有些司法管辖区域不允许排除特定担保或者限制或排除对特定损失的责任。 因此，前述限制或排除条款可能对您不适用。
+        \n\n8.赔偿 您同意若华硕及其关联企业、服务提供商、供应商、经销商、许可者、主管、董事及员工因您违反本协议、任何适用的法律或规定或侵害第三方权利而遭受任何索赔或主张时，为他们抗辩并赔偿他们因此而承受的损失、损害、责任及费用（包括合理的律师费用和法律费用）。
+        </string>
+    <string name="terms_services_agree_text" maxwidth="">"我同意使用条款"</string>
+    <string name="daily_info_walk_type" maxwidth="">"步行"</string>
+    <string name="daily_info_bike_type" maxwidth="">"自行车"</string>
+    <string name="daily_info_car_type" maxwidth="">"小汽车"</string>
+    <string name="daily_info_transport_type" maxwidth="">"运输"</string>
+    <string name="daily_info_time_hour" maxwidth="">"小时"</string>
+    <string name="daily_info_time_hours" maxwidth="">"小时"</string>
+    <string name="daily_info_time_minute" maxwidth="">"分钟"</string>
+    <string name="daily_info_heart_title" maxwidth="">"运动强度"</string>
+    <string name="daily_info_heart_rate_unit" maxwidth="">"bpm"</string>
+    <string name="daily_info_stress_title" maxwidth="">"压力级别"</string>
+    <string name="weekly_info_calories_title">"累积燃烧卡路里"</string>
+    <string name="weekly_info_activity_title">"运动数据"</string>
+    <string name="weekly_info_exercise_intensity_title" maxwidth="">"运动强度"</string>
+    <string name="weekly_info_energy_title" maxwidth="">"能量"</string>
+    <string name="weekly_info_relaxation_title" maxwidth="">"放松指數"</string>
+    <string name="weekly_info_stress_title" maxwidth="">"压力"</string>
+    <string name="daily_actionbar_title" maxwidth="">"你好，%s"</string>
+    <string name="detail_energy_actionbar_title" maxwidth="">"精力指数"</string>
+    <string-array name="exercise_intensity" maxwidth="">
+        <item>"L1"</item>
+        <item>"L2"</item>
+        <item>"L3"</item>
+        <item>"L4"</item>
+        <item>"L5"</item>
+    </string-array>
+    <string-array name="relax_level_1_2" maxwidth="">
+        <item>"水和运动有助于放松身体"</item>
+        <item>"开始规划假期"</item>
+        <item>"听一些轻松的音乐可以帮助您放松"</item>
+    </string-array>
+    <string-array name="relax_level_3" maxwidth="">
+        <item>"您的放松级别正在下降"</item>
+    </string-array>
+    <string-array name="relax_level_4_5" maxwidth="">
+        <item>"充满活力，准备完成今天的任务"</item>
+        <item>"您休息得很好，注意力集中"</item>
+        <item>"平静的心态有助于提高注意力 "</item>
+    </string-array>
+    <string-array name="stress_level_1_2" maxwidth="">
+        <item>"少量零食和水果有助于补充能量"</item>
+        <item>"健康的生活方式有助于克服日常生活的挑战"</item>
+        <item>"在禅境中心态平和"</item>
+    </string-array>
+    <string-array name="stress_level_3" maxwidth="">
+        <item>"您的压力级别正在上升"</item>
+        <item>"记录下您的感受"</item>
+    </string-array>
+    <string-array name="stress_level_4_5" maxwidth="">
+        <item>"30分钟散步可使压力降低25%"</item>
+        <item>"伸展手臂、背部和肩膀"</item>
+        <item>"让身体舒适，肌肉放松"</item>
+        <item>"DIY可以带来喜悦和成就感"</item>
+        <item>"自我手部按摩"</item>
+    </string-array>
+    <!-- Daily animation -->
+    <string name="default_anim_activity_data" maxwidth="">"0%"</string>
+    <string name="default_anim_energy_data" maxwidth="">"0"</string>
+    <string name="text_activity" maxwidth="">"运动"</string>
+    <string name="text_energy" maxwidth="">"精力指数"</string>
+    <string name="text_location" maxwidth="">"在%s"</string>
+    <string name="text_measurement" maxwidth="">"测量"</string>
+    <string name="text_today2" maxwidth="">"今天"</string>
+    <string name="not_pair_asus_watch_title" maxwidth="">"未与ASUS手表配对"</string>
+    <string name="not_pair_asus_watch_message" maxwidth="">"Wellness应用程序是ASUS手表的配套应用程序。 将此设备与ASUS手表相配对以继续设置。"</string>
+    <string name="not_pair_asus_watch_button" maxwidth="">"我知道了!"</string>
+    <string name="tutorial_paired_descrition" description="Tutorial description." maxwidth="">"ASUS Wellness是您的ASUS ZenWatch的配套应用程序。 它作为一个个人健康管理器，跟踪各种健康统计数据，帮助您保持生活均衡，实现个人健身目标。"</string>
+    <string name="default_average_energy_level_message_break" description="Default string of energy detail page." maxwidth="">"测量\n第一次"</string>
+    <string-array name="step_intensity_term_range" maxwidth="">
+        <item>"1~4999"</item>
+        <item>"5000~7499"</item>
+        <item>"7500~9999"</item>
+        <item>"10000~12499"</item>
+        <item>"12500+"</item>
+    </string-array>
+    <string name="save" description="save button." maxwidth="">"保存"</string>
+    <string name="setting_idle_alarm_description" maxwidth="">"设置闹钟，当指定时间内没有运动，手表会发出震动"</string>
+    <string name="exercise_intensity_info_exercise_message" maxwidth="">"一般而言，在身体活动期间您的心率越高，运动强度越高。"</string>
+    <string-array name="profile_height_option" description="Height options" maxwidth="">
+        <item>"公分"</item>
+        <item>"英尺/英寸"</item>
+    </string-array>
+    <string name="height_unit_feet" maxwidth="-1">"英尺"</string>
+    <string name="height_unit_inch" maxwidth="-1">"英寸"</string>
+    <string name="setting_title_set_idle_alarm" description="Title of setting page option." maxwidth="-1">"提醒我运动"</string>
+    <string name="setting_backup_description" description="Backup message in setting page." maxwidth="-1">"将您所有的Wellness应用程序数据备份到Google 的Android备份服务。"</string>
+    <string name="knockknock_start_heartrate">"测量心率"</string>
+    <string name="knockknock_start_relaxation">"测量放松"</string>
+    <string name="last_updated" maxwidth="">"上次更新"</string>
+    <string-array name="profile_error_message" description="Height options" maxwidth="">
+        <item>"范围:20~300 cm"</item>
+        <item>"范围:0\' 8\"~9\' 10\""</item>
+        <item>"范围:2~400 kg"</item>
+        <item>"范围:4~880磅"</item>
+        <item>"范围:1~99"</item>
+    </string-array>
+    <string name="range_msg">"范围:" </string>
+    <string name="accepted_range_title" maxwidth="">"可接受的范围"</string>
+    <string name="text_average" maxwidth="">"平均"</string>
+    <string name="calories_unit" description="Calories unit" maxwidth="">"大卡"</string>
+    <string-array name="step_intensity_term" description="Term of step intensity." maxwidth="">
+        <item>"久坐"</item>
+        <item>"很少活动"</item>
+        <item>"少量活动"</item>
+        <item>"经常活动"</item>
+        <item>"频繁活动"</item>
+    </string-array>
+    <string name="daily_info_walk_unit" maxwidth="">"步"</string>
+    <string name="daily_info_energy_title" maxwidth="">"放松指数"</string>
+    <string name="exercise_intensity_info_heart_rate_title" maxwidth="">"运动心率"</string>
+    <string name="exercise_intensity_info_heart_rate_message" maxwidth="">"您的心率在运动可以与运动强度级别挂钩后的第一分钟进行测量。"</string>
+    <string name="exercise_intensity_info_exercise_title" maxwidth="">"运动强度"</string>
+    <string name="exercise_intensity_info_l5_desc" maxwidth="">"最大"</string>
+    <string name="exercise_intensity_info_l4_desc" maxwidth="">"强"</string>
+    <string name="exercise_intensity_info_l3_desc" maxwidth="">"中（促进健身）"</string>
+    <string name="exercise_intensity_info_l2_desc" maxwidth="">"弱（体重减轻）"</string>
+    <string name="exercise_intensity_info_l1_desc" maxwidth="">"极弱"</string>
+    <string name="daily_detail_activity_title_type" maxwidth="">"类型"</string>
+    <string name="daily_detail_activity_title_calories" maxwidth="">"卡路里"</string>
+    <string name="daily_button_text" maxwidth="">"每天"</string>
+    <string name="weekly_button_text" maxwidth="">"每周"</string>
+    <string name="text_today" maxwidth="">"今天"</string>
+    <string name="text_completion" maxwidth="">"完成"</string>
+    <string name="setting_activity_tracking_description" description="Allow GPS message." maxwidth="">"允许Wellness应用程序使用Wi-Fi和移动网络来确定您的位置，并显示在时间线上。"</string>
+    <string name="tutorial_measure_descrition" description="Tutorial description." maxwidth="">"在您的手表上启动ASUS Wellness。 向左滚动可以查看测量用户界面。 单击并选择您要测量的项目。 您可以随时测量放松程度和心率。"</string>
+    <!-- Tips -->
+    <string name="text_next" maxwidth="">"下一步"</string>
+    <string name="text_ok" maxwidth="">"确定"</string>
+    <string name="tips_p1_text_title" maxwidth="">"点击此处"</string>
+    <string name="tips_p1_text_content" maxwidth="">"查看详细信息"</string>
+    <string name="tips_p2_lefttext_title" maxwidth="">"点击此处"</string>
+    <string name="tips_p2_lefttext_content" maxwidth="">"快速返回今天"</string>
+    <string name="tips_p2_righttext_title" maxwidth="">"上下滑动"</string>
+    <string name="tips_p2_righttext_content" maxwidth="">"变更日期"</string>
+    <string name="tips_p3_text_title" maxwidth="">"向上滑动"</string>
+    <string name="tips_p3_text_content" maxwidth="">"查看您的活动时间线"</string>
+   <string name="app_version" maxwidth="">"版本"</string>
+    <string name="SUN" maxwidth="">周日</string>
+    <string name="MON" maxwidth="">周一</string>
+    <string name="TUE" maxwidth="">周二</string>
+    <string name="WED" maxwidth="">周三</string>
+    <string name="THU" maxwidth="">周四</string>
+    <string name="FRI" maxwidth="">周五</string>
+    <string name="SAT" maxwidth="">周六</string>
+    <string name="weekly_info_energy_avg">"平均值"</string>
+    <!-- ================need to translation================== -->
+    <!-- emily add, 2014.12.05 -->
+    <string name="about_title">"关于"</string>
+    <string name="about_app_version">"版本"</string>
+    <string name="about_dialog_legal_information">"法律信息"</string>
+    <string name="about_dialog_legal_information_des">"使用本软件需遵守华硕的条款和条件。"</string>
+    <string name="about_dialog_website">"网站"</string>
+    <string name="about_dialog_allrights">"ASUSTek Computer Inc. 保留所有权利。"</string>
+    <!-- emily end, 2014.12.05 -->
+    <string name="profile_birthday_title" description="Profile title" maxwidth="">"生日"</string>
+    <string name="tips_p2_righttext_title_pad" maxwidth="">"从左到右滑动"</string>
+</resources>
